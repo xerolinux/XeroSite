@@ -102,3 +102,18 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Feed
+
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  limit: 2000
+  order_by: -date
+  content_limit: 250
+  content_limit_delim: 'Read More On Site...'
+  path:
+    - atom.xml
+    - rss2.xml
