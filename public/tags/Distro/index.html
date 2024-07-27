@@ -1,0 +1,168 @@
+<!DOCTYPE html><html lang="en-US" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tags: Distro | DarkXero's Blog</title><noscript>Please enable JavaScript to view the site</noscript><link rel="icon" href="/img/pwa/favicon.ico"><!-- index.css--><link rel="stylesheet" href="/css/index.css?v=2.0.3"><!-- inject head--><link rel="canonical" href="https://blog.xerolinux.xyz/tags/Distro/"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"><!-- aplayer--><!-- swiper--><!-- fancybox ui--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.min.css"><!-- katex--><!-- Open Graph--><meta name="description"><!-- pwa--><meta name="apple-mobile-web-app-capable" content="DarkXero's Blog"><meta name="theme-color" content="var(--efu-main)"><meta name="apple-mobile-web-app-status-bar-style" content="var(--efu-main)"><link rel="bookmark" href="/img/pwa/favicon.ico"><link rel="apple-touch-icon" href="/img/pwa/favicon.ico" sizes="180x180"><script>console.log(' %c Solitude %c ' + '2.0.3' + ' %c https://github.com/everfu/hexo-theme-solitude',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+    'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+</script><script>(()=>{
+        const saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+    
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+    
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        };
+        window.utils = {
+            saveToLocal: saveToLocal,
+            getCSS: (url, id = false) => new Promise((resolve, reject) => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = url
+              if (id) link.id = id
+              link.onerror = reject
+              link.onload = link.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                link.onload = link.onreadystatechange = null
+                resolve()
+              }
+              document.head.appendChild(link)
+            }),
+            getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+              const script = document.createElement('script')
+              script.src = url
+              script.async = true
+              script.onerror = reject
+              script.onload = script.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                script.onload = script.onreadystatechange = null
+                resolve()
+              }
+    
+              Object.keys(attr).forEach(key => {
+                script.setAttribute(key, attr[key])
+              })
+    
+              document.head.appendChild(script)
+            }),
+            addGlobalFn: (key, fn, name = false, parent = window) => {
+                const globalFn = parent.globalFn || {}
+                const keyObj = globalFn[key] || {}
+        
+                if (name && keyObj[name]) return
+        
+                name = name || Object.keys(keyObj).length
+                keyObj[name] = fn
+                globalFn[key] = keyObj
+                parent.globalFn = globalFn
+            },
+        }
+    })()</script><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/',
+    algolia: undefined,
+    localsearch: undefined,
+    runtime: '2023-04-20 00:00:00',
+    lazyload: {
+        enable: true,
+        error: '/img/error_load.avif'
+    },
+    copyright: {"limit":50,"author":"Author: DarkXero","link":"Link: ","source":"Source: DarkXero's Blog","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."},
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"highlight.js"},
+    randomlink: false,
+    lang: {"theme":{"dark":"Dark","light":"Light"},"copy":{"success":"Copied","error":"Copy failed"},"backtop":"Back to top","time":{"day":" days ago","hour":" hours ago","just":"just","min":" minutes ago","month":" months ago"},"day":" days","f12":"Developer mode is turned on, please follow the GPL.","totalk":"You don't need to delete blank lines, just type in your comments."},
+    aside: {
+        sayhello: {
+            morning: "✨ Good morning. It's a new day",
+            noon: "It's time for a midday break",
+            afternoon: "Tea time. 🍵",
+            night: "early bedtime",
+            goodnight: "Good night 😴",
+        },
+        sayhello2: [],
+        sayhello3: {
+            prefix: 'Long time no see,',
+            back: 'Welcome back again,',
+        },
+    },
+    covercolor: {
+        enable: true
+    },
+    comment: false,
+    lightbox: 'fancybox',
+    post_ai: false,
+    right_menu: false,
+    lure: false,
+    expire: false,
+};</script><!-- page-config head--><script id="config-diff">var PAGE_CONFIG = {
+    is_post: false,
+    is_page: true,
+    is_home: false,
+    page: '',
+    toc: false,
+    comment: false,
+    ai_text: false
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body id="body"><!-- universe--><canvas id="universe"></canvas><!-- background img--><div id="global_bg"></div><!-- loading--><!-- console--><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Archives</div><div class="length-num">13</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">23</div></a></div></div></div><span class="sidebar-menu-item-title">Function</span><div class="sidebar-menu-item"><span class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()"><i class="solitude fa-solid fa-circle-half-stroke"></i><span>Display mode</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://xerolinux.xyz"><span>XeroLinux</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://ko-fi.com/xerolinux"><span>Donate</span></a></div><div class="menus_item"><a class="site-page" href="/atom.xml"><span>RSS Feed</span></a></div></div><span class="sidebar-menu-item-title">Tags</span><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"><a href="/tags/Linux/">Linux<sup>13</sup></a><a href="/tags/YouTube/">YouTube<sup>2</sup></a><a href="/tags/Content-Creation/">Content Creation<sup>1</sup></a><a href="/tags/Docker/">Docker<sup>2</sup></a><a href="/tags/Containers/">Containers<sup>1</sup></a><a href="/tags/VPN/">VPN<sup>1</sup></a><a href="/tags/Blocked/">Blocked<sup>1</sup></a><a href="/tags/XeroLinux/">XeroLinux<sup>5</sup></a><a href="/tags/Hello/">Hello<sup>1</sup></a><a href="/tags/Upgrade/">Upgrade<sup>1</sup></a><a href="/tags/Hardware/">Hardware<sup>1</sup></a><a href="/tags/ArchLinux/">ArchLinux<sup>7</sup></a><a href="/tags/Fundraising/">Fundraising<sup>3</sup></a><a href="/tags/Toolkit/">Toolkit<sup>1</sup></a><a href="/tags/Scripting/">Scripting<sup>2</sup></a><a href="/tags/FOSS/">FOSS<sup>1</sup></a><a href="/tags/Health/">Health<sup>1</sup></a><a href="/tags/Struggles/">Struggles<sup>1</sup></a><a href="/tags/ArchInstall/">ArchInstall<sup>1</sup></a><a href="/tags/Distro/">Distro<sup>1</sup></a><a href="/tags/Bash/">Bash<sup>1</sup></a><a href="/tags/VMWare/">VMWare<sup>1</sup></a><a href="/tags/Virtualization/">Virtualization<sup>1</sup></a></div></div></div></div><!-- keyboard--><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><a id="site-name" href="/" title="Back to home"><span class="title">Home</span><i class="solitude fa-solid fa-home"></i></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">Tags: Distro</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://xerolinux.xyz"><span>XeroLinux</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://ko-fi.com/xerolinux"><span>Donate</span></a></div><div class="menus_item"><a class="site-page" href="/atom.xml"><span>RSS Feed</span></a></div></div></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="nav-totop" onclick="sco.toTop()"><a class="totopbtn"><i class="solitude fa-solid fa-arrow-up"></i><span id="percent">0</span></a></div><div id="toggle-menu"><a class="site-page"><i class="solitude fa-solid fa-bars"></i></a></div></div></div></nav></header><main class="layout" id="content-inner"><div id="tag"><div id="tag-page-tags"><a id="Linux" href="/tags/Linux/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Linux<span class="tagsPageCount">13</span></span></a><a id="YouTube" href="/tags/YouTube/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>YouTube<span class="tagsPageCount">2</span></span></a><a id="Content Creation" href="/tags/Content-Creation/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Content Creation<span class="tagsPageCount">1</span></span></a><a id="Docker" href="/tags/Docker/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Docker<span class="tagsPageCount">2</span></span></a><a id="Containers" href="/tags/Containers/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Containers<span class="tagsPageCount">1</span></span></a><a id="VPN" href="/tags/VPN/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>VPN<span class="tagsPageCount">1</span></span></a><a id="Blocked" href="/tags/Blocked/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Blocked<span class="tagsPageCount">1</span></span></a><a id="XeroLinux" href="/tags/XeroLinux/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>XeroLinux<span class="tagsPageCount">5</span></span></a><a id="Hello" href="/tags/Hello/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Hello<span class="tagsPageCount">1</span></span></a><a id="Upgrade" href="/tags/Upgrade/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Upgrade<span class="tagsPageCount">1</span></span></a><a id="Hardware" href="/tags/Hardware/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Hardware<span class="tagsPageCount">1</span></span></a><a id="ArchLinux" href="/tags/ArchLinux/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>ArchLinux<span class="tagsPageCount">7</span></span></a><a id="Fundraising" href="/tags/Fundraising/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Fundraising<span class="tagsPageCount">3</span></span></a><a id="Toolkit" href="/tags/Toolkit/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Toolkit<span class="tagsPageCount">1</span></span></a><a id="Scripting" href="/tags/Scripting/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Scripting<span class="tagsPageCount">2</span></span></a><a id="FOSS" href="/tags/FOSS/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>FOSS<span class="tagsPageCount">1</span></span></a><a id="Health" href="/tags/Health/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Health<span class="tagsPageCount">1</span></span></a><a id="Struggles" href="/tags/Struggles/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Struggles<span class="tagsPageCount">1</span></span></a><a id="ArchInstall" href="/tags/ArchInstall/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>ArchInstall<span class="tagsPageCount">1</span></span></a><a class="select" id="Distro" href="/tags/Distro/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Distro<span class="tagsPageCount">1</span></span></a><a id="Bash" href="/tags/Bash/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Bash<span class="tagsPageCount">1</span></span></a><a id="VMWare" href="/tags/VMWare/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>VMWare<span class="tagsPageCount">1</span></span></a><a id="Virtualization" href="/tags/Virtualization/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Virtualization<span class="tagsPageCount">1</span></span></a></div><div class="recent-posts" id="recent-posts"><div class="recent-post-item" onclick="pjax.loadUrl('/2024/06/the-fate-of-xeroLinux/')"><div class="post_cover"><a href="/2024/06/the-fate-of-xeroLinux/" title="The Fate of XeroLinux"><img class="post_bg" src="https://i.imgur.com/nRcwYmo.jpeg" alt="The Fate of XeroLinux"></a></div><div class="recent-post-info"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><a class="unvisited-post" href="/2024/06/the-fate-of-xeroLinux/">Unread</a></div><a class="article-title" href="/2024/06/the-fate-of-xeroLinux/" title="The Fate of XeroLinux">The Fate of XeroLinux</a></div><break></break><div class="article-meta-wrap"><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Linux/" onclick="event.stopPropagation();"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Linux</span></a><a class="article-meta__tags" href="/tags/XeroLinux/" onclick="event.stopPropagation();"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>XeroLinux</span></a><a class="article-meta__tags" href="/tags/ArchLinux/" onclick="event.stopPropagation();"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>ArchLinux</span></a><a class="article-meta__tags" href="/tags/Distro/" onclick="event.stopPropagation();"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>Distro</span></a></span><span class="post-meta-date"><time datetime="2024-06-02T10:16:22.000Z"></time></span></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><div class="toPageGroup"><input id="toPageText" oninput="value=value.replace(/[^0-9]/g,'')" maxlength="3" title="To page" onkeyup="if (this.value === '0') this.value = ''"><a id="toPageButton" onclick="sco.toPage()"><i class="solitude fa-solid fa-angles-right"></i></a></div></div></nav></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-bg-top"><div class="is-center"><div class="author-info__top-group"><div class="author-info__sayhi" id="author-info__sayhi" onclick="sco.changeSayHelloText()">sayhello.morning</div></div></div></div><a class="card-info-avatar" target="_blank" rel="noopener" href="https://techxero.com/#about" title="Avatar"><div class="avatar-img"><img src="https://i.imgur.com/pFCRKr9.gif" alt="Avatar"></div></a><div class="card-info__desc_group"><div class="author-info__name">DarkXero</div><div class="author-info__desc"></div><div class="card-info__data is-center"><a href="/archives/" title="Posts:13"><div class="length-num">13</div><div class="headline">Archives</div></a><a href="/tags/" title="Tags:23"><div class="length-num">23</div><div class="headline">Tags</div></a><a href="/categories/" title="Categories:0"><div class="length-num">0</div><div class="headline">Categories</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" target="_blank" rel="noopener" href="https://github.com/xerolinux" title="Github"><i class="solitude  fa-brands fa-github"></i></a><a class="social-icon" target="_blank" rel="noopener" href="https://fosstodon.org/@XeroLinux" title="Mastodon"><i class="solitude  fa-brands fa-mastodon"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="solitude fa-solid fa-map"></i><span>New posts</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/be-thankful/" title="Be Thankful in Linux"><img alt="Be Thankful in Linux" src="https://i.imgur.com/45QL4xk.jpeg"></a><div class="content"><span class="title" href="/2024/06/be-thankful/" title="Be Thankful in Linux">Be Thankful in Linux</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/real-foss-struggles/" title="The Real Struggles of a FOSS Developer"><img alt="The Real Struggles of a FOSS Developer" src="https://i.imgur.com/llk8Cib.jpeg"></a><div class="content"><span class="title" href="/2024/06/real-foss-struggles/" title="The Real Struggles of a FOSS Developer">The Real Struggles of a FOSS Developer</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/new-gpu-cpu-fund/" title="GPU &amp;/or CPU Upgrade Fund"><img alt="GPU &amp;/or CPU Upgrade Fund" src="https://i.imgur.com/hVIrl5f.jpeg"></a><div class="content"><span class="title" href="/2024/06/new-gpu-cpu-fund/" title="GPU &amp;/or CPU Upgrade Fund">GPU &amp;/or CPU Upgrade Fund</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/docker-containers-a-love-story/" title="Docker Containers A Love Story ?"><img alt="Docker Containers A Love Story ?" src="https://i.imgur.com/wewgLnu.png"></a><div class="content"><span class="title" href="/2024/06/docker-containers-a-love-story/" title="Docker Containers A Love Story ?">Docker Containers A Love Story ?</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/what-s-up-with-my-channel/" title="What's up with my channel ?"><img alt="What's up with my channel ?" src="https://i.imgur.com/72jAXEl.jpeg"></a><div class="content"><span class="title" href="/2024/06/what-s-up-with-my-channel/" title="What's up with my channel ?">What's up with my channel ?</span></div></div></div></div><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"><a href="/tags/Linux/">Linux<sup>13</sup></a><a href="/tags/YouTube/">YouTube<sup>2</sup></a><a href="/tags/Content-Creation/">Content Creation<sup>1</sup></a><a href="/tags/Docker/">Docker<sup>2</sup></a><a href="/tags/Containers/">Containers<sup>1</sup></a><a href="/tags/VPN/">VPN<sup>1</sup></a><a href="/tags/Blocked/">Blocked<sup>1</sup></a><a href="/tags/XeroLinux/">XeroLinux<sup>5</sup></a><a href="/tags/Hello/">Hello<sup>1</sup></a><a href="/tags/Upgrade/">Upgrade<sup>1</sup></a><a href="/tags/Hardware/">Hardware<sup>1</sup></a><a href="/tags/ArchLinux/">ArchLinux<sup>7</sup></a><a href="/tags/Fundraising/">Fundraising<sup>3</sup></a><a href="/tags/Toolkit/">Toolkit<sup>1</sup></a><a href="/tags/Scripting/">Scripting<sup>2</sup></a><a href="/tags/FOSS/">FOSS<sup>1</sup></a><a href="/tags/Health/">Health<sup>1</sup></a><a href="/tags/Struggles/">Struggles<sup>1</sup></a><a href="/tags/ArchInstall/">ArchInstall<sup>1</sup></a><a href="/tags/Distro/">Distro<sup>1</sup></a><a href="/tags/Bash/">Bash<sup>1</sup></a><a href="/tags/VMWare/">VMWare<sup>1</sup></a><a href="/tags/Virtualization/">Virtualization<sup>1</sup></a></div><span id="more-tags-btn" onclick="sco.openAllTags()">View all</span><hr><div class="webinfo"><div class="webinfo-item"><div class="webinfo-item-title"><i class="item-icon fa-solid fa-folder-closed"></i><div class="item-name">Posts :</div></div><div class="item-count">13</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="item-icon solitude fa-solid fa-calendar-days"></i><div class="item-name">Runtime :</div></div><div class="item-count" id="runtimeshow"></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="item-icon solitude fa-solid fa-rotate-left"></i><div class="item-name">Last update :</div></div><time class="item-count" datetime="2024-07-27T19:48:51.996Z"></time></div></div></div></div></div></main><footer id="footer"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/xerolinux" title="Github"><i class="solitude  fa-brands fa-github"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://discord.gg/5sqxTSuKZu" title="Discord"><i class="solitude  fa-brands fa-discord"></i></a><div class="nolazyload footer_mini_logo" id="footer_mini_logo" title="Back to top" onclick="sco.toTop()"><img src= "/img/loading.avif" data-lazy-src="/img/pwa/favicon.ico" alt="Back to top"></div><a class="deal_link" target="_blank" rel="noopener" href="https://fosstodon.org/@XeroLinux" title="Mastodon"><i class="solitude  fa-brands fa-mastodon"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://youtube.com/@XeroLinux" title="YouTube"><i class="solitude  fa-brands fa-youtube"></i></a></div><div id="st-footer"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div class="copyright">© 2023 - 2024 By&nbsp;<a class="footer-bar-link" href="/">DarkXero</a></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/everfu/hexo-theme-solitude" alt="Theme">Theme</a><a class="footer-bar-link" href="/atom.xml" alt="RSS">RSS</a></div></div></div></footer></div><!-- right_menu--><!-- inject body--><div><script src="/js/utils.js?v=2.0.3"></script><script src="/js/main.js?v=2.0.3"></script><script src="/js/third_party/waterfall.min.js?v=2.0.3"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/third_party/universe.min.js?v=2.0.3"></script><script>dark()
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/19.1.3/lazyload.iife.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.umd.min.js"></script><script src="/js/covercolor/local.js?v=2.0.3"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><div class="js-pjax"></div></div><!-- pjax--><script>const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: ['title','#body-wrap','#site-config','meta[name="description"]','.js-pjax','meta[property^="og:"]','#config-diff'],
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:complete', () => {
+    window.refreshFn()
+
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+        const newScript = document.createElement('script')
+        const content = item.text || item.textContent || item.innerHTML || ""
+        Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+        newScript.appendChild(document.createTextNode(content))
+        item.parentNode.replaceChild(newScript, item)
+    })
+
+    GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- theme--><script>initTheme = () => {
+    const cachedMode = utils.saveToLocal.get('theme');
+    if (cachedMode === undefined)
+        document.documentElement.setAttribute('data-theme', 'dark');
+    else
+        document.documentElement.setAttribute('data-theme', cachedMode);
+    typeof rm === 'object' && rm.mode(cachedMode === undefined || cachedMode === 'dark')
+}
+initTheme()</script><!-- google adsense--><!-- search--><!-- Tianli-Talk--><!-- music--></body></html><script>const posts=["2024/06/be-thankful/","2024/06/real-foss-struggles/","2024/06/new-gpu-cpu-fund/","2024/06/docker-containers-a-love-story/","2024/06/what-s-up-with-my-channel/","2024/06/the-fate-of-xeroLinux/","2024/05/docker-hub-now-blocked-in-russia/","2024/05/vmware-workstation-pro-free-why/","2024/05/new-toolkit-feature/","2024/05/project-fundraising-explained/","2024/05/user-gpu-prompt/","2024/05/hello-linux-Peeps/","2024/05/share-your-ideas/"];function toRandomPost(){ pjax.loadUrl(GLOBAL_CONFIG.root+posts[Math.floor(Math.random()*posts.length)]); }</script>
