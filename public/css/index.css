@@ -7799,7 +7799,7 @@ div#banners .bannerText {
   --efu-theme: #8f4dcc;
   --efu-theme-op: rgba(242,185,75,0.137);
   --efu-theme-op-deep: rgba(242,185,75,0.867);
-  --efu-theme-none: '#f2b94b00';
+  --efu-theme-none: rgba(242,185,75,0);
   --efu-blue: #0084ff;
   --efu-red: #ff3842;
   --efu-pink: #d44040;
