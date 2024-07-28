@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DarkXero&#39;s Blog</title>
+    <link>https://blogx.xerolinux.xyz/</link>
+    
+    <atom:link href="https://blogx.xerolinux.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Sat, 27 Jul 2024 16:39:01 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Be Thankful in Linux</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/be-thankful/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/be-thankful/</guid>
+      <pubDate>Sun, 30 Jun 2024 10:16:22 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;What’s-This&quot;&gt;&lt;a href=&quot;#What’s-This&quot; class=&quot;headerlink&quot; title=&quot;What’s This?&quot;&gt;&lt;/a&gt;What’s This?&lt;/h3&gt;&lt;p&gt;Today, after reflecting on my activities and our collective behavior as Linux users, I realized a few things I wanted to share. This post does</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="What’s-This"><a href="#What’s-This" class="headerlink" title="What’s This?"></a>What’s This?</h3><p>Today, after reflecting on my activities and our collective behavior as Linux users, I realized a few things I wanted to share. This post doesn’t belong on the main site but here, where I can speak candidly about how things have been and how we, as so-called Linux users, often behave. I’m as guilty as anyone else, so let’s sit back, relax, grab a cup of coffee or a bottle of beer, and read on.</p><h3 id="Content-Creators"><a href="#Content-Creators" class="headerlink" title="Content Creators"></a>Content Creators</h3><p>Before diving in, I want to clarify that I am not a content creator. I’ve tried many times and failed miserably, so I don’t include myself in this group for now. However, I need to address the challenges they face.</p><p>YouTube content creators (CCs) do a thankless job. It’s incredibly hard work, requiring meticulous planning, high-quality equipment, and, above all, an enormous amount of patience. Unfortunately, the comment sections are often filled with toxic trash talk, which can be demoralizing. Reading these negative comments can lead to feelings of depression and inadequacy, making creators feel they are not meeting viewer expectations. This is far from the truth. The reality is that satisfying everyone is impossible.</p><p>Content creators invest significant time, money, and energy into producing videos that inform, entertain, and educate. Their efforts are crucial for enhancing our understanding and enjoyment of various topics. Even writers like myself sometimes rely on their videos to illustrate points or tools we discuss in our posts. Blog posts and YouTube videos complement each other, making our content more engaging and informative.</p><h3 id="Writers-Blog-Posters"><a href="#Writers-Blog-Posters" class="headerlink" title="Writers &#x2F; Blog Posters"></a>Writers &#x2F; Blog Posters</h3><p>This is where I include myself. We do our best to bring you high-quality content. We strive to be as unbiased as possible, but mistakes happen. We are human and sometimes say the wrong things out of frustration, but that’s no excuse.</p><p>One common mistake we make is not doing enough research before posting. This can lead to a lack of primary sources to back up our claims, which makes our posts less trustworthy. Recently, it was brought to my attention that I was guilty of this. Instead of pushing away constructive criticism, I embraced it and made sure to do better. Thanks to a user on Discord, I’ve learned to improve, and I thank them for that.</p><h3 id="Appreciating-Content-Creators-and-Writers"><a href="#Appreciating-Content-Creators-and-Writers" class="headerlink" title="Appreciating Content Creators and Writers"></a>Appreciating Content Creators and Writers</h3><p>We often overlook the effort and dedication that content creators and writers put into their work. From brainstorming ideas to scripting, filming, editing, and publishing, every step requires significant effort and attention to detail. They often juggle these tasks alongside their personal and professional lives, making their commitment even more commendable.</p><p>Both content creators and writers face the challenge of staying updated with the latest trends, technologies, and viewer preferences. This constant evolution demands flexibility and a willingness to learn and adapt. Despite these challenges, many persist, driven by their passion and dedication to their craft.</p><p>As writers and bloggers, we pour our hearts into our work, aiming to provide valuable insights and information. We strive to deliver accurate and engaging content, but we are not infallible. Constructive feedback helps us grow and improve, enabling us to produce better content for our readers. It’s essential to recognize that writing is an iterative process. Each piece we publish is a step towards improvement. Constructive criticism, when offered kindly and thoughtfully, is a valuable tool that helps us refine our skills and enhance the quality of our work.</p><h3 id="Fostering-a-Positive-Community"><a href="#Fostering-a-Positive-Community" class="headerlink" title="Fostering a Positive Community"></a>Fostering a Positive Community</h3><p>The F.O.S.S. Linux community thrives on collaboration and mutual support. By fostering a positive and inclusive environment, we can attract more people and encourage contributions. Let’s move away from harsh judgments and towards constructive dialogues that promote growth and understanding.</p><p>When we encounter content we don’t agree with, let’s engage in respectful discussions. Share your perspectives, offer suggestions, and be open to different viewpoints. This approach enriches our community and helps content creators and writers deliver better content.</p><p>Instead of judging writers and content creators harshly, provide constructive criticism and exchange ideas to help us improve and bring you more useful content. Many of us, myself included, have been guilty of negativity. This message serves as a reminder to be more supportive. Let’s help each other grow in the F.O.S.S. Linux community and attract more people by discussing and recommending content thoughtfully.</p><h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>Thank you for reading. I wanted to share my thoughts and recommendations in hopes of making the Linux community a more positive and welcoming place, free from negativity and elitism. By supporting each other and fostering a culture of constructive feedback, we can help each other grow and create a more vibrant and inclusive F.O.S.S. community.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/YouTube/">YouTube</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Content-Creation/">Content Creation</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/be-thankful/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Real Struggles of a FOSS Developer</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/real-foss-struggles/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/real-foss-struggles/</guid>
+      <pubDate>Mon, 24 Jun 2024 12:11:51 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;Hello-everyone&quot;&gt;&lt;a href=&quot;#Hello-everyone&quot; class=&quot;headerlink&quot; title=&quot;Hello everyone,&quot;&gt;&lt;/a&gt;Hello everyone,&lt;/h3&gt;&lt;p&gt;Today, I need to share some of my thoughts and frustrations. If this isn’t your cup of tea, feel free to check out other posts. Fo</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Hello-everyone"><a href="#Hello-everyone" class="headerlink" title="Hello everyone,"></a>Hello everyone,</h3><p>Today, I need to share some of my thoughts and frustrations. If this isn’t your cup of tea, feel free to check out other posts. For those sticking around, thank you for lending an ear.</p><p>Writing this post wasn’t easy; it took a lot of reflection and courage to open up about these feelings.</p><blockquote><p>P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of <strong>FOSS</strong> and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.</p></blockquote><h3 id="My-Frustration"><a href="#My-Frustration" class="headerlink" title="My Frustration"></a>My Frustration</h3><p>Recently, I’ve been investing a lot of time and effort into my projects and contributing to <strong>FOSS</strong> (Free and Open Source Software) wherever possible. While I find this work rewarding, it’s also been increasingly frustrating. Why? Let me explain.</p><p>I spend countless hours working behind the scenes to make everyone’s life easier. While there are a few of you who go above and beyond to support my work, and I am incredibly grateful for that, it’s disheartening to see so little engagement overall. Feedback is crucial for improvement, and without issue reports or suggestions, it’s challenging to know if I’m making a real impact.</p><h3 id="Seeking-Purpose"><a href="#Seeking-Purpose" class="headerlink" title="Seeking Purpose"></a>Seeking Purpose</h3><p>Initially, I embarked on this journey for fun and to learn new things. However, lately, I’ve been questioning the purpose behind my efforts. It feels like I’m stuck in a cycle of constant work with little to show for it. This isn’t about blaming anyone; it’s about seeking the motivation to keep going.</p><h3 id="Monetization-Attempts"><a href="#Monetization-Attempts" class="headerlink" title="Monetization Attempts"></a>Monetization Attempts</h3><p>As my financial situation became more strained, I reluctantly turned to monetization. Many advised me to turn my passion into a viable source of income. So, I tried implementing a “pay what you can” model, hoping it would help sustain my work. However, this didn’t go as planned.</p><p>The <strong>FOSS</strong> community, known for its spirit of freedom, often struggles with the concept of financial support for free software. It’s a complex issue, and while some have been supportive, overall, the response hasn’t been enough to make a significant difference.</p><h3 id="Health-Concerns"><a href="#Health-Concerns" class="headerlink" title="Health Concerns"></a>Health Concerns</h3><p>On top of these challenges, I have been dealing with significant health issues. Most notably, I have severe dental problems that require a full set of dentures. This isn’t cheap, and without stable income, it’s been impossible to address. These health issues have affected my confidence and my ability to engage publicly, adding another layer of difficulty to my situation. Health must come before everything else, including fun and passion projects.</p><h3 id="Mental-Health-Struggles"><a href="#Mental-Health-Struggles" class="headerlink" title="Mental Health Struggles"></a>Mental Health Struggles</h3><p>The stress from these financial and health challenges has also taken a toll on my mental health. I’ve been experiencing frequent anxiety and panic attacks, and the constant pressure has led to a deep sense of depression. The overwhelming silence and lack of engagement have exacerbated these feelings, making it even harder to stay motivated and productive.</p><h3 id="The-Way-Forward"><a href="#The-Way-Forward" class="headerlink" title="The Way Forward"></a>The Way Forward</h3><p>Given these circumstances, I’m focusing more on forums and this blog. Writing provides a creative outlet that isn’t constrained by algorithms or view counts. I’ll continue to work on my current projects, primarily for my own needs, but I might keep some future creations private until I can find a sustainable way to share them.</p><p>My main priority now is finding a stable job that can support my financial needs. If and when I achieve that stability, I plan to return to my passion projects with renewed energy and many new ideas.</p><h3 id="Closing-Thoughts"><a href="#Closing-Thoughts" class="headerlink" title="Closing Thoughts"></a>Closing Thoughts</h3><p>I want to extend my heartfelt thanks to those of you who continue to support my work. Your appreciation means the world to me and keeps me going even when things get tough.</p><p>For now, I need to prioritize my well-being and financial stability. Once those are in place, I’ll be back with future projects. Right now, I’m dealing with depression, anxiety, and panic attacks due to my job situation and need time to recover.</p><p>Thank you for understanding and supporting me through this journey. For more information on how you can support me financially head on over to <a href="https://xerolinux.xyz/support/"><strong>This Link</strong></a>.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Fundraising/">Fundraising</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/FOSS/">FOSS</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Health/">Health</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Struggles/">Struggles</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/real-foss-struggles/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>GPU &amp;/or CPU Upgrade Fund</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/new-gpu-cpu-fund/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/new-gpu-cpu-fund/</guid>
+      <pubDate>Sat, 15 Jun 2024 13:06:24 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h4 id=&quot;What’s-this&quot;&gt;&lt;a href=&quot;#What’s-this&quot; class=&quot;headerlink&quot; title=&quot;What’s this ?&quot;&gt;&lt;/a&gt;What’s this ?&lt;/h4&gt;&lt;p&gt;My PC could really use an upgrade. I’m not looking to build a whole new rig, but I definitely need to swap out a few key parts like the &lt;str</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h4 id="What’s-this"><a href="#What’s-this" class="headerlink" title="What’s this ?"></a>What’s this ?</h4><p>My PC could really use an upgrade. I’m not looking to build a whole new rig, but I definitely need to swap out a few key parts like the <strong>CPU</strong> and <strong>GPU</strong>. With the <strong>XeroLinux</strong> Distro not coming back anytime soon, it’s crucial to put funds towards these upgrades where they truly matter.</p><div align="center"><p><img src="https://i.imgur.com/sy5D8T0.png" alt="Specs"></p></div><p>As you can see from image above, the <strong>GTX 1080</strong> (my current GPU) will be soon dropped from upcoming Open Module Drivers.. So I will be stuck with what it currently supports no future for me. As <em>nVidia</em> just announced it’s going full Open-Source. You can read more on &gt;&gt; <a href="https://www.phoronix.com/news/NVIDIA-Transitions-OSS-KMD"><strong>This Article</strong></a></p><h4 id="What-CPU"><a href="#What-CPU" class="headerlink" title="What CPU ?"></a>What CPU ?</h4><p>Well, I’m not looking for much. For the CPU, I’m considering an upgrade to either the <a href="https://www.lebanonstores.com/shop-1/amd-ryzen-7-5800x3d-socket-am4"><strong>Ryzen 7 5800X3D</strong></a> valued at $330 or the <a href="https://global.microless.com/product/amd-ryzen-9-5950x-16-core-3-4-ghz-socket-am4-105w-desktop-processor-100-100000059wof/"><strong>Ryzen 9 5950X</strong></a> valued at $452. Honestly, it doesn’t matter which one—I just need that extra boost for compiling stuff.</p><h4 id="What-GPU"><a href="#What-GPU" class="headerlink" title="What GPU ?"></a>What GPU ?</h4><p>That’s where things get a bit tricky. I’m still undecided between sticking with <strong>nVidia</strong> or switching to <strong>AMD</strong>. I am currently torn between the two. Now, I know most of you would recommend <strong>AMD</strong> because it’s hassle-free on <strong>Linux</strong>—and you’d be right. But as a content creator who relies on <a href="https://docs.nvidia.com/cuda/"><strong>Cuda</strong></a> and <strong>nVidia</strong>‘s <a href="https://www.nvidia.com/en-us/geforce/guides/broadcasting-guide/"><strong>nVenc Encoder</strong></a>, I’m leaning towards sticking with nVidia.</p><p>However, if I do decide to switch to Team Red, I’d go for the <a href="https://www.lebanonstores.com/shop-1/amd-radeon-rx-6950xt-16gb"><strong>RX 6950XT</strong></a> currently valued at $400 here. Otherwise, if I stay with Team-Green, it’s going to be the <a href="https://www.lebanonstores.com/shop-1/rtx-3090-msi-suprim-x-24gb"><strong>RTX 3090</strong></a> valued at $595.</p><h4 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h4><p>Upgrading the <strong>GPU</strong> is my top priority right now, as it will make the most significant impact. My current <strong>GTX 1080</strong> is nearing its end-of-life, and I can manage with my <strong>Ryzen 5 3600X</strong> for a bit longer. So, if you can help me raise enough funds to upgrade the <strong>GPU</strong> and stay ahead in the <strong>Linux</strong> world, I’d be incredibly grateful. If we can raise enough for both upgrades, it would be a huge boost to my setup and productivity.</p><p>Every little bit helps, and if each of you who appreciates my work chips in just a few bucks, we’ll reach the goal in no time. Your support means the world to me, and it’ll make a huge difference in keeping my Linux-based content fresh and up-to-date. Thank you so much! To chip-in, click the floating button at the bottom left.</p><script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script><script>  kofiWidgetOverlay.draw('xerolinux', {    'type': 'floating-chat',    'floating-chat.donateButton.text': 'Support me',    'floating-chat.donateButton.background-color': '#794bc4',    'floating-chat.donateButton.text-color': '#fff'  });</script><p>Thanks again for all your support, and here’s to making these upgrades happen together!</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Upgrade/">Upgrade</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Hardware/">Hardware</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Fundraising/">Fundraising</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/new-gpu-cpu-fund/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Docker Containers A Love Story ?</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/docker-containers-a-love-story/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/docker-containers-a-love-story/</guid>
+      <pubDate>Fri, 07 Jun 2024 12:33:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;What-is-Docker&quot;&gt;&lt;a href=&quot;#What-is-Docker&quot; class=&quot;headerlink&quot; title=&quot;What is Docker ?&quot;&gt;&lt;/a&gt;What is Docker ?&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://docker.com/&quot;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/a&gt; is a platform that simplifies the process of developing, shipping, and</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="What-is-Docker"><a href="#What-is-Docker" class="headerlink" title="What is Docker ?"></a>What is Docker ?</h3><p><a href="https://docker.com/"><strong>Docker</strong></a> is a platform that simplifies the process of developing, shipping, and running applications by using containerization. Containers package an application and its dependencies into a single, portable unit that can run consistently across different environments.</p><div align="center"><p><img src="https://i.imgur.com/bbD4JDy.png" alt="Docker"></p></div><h3 id="How-it-all-started"><a href="#How-it-all-started" class="headerlink" title="How it all started"></a>How it all started</h3><p>It all started with <a href="distrobox.it/"><strong>Distrobox</strong></a>. Yes a highly unlikly scenario I know. But the more I dug into the world of containerization the more intrigued I got. And that’s when I discovered <strong>Docker</strong> containers, their countless uses. What blew me away mostly, is the fact that I can run cloud services like <a href="https://immich.app/"><strong>Immich</strong></a> for images and videos, which would allow me to sync my devices locally rather than with <a href="https://icloud.com/"><strong>Apple iCloud</strong></a> or <strong>Google</strong> making me the sole owner of my data. So freeing OMG !!! No longer bound by those shackles…</p><p>With that, I the deeper I went through this bottomless rabbit hole, the more truly useful containers I found. The idea that I can do whatever I wanted without having to deal with any 3rd party conglomerates made me fall in love more and more as time went by…</p><h3 id="My-setup-so-far"><a href="#My-setup-so-far" class="headerlink" title="My setup so far"></a>My setup so far</h3><p>Yep, I know, you are eager to see what I have managed to pull off with everything I found. First, let me say this, I will not be the one guiding you on how to acheive <strong>MY</strong> setup, since your needs might differ from mine. Heck I am sure of it. Anyway, here’s a screenshot, and below it I will link to the various containers I am using in case you find them useful.</p><div align="center"><p><img src="https://i.imgur.com/DhfbUBs.png" alt="Docker"></p></div><ul><li><strong>Homepage</strong></li></ul><p>To start off, let me tell you what am using for the page you see in the image, it’s simply called <a href="https://gethomepage.dev/"><strong>Homepage</strong></a>. Fitting name right ? I love its simplistic design, flexibility, and most of all what sold me on it is two-fold, the fact that everything is done via <a href="https://en.wikipedia.org/wiki/YAML"><strong>YAML</strong></a> configurations files, and that the community behind it are so damn friendly ! Yep, there is no <em>dumb</em> question for them, they answer any and all to the best of their abilities.If you have any, feel free to join their <a href="https://discord.gg/k4ruYNrudu"><strong>Discord Server</strong></a>.</p><ul><li><strong>File Browser</strong></li></ul><p>As for the File Browser I use to share files between PCs, it’s also has a <em>creative</em> name lol, just called <a href="https://filebrowser.org/"><strong>FileBrowser</strong></a>, it serves one purpose, browsing files, with ability to upload &amp; download from&#x2F;to any PC. That’s it. It just works nothing else to say about that.</p><ul><li><strong>Search Engine (Xoogle)</strong></li></ul><p>Hehe, the only reason I called it <em>Xoogle</em> is coz it’s Xero + Google, get it ? Anyway, this is using something called <a href="https://whoogle.io/"><strong>Whoogle</strong></a>, weird name I know, loogs damn ugly too. It’s just a search engine that uses <strong>Google</strong> stripping it of all A.I crap and ads. Does its job I prefer it to any other coz I get the power of <strong>Google</strong> the way it was back in the day..</p><ul><li><strong>Vaultwarden</strong></li></ul><p>That’s a 3rd-party <a href="https://bitwarden.com/"><strong>Bitwarden</strong></a> server-as-a-container, endorsed by them so can be trusted called <a href="https://github.com/dani-garcia/vaultwarden"><strong>Vaultwarden</strong></a>. I use it coz I prefer to self-host private stuff like that. Where I have total control. I still keep a copy hosted by them. It’s just in case they go under I am safe.</p><ul><li><strong>ShareX</strong></li></ul><p>This one is not for everyone. It uses <a href="https://zipline.diced.sh/"><strong>Zipline</strong></a>. It’s a File upload server with a twist. I exposed mine to the web, using it to share files with friends. Use it if you need something like that.</p><ul><li><strong>My Comics</strong></li></ul><p>I am a big fan of comic books, especially the ones from my childhood. This container uses <a href="https://kavitareader.com/"><strong>Kavita</strong></a>. I love it simplicity. I am also proud to say that I currently sponsor their work coz devs are very friendly so is this tool. It works for my needs, I hope it does for you in case you choose to use it. If you have any, feel free to join their <a href="https://discord.gg/b52wT37kt7"><strong>Discord Server</strong></a>.</p><ul><li><strong>Audiobookshelf</strong></li></ul><p>I guess I do not need to explain that one. It’s just a docker container for <a href="https://www.audiobookshelf.org/"><strong>Audiobookshelf</strong></a>. In case you have some Audio books or podcasts. Have fun.</p><ul><li><strong>FreshRSS</strong></li></ul><p>That too doesn’t need an introduction, just that it’s the feed agregator I chose to use. Called <a href="https://www.freshrss.org/"><strong>FreshRSS</strong></a>. It’s simple to use, looks good enough, and supports tons of plugins to extend it above and beyond.</p><ul><li><strong>Immich</strong></li></ul><p>Now, this is one of the big ones, <a href="https://immich.app/"><strong>Immich</strong></a> is an amazing image cloud like service. Allowing you to move away from <strong>Apple</strong> and <strong>Google</strong>. I love that as I said at the beginning of this long post. They even have companion apps for both <a href="https://play.google.com/store/apps/details?id=app.alextran.immich"><strong>Android</strong></a> and <a href="https://apps.apple.com/sg/app/immich/id1613945652"><strong>iOS</strong></a> which makes it even more amazing. Now we can sync out photos and videos between devices. I recommend this one to everyone who cares about their data.</p><h3 id="You-get-the-idea"><a href="#You-get-the-idea" class="headerlink" title="You get the idea"></a>You get the idea</h3><p>Now am not gonna go over each and ever one of the containers I use. I will list the rest below linking to their related pages, have fun discovering them. Be careful though, once you begin there will be no end in sight. It’s <strong>BIG</strong> rabit hole. You have been warned lol ! It’s a super fun and nerdy adventure. Trust me. I have been here for over 3 months.</p><ul><li><a href="https://plex.tv/"><strong>Plex Server</strong></a></li><li><a href="https://github.com/alexta69/metube"><strong>meTube</strong></a></li><li><a href="https://koel.dev/"><strong>Koel</strong></a></li><li><a href="https://tautulli.com/"><strong>Tautulli</strong></a></li><li><a href="https://www.portainer.io/"><strong>Portainer</strong></a></li><li><a href="https://github.com/schlagmichdoch/pairdrop"><strong>PairDrop</strong></a></li><li><a href="https://github.com/CorentinTh/it-tools"><strong>IT-Tools</strong></a></li><li><a href="https://cockpit-project.org/"><strong>Cockpit</strong></a></li></ul><h3 id="Where-to-find-more-containers"><a href="#Where-to-find-more-containers" class="headerlink" title="Where to find more containers ?"></a>Where to find more containers ?</h3><p>Well, there are many places, but my favorite has to be <a href="https://selfh.st/apps/"><strong>Selfh.st</strong></a> hands down. I love how they keep the list up-to-date showing last commit date. Site is always updated removing old unmaintained projects replacing them with newer ones. I highly recommend you bookmark this site and keep visiting it from time to time.</p><h3 id="Closing-words"><a href="#Closing-words" class="headerlink" title="Closing words"></a>Closing words</h3><p>Anyway, I hope you have enjoyed this post, and I have helped you discover something new. It’s not always one finds something that re-ignites one’s pation all over again. I know it did just that for me.</p><p>Thanks again for reading this. If you want to discuss the matter, you can <em>Toot</em> me on <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a> or by joining me on my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Docker/">Docker</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Containers/">Containers</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/docker-containers-a-love-story/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>What&#39;s up with my channel ?</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/what-s-up-with-my-channel/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/what-s-up-with-my-channel/</guid>
+      <pubDate>Sun, 02 Jun 2024 12:13:10 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;You-Have-a-YouTube-Channel&quot;&gt;&lt;a href=&quot;#You-Have-a-YouTube-Channel&quot; class=&quot;headerlink&quot; title=&quot;You Have a YouTube Channel ?&quot;&gt;&lt;/a&gt;You Have a YouTube Channel ?&lt;/h3&gt;&lt;p&gt;Lol, yeah I know, it such a small one almost no one knows about it. What I first</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="You-Have-a-YouTube-Channel"><a href="#You-Have-a-YouTube-Channel" class="headerlink" title="You Have a YouTube Channel ?"></a>You Have a YouTube Channel ?</h3><p>Lol, yeah I know, it such a small one almost no one knows about it. What I first started it, I thought so many people making tons of money, why shouldn’t I ? Well, it took me so long to get monetization abilites, and when I did I was like, <strong>Nice!</strong>.</p><p>But as time went by it became more and more difficult to come up with new ideas to keep it interesting. So I gave up for a while. Then, after 6 to 8 months I came back, rest is history.</p><h3 id="What-now-Xero"><a href="#What-now-Xero" class="headerlink" title="What now Xero ?"></a>What now Xero ?</h3><p>Hehe, I do not know to be perfectly honest. Am not getting enough views, and my Live Streams are only getting 6 to 8 participants. Also the ideas, quality, and equipment not being available to continue. There’s also the fact that there’s no point of monetizing my content since <strong>YouTube</strong> and my Bank, the only one I can use are not talking to each other, without any way for me to fix that. All these issues piling up.</p><p>So, in the next few days or weeks, I will be killing ads on all my videos, making your viewing experience a much better one with 0 ads to skip through.</p><h3 id="What’s-the-Catch"><a href="#What’s-the-Catch" class="headerlink" title="What’s the Catch ?"></a>What’s the Catch ?</h3><p>This comes with a caveat, since I won’t be making any money there, due to the mentioned issue, I will instead have not choice but to rely on the <a href="https://ko-fi.com/XeroLinux"><strong>XeroLinux Ko-Fi</strong></a> fundraiser for the forseeable future.</p><p>Why there ? Err, coz that’s the only service that has no issues with my bank. Simple as that. I hope you understand my situation here. As I mentioned on a previous post, you are not obligated to <em>donate</em>, however would be highly appreciated if you do.</p><h3 id="What’s-the-plan-moving-foreward"><a href="#What’s-the-plan-moving-foreward" class="headerlink" title="What’s the plan moving foreward ?"></a>What’s the plan moving foreward ?</h3><p>When it comes to plans for the channel from this point on, simple, I will be using it as a tool. What I mean by that is, I will be publishing videos only when I feel the situation needs it, for example if I feel a guide I want to put out cannot be done in writing. Or when I need to show off a tool&#x2F;script am working on. You get the idea.</p><p>As to what day videos will be published, I will do it on a <strong>Wednesday</strong> whenever there is one. Also, do not worry about monthly Live Streams, they are here to stay. And when I get the chance, maybe bring back the <a href="https://www.youtube.com/playlist?list=PLeTlEEB2MZX6iUQWtkOCCcAm-edlLVCf4"><strong>XeroTalk</strong></a> seriles, where I sit down with various personalities in the <strong>Linux</strong> sphere and talk about various topics. Who knows.</p><p>Bottom line is, my channel is nothing but a tool, not a way to monetize anymore. I hope I don’t lose you as a subscriber because of this. However, it’s fine if you feel the need to leave, no harm no foul.</p><p>Anyways, thanks again for reading this. If you want to discuss the matter, you can <em>Toot</em> me on <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a> or by joining me on my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/YouTube/">YouTube</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/XeroLinux/">XeroLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/what-s-up-with-my-channel/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Fate of XeroLinux</title>
+      <link>https://blogx.xerolinux.xyz/2024/06/the-fate-of-xeroLinux/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/06/the-fate-of-xeroLinux/</guid>
+      <pubDate>Sun, 02 Jun 2024 10:16:22 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;What-was-is-XeroLinux&quot;&gt;&lt;a href=&quot;#What-was-is-XeroLinux&quot; class=&quot;headerlink&quot; title=&quot;What was&amp;#x2F;is XeroLinux&quot;&gt;&lt;/a&gt;What was&amp;#x2F;is XeroLinux&lt;/h3&gt;&lt;p&gt;Well, in case you were living under a rock for the past 3 or more years, &lt;strong&gt;XeroLinux&lt;/st</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="What-was-is-XeroLinux"><a href="#What-was-is-XeroLinux" class="headerlink" title="What was&#x2F;is XeroLinux"></a>What was&#x2F;is XeroLinux</h3><p>Well, in case you were living under a rock for the past 3 or more years, <strong>XeroLinux</strong> was and still is an Arch-Based Distrobution with a riced <strong>KDE Plasma</strong> which is inteanded to make installation simpler by using the <strong>Calamares</strong> installer, that’s it. It’s no more no less than that.</p><p>It was never built with any <em>specific</em> goal in mind beyond that. You still need to be armed with <em>some</em> <strong>Linux</strong> knowledge to get yourselves out of a tight spot if and when it happens. Limited to no support was being provided simply because I can’t do any better than what the <strong>ArchWiki</strong> does and I do not own a variety of configs to test on.</p><div align="center"><p><img src="https://i.imgur.com/ujPgkvC.png" alt="Xero"></p></div><p>In short all this distro provides is an easy way to get up and running with the <a href="https://github.com/xerolinux/xlapit-cli"><strong>XeroLinux Toolkit</strong></a> included (Xero icon on the dock) to help you with initial setup if need be.</p><h3 id="Potential-Return"><a href="#Potential-Return" class="headerlink" title="Potential Return."></a>Potential Return.</h3><p>I have been thinking about its fate. Should I or shouldn’t I bring it back ? I am tryiong to gather information on whether interest is still there with the following <a href="https://ko-fi.com/Post/Some-Great-News-Coming-L4L8XLJBN"><strong>Fundraiser</strong></a>. But if you can’t support me financially, I came up with another idea which I will share with you here via a Poll.</p><p>First let me tell you about it. What I am thinking is, since one could achieve the same result as the distro itself by using both the <strong>ArchInstall</strong> in combination with my <strong>PlasmaInstall</strong> scripts for you advanced users out there, with the distro doing the same thing just in a simpler way for the beginners not wanting to bother with the TTY way, why not offer it as a bonus for those of you who <em>can</em> Donate. In case you can’t and still want to enjoy my work for free, you can use my scripts which will <em>never</em> be paywalled.</p><p>Bref, that’s a long way of saying, by donating, you will get the ISO that has all the essentials done for you, like ricing, basic packages, and <strong>KDE Plasma</strong> pre-configured for you out the box, or my scripts available for free, which require the use of <strong>ArchInstall</strong>. Let me know by voting below.</p><div class="strawpoll-embed" id="strawpoll_BJnXVrJdxZv" style="height: 544px; max-width: 640px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;"><iframe title="StrawPoll Embed" id="strawpoll_iframe_BJnXVrJdxZv" src="https://strawpoll.com/embed/BJnXVrJdxZv" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe><script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script></div><p>I am just trying to make money to survive, any way I can, in this case, by using the only tools I have at hand, my <strong>Linux</strong> knowledge, until I figure out a <em>real</em> job. So I do apologize if am boring you with this.</p><p>Please vote in the poll above so I know what to do. Will expire in a week so get voting. Thanks a ton for doing so. Will check on results on a daily basis. Also whatver the results are it’s Ok with me. Don’t worry about it. I will continue bringing you the best I can as I learn ;)</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/XeroLinux/">XeroLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Distro/">Distro</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/06/the-fate-of-xeroLinux/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Docker Hub now blocked in Russia</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/docker-hub-now-blocked-in-russia/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/docker-hub-now-blocked-in-russia/</guid>
+      <pubDate>Fri, 31 May 2024 07:42:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;What-is-Docker-Docker-Hub&quot;&gt;&lt;a href=&quot;#What-is-Docker-Docker-Hub&quot; class=&quot;headerlink&quot; title=&quot;What is Docker &amp;amp; Docker Hub ?&quot;&gt;&lt;/a&gt;What is Docker &amp;amp; Docker Hub ?&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;docker.com/&quot;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/a&gt; is a platform that sim</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="What-is-Docker-Docker-Hub"><a href="#What-is-Docker-Docker-Hub" class="headerlink" title="What is Docker &amp; Docker Hub ?"></a>What is Docker &amp; Docker Hub ?</h3><p><a href="docker.com/"><strong>Docker</strong></a> is a platform that simplifies the process of developing, shipping, and running applications by using containerization. Containers package an application and its dependencies into a single, portable unit that can run consistently across different environments.</p><p><a href="https://hub.docker.com/"><strong>Docker Hub</strong></a> is a cloud-based repository service where users can store, share, and manage their Docker containers. It allows developers to easily access and distribute container images, facilitating collaboration and speeding up the development process by providing a centralized place to find and use pre-configured containers.</p><h3 id="What’s-going-on"><a href="#What’s-going-on" class="headerlink" title="What’s going on ?"></a>What’s going on ?</h3><p>On the night of <strong>May 30</strong>, <a href="https://hub.docker.com/"><strong>Docker Hub</strong></a>, the American software development service owned by <a href="docker.com/"><strong>Docker</strong></a>, restricted access to users in <strong>Russia</strong>. Experts interviewed by <strong>Kommersant</strong> (Kommersant) take into accountHe said that this blocking would cause serious and permanent problems for Russian companies.</p><p>According to Kommersant’s survey among IT companies, as of May 30, businesses do not have the opportunity to download and save developments uploaded to Docker Hub. It’s also impossible to log in to a resource via VPN or register new users to a VPN, as Docker Hub still determines which country the request came from.</p><div align="center"><p><img src="https://i.imgur.com/b6vPub4.png" alt="GPU"></p></div><p>As you can see from the included image, Docker Hub had already blocked a few countries previous to <strong>Russia</strong>. Now another country joins that list. It’s becoming something of a recurring theme for whatever reason. Thankfully my country is not affected… Yet…</p><p>Artem Zgogurin, Development Director of EdgeCenter Software Testing Department, confirmed that companies in Russia are already feeling the limitations of Docker Hub. According to him, blocking, in addition to loss of access to products, forces people to look for alternatives such as GitHub Container Registry, GitLab or create their own private repositories. However, launching and configuring alternative solutions will require resources and time.</p><p>Simpl CTO Evgeniy Kostenetsky noted that Docker is a very popular platform that helps quickly deploy, scale and update software, minimizing the occurrence of bugs. Head of development support group “Aladdin RD” Sergey Ranchin added that Docker is also a popular service among companies in the field of information security.</p><p>Have you been affected ? Let me know either on <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a> or my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Docker/">Docker</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/VPN/">VPN</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Blocked/">Blocked</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/docker-hub-now-blocked-in-russia/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>VMWare Workstation Pro Free ? Why ?</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/vmware-workstation-pro-free-why/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/vmware-workstation-pro-free-why/</guid>
+      <pubDate>Thu, 30 May 2024 10:14:15 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;What’s-VMWare&quot;&gt;&lt;a href=&quot;#What’s-VMWare&quot; class=&quot;headerlink&quot; title=&quot;What’s VMWare ?&quot;&gt;&lt;/a&gt;What’s VMWare ?&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.vmware.com/&quot;&gt;&lt;strong&gt;VMWare Workstation Pro&lt;/strong&gt;&lt;/a&gt; is a powerful software tool that allows users to creat</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="What’s-VMWare"><a href="#What’s-VMWare" class="headerlink" title="What’s VMWare ?"></a>What’s VMWare ?</h3><p><a href="https://www.vmware.com/"><strong>VMWare Workstation Pro</strong></a> is a powerful software tool that allows users to create and manage multiple virtual machines on a single physical computer. It enables users to run different operating systems simultaneously, providing a versatile environment for testing, development, and learning. With VMWare Workstation Pro, you can easily switch between virtual machines, share files, and even emulate entire networks, making it an essential tool for IT professionals and enthusiasts who need a flexible and efficient way to work with multiple systems without the need for separate hardware.</p><h3 id="What-happened"><a href="#What-happened" class="headerlink" title="What happened ?"></a>What happened ?</h3><p>Ever since <a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware"><strong>Broadcom</strong></a>‘s acquisition of <strong>VMware</strong>, we have seen them drop the hammer on many existing customers by ditching perpetual licenses, in favor of a subscription-based licensing model.</p><p>They even shut down the VMware Cloud Services Provider program, while only inviting a select few vendors back into the fold under the <strong>Broadcom Expert Advantage Partner</strong> program.</p><p>Interestingly, in a recent announcement, they have chosen to give something back to their community by making two popular <strong>VMware</strong> products free. It was a surprise.</p><h3 id="Generous-Maybe-not"><a href="#Generous-Maybe-not" class="headerlink" title="Generous ? Maybe not."></a>Generous ? Maybe not.</h3><p>In an unexpected move, <strong>Broadcom</strong> has made <strong>VMWare Fusion Pro</strong> and <strong>VMWare Workstation Pro</strong> free for all kinds of personal usage. We will focus on <strong>Workstation Pro</strong>, as that is available for <strong>Linux</strong>; <strong>Fusion Pro</strong> is a <strong>macOS</strong>-only affair.</p><p>Now, if you are someone who wants to use a hypervisor for a personal project or want one just to check out a couple of Linux distros. You do not have to pay a dime to access the advanced features that Workstation Pro offers.</p><p>However, for commercial usage, you still have to pay for a subscription, which can be sourced through a <a href="https://www.broadcom.com/how-to-buy/software-partners/partnering-with-broadcom"><strong>Broadcom Advantage Partner</strong></a>.</p><p>Additionally, <strong>VMware</strong> is retiring the previous player versions of both <strong>Workstation</strong> and <strong>Fusion</strong>, with a detailed process for existing users on how to upgrade to the pro variants.</p><p>They also shared a helpful table to guide users with the migration. 👇</p><div align="center"><p><img src="https://i.imgur.com/L8ojsV2.jpeg" alt="GPU"></p></div><p>To dive deeper into what’s going on, you may refer to the <a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html?ref=news.itsfoss.com"><strong>announcement blog</strong></a>.</p><h3 id="Get-VMware-Workstation-Pro"><a href="#Get-VMware-Workstation-Pro" class="headerlink" title="Get VMware Workstation Pro"></a>Get VMware Workstation Pro</h3><p>You can get the latest builds of <strong>VMware Workstation Pro</strong> from the <strong>Broadcom</strong> customer portal. Unfortunately, you will have to sign in using a Broadcom account to get access. If you don’t have an account, then you will have to make one.</p><div align="center"><h3 id="Download-VMWare-Pro"><a href="#Download-VMWare-Pro" class="headerlink" title="Download VMWare Pro"></a><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro">Download VMWare Pro</a></h3></div><p>You would think the download process would be straightforward, but no. First, you have to log in, then choose the “Personal” variants; otherwise, it will throw an error saying “Not Entitled”.</p><p>Then, you have to fill out a <em>“Trade Compliance Verification”</em> form before the portal allows you to download anything. Remember the simpler days, when getting VMware was just a matter of a few clicks ?</p><h3 id="My-thoughts-on-this…"><a href="#My-thoughts-on-this…" class="headerlink" title="My thoughts on this…"></a>My thoughts on this…</h3><p>First let me thank <a href="https://news.itsfoss.com/vmware-workstation-free/"><strong>It’s FOSS</strong></a> for the original post. Now on with my thoughts on this whole situation. Let me start by asking you this, why does one still need to use any of these products on <strong>Linux</strong> ? We are more inclined to prioritize <strong>FOSS</strong> applications over <strong>Proprietary</strong> ones.</p><p>Well if you answered with, “coz am used to it and it just works”, then I am totally onboard with you. But we still have the likes of <a href="https://www.linux-kvm.org/page/Main_Page"><strong>KVM&#x2F;QEmu</strong></a> which is totally <strong>FOSS</strong>. The only reason I can see to prefer <strong>VMWare</strong> over it is if one wanted to use <strong>Windows</strong> VMs. Yes, they behave better on <strong>VMWare</strong> over <strong>KVM</strong> unless ones goes through the whole <strong>GPU Passthrough</strong> ordeal. Or we even have the likes of <a href="https://www.proxmox.com/en/proxmox-virtual-environment/overview"><strong>Proxmox VE</strong></a> that has tons of features, be it for <strong>Windows</strong> or <strong>Linux</strong>.</p><p>All this to just say, if you are an <strong>Open Source</strong> afficionado like I am, I would recommend you stick with either of the 2 I mentioned, and save yourself the headache. There are tons of others that I did not list here, just as long as you skip any of the <strong>VMWare</strong> products. But hey you do you, those were my 2 cents on the matter. If you still want to stick with <strong>VMWare</strong> on <strong>Linux</strong> don’t forget to check out my guide over on the <a href="https://forum.xerolinux.xyz/thread-129.html"><strong>XeroLinux Forums</strong></a>.</p><p>Thanks for reading. If you want to discuss this subject, see ya on my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/VMWare/">VMWare</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Virtualization/">Virtualization</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/vmware-workstation-pro-free-why/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>New Toolkit Feature</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/new-toolkit-feature/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/new-toolkit-feature/</guid>
+      <pubDate>Thu, 30 May 2024 08:02:39 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;Drivers-Install&quot;&gt;&lt;a href=&quot;#Drivers-Install&quot; class=&quot;headerlink&quot; title=&quot;Drivers Install&quot;&gt;&lt;/a&gt;Drivers Install&lt;/h3&gt;&lt;p&gt;As I have mentioned on an earlier post, I was stuck between using either &lt;code&gt;inxi -G&lt;/code&gt; or &lt;code&gt;lspci&lt;/code&gt; commands to </description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Drivers-Install"><a href="#Drivers-Install" class="headerlink" title="Drivers Install"></a>Drivers Install</h3><p>As I have mentioned on an earlier post, I was stuck between using either <code>inxi -G</code> or <code>lspci</code> commands to list GPUs available during Driver install phase of my toolkit. I opted to go with the former simply because the latter only works for <code>dGPUs</code> connected over PCIe. Wouldn’t work for <code>iGPUs</code>. Now, before going through with script, it will run <code>inxi -G</code> showing you your GPU setup, you are expected to understand output, if you don’t, then you need to re-evaluate your decision coming to <strong>ArchLinux</strong> a distro that <em>requires</em> a minimum amount of <strong>Linux</strong> knowledge. Anyway here’s what it looks like now.</p><div align="center"><p><img src="https://i.imgur.com/s8jkwa7.png" alt="GPU"></p></div><h3 id="How-to-proceed-from-here"><a href="#How-to-proceed-from-here" class="headerlink" title="How to proceed from here"></a>How to proceed from here</h3><p>Now that you know more about your specific GPU setup, you will need to answer prompts wisely. Otherwise you might end up with a broken system. So be very careful with that. If you don’t know, either ask me or do some research on your own.</p><p>In the case of <strong>Intel</strong> be it an <strong>Arc dGPU</strong> or <strong>Intel HD iGPU</strong> just drivers and required codecs will be installed. Very simple, as nothing else is required, at least to my knowledge.</p><p>For <strong>AMD</strong> iGPU or dGPU you will be prompted if you intend to use <strong>DaVinci Resolve</strong> at the end, since the app requires extra <em>codecs</em> for seamless functionality. Simply because it’s one that favors <strong>nVidia</strong> over <strong>AMD</strong>. It is what it is hehe.</p><p>Now for <strong>nVidia</strong>, you will be prompted for a few things, first if you are running a Desktop with a single dGPU or Hybrid Laptop with both <strong>Intel</strong> &amp; <strong>nVidia</strong>, then it will ask if have a <strong>900&#x2F;1000</strong> Series card or <strong>2000</strong> onwards simply because the former will be using standard <strong>DKMS</strong> drivers while the latter will be using the <strong>Open-DKMS</strong> ones.</p><p>Keep in mind that currently, my script only supports <strong>Intel&#x2F;nVidia</strong> Hybrid setups. For <strong>AMD&#x2F;nVidia</strong> and <strong>AMD iGPU+AMD dGPU</strong> you will have to find documentation elsewhere. Might I suggest the <a href="https://wiki.archlinux.org/"><strong>ArchWiki</strong></a> or <strong>Google</strong> it lol. I don’t know anything about those two nor do I have such setups. It’s up to you.</p><p>I should also mention that for <strong>nVidia</strong>, my script will do all the necessary steps for seamless gaming &amp; <strong>Wayland</strong> usage. Like injecting the required <strong>modules</strong> into <em>modprobe.d</em> among other things. That way you do not need to do anything yourself. Script will be updated for the upcoming <strong>555 Series</strong> drivers once they hit stable as they might require extra steps. keep an eye out for that.</p><p>Finally for clarification in case you don’t know :</p><ul><li><strong>dGPU</strong> : Dedicated&#x2F;Discrete GPU</li><li><strong>iGPU</strong> : Integrated GPU (Onboard&#x2F;on CPU)</li></ul><p>I hope this post clarifies things for you, and that you are enjoying the <a href="https://github.com/xerolinux/xlapit-cli"><strong>XeroLinux Toolkit</strong></a>. If you want to discuss it, share ideas on how I can improve it further, well the only place for that is my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p><p>See ya there ;)</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/XeroLinux/">XeroLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Toolkit/">Toolkit</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Scripting/">Scripting</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/new-toolkit-feature/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Project Fundraising Explained</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/project-fundraising-explained/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/project-fundraising-explained/</guid>
+      <pubDate>Wed, 29 May 2024 10:28:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;Backstory&quot;&gt;&lt;a href=&quot;#Backstory&quot; class=&quot;headerlink&quot; title=&quot;Backstory&quot;&gt;&lt;/a&gt;Backstory&lt;/h3&gt;&lt;p&gt;Before I begin, I would like to clarify that, when I say &lt;strong&gt;Linux&lt;/strong&gt; in this context I mean &lt;strong&gt;Desktop Linux&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When I sta</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Backstory"><a href="#Backstory" class="headerlink" title="Backstory"></a>Backstory</h3><p>Before I begin, I would like to clarify that, when I say <strong>Linux</strong> in this context I mean <strong>Desktop Linux</strong>.</p><p>When I started this whole <strong>Linux</strong> endeavor, I did not have money in mind. It all started back in 2020&#x2F;2021, when I fell in love with <a href="https://kde.org]"><strong>KDE Plasma</strong></a> while using the now infamous <a href="https://manjaro.org/"><strong>Manjaro</strong></a> Distrobution. Yes, this is when I got hooked to <strong>Linux</strong>. Now don’t get me wrong, I have since tried many DEs and WMs. But alas only <strong>KDE Plasma</strong> answered my needs.</p><p>Since then I started getting the urge to build my own <em>Distro</em> my way. With everything I wanted out the box. At first it was hard, real hard. I couldn’t find an easy way to do it. That’s until I stumbled upon a project we all know and love called <a href="https://arcolinux.info/"><strong>ArcoLinux</strong></a>. Yep, they are all about learning and becoming self-reliant. Especially that it was based on my favorite builder Distro <a href="https://archlinux.org/"><strong>ArchLinux</strong></a>.</p><h3 id="Fundraising"><a href="#Fundraising" class="headerlink" title="Fundraising"></a>Fundraising</h3><p>Now we get to the meat &amp; potatoes of this post, why ask for money when it’s <strong>F.O.S.S</strong> ? Well in case you did not know, the <em>Free</em> in <em>Free Open Source</em> does <strong>NOT</strong> mean free of charcge, instead it means Freedom to fork and do with what you want. So us Developers have all the right in the word to charge for our time. Read that again, charge for our <strong>TIME</strong>.</p><p>Many of us are just contributers, contributing much of our free time, constantly giving without asking for anything in return. Which means no R.O.I (return on time invested). Some, not many, with a <em>real</em> job can do that for a long time, with the rest of us without one, or having difficulties I.R.L, use the knowledge and creations as a sole means of survival. Especially as a single individual.</p><p>Now, I do agree with you when you say, we shouldn’t force you to pay. That’s why we use the <em>Fundraising</em> or <em>Donation</em> methods. While we do not force you, it would be great if you did. Would help both of us. You get a useful product while we are able to survive to give you more. A Win-Win scenario. So if you feel like helping me out financially, you can do so via the <strong>Donate</strong> button in the menu up top or on the side if you are on mobile, or via button below. Thanks ;)</p><div align="center"><script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#795399', 'I2I4K55AA');kofiwidget2.draw();</script></div><h3 id="XeroLinux-Distro"><a href="#XeroLinux-Distro" class="headerlink" title="XeroLinux Distro"></a>XeroLinux Distro</h3><h5 id="The-Beginniing"><a href="#The-Beginniing" class="headerlink" title="The Beginniing"></a>The Beginniing</h5><p>Once I learned enough to start working on my very own Distro that I have named <strong>XeroLinux</strong> which is made of 2 words, <strong>Xero</strong>, pronounced like (Ksero), which is <strong>Greek</strong> for “I Know” or “I Understand” and <strong>Linux</strong>, combined it means <em>“I know&#x2F;understand Linux”</em>. Clever eh ? With name in hand, the first <em>functional</em> ISO was built in April of 2021. Even though I was happy with it, it had way too much in the way, a bit too bloated both visually and functionally. It still needed a ton of work, making it lighter, and not too overwhelming.</p><p>Anyway, as I kept working on it, and showed it around, I was asked why not make it public and share it with the world ? At first I hesitated, but then I was like, why not ? I like being sorta famous lol, plus it was fun to learn something new every day. And the rest is history, as they say…</p><h5 id="The-end-Killed"><a href="#The-end-Killed" class="headerlink" title="The end ? Killed ?"></a>The end ? Killed ?</h5><p>I did not <em>kill</em> it. The code is still there, hidden for now. As to why I stopped working on it, well, it’s simply because it had become too <em>expensive</em> for me to keep working on it, with too many <em>demands</em> for me to add <em>this</em> or <em>that</em> feature, being accused of artificially limiting its growth by refusing to do so. Not to mention the stress it was causing me due to everything that was&#x2F;is going on in <strong>Lebanon</strong>. I had become the very thing thing I was running away from, a <em>slave</em> of my own creation.</p><p>But fear not, it’s not the end of the road… Yet, as I am still maintaining it behind-the-scenes BTW, from time to time, hoping to one day bring it back, given the right amount of interest&#x2F;funding. So until then, I am working on the <a href="https://github.com/xerolinux/xlapit-cli"><strong>XeroLinux Toolkit</strong></a> and other projects, like, for example contributing to <strong>ArchLinux</strong> my favorite distro where I can, learning as I go. Also I am doing my best to help <strong>KDE Plasma</strong> fix issues as I find them, talking to the various devs.</p><p>If you really want to see it make a triumphant return, there’s an open-ended <a href="https://ko-fi.com/Post/Some-Great-News-Coming-L4L8XLJBN"><strong>Fundraiser</strong></a> that’ll help me make it happen. It’s all up to you, do it only if you really feel I was&#x2F;am doing a good job with it. Just keep in mind it will not be the same, some changes will be made. More on that as we get closer to the goal ;)</p><h3 id="Hate-in-F-O-S-S"><a href="#Hate-in-F-O-S-S" class="headerlink" title="Hate in F.O.S.S"></a>Hate in F.O.S.S</h3><p>Now let’s address the <em>other</em> elephant in the room, the hate in the <strong>F.O.S.S</strong> community. I see a lot of Devs out there, including myself receiving hate, for that reason. Simply because of the misinterpretation of the word <em>Free</em> in <em>Free Open Source</em>. That should stop. We need a more collaborative community. There are tons of friendly ones out there, but equally there are plenty who build projects for the sake of showing off how much they <em>despise</em> others, the ones we call <em>Protest Distros</em>. Now am not going to name any names here, but the longer this goes on, the slower <strong>Linux</strong> will grow.</p><p>So if you love <strong>Linux</strong> as much as you say you do, please help your favorite projects grow in any way shape or form, either <em>Donating</em> for financial support if you can and are not a developer, or by simply <em>Reporting Issues</em> upstream helping them get better. Complaining for the sake of it, or hating will go nowhere.</p><p>Anyways, thanks for reading this. If you want to discuss the matter, you can <em>Toot</em> me on <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a> or by joining me on my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a>.</p><p>See ya there ;)</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Fundraising/">Fundraising</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/project-fundraising-explained/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>User GPU Prompt</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/user-gpu-prompt/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/user-gpu-prompt/</guid>
+      <pubDate>Tue, 28 May 2024 08:41:48 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;Information…&quot;&gt;&lt;a href=&quot;#Information…&quot; class=&quot;headerlink&quot; title=&quot;Information…&quot;&gt;&lt;/a&gt;Information…&lt;/h3&gt;&lt;p&gt;As you know by now, I have been working on my &lt;strong&gt;ArchLinux&lt;/strong&gt; Post-Install toolkit found &lt;a href=&quot;https://github.com/xerolinux/xl</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Information…"><a href="#Information…" class="headerlink" title="Information…"></a>Information…</h3><p>As you know by now, I have been working on my <strong>ArchLinux</strong> Post-Install toolkit found <a href="https://github.com/xerolinux/xlapit-cli"><strong>here</strong></a>. I now added a feature where it will prompt you about your <strong>GPU</strong> setup where you are expected to know that information answering correctly.</p><div align="center"><p><img src="https://i.imgur.com/JuWceYE.png" alt="XLAPiT"></p></div><h3 id="Maybe-Not"><a href="#Maybe-Not" class="headerlink" title="Maybe Not ?"></a>Maybe Not ?</h3><p>It was brought to my attention, however, that I should not expect too much. Thus I am coming to you with this question. How should I go by showing user the releveant information about their GPU setup ? Should I use <code>inxi -G</code> or use the <code>lspci | grep GPU VendorID</code> ?</p><p>To make things easier to read, I am inclined to use the former. What do you think ? Your input is highly appreciated. So let me know either on my <a href="https://discord.gg/5sqxTSuKZu"><strong>Discord Server</strong></a> or <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a>. Thanks.</p><h3 id="Toolkit-Growth"><a href="#Toolkit-Growth" class="headerlink" title="Toolkit Growth"></a>Toolkit Growth</h3><p>Also if you any ideas as to what else can be included in said toolkit, please share. Would help make it the defacto <strong>Post-Install</strong> tool to use for anyone considering the jump to <strong>ArchLinux</strong>…</p><p>Thanks for reading and sharing..</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Scripting/">Scripting</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Bash/">Bash</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/user-gpu-prompt/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello Linux Peeps</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/hello-linux-Peeps/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/hello-linux-Peeps/</guid>
+      <pubDate>Sat, 25 May 2024 15:49:36 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;Welcome to my bolg ! This is where I will be posting my thoughts and ideas for future projects that will eventually be put under the &lt;a href=&quot;https://xerolinux.xyz/&quot;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; umbrella. This is just a welcome post. Nothing to </description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>Welcome to my bolg ! This is where I will be posting my thoughts and ideas for future projects that will eventually be put under the <a href="https://xerolinux.xyz/"><strong>XeroLinux</strong></a> umbrella. This is just a welcome post. Nothing to see here. Just keep an eye out for future ones of which there will be <em>many</em>.</p><p>I will be sharing every single post on my <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a>, so if you follow me there, you will see them. If not than what are you waiting for ? <strong>DO IT</strong> lol. Anyway, I hope you like this new approach :D</p><div align="center"><p><img src="https://i.imgur.com/JuWceYE.png" alt="XLAPiT"></p></div><p>I really hope you like what am doing here. It’s all in the spirit of sharing. I love <strong>Linux</strong> and everything it brings with it, the freedom, the community (when it’s positive). So let’s do this…</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/XeroLinux/">XeroLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Hello/">Hello</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/hello-linux-Peeps/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Share Your Ideas</title>
+      <link>https://blogx.xerolinux.xyz/2024/05/share-your-ideas/</link>
+      <guid>https://blogx.xerolinux.xyz/2024/05/share-your-ideas/</guid>
+      <pubDate>Sat, 25 May 2024 14:47:27 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;I-am-out-of-ideas…&quot;&gt;&lt;a href=&quot;#I-am-out-of-ideas…&quot; class=&quot;headerlink&quot; title=&quot;I am out of ideas…&quot;&gt;&lt;/a&gt;I am out of ideas…&lt;/h3&gt;&lt;p&gt;As title says, I am fresh out of ideas for the moment. I need to “Borrow” your brains for a bit lol.. Maybe a tool&amp;#</description>
+          
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="I-am-out-of-ideas…"><a href="#I-am-out-of-ideas…" class="headerlink" title="I am out of ideas…"></a>I am out of ideas…</h3><p>As title says, I am fresh out of ideas for the moment. I need to “Borrow” your brains for a bit lol.. Maybe a tool&#x2F;toolkit in GUI or CLI form, that might be useful. Of course we are talking <strong>ArchLinux</strong> here. I currently know <strong>Bash</strong> and a bit of <strong>YAD</strong> (Bash GUI). I do have one idea though…</p><h3 id="Xero’s-ArchKDE-Installer"><a href="#Xero’s-ArchKDE-Installer" class="headerlink" title="Xero’s ArchKDE Installer"></a>Xero’s ArchKDE Installer</h3><p>it has been boiling in my brain for a while now, a fork of the <a href="https://github.com/archlinux/archinstall/"><strong>ArchInstall</strong></a> script that only has the <a href="https://kde.org/"><strong>KDE Plasma</strong></a> profile and would instead offer the 4 methods I have in my <a href="https://github.com/xerolinux/xero-plasma"><strong>PlasmaInstall</strong></a> script, have the <strong>multilib</strong> repo enabled by default and ability to set parallel downloads not hidden under <code>--advanced</code> flag, among other tweaks.</p><div align="center"><p><img src="https://i.imgur.com/0lijFii.png" alt="XLAPiT"></p></div><p>If you can help me with that I would forever be thankful, simply coz I do not know <strong>Python</strong> yet, still trying to wrap my head around <strong>Bash</strong>. What do you think ? Please do let me know via <a href="https://fosstodon.org/@XeroLinux"><strong>Fosstodon</strong></a>, thanks ;)</p>]]></content:encoded>
+      
+      
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/Linux/">Linux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/XeroLinux/">XeroLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchLinux/">ArchLinux</category>
+      
+      <category domain="https://blogx.xerolinux.xyz/tags/ArchInstall/">ArchInstall</category>
+      
+      
+      <comments>https://blogx.xerolinux.xyz/2024/05/share-your-ideas/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
