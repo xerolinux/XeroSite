@@ -1,6 +1,6 @@
 ---
 title: Developing is Fun But
-date: 2024-07-02 11:11:45
+date: 2024-07-29 13:45:45
 tags:
   - Linux
   - Development
