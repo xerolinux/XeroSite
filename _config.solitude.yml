@@ -221,10 +221,10 @@ post:
       licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License link
   meta: # Article meta information
     date: false # Release date
-    updated: false # Update date
+    updated: true # Update date
     locate: false # Location
     wordcount: false # Number of words
-    readtime: false # uv
+    readtime: true # uv
     pv: true # pv
     comment: false # Comment count
   award: # Reward
