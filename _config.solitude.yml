@@ -151,7 +151,7 @@ aside:
   toc:
     post: true
     page: false
-    vague: true
+    vague: false
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -225,7 +225,7 @@ post:
     locate: false # Location
     wordcount: false # Number of words
     readtime: false # uv
-    pv: false # pv
+    pv: true # pv
     comment: false # Comment count
   award: # Reward
     enable: false
