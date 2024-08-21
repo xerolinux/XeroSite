@@ -15,8 +15,8 @@ site:
   name:
     class: text # text / i_class / img
     custom: Home # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  siteIcon: https://i.imgur.com/sU2LYim.png # Site icon
-  icon: https://i.imgur.com/sU2LYim.png
+  siteIcon: https://i.imgur.com/b5IjYgM.png # Site icon
+  icon: https://i.imgur.com/b5IjYgM.png
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -25,8 +25,10 @@ nav:
   #  project: # name
   #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
   menu:
-     XeroLinux: https://xerolinux.xyz
-     Donate: https://ko-fi.com/xerolinux
+     Projects: /projects/
+     The Gear: /gear/
+     Support: /support/
+     News: /news/
      RSS Feed: /atom.xml
     # Article: # name
     #   Archives: /archives/ || fas fa-folder-closed # item name: link || icon
@@ -82,9 +84,9 @@ hometop:
     # Curation: /tags/Curation/ || fas fa-star || linear-gradient(to right, #18e7ae, #1eebeb)
   recommendList:
     sup: Top
-    title: DarkXero's Blog
-    url: https://blogx.xerolinux.xyz
-    img: https://w.wallhaven.cc/full/rd/wallhaven-rd2zvm.png
+    title: XeroLinux H.Q
+    url: https://xerolinux.xyz
+    img: https://i.imgur.com/Ts6YjgZ.jpeg
     color: "none"
 carousel: false
 # --------------------------- end ---------------------------
@@ -110,13 +112,13 @@ aside:
     author:
       img: https://i.imgur.com/pFCRKr9.gif # url (avatar)
       sticker: # url (sticker), 24x24
-    url: https://techxero.com/#about # Click name to jump to address
+    url: /about/ # Click name to jump to address
     background:  # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     content: Here is my personal blog # Introduction (Invalid if style is 1)
     content2: The personal feelings & thoughts of a Linux Dev/Maintainer. # Introduction (Invalid if style is 1)
     sayhello: # Style 2 is invalid
-      morning: ✨ Good morning. It's a new day 
-      noon: It's time for a midday break 
+      morning: ✨ Good morning. It's a new day
+      noon: It's time for a midday break
       afternoon: Tea time. 🍵
       night: early bedtime
       goodnight: Good night 😴
@@ -215,7 +217,7 @@ post:
     copyright: # Copyright
       enable: true
       author:
-        url: https://techxero.com/#about # Author link
+        url: /about/ # Author link
         img: # Default site_icon is not filled in
       license: CC BY-NC-SA 4.0 # License
       licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License link
@@ -261,7 +263,7 @@ post:
     button: # Button
       enable: true
       name: Learn more
-      url: https://techxero.com/#about
+      url: /about/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -301,9 +303,11 @@ footer:
     left:
       Github: https://github.com/xerolinux || fa-brands fa-github # Name: link || icon
       Discord: https://discord.gg/5sqxTSuKZu || fa-brands fa-discord
+      BlogX: https://blogx.xerolinux.xyz || fa-solid fa-globe
     right:
       Mastodon: https://fosstodon.org/@XeroLinux || fa-brands fa-mastodon
       YouTube: https://youtube.com/@XeroLinux || fa-brands fa-youtube
+      Ko-Fi: https://ko-fi.com/XeroLinux || fa-solid fa-circle-dollar-to-slot
   group:
     # Navgation:
     #   Archives: /archives/
@@ -366,8 +370,8 @@ envelope:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# This part of the content uses metingjs, 
-# can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region, 
+# This part of the content uses metingjs,
+# can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
 # the subsequent consideration of the use of JSON files to store music information and customize the implementation of the third-party API does not depend on the.
 # Music Page
 meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
@@ -387,7 +391,7 @@ capsule:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# Quick Menu 
+# Quick Menu
 # Open with shift + ?
 keyboard:
   enable: false
@@ -477,7 +481,7 @@ wordcount: false
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 busuanzi_use: 0 # 0: original / 1: qingjiao (other: other custom busuanzi platform)
 # --------------------------- end ---------------------------
 
@@ -529,7 +533,7 @@ comment:
   lazyload: false # Lazy load
   count: false # Whether to use the comment count
   pv: false # Whether to use the page view count
-  avatar: https://cravatar.cn # Avatar
+  avatar: https://gravatar.com/avatar # Avatar
   hot_tip: # Hot comment tips
     enable: false
     count: 3 # Display when more than 3 comments
@@ -552,8 +556,8 @@ valine:
   style: true # Use custom styles when turned on
   option: # options list
 artalk:
-  server: # server url 
-  site: # site name 
+  server: # server url
+  site: # site name
   option: # options
 giscus:
   repo: # GitHub repository name
@@ -614,8 +618,8 @@ extends:
 # --------------------------- start ---------------------------
 # PWA
 pwa:
-  enable: false
-  manifest: /manifest.json # manifest.json 
+  enable: true
+  manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
   mask_icon: /img/pwa/favicon.png # Mask icon
   apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
@@ -700,7 +704,7 @@ expire:
 background:
   enable: true
   opacity: .275
-  dark: https://i.imgur.com/Q6pbKYE.jpeg
+  dark: https://i.imgur.com/Ts6YjgZ.jpeg
   light: https://i.pinimg.com/originals/93/57/38/935738ed9657b296c2ef0ebd2151eb66.jpg
 # --------------------------- end ---------------------------
 
@@ -712,22 +716,5 @@ CDN:
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
   # Directly override the default CDN link (highest priority)
   option:
-    busuanzi_qj_js: https://pv.lemonso.com/js
-    # algolia_search:
-    # instantsearch:
-    # pjax:
-    # twikoo:
-    # waline_js:
-    # waline_css:
-    # katex:
-    # katex_copytex:
-    # lazyload:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
-    # pace_js:
-    # swiper_css:
-    # swiper_js:
-    # busuanzi_js:
-    # snackbar_js:
+    busuanzi_js: https://vercount.one/js
 # --------------------------- end ---------------------------
