@@ -5,18 +5,18 @@ site_url: https://blog.xerolinux.xyz
 nav:
    - Home: index.md
    - Documentation:
-      - MKDocs Install: documentation/mkdocs-install.md
+      - MKDocs Install: docs/mkdocs-install.md
       # - Setup:
       # - Using MkDocs:
       # - Qtile:
       # - Geany:
    - Fundraising:
-      - FOSS Fundraising: fundraising/foss-fundraising.md
-      - System Upgrade Fund : fundraising/new-gpu-cpu-fund.md
+      - FOSS Fundraising: fund/foss-fundraising.md
+      - System Upgrade Fund : fund/new-gpu-cpu-fund.md
    - Thoughts:
-      - Be Thankful: personal/be-thankful.md
-      - Developing Is Fun: personal/developing-is-fun-but.md
-      - FOSS Struggles: personal/real-foss-struggles.md
+      - Be Thankful: priv/be-thankful.md
+      - Developing Is Fun: priv/developing-is-fun-but.md
+      - FOSS Struggles: priv/real-foss-struggles.md
       # - Kernel: personal/
       # - Rolling Release: personal/
       # - Whoogle: personal/
@@ -24,7 +24,7 @@ nav:
       - My Channel: projects/what-s-up-with-my-channel.md
       - Reviving XeroLinux: projects/why-is-distro-back.md
    - Technology:
-      - Docker Containers: technology/docker-containers-a-love-story.md
+      - Docker Containers: tech/docker-containers-a-love-story.md
    # - About: about.md
    # - Contact: contact.md
 

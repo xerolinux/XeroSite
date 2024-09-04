@@ -6,32 +6,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/documentation/mkdocs-install/</loc>
+         <loc>https://blog.xerolinux.xyz/docs/mkdocs-install/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/fundraising/foss-fundraising/</loc>
+         <loc>https://blog.xerolinux.xyz/fund/foss-fundraising/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/fundraising/new-gpu-cpu-fund/</loc>
+         <loc>https://blog.xerolinux.xyz/fund/new-gpu-cpu-fund/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/personal/be-thankful/</loc>
+         <loc>https://blog.xerolinux.xyz/priv/be-thankful/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/personal/developing-is-fun-but/</loc>
+         <loc>https://blog.xerolinux.xyz/priv/developing-is-fun-but/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/personal/real-foss-struggles/</loc>
+         <loc>https://blog.xerolinux.xyz/priv/real-foss-struggles/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -46,7 +46,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/technology/docker-containers-a-love-story/</loc>
+         <loc>https://blog.xerolinux.xyz/tech/docker-containers-a-love-story/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
