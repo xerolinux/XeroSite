@@ -50,6 +50,7 @@ plugins:
   - autorefs
   - social
   - glightbox
+  - mkdocs-video
   - section-index
   # - rss:
   #     categories:
