@@ -14,7 +14,7 @@ This for my own use. Use it if you want to. Just documenting the installation of
 
 We will need to install it with some extras. The 2 main packages exist on the **Arch** repos. The rest are on the **AUR**, so to grab everything in one go, I will be using **Paru**. Compiling might take a while, so sit back wile it finishes.
 
-```Bash
+```
 paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material
 ```
 
