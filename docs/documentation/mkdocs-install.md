@@ -57,6 +57,68 @@ plugins:
   - glightbox
 ```
 
+There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :
+
+```YAML
+features:
+   - navigation.top
+   - navigation.footer
+   - navigation.indexes
+   - content.code.copy
+   - search.suggest
+   - search.highlight
+   - search.share
+   - navigation.expand
+
+markdown_extensions:
+
+  # Python Markdown
+   - abbr
+   - admonition
+   - attr_list
+   - def_list
+   - footnotes
+   - md_in_html
+   - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+   - pymdownx.arithmatex:
+       generic: true
+   - pymdownx.betterem:
+       smart_enable: all
+   - pymdownx.caret
+   - pymdownx.details
+   - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+   - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+   - pymdownx.inlinehilite
+   - pymdownx.keys
+   - pymdownx.mark
+   - pymdownx.smartsymbols
+   - pymdownx.superfences
+   - pymdownx.tabbed:
+       alternate_style: true
+   - pymdownx.tasklist:
+       custom_checkbox: true
+   - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/darkxero-dev
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/XeroLinuxOfficial
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/xerolinuxop
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@xerolinux
+```
+
 That's it for now. I will be updating this post as I learn more. Still need to figure out why the `rss` plugin keeps failing among many other things. I am just starting with this...
 
 
