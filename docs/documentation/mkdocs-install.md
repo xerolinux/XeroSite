@@ -57,4 +57,6 @@ plugins:
   - glightbox
 ```
 
+That's it for now. I will be updating this post as I learn more. Still need to figure out why the `rss` plugin keeps failing among many other things. I am just starting with this...
+
 
