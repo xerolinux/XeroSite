@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://blog.xerolinux.xyz/be-thankful/</loc>
-         <lastmod>2024-09-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://blog.xerolinux.xyz/documentation/mkdocs-install/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
@@ -22,6 +17,11 @@
     </url>
     <url>
          <loc>https://blog.xerolinux.xyz/fundraising/new-gpu-cpu-fund/</loc>
+         <lastmod>2024-09-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://blog.xerolinux.xyz/personal/be-thankful/</loc>
          <lastmod>2024-09-04</lastmod>
          <changefreq>daily</changefreq>
     </url>

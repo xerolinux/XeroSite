@@ -2,6 +2,32 @@ site_name: DarkXero's Journal
 site_description: Personal Thoughts, Documentation, and more...
 site_url: https://blog.xerolinux.xyz
 
+nav:
+   - Home: index.md
+   - Documentation:
+      - MKDocs Install: documentation/mkdocs-install.md
+      # - Setup:
+      # - Using MkDocs:
+      # - Qtile:
+      # - Geany:
+   - Fundraising:
+      - FOSS Fundraising: fundraising/foss-fundraising.md
+      - System Upgrade Fund : fundraising/new-gpu-cpu-fund.md
+   - Thoughts:
+      - Be Thankful: personal/be-thankful.md
+      - Developing Is Fun: personal/developing-is-fun-but.md
+      - FOSS Struggles: personal/real-foss-struggles.md
+      # - Kernel: personal/
+      # - Rolling Release: personal/
+      # - Whoogle: personal/
+   - Projects:
+      - My Channel: projects/what-s-up-with-my-channel.md
+      - Reviving XeroLinux: projects/why-is-distro-back.md
+   - Technology:
+      - Docker Containers: technology/docker-containers-a-love-story.md
+   # - About: about.md
+   # - Contact: contact.md
+
 theme:
   name: material
   logo: assets/Tux.gif
@@ -9,13 +35,22 @@ theme:
   palette:
     scheme: slate
     primary: deep purple
+  features:
+   - navigation.top
+   - navigation.footer
+   - navigation.indexes
+   - content.code.copy
+   - search.suggest
+   - search.highlight
+   - search.share
+   - navigation.expand
 
 plugins:
   - search
   - autorefs
   - social
   - glightbox
-  # - section-index
+  - section-index
   # - rss:
   #     categories:
   #       - tags
@@ -44,16 +79,6 @@ plugins:
   #       utm_campaign: "feed-syndication"
   #     use_git: true
   #     use_material_social_cards: true
-
-features:
-   - navigation.top
-   - navigation.footer
-   - navigation.indexes
-   - content.code.copy
-   - search.suggest
-   - search.highlight
-   - search.share
-   - navigation.expand
 
 markdown_extensions:
 

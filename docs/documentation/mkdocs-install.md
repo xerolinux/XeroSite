@@ -32,9 +32,20 @@ site_name: Sitename
 
 theme:
   name: material
+  logo: assets/Tux.gif
+  favicon: assets/favicon.ico
   palette:
     scheme: slate
     primary: deep purple
+  features:
+   - navigation.top
+   - navigation.footer
+   - navigation.indexes
+   - content.code.copy
+   - search.suggest
+   - search.highlight
+   - search.share
+   - navigation.expand
 ```
 
 This will make it use the **Slate Material** Theme with **Deep Purple** accents. To know more about the theme check the [**MKDocs Material Wiki**](https://squidfunk.github.io/mkdocs-material/getting-started/){:target="_blank"}. That's it go from there.
@@ -60,16 +71,6 @@ plugins:
 There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :
 
 ```YAML
-features:
-   - navigation.top
-   - navigation.footer
-   - navigation.indexes
-   - content.code.copy
-   - search.suggest
-   - search.highlight
-   - search.share
-   - navigation.expand
-
 markdown_extensions:
 
   # Python Markdown
