@@ -22,7 +22,7 @@ So, in the next few days or weeks, I will be killing ads on all my videos, makin
 
 ### What's the Catch ?
 
-This comes with a caveat, since I won't be making any money there, due to the mentioned issue, I will instead have not choice but to rely on the [**XeroLinux Ko-Fi**](https://ko-fi.com/XeroLinux) fundraiser for the forseeable future.
+This comes with a caveat, since I won't be making any money there, due to the mentioned issue, I will instead have not choice but to rely on the [**XeroLinux Ko-Fi**](https://ko-fi.com/XeroLinux){:target="_blank"} fundraiser for the forseeable future.
 
 Why there ? Err, coz that's the only service that has no issues with my bank. Simple as that. I hope you understand my situation here. As I mentioned on a previous post, you are not obligated to *donate*, however would be highly appreciated if you do.
 
@@ -30,8 +30,8 @@ Why there ? Err, coz that's the only service that has no issues with my bank. Si
 
 When it comes to plans for the channel from this point on, simple, I will be using it as a tool. What I mean by that is, I will be publishing videos only when I feel the situation needs it, for example if I feel a guide I want to put out cannot be done in writing. Or when I need to show off a tool/script am working on. You get the idea.
 
-As to what day videos will be published, I will do it on a **Wednesday** whenever there is one. Also, do not worry about monthly Live Streams, they are here to stay. And when I get the chance, maybe bring back the [**XeroTalk**](https://www.youtube.com/playlist?list=PLeTlEEB2MZX6iUQWtkOCCcAm-edlLVCf4) seriles, where I sit down with various personalities in the **Linux** sphere and talk about various topics. Who knows.
+As to what day videos will be published, I will do it on a **Wednesday** whenever there is one. Also, do not worry about monthly Live Streams, they are here to stay. And when I get the chance, maybe bring back the [**XeroTalk**](https://www.youtube.com/playlist?list=PLeTlEEB2MZX6iUQWtkOCCcAm-edlLVCf4){:target="_blank"} seriles, where I sit down with various personalities in the **Linux** sphere and talk about various topics. Who knows.
 
 Bottom line is, my channel is nothing but a tool, not a way to monetize anymore. I hope I don't lose you as a subscriber because of this. However, it's fine if you feel the need to leave, no harm no foul.
 
-Anyways, thanks again for reading this. If you want to discuss the matter, you can *Toot* me on [**Fosstodon**](https://fosstodon.org/@XeroLinux) or by joining me on my [**Discord Server**](https://discord.gg/5sqxTSuKZu).
+Anyways, thanks again for reading this. If you want to discuss the matter, you can *Toot* me on [**Fosstodon**](https://fosstodon.org/@XeroLinux){:target="_blank"} or by joining me on my [**Discord Server**](https://discord.gg/5sqxTSuKZu){:target="_blank"}.

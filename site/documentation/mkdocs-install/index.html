@@ -127,7 +127,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="DarkXero&#39;s Journal" class="md-header__button md-logo" aria-label="DarkXero's Journal" data-md-component="logo">
       
-  <img src="../../assets/Avvy.gif" alt="logo">
+  <img src="../../assets/Tux.gif" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -221,7 +221,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="DarkXero&#39;s Journal" class="md-nav__button md-logo" aria-label="DarkXero's Journal" data-md-component="logo">
       
-  <img src="../../assets/Avvy.gif" alt="logo">
+  <img src="../../assets/Tux.gif" alt="logo">
 
     </a>
     DarkXero's Journal
@@ -781,10 +781,10 @@
   <h1>MKDocs Install</h1>
 
 <h3 id="whats-this">What's This?<a class="headerlink" href="#whats-this" title="Permanent link">&para;</a></h3>
-<p>This for my own use. Use it if you want to. Just documenting the installation of <a href="https://www.mkdocs.org"><strong>MKDocs</strong></a> the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it's all there on their site. Also this for <strong>ArchLinux</strong> if you don't use that distro, well, their site shows how to install for your distro.</p>
+<p>This for my own use. Use it if you want to. Just documenting the installation of <a href="https://www.mkdocs.org" target="_blank"><strong>MKDocs</strong></a> the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it's all there on their site. Also this for <strong>ArchLinux</strong> if you don't use that distro, well, their site shows how to install for your distro.</p>
 <h3 id="installing-mkdocs">Installing MKDocs<a class="headerlink" href="#installing-mkdocs" title="Permanent link">&para;</a></h3>
 <p>We will need to install it with some extras. The 2 main packages exist on the <strong>Arch</strong> repos. The rest are on the <strong>AUR</strong>, so to grab everything in one go, I will be using <strong>Paru</strong>. Compiling might take a while, so sit back wile it finishes.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>paru<span class="w"> </span>-S<span class="w"> </span>--noconfirm<span class="w"> </span>mkdocs<span class="w"> </span>mkdocs-get-deps<span class="w"> </span>mkdocs-material
 </span></code></pre></div>
 <p>Donce that's done we need to create the site. There's a command for that.</p>
 <div class="language-Bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mkdocs<span class="w"> </span>new<span class="w"> </span>my-project
@@ -799,14 +799,17 @@
 </span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slate</span>
 </span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">primary</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deep purple</span>
 </span></code></pre></div>
-<p>This will make it use the <strong>Slate Material</strong> Theme with <strong>Deep Purple</strong> accents. To know more about the theme check the <a href="https://squidfunk.github.io/mkdocs-material/getting-started/"><strong>MKDocs Material Wiki</strong></a>. That's it go from there.</p>
+<p>This will make it use the <strong>Slate Material</strong> Theme with <strong>Deep Purple</strong> accents. To know more about the theme check the <a href="https://squidfunk.github.io/mkdocs-material/getting-started/" target="_blank"><strong>MKDocs Material Wiki</strong></a>. That's it go from there.</p>
 <h3 id="plugins-extra-stuff">Plugins &amp; Extra Stuff<a class="headerlink" href="#plugins-extra-stuff" title="Permanent link">&para;</a></h3>
 <p>I have found a few that I liked on the <strong>AUR</strong>, let's install them via :</p>
-<div class="language-Bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>paru<span class="w"> </span>-S<span class="w"> </span>--noconfirm<span class="w"> </span>mkdocs-autorefs<span class="w"> </span>mkdocs-rss-plugin<span class="w"> </span>mkdocs-htmlproofer-plugin<span class="w"> </span>mkdocs-glightbox<span class="w"> </span>mkdocs-backlinks-plugin<span class="w"> </span>mkdocs-static-i18n-plugin<span class="w"> </span>mkdocs-redirects<span class="w"> </span>mkdocs-ezlinks-plugin
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>paru<span class="w"> </span>-S<span class="w"> </span>--noconfirm<span class="w"> </span>mkdocs-autorefs<span class="w"> </span>mkdocs-rss-plugin<span class="w"> </span>mkdocs-section-index<span class="w"> </span>mkdocs-glightbox<span class="w"> </span>mkdocs-backlinks-plugin<span class="w"> </span>mkdocs-redirects<span class="w"> </span>mkdocs-ezlinks-plugin
 </span></code></pre></div>
 <p>To activate them we edit the same <code>mkdocs.yml</code> file as before like so :</p>
 <div class="language-YAML highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">plugins</span><span class="p">:</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">search</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">autorefs</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">social</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">glightbox</span>
 </span></code></pre></div>
 
 

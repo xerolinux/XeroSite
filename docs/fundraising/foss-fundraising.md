@@ -10,9 +10,9 @@ cover: https://i.imgur.com/fyFGPe8.jpeg
 
 Before I begin, I would like to clarify that, when I say **Linux** in this context I mean **Desktop Linux**.
 
-When I started this whole **Linux** endeavor, I did not have money in mind. It all started back in 2020, when I fell in love with [**KDE Plasma**](https://kde.org) while using the now infamous [**Manjaro**](https://manjaro.org) Distrobution. Yes, this is when I got hooked to **Linux**. Now don't get me wrong, I have since tried many DEs and WMs. But alas only **KDE Plasma** answered my needs.
+When I started this whole **Linux** endeavor, I did not have money in mind. It all started back in 2020, when I fell in love with [**KDE Plasma**](https://kde.org){:target="_blank"} while using the now infamous [**Manjaro**]{:target="_blank"} Distrobution. Yes, this is when I got hooked to **Linux**. Now don't get me wrong, I have since tried many DEs and WMs. But alas only **KDE Plasma** answered my needs.
 
-Since then I started getting the urge to build my own *Distro* my way. With everything I wanted out the box. At first it was hard, real hard. I couldn't find an easy way to do it. That's until I stumbled upon a project we all know and love called [**ArcoLinux**](https://arcolinux.info). Yep, they are all about learning and becoming self-reliant. Especially that it was based on my favorite builder Distro [**ArchLinux**](https://archlinux.org).
+Since then I started getting the urge to build my own *Distro* my way. With everything I wanted out the box. At first it was hard, real hard. I couldn't find an easy way to do it. That's until I stumbled upon a project we all know and love called [**ArcoLinux**](https://arcolinux.info){:target="_blank"}. Yep, they are all about learning and becoming self-reliant. Especially that it was based on my favorite builder Distro [**ArchLinux**](https://archlinux.org){:target="_blank"}.
 
 ### Fundraising
 
@@ -28,6 +28,6 @@ Now let's address the *other* elephant in the room, the hate in the **FOSS** com
 
 So if you love **Linux** as much as you say you do, please help your favorite projects grow in any way shape or form, either *Donating* for financial support if you can and are not a developer, or by simply *Reporting Issues* upstream helping them get better. Complaining for the sake of it, or hating will go nowhere.
 
-Anyways, thanks for reading this. If you want to discuss the matter, you can *Toot* me on [**Fosstodon**](https://fosstodon.org/@XeroLinux) or by joining me on my [**Discord Server**](https://discord.gg/5sqxTSuKZu).
+Anyways, thanks for reading this. If you want to discuss the matter, you can *Toot* me on [**Fosstodon**](https://fosstodon.org/@XeroLinux){:target="_blank"} or by joining me on my [**Discord Server**](https://discord.gg/5sqxTSuKZu){:target="_blank"}.
 
 See ya there
