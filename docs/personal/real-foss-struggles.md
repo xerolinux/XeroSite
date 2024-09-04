@@ -52,4 +52,4 @@ I want to extend my heartfelt thanks to those of you who continue to support my 
 
 For now, I need to prioritize my well-being and financial stability. Once those are in place, I’ll be back with future projects. Right now, I’m dealing with depression, anxiety, and panic attacks due to my job situation and need time to recover.
 
-Thank you for understanding and supporting me through this journey. For more information on how you can support me financially head on over to [**This Link**](https://xerolinux.xyz/support/).
+Thank you for understanding and supporting me through this journey.
