@@ -1,6 +1,6 @@
 site_name: DarkXero's Journal
 site_description: Personal Thoughts, Documentation, and more...
-site_url: https://blog.xerolinux.xyz
+site_url: https://bytes.xerolinux.xyz
 
 nav:
    - Home: index.md
