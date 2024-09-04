@@ -1,0 +1,7 @@
+site_name: DarkXero's Journal
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
