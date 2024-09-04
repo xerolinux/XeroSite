@@ -16,6 +16,8 @@ Writing this post wasn't easy; it took a lot of reflection and courage to open u
 
 > P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of **FOSS** and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.
 
+![type:video](https://www.youtube.com/embed/BpmAFwZy0Gg)
+
 ### My Frustration
 
 Recently, I’ve been investing a lot of time and effort into my projects and contributing to **FOSS** (Free and Open Source Software) wherever possible. While I find this work rewarding, it’s also been increasingly frustrating. Why? Let me explain.
