@@ -6,7 +6,7 @@ nav:
    - Home: index.md
    - Documentation:
       - MKDocs Install: docs/mkdocs-install.md
-      # - Setup:
+      - ArchISO Builder: docs/build-archiso.md
       # - Using MkDocs:
       # - Qtile:
       # - Geany:
