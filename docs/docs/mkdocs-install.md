@@ -4,7 +4,6 @@ tags:
   - Linux
   - MKDocs
   - Blogging
-<!--cover: https://i.imgur.com/45QL4xk.jpeg-->
 ---
 ### What's This?
 
@@ -15,7 +14,7 @@ This for my own use. Use it if you want to. Just documenting the installation of
 We will need to install it with some extras. The 2 main packages exist on the **Arch** repos. The rest are on the **AUR**, so to grab everything in one go, I will be using **Paru**. Compiling might take a while, so sit back wile it finishes.
 
 ```Bash
-paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material
+paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx
 ```
 
 Donce that's done we need to create the site. There's a command for that.
@@ -55,16 +54,43 @@ This will make it use the **Slate Material** Theme with **Deep Purple** accents.
 I have found a few that I liked on the **AUR**, let's install them via :
 
 ```Bash
-paru -S --noconfirm mkdocs-autorefs mkdocs-rss-plugin mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin
+paru -S --noconfirm mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin
+```
+
+For RSS feed and video plugins we will have to do it manually. I think this method is being discontinued but that's the only way it worked for me, so will use it lol...
+
+- MKDocs-Video
+
+```Bash
+wget https://files.pythonhosted.org/packages/cf/16/45213649b6756744f36f31014fc8673df1d7c998bb9a801c2d769fff4114/mkdocs-video-1.5.0.tar.gz
+```
+
+Extract & `cd` into it then run the following command :
+
+```Bash
+sudo python setup.py install
+```
+
+- MKDocs-RSS
+
+```Bash
+git clone https://github.com/Guts/mkdocs-rss-plugin.git
+```
+
+Now we `cd` into it then run the following command :
+
+```Bash
+sudo python setup.py install
 ```
 
 To activate them we edit the same `mkdocs.yml` file as before like so :
 
 ```YAML
 plugins:
+  - rss
+  - social
   - search
   - autorefs
-  - social
   - glightbox
 ```
 
@@ -120,6 +146,6 @@ extra:
       link: https://fosstodon.org/@xerolinux
 ```
 
-That's it for now. I will be updating this post as I learn more. Still need to figure out why the `rss` plugin keeps failing among many other things. I am just starting with this...
+That's it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to [**@JustAGuyLinux**](https://github.com/drewgrif){:target="_blank"} for helping out a little hehe.
 
 
