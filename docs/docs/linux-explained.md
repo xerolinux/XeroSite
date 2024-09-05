@@ -5,11 +5,11 @@ tags:
   - Kernel
   - Packages
 ---
-I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](REALERvolker1){:target="_blank"} recently posted on **Discord**. I recommend you read it if you are new and want to understand the world you will be diving into.
+I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](REALERvolker1){:target="_blank"} recently posted on **Discord**.
 
 !!! tip
 
-    Please do not take it a complete walk-through, We did not even go through the various *Desktop Environments* or even *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
+    Please do not take this as a complete walk-through, We did not even go through the various *Desktop Environments* or even *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
 
 ### What is Linux ?
 
