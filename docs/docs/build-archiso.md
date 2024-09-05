@@ -7,7 +7,7 @@ tags:
 ---
 ### Information
 
-This guide was written by following the **ArchWiki**. It's for my own use. The public version can be found on the official [**XeroLinux**](https://xerolinux.xyz/posts/build-archiso/){:target="_blank"}
+This guide was written by following the **ArchWiki**. It's for my own use. The public version can be found on the official [**XeroLinux**](https://xerolinux.xyz/posts/build-archiso/){:target="_blank"}. This version will always be update for myself. Sometimes need to remind myself which files to modify and whatnot hehe...
 
 <p align="center">
     <img width="500" src="https://i.imgur.com/QWqMIsr.png" alt="logo">
