@@ -2,6 +2,9 @@ site_name: DarkXero's Bytes
 site_description: Thoughts, Opinions, Documentation, and more...
 site_url: https://bytes.xerolinux.xyz
 
+# Copyright
+copyright: Copyright &copy; 2024 XeroLinux Group.
+
 theme:
   name: material
   logo: assets/Tux.gif
