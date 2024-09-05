@@ -5,7 +5,7 @@ tags:
   - Kernel
   - Packages
 ---
-I thought I'd share this explanation about **Linux** a good friend [**REALERvolker1**](REALERvolker1){:target="_blank"} and fellow Linux enthusiast recently posted on **Discord**. I recommend you read it if you are new and want to understand the world you will be diving into.
+I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](REALERvolker1){:target="_blank"} recently posted on **Discord**. I recommend you read it if you are new and want to understand the world you will be diving into.
 
 ### What is Linux ?
 
