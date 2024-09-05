@@ -41,7 +41,7 @@ Now that it's all done we can proceed to building a fresh new & updated **ArchIS
 sudo mkarchiso -v -w ~/work -o ~/out releng
 ```
 
-Finally we can delete the work directory to save space. just do `sudo sudo rm -rf work/`.
+Finally we can delete the work directory to save space. just do `sudo sudo rm -rf ~/work/`.
 
 ### Wrapping up
 
