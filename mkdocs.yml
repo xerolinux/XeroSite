@@ -63,16 +63,14 @@ plugins:
         default_timezone: Asia/Beirut
       enabled: true
       feeds_filenames:
-        json_created: feed_json_created.json
-        json_updated: feed_json_updated.json
-        rss_created: feed_rss_created.xml
-        rss_updated: feed_rss_updated.xml
+        json_created: feed.json
+        rss_created: feed.xml
       feed_ttl: 1440
       image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
       json_feed_enabled: true
-      length: 20
+      length: 150
       match_path: ".*"
-      pretty_print: false
+      pretty_print: true
       rss_feed_enabled: true
       url_parameters:
         utm_source: "docs"
@@ -132,3 +130,5 @@ extra:
       link: https://twitter.com/xerolinuxop
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@xerolinux
+    - icon: fontawesome/solid/rss
+      link: /feed.xml
