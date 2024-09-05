@@ -892,6 +892,10 @@
   <h1>Linux in a Nutshell</h1>
 
 <div><p>I thought I'd share this explanation about <strong>Linux</strong> a good friend and fellow Linux enthusiast <a href="REALERvolker1" target="_blank"><strong>REALERvolker1</strong></a> recently posted on <strong>Discord</strong>. I recommend you read it if you are new and want to understand the world you will be diving into.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Please do not take it a complete walk-through, We did not even go through the various <em>Desktop Environments</em> or even <em>Window Managers</em> that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...</p>
+</div>
 <h3 id="what-is-linux">What is Linux ?<a class="headerlink" href="#what-is-linux" title="Permanent link">¶</a></h3>
 <p>Since not everyone's super familiar with Linux, here's a quick crash course.</p>
 <p>Linux is a <a href="https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware." target="_blank"><strong>Monolithic Kernel</strong></a>, so all the drivers and whatnot are compiled into the binary. The <a href="https://www.fsf.org/about/what-is-free-software" target="_blank"><strong>Nonfree software</strong></a> is usually put in the actual source repo as binary blobs, or in the case of <strong>nVidia</strong> drivers, built using a system called <a href="https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support" target="_blank"><strong>DKMS</strong></a> and compiled into the kernel binary.</p>
@@ -908,8 +912,7 @@
 <p>If you are connecting the system to the internet, you should update at least once a week, so you don't get your entire network hacked through a known vulnerability. If you aren't connecting it to the internet, you can choose whether to update or not --it might fix a bug.</p>
 <p>As for the filesystem, <code>/etc</code> is where your Editable Text Configurations go. <code>/usr</code> is where program files go. <code>/usr/local</code> is where program files go for programs you manually installed. <code>/home</code> is where your stuff goes. <code>/dev</code> is for devices. there is no <strong>C</strong> drive or <strong>D</strong> drive, you have to mount the external drive to the place you choose, for example, <code>/mnt</code>. A <em>GUI</em> file manager mounts flash drives somewhere in <code>/run</code> usually, because it's temporary. <code>/opt</code> is where random stuff goes, and <code>/var</code> is for variable storage like system logs. <code>/tmp</code> is self-explanatory. <code>/dev/null</code> is a bottomless pit, and <code>/dev/urandom</code> is a quick and easy IO-based random number generator. In <a href="https://en.wikipedia.org/wiki/Unix" target="_blank"><strong>UNIX</strong></a>, everything is a file. This means you can see process details by reading the files in <code>/proc</code>, see system settings or driver configs in /sys, or see your bootloader in <code>/boot</code></p>
 <h3 id="wrapping-it-all-up">Wrapping it all up<a class="headerlink" href="#wrapping-it-all-up" title="Permanent link">¶</a></h3>
-<p>This here was a quick run-through explaining what <strong>GNU/Linux</strong> is written as mentioned earlier by a good friend. I did not post it on main site simply because I feel it's not as complete as I would like it to be.</p>
-<p>So please do not take it a complete walk-through, We did not even go through the various <em>Desktop Environments</em> or even <em>Window Managers</em> that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...</p></div>
+<p>This here was a quick run-through explaining what <strong>GNU/Linux</strong> is written as mentioned earlier by a good friend. I did not post it on main site simply because I feel it's not as complete as I would like it to be.</p></div>
 
 
 
@@ -988,7 +991,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 XeroLinux Group.
+      Copyright &copy; 2024 <a href="https://xerolinux.xyz" target="_blank"><strong>XeroLinux Group</strong></a>.
     </div>
   
   

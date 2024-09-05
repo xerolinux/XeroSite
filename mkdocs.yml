@@ -3,7 +3,7 @@ site_description: Thoughts, Opinions, Documentation, and more...
 site_url: https://bytes.xerolinux.xyz
 
 # Copyright
-copyright: Copyright &copy; 2024 XeroLinux Group.
+copyright: Copyright &copy; 2024 <a href="https://xerolinux.xyz" target="_blank"><strong>XeroLinux Group</strong></a>.
 
 theme:
   name: material

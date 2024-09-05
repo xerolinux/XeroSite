@@ -7,6 +7,10 @@ tags:
 ---
 I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](REALERvolker1){:target="_blank"} recently posted on **Discord**. I recommend you read it if you are new and want to understand the world you will be diving into.
 
+!!! tip
+
+    Please do not take it a complete walk-through, We did not even go through the various *Desktop Environments* or even *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
+
 ### What is Linux ?
 
 Since not everyone's super familiar with Linux, here's a quick crash course.
@@ -36,5 +40,3 @@ As for the filesystem, `/etc` is where your Editable Text Configurations go. `/u
 ### Wrapping it all up
 
 This here was a quick run-through explaining what **GNU/Linux** is written as mentioned earlier by a good friend. I did not post it on main site simply because I feel it's not as complete as I would like it to be.
-
-So please do not take it a complete walk-through, We did not even go through the various *Desktop Environments* or even *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
