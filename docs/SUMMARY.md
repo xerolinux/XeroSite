@@ -1,0 +1,6 @@
+- [🏠Home](index.md)
+- [🗒️Documentation](docs/)
+- [💰Fundraising](fund/)
+- [🗨️Thoughts](priv/)
+- [💻Projects](projects/)
+- [⚙️Technology](tech/)

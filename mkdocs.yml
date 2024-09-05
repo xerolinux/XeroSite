@@ -2,32 +2,6 @@ site_name: DarkXero's Bytes
 site_description: Thoughts, Opinions, Documentation, and more...
 site_url: https://bytes.xerolinux.xyz
 
-nav:
-   - 🏠 Home: index.md
-   - 🗒️ Documentation:
-      - 📓 MKDocs Install: docs/mkdocs-install.md
-      - 🐧 ArchISO Builder: docs/build-archiso.md
-      # - Using MkDocs:
-      # - Qtile:
-      # - Geany:
-   - 💰 Fundraising:
-      - 💷 FOSS Fundraising: fund/foss-fundraising.md
-      - 🖥️ System Upgrade Fund : fund/new-gpu-cpu-fund.md
-   - 🗨️ Thoughts:
-      - 😶‍🌫️ Be Thankful: priv/be-thankful.md
-      - 📔 Developing Is Fun: priv/developing-is-fun-but.md
-      - 😭 FOSS Struggles: priv/real-foss-struggles.md
-      # - Kernel: personal/
-      # - Rolling Release: personal/
-      # - Whoogle: personal/
-   - 💻 Projects:
-      - 📹 My Channel: projects/what-s-up-with-my-channel.md
-      - 🍻 Reviving XeroLinux: projects/why-is-distro-back.md
-   - ⚙️ Technology:
-      - 🚧 Docker Containers: tech/docker-containers-a-love-story.md
-   # - About: about.md
-   # - Contact: contact.md
-
 theme:
   name: material
   logo: assets/Tux.gif
@@ -51,7 +25,8 @@ plugins:
   - social
   - glightbox
   - mkdocs-video
-  - section-index
+  - literate-nav:
+      nav_file: SUMMARY.md
   - rss:
       categories:
         - tags
