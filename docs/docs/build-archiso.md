@@ -21,7 +21,7 @@ First off we need to grab a few packages in order to be able to build the ISO.
 sudo pacman -S archiso
 ```
 
-Create a `MyArch` folder anywhere, in my case I did it in `Documents`, then copy over `releng` folder from `/usr/share/archiso/configs` then `cd into it like so :
+Create a `MyArch` folder anywhere, in my case I did it in `Documents`, then copy over `releng` folder from `/usr/share/archiso/configs` then `cd` into it like so :
 
 ```Bash
 mkdir -p ~/Documents/MyArch
