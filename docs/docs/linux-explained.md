@@ -9,7 +9,7 @@ I thought I'd share this explanation about **Linux** a good friend and fellow Li
 
 !!! tip
 
-    Please do not take this as a complete walk-through, We did not even go through the various *Desktop Environments* or *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
+    The following requires some basic Operating System knowledge. Also do not take this as a complete walk-through, We did not even go through the various *Desktop Environments* or *Window Managers* that exist today, way too many to list. Still we hope it gives you some idea of what you are walking into when swtiching...
 
 ### What is Linux ?
 
