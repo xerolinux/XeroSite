@@ -7,31 +7,31 @@ tags:
 cover: https://i.imgur.com/ejZ1ZQv.png
 ---
 
-Time for me to lay everything down and explain why, after so long, I decided to bring the Distro back from the dead. Read on...
+Time for me to lay everything down and explain why, after so long, I decided to bring the distro back from the dead. Read on...
 
 ### XeroLinux is back, But why?
 
-To explain why, let me set the stage. As you may already know, I’m going through significant financial difficulties. Living in **Lebanon**, finding a job—especially a remote one—is extremely challenging, and the situation continues to worsen. I won’t rehash the entire story here, but if you’re not familiar, you can read more about it in this [**BlogPost**](https://blog.techxero.com/index.php/2024/06/07/actively-looking-for-a-job/){:target="_blank"}.
+To explain why, let me set the stage. As you may already know, I’m going through significant financial difficulties. Living in Lebanon, finding a job—especially a remote one—is extremely challenging, and the situation continues to worsen. I won’t rehash the entire story here, but if you’re not familiar, you can read more about it in this [**BlogPost**](https://blog.techxero.com/index.php/2024/06/07/actively-looking-for-a-job/){:target="_blank"}.
 
 After giving it a lot of thought, I realized how much I truly enjoy Linux. With bills to pay and my distro’s code still sitting on GitHub, it just makes sense. Many of you have been asking me to bring it back since I pulled the plug months ago, so why not use this opportunity to revive it—and make it a way to sustain myself?
 
-Not to forget that I've been running it on my own this whole time, and maintaining the ISO was a blast. I've been itching to bring it back, especially since it was rapidly climbing the **DistroWatch** rankings as a popular distro. Seeing how much you all loved it made me feel guilty for taking something great away from you. Thanks for making it feel so special!
+Not to mention that I've been running it on my own this whole time, and maintaining the ISO was a blast. I've been itching to bring it back, especially since it was rapidly climbing the [**DistroWatch**](https://distrowatch.com){:target="_blank"} rankings as a popular distro. Seeing how much you all loved it made me feel guilty for taking something great away from you. Thanks for making it feel so special!
 
 That answers the why.
 
 ### How is it being distributed ?
 
-I've decided to put the distro behind a donation wall. By supporting me financially, you'll gain access to the XeroLinux ISO—a true Win-Win. Your support helps me keep going, and you get something valuable in return. For more details, check out the [**Release Post**](https://xerolinux.xyz/iso/){:target="_blank"}
+I've decided to put the distro behind a donation wall. By supporting me financially, you'll gain access to the XeroLinux ISO—a true win-win. Your support helps me keep going, and you get something valuable in return. For more details, check out the [**Release Post**](https://xerolinux.xyz/iso/){:target="_blank"}
 
-Now I know that some of you will go, "but it's FOSS, you shouldn't charge for it." to which I will say the same thing I have been for a long time, the *Free* in *Free Open Source* does **NOT** mean free of charge, just means *Freedom* to fork the [**Source Code**](https://github.com/XeroLinuxDev){:target="_blank"} and do with it as you wish. I am just charging for my time.
+Now, I know that some of you will say, "But it's FOSS; you shouldn't charge for it." To which I will say the same thing I have been saying for a long time: the Free in Free Open Source does NOT mean free of charge; it just means Freedom to fork the [**Source Code**](https://github.com/XeroLinuxDev){:target="_blank"} and do with it as you wish. I am simply charging for my time.
 
 The distro will be continuously updated to ensure it works seamlessly and will stay alive as long as I have your support. If support ever dries up… well, let's not dwell on that. Let’s focus on keeping it alive and thriving for a long and happy journey together!
 
 ### Is it any Special?
 
-Common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, an alternative to my DIY install script, and as a way to offer support.
+This is a common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way to offer support.
 
-Users are free to prefer any other Distro over mine. Am not and will never force it. Also I have never pretended that **XeroLinux** is better than any other distro. It's never been a competition. I would hate for people to think it was. I hope this clarifies things.
+Users are free to prefer any other distro over mine. I am not and will never force it. Also, I have never pretended that **XeroLinux** is better than any other distro. It's never been a competition, and I would hate for people to think it was. I hope this clarifies things.
 
 ### Can I get it for free?
 

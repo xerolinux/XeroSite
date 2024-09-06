@@ -29,14 +29,36 @@ Anyways, init starts all the userspace stuff (it itself is run in userspace) and
 
 On [**Debian**](https://www.debian.org){:target="_blank"}, you install packages with `apt`. If you can't remember the package name you want, you can use apt to search for it, or use synaptic as a *GUI* frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don't install programs by downloading them from the internet. If you have any questions, the [**Debian Wiki**](https://wiki.debian.org/DontBreakDebian){:target="_blank"} is pretty mid, but the [**Arch Wiki**](https://wiki.archlinux.org){:target="_blank"} is amazing.
 
-Since [**Arch Linux**](https://archlinux.org){:target="_blank"} is intended to be the most generic *Linux distro* ever, stuff written for **Arch** should also help with **Debian**, as long as the Arch package didn't get a bunch of major updates in the interim. There are also other ways of installing stuff, like **Flatpak** (sandboxed apps that "just work" on every distribution), and **Snap** (Ubuntu's sandboxed apps that they claim work on every distribution but have always been kind of sketchy). There are also **AppImages** which are basically like `.exe's` on **Windows**, but they're kind of a hassle to use compared to the others because you have to add executable permission to them, and then manually double click them. Plus they won't have a desktop entry.
+Since [**Arch Linux**](https://archlinux.org){:target="_blank"} aims to be the most generic *Linux distro* ever, information written for it should also help with **Debian**, as long as the Arch package didn't receive significant updates in the meantime. There are other ways to install software, like:
+
+- **Flatpak:** Sandboxed apps that "just work" on every distribution.
+- **Snap:** *Ubuntu*'s sandboxed apps that are supposed to work on every distribution but have had mixed results.
+- **AppImages:** These are like `.exe` files on **Windows**, but they require adding executable permissions and manually launching them. They also won't have a desktop entry by default.
 
 ### Filesystem & Updates
 
-If you are connecting the system to the internet, you should update at least once a week, so you don't get your entire network hacked through a known vulnerability. If you aren't connecting it to the internet, you can choose whether to update or not --it might fix a bug.
+If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you're not connected to the internet, you can choose whether to update or not—it might fix a bug.
 
-As for the filesystem, `/etc` is where your Editable Text Configurations go. `/usr` is where program files go. `/usr/local` is where program files go for programs you manually installed. `/home` is where your stuff goes. `/dev` is for devices. there is no **C** drive or **D** drive, you have to mount the external drive to the place you choose, for example, `/mnt`. A *GUI* file manager mounts flash drives somewhere in `/run` usually, because it's temporary. `/opt` is where random stuff goes, and `/var` is for variable storage like system logs. `/tmp` is self-explanatory. `/dev/null` is a bottomless pit, and `/dev/urandom` is a quick and easy IO-based random number generator. In [**UNIX**](https://en.wikipedia.org/wiki/Unix){:target="_blank"}, everything is a file. This means you can see process details by reading the files in `/proc`, see system settings or driver configs in /sys, or see your bootloader in `/boot`
+As for the filesystem:
+
+- `/etc` is where your Editable Text Configurations go.
+- `/usr` is where program files go.
+- `/usr/local` is where program files go for programs you manually installed.
+- `/home` is where your personal files go.
+- `/dev` is for device files.
+- There is no `C` or `D` drive; instead, you mount external drives to a location, like `/mnt`. A GUI file manager mounts flash drives somewhere in `/run` since it is temporary.
+- `/opt` is where miscellaneous stuff goes.
+- `/var` is for variable data like system logs.
+- `/tmp` is for temporary files.
+- `/dev/null` is a "black hole" for data you want to discard.
+- `/dev/urandom` is an IO-based random number generator.
+
+In [**UNIX**](https://en.wikipedia.org/wiki/Unix){:target="_blank"},  everything is a file. This means you can:
+
+- See process details by reading files in `/proc`.
+- Check system settings or driver configurations in `/sys`.
+- View your bootloader in `/boot`.
 
 ### Wrapping it all up
 
-This here was a quick run-through explaining what **GNU/Linux** is written as mentioned earlier by a good friend. I did not post it on main site simply because I feel it's not as complete as I would like it to be.
+This was a quick run-through explaining what **GNU/Linux** is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it's not as complete as I would like it to be.

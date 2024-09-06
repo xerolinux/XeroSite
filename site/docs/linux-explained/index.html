@@ -907,12 +907,36 @@
 
 <h3 id="distros-pkg-managers">Distros &amp; PKG Managers<a class="headerlink" href="#distros-pkg-managers" title="Permanent link">¶</a></h3>
 <p>On <a href="https://www.debian.org" target="_blank"><strong>Debian</strong></a>, you install packages with <code>apt</code>. If you can't remember the package name you want, you can use apt to search for it, or use synaptic as a <em>GUI</em> frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don't install programs by downloading them from the internet. If you have any questions, the <a href="https://wiki.debian.org/DontBreakDebian" target="_blank"><strong>Debian Wiki</strong></a> is pretty mid, but the <a href="https://wiki.archlinux.org" target="_blank"><strong>Arch Wiki</strong></a> is amazing.</p>
-<p>Since <a href="https://archlinux.org" target="_blank"><strong>Arch Linux</strong></a> is intended to be the most generic <em>Linux distro</em> ever, stuff written for <strong>Arch</strong> should also help with <strong>Debian</strong>, as long as the Arch package didn't get a bunch of major updates in the interim. There are also other ways of installing stuff, like <strong>Flatpak</strong> (sandboxed apps that "just work" on every distribution), and <strong>Snap</strong> (Ubuntu's sandboxed apps that they claim work on every distribution but have always been kind of sketchy). There are also <strong>AppImages</strong> which are basically like <code>.exe's</code> on <strong>Windows</strong>, but they're kind of a hassle to use compared to the others because you have to add executable permission to them, and then manually double click them. Plus they won't have a desktop entry.</p>
+<p>Since <a href="https://archlinux.org" target="_blank"><strong>Arch Linux</strong></a> aims to be the most generic <em>Linux distro</em> ever, information written for it should also help with <strong>Debian</strong>, as long as the Arch package didn't receive significant updates in the meantime. There are other ways to install software, like:</p>
+<ul>
+<li><strong>Flatpak:</strong> Sandboxed apps that "just work" on every distribution.</li>
+<li><strong>Snap:</strong> <em>Ubuntu</em>'s sandboxed apps that are supposed to work on every distribution but have had mixed results.</li>
+<li><strong>AppImages:</strong> These are like <code>.exe</code> files on <strong>Windows</strong>, but they require adding executable permissions and manually launching them. They also won't have a desktop entry by default.</li>
+</ul>
 <h3 id="filesystem-updates">Filesystem &amp; Updates<a class="headerlink" href="#filesystem-updates" title="Permanent link">¶</a></h3>
-<p>If you are connecting the system to the internet, you should update at least once a week, so you don't get your entire network hacked through a known vulnerability. If you aren't connecting it to the internet, you can choose whether to update or not --it might fix a bug.</p>
-<p>As for the filesystem, <code>/etc</code> is where your Editable Text Configurations go. <code>/usr</code> is where program files go. <code>/usr/local</code> is where program files go for programs you manually installed. <code>/home</code> is where your stuff goes. <code>/dev</code> is for devices. there is no <strong>C</strong> drive or <strong>D</strong> drive, you have to mount the external drive to the place you choose, for example, <code>/mnt</code>. A <em>GUI</em> file manager mounts flash drives somewhere in <code>/run</code> usually, because it's temporary. <code>/opt</code> is where random stuff goes, and <code>/var</code> is for variable storage like system logs. <code>/tmp</code> is self-explanatory. <code>/dev/null</code> is a bottomless pit, and <code>/dev/urandom</code> is a quick and easy IO-based random number generator. In <a href="https://en.wikipedia.org/wiki/Unix" target="_blank"><strong>UNIX</strong></a>, everything is a file. This means you can see process details by reading the files in <code>/proc</code>, see system settings or driver configs in /sys, or see your bootloader in <code>/boot</code></p>
+<p>If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you're not connected to the internet, you can choose whether to update or not—it might fix a bug.</p>
+<p>As for the filesystem:</p>
+<ul>
+<li><code>/etc</code> is where your Editable Text Configurations go.</li>
+<li><code>/usr</code> is where program files go.</li>
+<li><code>/usr/local</code> is where program files go for programs you manually installed.</li>
+<li><code>/home</code> is where your personal files go.</li>
+<li><code>/dev</code> is for device files.</li>
+<li>There is no <code>C</code> or <code>D</code> drive; instead, you mount external drives to a location, like <code>/mnt</code>. A GUI file manager mounts flash drives somewhere in <code>/run</code> since it is temporary.</li>
+<li><code>/opt</code> is where miscellaneous stuff goes.</li>
+<li><code>/var</code> is for variable data like system logs.</li>
+<li><code>/tmp</code> is for temporary files.</li>
+<li><code>/dev/null</code> is a "black hole" for data you want to discard.</li>
+<li><code>/dev/urandom</code> is an IO-based random number generator.</li>
+</ul>
+<p>In <a href="https://en.wikipedia.org/wiki/Unix" target="_blank"><strong>UNIX</strong></a>,  everything is a file. This means you can:</p>
+<ul>
+<li>See process details by reading files in <code>/proc</code>.</li>
+<li>Check system settings or driver configurations in <code>/sys</code>.</li>
+<li>View your bootloader in <code>/boot</code>.</li>
+</ul>
 <h3 id="wrapping-it-all-up">Wrapping it all up<a class="headerlink" href="#wrapping-it-all-up" title="Permanent link">¶</a></h3>
-<p>This here was a quick run-through explaining what <strong>GNU/Linux</strong> is written as mentioned earlier by a good friend. I did not post it on main site simply because I feel it's not as complete as I would like it to be.</p></div>
+<p>This was a quick run-through explaining what <strong>GNU/Linux</strong> is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it's not as complete as I would like it to be.</p></div>
 
 
 

@@ -14,7 +14,7 @@ Today, I need to share some of my thoughts and frustrations. If this isn't your 
 
 Writing this post wasn't easy; it took a lot of reflection and courage to open up about these feelings.
 
-> P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of **FOSS** and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.
+> P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of FOSS and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.
 
 ![type:video](https://www.youtube.com/embed/BpmAFwZy0Gg)
 
