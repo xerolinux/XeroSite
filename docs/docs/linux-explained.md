@@ -5,7 +5,7 @@ tags:
   - Kernel
   - Packages
 ---
-I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](REALERvolker1){:target="_blank"} recently posted on **Discord**.
+I thought I'd share this explanation about **Linux** a good friend and fellow Linux enthusiast [**REALERvolker1**](https://github.com/REALERvolker1){:target="_blank"} recently posted on **Discord**.
 
 !!! tip
 
