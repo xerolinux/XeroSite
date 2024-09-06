@@ -10,6 +10,8 @@ cover: https://i.imgur.com/mjtBRbQ.jpeg
 
 Lol, yeah, I know—it's a question I get a lot. But in my humble opinion, no, I am not. Far from it. I'm just a guy who, at most, messes with code—specifically **Bash**. I take what I understand, put it together in a way that makes sense (to me at least), and hope it works. That's all I do.
 
+![type:video](https://www.youtube.com/embed/8_K-NOu-STs)
+
 And if it does work, I'm happy and share the result with the **FOSS** community.
 
 ### It's fun until...
