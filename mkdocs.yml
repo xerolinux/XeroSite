@@ -30,7 +30,13 @@ plugins:
   - autorefs
   - social
   - glightbox
-  - mkdocs-video
+  - mkdocs-video:
+      is_video: false
+      video_muted: false
+      video_controls: True
+      css_style:
+        width: "100%"
+        height: 20vw;
   - literate-nav:
       nav_file: SUMMARY.md
   - rss:
