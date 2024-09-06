@@ -29,7 +29,7 @@ The distro will be continuously updated to ensure it works seamlessly and will s
 
 ### Is it any Special?
 
-This is a common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way to offer support.
+This is a common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way for you to support my journey.
 
 Users are free to prefer any other distro over mine. I am not and will never force it. Also, I have never pretended that **XeroLinux** is better than any other distro. It's never been a competition, and I would hate for people to think it was. I hope this clarifies things.
 
