@@ -21,11 +21,15 @@ As you can see from image above, the **GTX 1080** (my current GPU) will be soon 
 
 #### What CPU ?
 
-Well, I’m not looking for much. For the CPU, I’m considering an upgrade to either the [**Ryzen 7 5800X3D**](https://www.lebanonstores.com/shop-1/amd-ryzen-7-5800x3d-socket-am4){:target="_blank"} valued at $330 or the [**Ryzen 9 5950X**](https://global.microless.com/product/amd-ryzen-9-5950x-16-core-3-4-ghz-socket-am4-105w-desktop-processor-100-100000059wof/) valued at $452. Honestly, it doesn’t matter which one—I just need that extra boost for compiling stuff.
+Well, I’m not looking for much. For the CPU, I’m considering an upgrade to either the [**Ryzen 7 5800X3D**](https://www.lebanonstores.com/shop-1/amd-ryzen-7-5800x3d-socket-am4){:target="_blank"} valued at $330 or the [**Ryzen 9 5950X**](https://global.microless.com/product/amd-ryzen-9-5950x-16-core-3-4-ghz-socket-am4-105w-desktop-processor-100-100000059wof/){:target="_blank"} valued at $452. Honestly, it doesn’t matter which one—I just need that extra boost for compiling stuff.
+
+![type:video](https://www.youtube.com/embed/4IJCsxeCJ6o)
 
 #### What GPU ?
 
 That’s where things get a bit tricky. I’m still undecided between sticking with **nVidia** or switching to **AMD**. I am currently torn between the two. Now, I know most of you would recommend **AMD** because it’s hassle-free on **Linux**—and you’d be right. But as a content creator who relies on [**Cuda**](https://docs.nvidia.com/cuda/){:target="_blank"} and **nVidia**'s [**nVenc Encoder**](https://www.nvidia.com/en-us/geforce/guides/broadcasting-guide/){:target="_blank"}, I’m leaning towards sticking with nVidia.
+
+![type:video](https://www.youtube.com/embed/0VbzHckdHNE)
 
 However, if I do decide to switch to Team Red, I’d go for the [**RX 6950XT**](https://www.lebanonstores.com/shop-1/amd-radeon-rx-6950xt-16gb){:target="_blank"} currently valued at $400 here. Otherwise, if I stay with Team-Green, it’s going to be the [**RTX 3090**](https://www.lebanonstores.com/shop-1/rtx-3090-msi-suprim-x-24gb){:target="_blank"} valued at $595.
 
