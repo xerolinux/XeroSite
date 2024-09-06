@@ -15,6 +15,8 @@ To explain why, let me set the stage. As you may already know, I’m going throu
 
 After giving it a lot of thought, I realized how much I truly enjoy Linux. With bills to pay and my distro’s code still sitting on GitHub, it just makes sense. Many of you have been asking me to bring it back since I pulled the plug months ago, so why not use this opportunity to revive it—and make it a way to sustain myself?
 
+![type:video](https://www.youtube.com/embed/lsYg6-wUWXw)
+
 Not to mention that I've been running it on my own this whole time, and maintaining the ISO was a blast. I've been itching to bring it back, especially since it was rapidly climbing the [**DistroWatch**](https://distrowatch.com){:target="_blank"} rankings as a popular distro. Seeing how much you all loved it made me feel guilty for taking something great away from you. Thanks for making it feel so special!
 
 That answers the why.
