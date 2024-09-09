@@ -10,7 +10,7 @@ cover: https://i.imgur.com/ejZ1ZQv.png
 
 !!! warning
 
-    The script shared herein was created for myself. Do not ask for it right now. It's currently just a proof of concept of what you can achieve once you put your mind to it.
+    The script shared herein is and will be a work-in-progress. Do not ask for it right now. **Cosmic** is still in Alpha stages so needs time to reach maturity. Please do not use it on your production machine. If you want to test in a VM, for better performance I would highly recommend [**ProxmoxVe**](https://www.proxmox.com/en/proxmox-virtual-environment/overview){:target="_blank"}.
 
 It's a beautiful Sunday morning. What did I decide to do ? Well, if you know me well enough by now you wouldn't be surprised by this, if you don't, I just sat down in front of my computer and decided to, since I was gonna test it anyway, write a script that would automate the install of [**Cosmic DE**](https://xerolinux.xyz/posts/arch-cosmic/){:target="_blank"} with my tools.
 
