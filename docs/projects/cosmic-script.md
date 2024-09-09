@@ -49,6 +49,8 @@ Although I have added a sort of *Hardware Checker* that will make the script che
 
 I also need to figure out what packages are missing from the **Arch Cosmic Group** that I would need to include in the script for a much better and problem free experience, while it's being developed, since it's just in **Alpha 1** stages, meaning it's still missing a lot of *essential* features.
 
+------
+
 ### Installation
 
 Let's start off by knowing what we need to get started. First off, we will need the latest version of the >> [**ArchLinux ISO**](https://archlinux.org/download/){:target="_blank"}, a USB stick to burn ISO onto, we can either use >> [**Balena Etcher**](https://etcher.balena.io/#download-etcher){:target="_blank"} or the highly recommended >> [**Ventoy**](https://www.ventoy.net/en/index.html){:target="_blank"}.
