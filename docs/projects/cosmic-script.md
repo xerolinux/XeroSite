@@ -23,9 +23,11 @@ Well, it does what title says, it installs **Cosmic** in one of 2 ways, similar 
 - **Complete** : Just installs every Cosmic package available
 - **Selective** : Allows selection of individual packages.
 
-Included are some useful package for a more complete experience, like a freaking web browser eg. **Firefox**, an archive manager, **Meld** and so much more. It's a start. We shall add more if you wish, just keep in mind that only packages coming from the official **Arch Repositories** are supported, none from the **AUR**.
+Included are some useful packages, like a freaking web browser eg. **Firefox**, an archive manager, **Meld** and so much more. It's a start. We shall add more if you wish, just keep in mind that only packages coming from the official **Arch Repositories** are supported, none from the **AUR**.
 
-I have also implemented some checks making sure script is being run in *chroot* and on *ArchLinux*. This helps me in the long run not having to bang my head against the wall trying to provide support in case it was run on Distros I have no control over.
+### Execution Blockers
+
+I have also implemented some checks making sure script is being run in *chroot* and on *ArchLinux* blocking execution anywhere else. This helps me in the long run not having to bang my head against the wall trying to provide support in case it was run on Distros I have no control over.
 
 <p align="center">
   <img width="360" src="https://i.imgur.com/JlFRZRd.png">  <img width="360" src="https://i.imgur.com/uNilqW8.png">
