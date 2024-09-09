@@ -28,7 +28,7 @@ Included are some useful package for a more complete experience, like a freaking
 I have also implemented some checks making sure script is being run in *chroot* and on *ArchLinux*. This helps me in the long run not having to bang my head against the wall trying to provide support in case it was run on Distros I have no control over.
 
 <p align="center">
-  <img width="320" src="https://i.imgur.com/JlFRZRd.png">  <img width="320" src="https://i.imgur.com/uNilqW8.png">
+  <img width="480" src="https://i.imgur.com/JlFRZRd.png">  <img width="480" src="https://i.imgur.com/uNilqW8.png">
 </p>
 
 That's the main part. Rest of it is exactly the same as the **Plasma Install** script, where it prompts if you want to include the **XeroLinux** and **Chaotic-AUR** repos with the [**XeroLinux Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"} among other neat things.
