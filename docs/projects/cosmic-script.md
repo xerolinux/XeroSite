@@ -44,7 +44,7 @@ Anyway, the rest of the script is exactly the same as the **Plasma Install** one
 The script is far from done. I have yet to figure some things out.
 
 <p align="center">
-  <img src="https://i.imgur.com/MY5yecT.png">
+  <img src="https://i.imgur.com/Fvl9uRU.png">
 </p>
 
 Although I have added a sort of *Hardware Checker* that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit. Still need help with that, since I do not know if I did a good job or not lol.
