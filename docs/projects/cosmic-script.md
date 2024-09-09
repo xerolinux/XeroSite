@@ -49,7 +49,7 @@ The script is far from done. I have yet to figure some things out.
 
 Although I have added a sort of *Hardware Checker* that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit. Still need help with that, since I do not know if I did a good job or not lol.
 
-I also need to figure out what packages are missing from the **Arch Cosmic Group** that I would need to include in the script for a much better and problem free experience while it's being developed since it's just an **Alpha 1** meaning it's still missing a lot of features.
+I also need to figure out what packages are missing from the **Arch Cosmic Group** that I would need to include in the script for a much better and problem free experience, while it's being developed, since it's just in **Alpha 1** stages, meaning it's still missing a lot of *essential* features.
 
 ### Wrapping up
 
