@@ -27,7 +27,7 @@ That's the main part. Rest of it is exactly the same as the **Plasma Install** s
 
 ### To do list
 
-Now the script is far from done. I have yet to figure some things out. For example, I just discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home`.
+Now the script is far from done. I have yet to figure some things out. For example, I just discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` also `power-profiles-daemon` is missing which the `Cosmic Settings` will prompt you for; so I added them.
 
 <p align="center">
   <img src="https://i.imgur.com/MY5yecT.png">
@@ -35,11 +35,11 @@ Now the script is far from done. I have yet to figure some things out. For examp
 
 Also, for whatever reason, if you do not install **nVidia** drivers n include required *kernel modules* the whole UI glitches out, crashes and hangs on *EGL Error*. Now, I haven't tested it on an **Intel** or **AMD** machine so dunno about those.
 
-Finally will have to add some sort of *Hardware Checker* that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit.
+Finally I have added a sort of *Hardware Checker* that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit.
 
 ### Wrapping up
 
-That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part. You can fond the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}
+That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part. You can fond the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}. This thing can become something awesome !
 
 Cheers !
 
