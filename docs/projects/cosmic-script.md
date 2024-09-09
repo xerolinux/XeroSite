@@ -25,6 +25,12 @@ Well, it does what title says, it installs **Cosmic** in one of 2 ways, similar 
 
 Included are some useful package for a more complete experience, like a freaking web browser eg. **Firefox**, an archive manager, **Meld** and so much more. It's a start. We shall add more if you wish, just keep in mind that only packages coming from the official **Arch Repositories** are supported, none from the **AUR**.
 
+I have also implemented some checks making sure script is being run in *chroot* and on *ArchLinux*. This helps me in the long run not having to bang my head against the wall trying to provide support in case it was run on Distros I have no control over.
+
+<p align="center">
+  <img width="250" src="https://i.imgur.com/JlFRZRd.png"> / <img width="250" src="https://i.imgur.com/uNilqW8.png">
+</p>
+
 That's the main part. Rest of it is exactly the same as the **Plasma Install** script, where it prompts if you want to include the **XeroLinux** and **Chaotic-AUR** repos with the [**XeroLinux Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"} among other neat things.
 
 ### To do list
