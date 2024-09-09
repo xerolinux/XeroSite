@@ -716,6 +716,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#wrapping-up" class="md-nav__link">
     <span class="md-ellipsis">
       Wrapping up
@@ -906,6 +915,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#wrapping-up" class="md-nav__link">
     <span class="md-ellipsis">
       Wrapping up
@@ -938,11 +956,14 @@
 <p>It's a beautiful Sunday morning. What did I decide to do ? Well, if you know me well enough by now you wouldn't be surprised by this, if you don't, I just sat down in front of my computer and decided to, since I was gonna test it anyway, write a script that would automate the install of <a href="https://xerolinux.xyz/posts/arch-cosmic/" target="_blank"><strong>Cosmic DE</strong></a> with my tools.</p>
 <h3 id="script-info">Script info<a class="headerlink" href="#script-info" title="Permanent link">¶</a></h3>
 <p>Well, it does what title says, it installs <strong>Cosmic</strong> in one of 2 ways, similar to how my <a href="https://xerolinux.xyz/news/xerolinux-plasma/" target="_blank"><strong>Plasma Install</strong></a> script does. I also discovered the <strong>Cosmic</strong> group on <strong>Arch</strong> does not include the <code>xdg-user-dirs</code> package which creates the <code>Documents, Music, Pictures, Downloads &amp; Videos</code> folders in your <code>home</code> &amp; <code>power-profiles-daemon</code> is missing which the <code>Cosmic Settings</code> will prompt you for; so I added them.</p>
-<p><a class="glightbox" href="https://www.youtube.com/embed/v0UPif52i5A" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><div class="video-container"><iframe src="https://www.youtube.com/embed/v0UPif52i5A" style="width:100%;height:22.172vw;" frameborder="0" allowfullscreen alt="type:video"></iframe></div></a></p>
 <ul>
 <li><strong>Complete</strong> : Just installs every Cosmic package available</li>
 <li><strong>Selective</strong> : Allows selection of individual packages.</li>
 </ul>
+<p align="center">
+  <a class="glightbox" href="https://i.imgur.com/Fvl9uRU.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/Fvl9uRU.png"></a>
+</p>
+
 <p>Included are some useful packages, like a freaking web browser eg. <strong>Firefox</strong>, an archive manager, <strong>Meld</strong> and so much more. It's a start. We shall add more if you wish, just keep in mind that only packages coming from the official <strong>Arch Repositories</strong> are supported, none from the <strong>AUR</strong>.</p>
 <h3 id="execution-blockers">Execution Blockers<a class="headerlink" href="#execution-blockers" title="Permanent link">¶</a></h3>
 <p>I have also implemented some checks making sure script is being run in <em>chroot</em> and on <em>ArchLinux</em> blocking execution anywhere else. This helps me in the long run not having to bang my head against the wall trying to provide support in case it was run on Distros I have no control over.</p>
@@ -955,12 +976,50 @@
 <p>Anyway, the rest of the script is exactly the same as the <strong>Plasma Install</strong> one, where it prompts if you want to include the <strong>XeroLinux</strong> and <strong>Chaotic-AUR</strong> repos with the <a href="https://wiki.xerolinux.xyz/xlapit/" target="_blank"><strong>XeroLinux Toolkit</strong></a> among other neat things.</p>
 <h3 id="to-do-list">To do list<a class="headerlink" href="#to-do-list" title="Permanent link">¶</a></h3>
 <p>The script is far from done. I have yet to figure some things out.</p>
-<p align="center">
-  <a class="glightbox" href="https://i.imgur.com/Fvl9uRU.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/Fvl9uRU.png"></a>
-</p>
-
 <p>Although I have added a sort of <em>Hardware Checker</em> that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit. Still need help with that, since I do not know if I did a good job or not lol.</p>
 <p>I also need to figure out what packages are missing from the <strong>Arch Cosmic Group</strong> that I would need to include in the script for a much better and problem free experience, while it's being developed, since it's just in <strong>Alpha 1</strong> stages, meaning it's still missing a lot of <em>essential</em> features.</p>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h3>
+<p>Let's start off by knowing what we need to get started. First off, we will need the latest version of the &gt;&gt; <a href="https://archlinux.org/download/" target="_blank"><strong>ArchLinux ISO</strong></a>, a USB stick to burn ISO onto, we can either use &gt;&gt; <a href="https://etcher.balena.io/#download-etcher" target="_blank"><strong>Balena Etcher</strong></a> or the highly recommended &gt;&gt; <a href="https://www.ventoy.net/en/index.html" target="_blank"><strong>Ventoy</strong></a>.</p>
+<p>Those are the essentials. As to my <strong>Cosmic Install</strong> script will get to that a bit later down the line. Once we got everything, we shall begin...</p>
+<p>Ok, so now that we have burned the ISO to the USB using either tools, boot the system we want to install it on using it. Am not gonna go through showing you how, you should know that by now lol.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This guide expects you to be connected to the internet via ethernet. If you aren't and need to connect over WiFi, you can follow guide on the <a href="https://wiki.archlinux.org/title/Installation_guide#Connect_to_the_internet" target="_blank"><strong>ArchWiki</strong></a></p>
+</div>
+<ul>
+<li><strong>ArchInstall Script</strong></li>
+</ul>
+<p>Once connected, first thing we will have to do is, make sure we have latest version of <strong>ArchInstall</strong>. We do that by running the following command :</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pacman<span class="w"> </span>-Syy<span class="w"> </span>archinstall<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>archinstall<span class="w"> </span>--advanced
+</span></code></pre></div>
+<p>Now some of you might be asking me, "why the <code>--advanced</code> flag ?", to which I answer, simply because devs still hide the <em>parallel downloads</em> behind it for whatever reason. It's fine at least now you know.</p>
+<p align="center">
+  <a class="glightbox" href="https://i.imgur.com/OVzwVYt.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/OVzwVYt.png"></a>
+</p>
+
+<p>Ok, now that we have the installer running, am not going to go through each and every option one by one, just the important ones. Those are explained in the video. Am also not gonna bother with <em>manual partitioning</em> since the guide is intended for single OS easy install.</p>
+<p>That's why we will be using the <strong>Best Guess</strong> option, carefully selecting the correct drive we want install <strong>ArchLinux</strong> onto.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>I will not be held responsible for any data loss resulting from selection of the wrong drive. <strong>BE VERY CAREFUL HERE</strong>.</p>
+</div>
+<p>Don't forget to set parallel downloads to as many as you like for faster downloads. Also, we do not need to enable any extra repos like <em>multilib</em> since my script will do that for us later on.</p>
+<p>Now once everything is configured and set, hit install, sit back, grab a cup of Tea/Coffee and watch it do its thing. Might take a while it all depends on Internet connection...</p>
+<ul>
+<li><strong>Installing Cosmic DE</strong></li>
+</ul>
+<p>Once that's all done, we will be prompted if we want to <code>chroot</code> into our new install, we answer with yes of course since we still have no DE yet.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>User Caution</strong>. We do not recommend to blindly execute scripts without inspecting them first. Link to the script is at the end of this post.</p>
+</div>
+<p>Once you trust it, you can move on. Now, we type the following command :</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://tinyurl.com/Xero-Cosmic<span class="k">)</span><span class="s2">"</span>
+</span></code></pre></div>
+<p>This will execute the script. Just go through the prompts. I would <strong>Highly</strong> recommend option <strong>1) Complete Cosmic Install</strong> to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.</p>
+<p>At the end, script will prompt us if we want to enable the repos and install the Toolkit, to which we answer with yes, since we will be using it to set everything up later on.</p>
+<p>You will notice that, the <em>multilib</em> repo was enabled as well. I made sure of that since most newcomers forget to do it. It's an essential repo required for the likes of <strong>Steam</strong>, and various drivers.</p>
+<p>Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing <code>exit</code> then <code>reboot</code>, and that's it for this part anyway...</p>
 <h3 id="wrapping-up">Wrapping up<a class="headerlink" href="#wrapping-up" title="Permanent link">¶</a></h3>
 <p>That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the <em>Hardware Checker</em> part which requires a lot of testing that I cannot do due to limited hardware availability. You can find the code &gt;&gt; <a href="https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh" target="_blank"><strong>Here</strong></a>.</p>
 <p><strong>Cosmic</strong> is shaping up to be the DE that <em>might</em> break the current <em>Top 2</em> (KDE and Gnome) making it the <em>Top 3</em> DEs of all time. Who knows ? I wish the <strong>System76</strong> team all the best.</p>
