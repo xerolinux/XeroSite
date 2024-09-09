@@ -89,7 +89,7 @@ Once that's all done, we will be prompted if we want to `chroot` into our new in
 
 !!! warning
 
-    **User Caution**. We do not recommend to blindly execute scripts without inspecting them first. Link to the script is at the end of this post.
+    **User Caution**. We do not recommend to blindly execute scripts without inspecting them first. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}.
 
 Once you trust it, you can move on. Now, we type the following command :
 
@@ -109,7 +109,7 @@ Now use my toolkit to install any drivers *especially* if you are using an **nVi
 
 ### Wrapping up
 
-That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part which requires a lot of testing that I cannot do due to limited hardware availability. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}.
+That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part which requires a lot of testing that I cannot do due to limited hardware availability.
 
 **Cosmic** is shaping up to be the DE that *might* break the current *Top 2* (KDE and Gnome) making it the *Top 3* DEs of all time. Who knows ? I wish the **System76** team all the best.
 
