@@ -47,8 +47,12 @@ The script is far from done. I have yet to figure some things out.
 
 Although I have added a sort of *Hardware Checker* that will make the script check for compatible hardware before it moves on. In case of incompatibility, it should notify and exit. Still need help with that, since I do not know if I did a good job or not lol.
 
+I also need to figure out what packages are missing from the **Arch Cosmic Group** that I would need to include in the script for a much better and problem free experience while it's being developed since it's just an **Alpha 1** meaning it's still missing a lot of features.
+
 ### Wrapping up
 
-That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part which requires a lot of testing that I cannot do due to limited hardware availability. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}. This thing can become something awesome !
+That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part which requires a lot of testing that I cannot do due to limited hardware availability. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}.
+
+**Cosmic** is shaping up to be the DE that *might* break the current *Top 2* (KDE and Gnome) making it the *Top 3* DEs of all time. Who knows ? I wish the **System76** team all the best.
 
 Cheers !
