@@ -77,6 +77,8 @@ Finally, for now at least, once script is done, we will be prompted to exit and 
 
 Now use my toolkit to install any drivers *especially* if you are using an **nVidia** GPU otherwise you will have a bad time. Besides that enjoy the DE, and more importantly report all the bugs related to it or any feature requests you might have upstream, to the [**Cosmic Bug Tracker**](https://github.com/pop-os){:target="_blank"}
 
+If you would like to customize the look, feel free to jump on over to the all-new [**Cosmic-Themes**](https://cosmic-themes.org){:target="_blank"} site, where you will be able to grab a few cool ones, like **Catppuccin**, **Dracula** among others. Keep in mind that those are just color schemes no more no less. They do not apply to everything.
+
 ### Wrapping up
 
 That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the *Hardware Checker* part which requires a lot of testing that I cannot do due to limited hardware availability.
