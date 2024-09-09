@@ -79,10 +79,6 @@ Ok, now that we have the installer running, am not going to go through each and 
 
 That's why we will be using the **Best Guess** option, carefully selecting the correct drive we want install **ArchLinux** onto.
 
-!!! warning
-
-    I will not be held responsible for any data loss resulting from selection of the wrong drive. **BE VERY CAREFUL HERE**.
-
 Don't forget to set parallel downloads to as many as you like for faster downloads. Also, we do not need to enable any extra repos like *multilib* since my script will do that for us later on.
 
 Now once everything is configured and set, hit install, sit back, grab a cup of Tea/Coffee and watch it do its thing. Might take a while it all depends on Internet connection...
@@ -107,7 +103,9 @@ At the end, script will prompt us if we want to enable the repos and install the
 
 You will notice that, the *multilib* repo was enabled as well. I made sure of that since most newcomers forget to do it. It's an essential repo required for the likes of **Steam**, and various drivers.
 
-Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing `exit` then `reboot`, and that's it for this part anyway...
+Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing `exit` then `reboot`, that's it !
+
+Now use my toolkit to install any drivers *especially* if you are using an **nVidia** GPU otherwise you will have a bad time. Besides that enjoy the DE, and more importantly report all the bugs related to it or any feature requests you might have upstream, to the [**Cosmic Bug Tracker**](https://github.com/pop-os){:target="_blank"}
 
 ### Wrapping up
 

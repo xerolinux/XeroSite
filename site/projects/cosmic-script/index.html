@@ -999,10 +999,6 @@
 
 <p>Ok, now that we have the installer running, am not going to go through each and every option one by one, just the important ones. Those are explained in the video. Am also not gonna bother with <em>manual partitioning</em> since the guide is intended for single OS easy install.</p>
 <p>That's why we will be using the <strong>Best Guess</strong> option, carefully selecting the correct drive we want install <strong>ArchLinux</strong> onto.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>I will not be held responsible for any data loss resulting from selection of the wrong drive. <strong>BE VERY CAREFUL HERE</strong>.</p>
-</div>
 <p>Don't forget to set parallel downloads to as many as you like for faster downloads. Also, we do not need to enable any extra repos like <em>multilib</em> since my script will do that for us later on.</p>
 <p>Now once everything is configured and set, hit install, sit back, grab a cup of Tea/Coffee and watch it do its thing. Might take a while it all depends on Internet connection...</p>
 <ul>
@@ -1019,7 +1015,8 @@
 <p>This will execute the script. Just go through the prompts. I would <strong>Highly</strong> recommend option <strong>1) Complete Cosmic Install</strong> to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.</p>
 <p>At the end, script will prompt us if we want to enable the repos and install the Toolkit, to which we answer with yes, since we will be using it to set everything up later on.</p>
 <p>You will notice that, the <em>multilib</em> repo was enabled as well. I made sure of that since most newcomers forget to do it. It's an essential repo required for the likes of <strong>Steam</strong>, and various drivers.</p>
-<p>Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing <code>exit</code> then <code>reboot</code>, and that's it for this part anyway...</p>
+<p>Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing <code>exit</code> then <code>reboot</code>, that's it !</p>
+<p>Now use my toolkit to install any drivers <em>especially</em> if you are using an <strong>nVidia</strong> GPU otherwise you will have a bad time. Besides that enjoy the DE, and more importantly report all the bugs related to it or any feature requests you might have upstream, to the <a href="https://github.com/pop-os" target="_blank"><strong>Cosmic Bug Tracker</strong></a></p>
 <h3 id="wrapping-up">Wrapping up<a class="headerlink" href="#wrapping-up" title="Permanent link">¶</a></h3>
 <p>That's it for now. If you would like to help out so we can bring it to the public, you are more than welcome to. Especially when it comes to the <em>Hardware Checker</em> part which requires a lot of testing that I cannot do due to limited hardware availability. You can find the code &gt;&gt; <a href="https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh" target="_blank"><strong>Here</strong></a>.</p>
 <p><strong>Cosmic</strong> is shaping up to be the DE that <em>might</em> break the current <em>Top 2</em> (KDE and Gnome) making it the <em>Top 3</em> DEs of all time. Who knows ? I wish the <strong>System76</strong> team all the best.</p>
