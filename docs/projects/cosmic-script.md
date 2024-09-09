@@ -53,41 +53,9 @@ I also need to figure out what packages are missing from the **Arch Cosmic Group
 
 ### Installation
 
-Let's start off by knowing what we need to get started. First off, we will need the latest version of the >> [**ArchLinux ISO**](https://archlinux.org/download/){:target="_blank"}, a USB stick to burn ISO onto, we can either use >> [**Balena Etcher**](https://etcher.balena.io/#download-etcher){:target="_blank"} or the highly recommended >> [**Ventoy**](https://www.ventoy.net/en/index.html){:target="_blank"}.
+Using this script is identical to the [**Plasma Installer**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} am not gonna rehash it all here. So follow the instructions there up until **Part 2**. then continue on here to get **Cosmic DE**. Sorry for jump around. Due to the nature of this, I would prefer to keep it here, at least until **Cosmic** reaches stable release, at which point there will be a full guide on the main site/wiki.
 
-Those are the essentials. As to my **Cosmic Install** script will get to that a bit later down the line. Once we got everything, we shall begin...
-
-Ok, so now that we have burned the ISO to the USB using either tools, boot the system we want to install it on using it. Am not gonna go through showing you how, you should know that by now lol.
-
-!!! tip
-
-    This guide expects you to be connected to the internet via ethernet. If you aren't and need to connect over WiFi, you can follow guide on the [**ArchWiki**](https://wiki.archlinux.org/title/Installation_guide#Connect_to_the_internet){:target="_blank"}
-
-- **ArchInstall Script**
-
-Once connected, first thing we will have to do is, make sure we have latest version of **ArchInstall**. We do that by running the following command :
-
-```Bash
-pacman -Syy archinstall && archinstall --advanced
-```
-
-Now some of you might be asking me, "why the `--advanced` flag ?", to which I answer, simply because devs still hide the *parallel downloads* behind it for whatever reason. It's fine at least now you know.
-
-<p align="center">
-  <img src="https://i.imgur.com/OVzwVYt.png">
-</p>
-
-Ok, now that we have the installer running, am not going to go through each and every option one by one, just the important ones. Those are explained in the video. Am also not gonna bother with *manual partitioning* since the guide is intended for single OS easy install.
-
-That's why we will be using the **Best Guess** option, carefully selecting the correct drive we want install **ArchLinux** onto.
-
-Don't forget to set parallel downloads to as many as you like for faster downloads. Also, we do not need to enable any extra repos like *multilib* since my script will do that for us later on.
-
-Now once everything is configured and set, hit install, sit back, grab a cup of Tea/Coffee and watch it do its thing. Might take a while it all depends on Internet connection...
-
-- **Installing Cosmic DE**
-
-Once that's all done, we will be prompted if we want to `chroot` into our new install, we answer with yes of course since we still have no DE yet.
+Anyway, once that's all done, we will be prompted if we want to `chroot` into our new install, we answer with yes of course since we still have no DE yet.
 
 !!! warning
 
@@ -99,7 +67,7 @@ Once you trust it, you can move on. Now, we type the following command :
 bash -c "$(curl -fsSL https://tinyurl.com/Xero-Cosmic)"
 ```
 
-This will execute the script. Just go through the prompts. I would **Highly** recommend option **1) Complete Cosmic Install** to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.
+This will execute the script. Just go through the prompts. In this case however, I would **Highly** recommend option **1) Complete Cosmic Install** to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.
 
 At the end, script will prompt us if we want to enable the repos and install the Toolkit, to which we answer with yes, since we will be using it to set everything up later on.
 
