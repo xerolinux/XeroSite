@@ -31,11 +31,15 @@ I have also implemented some checks making sure script is being run in *chroot* 
   <img width="360" src="https://i.imgur.com/JlFRZRd.png">  <img width="360" src="https://i.imgur.com/uNilqW8.png">
 </p>
 
-That's the main part. Rest of it is exactly the same as the **Plasma Install** script, where it prompts if you want to include the **XeroLinux** and **Chaotic-AUR** repos with the [**XeroLinux Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"} among other neat things.
+The reason I blocked script execution completely in case of *Custom Arch Distros* and *Non-Chroot* environments, simply is, because in all the years I spent maintianing **XeroLinux** I have learned that some users absolutely *looooooooove* ignoring them, which always resulted in me providing support for things outside the project.
+
+So to avoid the headaches, I decided to block the execution. Better for everyone. This will allow me to concentrate on the distro and other current/future projects, with support being limited within **XeroLinux**.
+
+Anyway, the rest of the script is exactly the same as the **Plasma Install** one, where it prompts if you want to include the **XeroLinux** and **Chaotic-AUR** repos with the [**XeroLinux Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"} among other neat things.
 
 ### To do list
 
-Now the script is far from done. I have yet to figure some things out.
+The script is far from done. I have yet to figure some things out.
 
 <p align="center">
   <img src="https://i.imgur.com/MY5yecT.png">
