@@ -16,7 +16,7 @@ It's a beautiful Sunday morning. What did I decide to do ? Well, if you know me 
 
 ### Script info
 
-Well, it does what title says, it installs **Cosmic** in one of 2 ways, similar to how my [**Plasma Install**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script does. I also discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` & `power-profiles-daemon` is missing which the `Cosmic Settings` will prompt you for; so I added them.
+Well, it does what title says, it installs **Cosmic** in one of 2 ways, similar to how my [**Plasma Install**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script does. I also discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` & `system76-power` is missing which the `Cosmic Settings` will prompt you for; so I added them.
 
 - **Complete** : Just installs every Cosmic package available
 - **Selective** : Allows selection of individual packages.
