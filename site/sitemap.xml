@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bytes.xerolinux.xyz/docs/affinity-linux/</loc>
+         <lastmod>2024-09-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bytes.xerolinux.xyz/docs/build-archiso/</loc>
          <lastmod>2024-09-10</lastmod>
          <changefreq>daily</changefreq>
