@@ -86,6 +86,6 @@ Now I know this wasn't a complete experience, but when the most essential featur
 
 It's barely usable in its current state. I will be keeping it installed, revisiting it once every month to see progress. I will not, however attempt using it on a daily, or put in too much work into it, since it's not yet ready.
 
-Now, I can't be mean to the devs, they are doing a great job. It was all a false expectation on my part. **Cosmic** has come a long way in such a short time. I mean, writing a DE from scratch using **Rust** a sorta new programming language is no easy feat.
+I can't be too mean to the devs, they are doing a great job. It was all a false expectation on my part. **Cosmic** has come a long way in such a short time. I mean, writing a DE from scratch using **Rust** a sorta new programming language is no easy feat.
 
 I will end the post by congratulating the **System76** dev team on work well done. I cannot wait to see what the future holds. I wish them the best of luck. Oh and also, who knows if it wins me over, I might add a **XeroCosmic** to the family.. Just don't hold your breath on that, it ain't set in stone.
