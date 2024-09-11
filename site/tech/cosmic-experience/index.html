@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://bytes.xerolinux.xyz/docs/linux-explained/">
+        <link rel="canonical" href="https://bytes.xerolinux.xyz/tech/cosmic-experience/">
       
       
-        <link rel="prev" href="../build-archiso/">
+        <link rel="prev" href="../../projects/why-is-distro-back/">
       
       
-        <link rel="next" href="../mkdocs-install/">
+        <link rel="next" href="../docker-containers-a-love-story/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
@@ -27,7 +27,7 @@
     
     
       
-        <title>Linux in a Nutshell - DarkXero's Bytes</title>
+        <title>My Cosmic Experience - DarkXero's Bytes</title>
       
     
     
@@ -62,11 +62,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Linux in a Nutshell - DarkXero's Bytes" >
+        <meta  property="og:title"  content="My Cosmic Experience - DarkXero's Bytes" >
       
         <meta  property="og:description"  content="Thoughts, Opinions, Documentation, and more..." >
       
-        <meta  property="og:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/linux-explained.png" >
+        <meta  property="og:image"  content="https://bytes.xerolinux.xyz/assets/images/social/tech/cosmic-experience.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -74,15 +74,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://bytes.xerolinux.xyz/docs/linux-explained/" >
+        <meta  property="og:url"  content="https://bytes.xerolinux.xyz/tech/cosmic-experience/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Linux in a Nutshell - DarkXero's Bytes" >
+        <meta  name="twitter:title"  content="My Cosmic Experience - DarkXero's Bytes" >
       
         <meta  name="twitter:description"  content="Thoughts, Opinions, Documentation, and more..." >
       
-        <meta  name="twitter:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/linux-explained.png" >
+        <meta  name="twitter:image"  content="https://bytes.xerolinux.xyz/assets/images/social/tech/cosmic-experience.png" >
       
     
     
@@ -112,7 +112,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-linux" class="md-skip">
+        <a href="#installation" class="md-skip">
           Skip to content
         </a>
       
@@ -147,7 +147,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Linux in a Nutshell
+              My Cosmic Experience
             
           </span>
         </div>
@@ -263,10 +263,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -286,11 +284,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -304,7 +302,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             🗒️Documentation
@@ -318,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../affinity-linux/" class="md-nav__link">
+      <a href="../../docs/affinity-linux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -339,7 +337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../build-archiso/" class="md-nav__link">
+      <a href="../../docs/build-archiso/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -357,28 +355,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Linux in a Nutshell
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../docs/linux-explained/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -387,60 +367,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Linux ?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#distros-pkg-managers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Distros &amp; PKG Managers
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#filesystem-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Filesystem &amp; Updates
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wrapping-it-all-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrapping it all up
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -453,7 +379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mkdocs-install/" class="md-nav__link">
+      <a href="../../docs/mkdocs-install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -809,8 +735,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -826,11 +754,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
@@ -844,7 +772,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             ⚙️Technology
@@ -855,10 +783,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../tech/cosmic-experience/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    My Cosmic Experience
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -867,6 +813,51 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-words" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final words
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -879,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tech/docker-containers-a-love-story/" class="md-nav__link">
+      <a href="../docker-containers-a-love-story/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -925,36 +916,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-linux" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      What is Linux ?
+      Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#distros-pkg-managers" class="md-nav__link">
+  <a href="#experience" class="md-nav__link">
     <span class="md-ellipsis">
-      Distros &amp; PKG Managers
+      Experience
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#filesystem-updates" class="md-nav__link">
+  <a href="#final-words" class="md-nav__link">
     <span class="md-ellipsis">
-      Filesystem &amp; Updates
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wrapping-it-all-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrapping it all up
+      Final words
     </span>
   </a>
   
@@ -975,54 +957,59 @@
                   
 
 
-  <h1>Linux in a Nutshell</h1>
+  <h1>My Cosmic Experience</h1>
 
-<div><p>I thought I'd share this explanation about <strong>Linux</strong> a good friend and fellow Linux enthusiast <a href="https://github.com/REALERvolker1" target="_blank"><strong>REALERvolker1</strong></a> recently posted on <strong>Discord</strong>.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>The following requires some basic Operating System knowledge (terminologies). Also do not take this as a complete walk-through, We did not even go through the various <em>Desktop Environments</em> or <em>Window Managers</em>. Nevertheless, we hope this gives you some idea of what you'll be walking into when swtiching...</p>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Contents of this post reflect my own opinion and mine alone. Do not take anything written here as set in stone. It's my own bare-metal experience with the hardware I own. I cannot and will not speak for others. Maybe you had a better experience, and I am glad you did. Just keep that in mind.</p>
 </div>
-<h3 id="what-is-linux">What is Linux ?<a class="headerlink" href="#what-is-linux" title="Permanent link">¶</a></h3>
-<p>Since not everyone's super familiar with Linux, here's a quick crash course.</p>
-<p>Linux is a <a href="https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware." target="_blank"><strong>Monolithic Kernel</strong></a>, so all the drivers and whatnot are compiled into the binary. The <a href="https://www.fsf.org/about/what-is-free-software" target="_blank"><strong>Nonfree software</strong></a> is usually put in the actual source repo as binary blobs, or in the case of <strong>nVidia</strong> drivers, built using a system called <a href="https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support" target="_blank"><strong>DKMS</strong></a> and compiled into the kernel binary.</p>
-<p>Once the computer boots up, an init process is started (the default is <code>/sbin/init</code>, usually a symlink to your init system), which is <code>PID 1</code>. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having <em>too</em> much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.</p>
-<p>Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can't just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being <a href="https://en.wikipedia.org/wiki/POSIX" target="_blank"><strong>POSIX</strong></a> compliant, and not really caring about file extensions.</p>
+<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h3>
+<p>The <a href="https://xerolinux.xyz/posts/arch-cosmic/" target="_blank"><strong>Cosmic DE</strong></a> hype is real. I saw many reviews of it and was immediately pulled in and got the urge to install it n try it out for myself to see if it was being over-hyped/sensationalized or not. Simply because new things tend to be, it's the norm by now.</p>
 <p align="center">
-    <a class="glightbox" href="https://i.imgur.com/Mu7NHx9.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="600" src="https://i.imgur.com/Mu7NHx9.png" alt="logo"></a>
+  <a class="glightbox" href="https://i.imgur.com/Fvl9uRU.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/Fvl9uRU.png"></a>
 </p>
 
-<h3 id="distros-pkg-managers">Distros &amp; PKG Managers<a class="headerlink" href="#distros-pkg-managers" title="Permanent link">¶</a></h3>
-<p>On <a href="https://www.debian.org" target="_blank"><strong>Debian</strong></a>, you install packages with <code>apt</code>. If you can't remember the package name you want, you can use apt to search for it, or use synaptic as a <em>GUI</em> frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don't install programs by downloading them from the internet. If you have any questions, the <a href="https://wiki.debian.org/DontBreakDebian" target="_blank"><strong>Debian Wiki</strong></a> is pretty mid, but the <a href="https://wiki.archlinux.org" target="_blank"><strong>Arch Wiki</strong></a> is amazing.</p>
-<p>Since <a href="https://archlinux.org" target="_blank"><strong>Arch Linux</strong></a> aims to be the most generic <em>Linux distro</em> ever, information written for it should also help with <strong>Debian</strong>, as long as the Arch package didn't receive significant updates in the meantime. There are other ways to install software, like:</p>
-<ul>
-<li><strong>Flatpak:</strong> Sandboxed apps that "just work" on every distribution.</li>
-<li><strong>Snap:</strong> <em>Ubuntu</em>'s sandboxed apps that are supposed to work on every distribution but have had mixed results.</li>
-<li><strong>AppImages:</strong> These are like <code>.exe</code> files on <strong>Windows</strong>, but they require adding executable permissions and manually launching them. They also won't have a desktop entry by default.</li>
-</ul>
-<h3 id="filesystem-updates">Filesystem &amp; Updates<a class="headerlink" href="#filesystem-updates" title="Permanent link">¶</a></h3>
-<p>If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you're not connected to the internet, you can choose whether to update or not—it might fix a bug.</p>
-<p>As for the filesystem:</p>
-<ul>
-<li><code>/etc</code> is where your Editable Text Configurations go.</li>
-<li><code>/usr</code> is where program files go.</li>
-<li><code>/usr/local</code> is where program files go for programs you manually installed.</li>
-<li><code>/home</code> is where your personal files go.</li>
-<li><code>/dev</code> is for device files.</li>
-<li>There is no <code>C</code> or <code>D</code> drive; instead, you mount external drives to a location, like <code>/mnt</code>. A GUI file manager mounts flash drives somewhere in <code>/run</code> since it is temporary.</li>
-<li><code>/opt</code> is where miscellaneous stuff goes.</li>
-<li><code>/var</code> is for variable data like system logs.</li>
-<li><code>/tmp</code> is for temporary files.</li>
-<li><code>/dev/null</code> is a "black hole" for data you want to discard.</li>
-<li><code>/dev/urandom</code> is an IO-based random number generator.</li>
-</ul>
-<p>In <a href="https://en.wikipedia.org/wiki/Unix" target="_blank"><strong>UNIX</strong></a>,  everything is a file. This means you can:</p>
-<ul>
-<li>See process details by reading files in <code>/proc</code>.</li>
-<li>Check system settings or driver configurations in <code>/sys</code>.</li>
-<li>View your bootloader in <code>/boot</code>.</li>
-</ul>
-<h3 id="wrapping-it-all-up">Wrapping it all up<a class="headerlink" href="#wrapping-it-all-up" title="Permanent link">¶</a></h3>
-<p>This was a quick run-through explaining what <strong>GNU/Linux</strong> is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it's not as complete as I would like it to be.</p></div>
+<p>Since I am an avid <strong>ArchLinux</strong> user, that's how I installed it. I did not use the <strong>Pop!_OS 24.04 LTS alpha</strong> ISO from &gt;&gt; <a href="https://system76.com/cosmic" target="_blank"><strong>Cosmic Downloads</strong></a>. So my views come from there. So I cannot compare.</p>
+<p>Anyway, before I talk about my experience using the DE, I would like to mention that, I did not use the <strong>ArchInstall</strong> profile to install it. Why you ask ? Simply because due to past experience, I learned the hard way not to fully trust them, they tend to be way too basic, missing a lot of essential packages. Don't get me wrong here, I am not saying that you shouldn't use them, far from it, if you just want basics doing everything else yourselves, feel free, but from a new user perspective who expect things to be more complete, please use Distros who do all that for you.</p>
+<p>Now on to the more detailed things I have done to install <strong>Cosmic</strong>. I first installed <strong>Arch Minimal</strong> using the <strong>ArchInstall</strong> script, meaning that I avoided the profiles, &amp; drivers sections completely, I always choose <code>Grub</code> as my bootloader, no swap since I have 32GB RAM, no Encryption either. And once in <code>chroot</code> I installed the DE the following way, knowing that, we can skip the use of <code>sudo</code> since we are still logged in as root...</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pacman<span class="w"> </span>-Syy<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>cosmic<span class="w"> </span>linux-headers<span class="w"> </span>pacman-contrib<span class="w"> </span>xdg-user-dirs<span class="w"> </span>power-profiles-daemon<span class="w"> </span>wayland-protocols<span class="w"> </span>wayland-utils
+</span></code></pre></div>
+<p align="center">
+  <a class="glightbox" href="https://i.imgur.com/tR8WJJI.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/tR8WJJI.png"></a>
+</p>
+
+<p>Now, that needs a bit of explaining. In case you were wondering why so few packages, well, it's because <a href="https://archlinux.org/packages/?sort=&amp;q=cosmic&amp;maintainer=&amp;flagged=" target="_blank"><strong>cosmic</strong></a> is not a single one, it's a <em>Group</em> of packages or a <em>meta-package</em> as it is known as. That said, the reason I installed <code>linux-headers</code> is because for whatever reason, they were not included, same goes for the rest. Especially <code>xdg-user-dirs</code> without which no <code>Documents, Pictures, Videos...</code> folders will be created. Strange I know.</p>
+<p>What I also found weird, is the fact that <code>cosmic-greeter</code> service was not being enabled after install which was netting me a boot to <code>TTY</code> session. So I had to enable it while at the same time generating the <code>user-dirs</code> via...</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>cosmic-greeter.service<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>xdg-user-dirs-update
+</span></code></pre></div>
+<p>Keep in mind that I am doing all this while still in <code>chroot</code> post-install. Once I was done with this I exited the live environment and rebooted crossing my fingers and hoping that all went well.</p>
+<h3 id="experience">Experience<a class="headerlink" href="#experience" title="Permanent link">¶</a></h3>
+<p>Now on to what y'all came here for. All was good, weel sorta, system rebooted into <code>Grub</code>, selected the OS and waitied... That's when I started to sweat a little, coz I was greeted with some <code>TTY dmsg</code> errors, flickering on and off. But after a few seconds I finally saw the <strong>Cosmic Greeter</strong> login screen, relief finally.</p>
+<p align="center">
+  <a class="glightbox" href="https://i.imgur.com/TPjWMjR.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/TPjWMjR.png"></a>
+</p>
+
+<p>I type my super secure password in n wait to see the Desktop. So far so good, or so I thought. More anxiety, as when I opened the Cosmic file manager, what I saw wasn't so great. Being n <strong>nVidia</strong> user, I thought could be a driver issue since on first boot it uses the not so great <code>nouveau</code> ones. That's why my first reflex was to install them GPU drivers. So I did.</p>
+<p>After driver install was done, I rebooted and that's when my heart sank so deep I couldn't feel it anymore. Why ? How about a screen with so many errors in many colors complaining about <code>EGL drm</code> crap ? Yep wasn't showing the login screen anymore. OH NO! Failed already ?!?!?!?!?</p>
+<p>As it turns out I had forgotten to include the <code>nVidia drm kernel modules</code> lol. What am I talking about ? How to do that you ask ? Well, for me that's what I did, could be different for you I dunno.</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo<span class="w"> </span>sed<span class="w"> </span>-i<span class="w"> </span><span class="s1">'/^MODULES=(/ s/)$/nvidia nvidia_modeset nvidia_uvm nvidia_drm)/'</span><span class="w"> </span>/etc/mkinitcpio.conf
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>nvidia-suspend.service<span class="w"> </span>nvidia-hibernate.service<span class="w"> </span>nvidia-resume.service<span class="w"> </span>nvidia-powerd.service
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="nb">echo</span><span class="w"> </span>-e<span class="w"> </span><span class="s1">'options nvidia NVreg_UsePageAttributeTable=1 NVreg_InitializeSystemMemoryAllocations=0 NVreg_DynamicPowerManagement=0x02'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>-a<span class="w"> </span>/etc/modprobe.d/nvidia.conf
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="nb">echo</span><span class="w"> </span>-e<span class="w"> </span><span class="s1">'options nvidia_drm modeset=1 fbdev=1'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>-a<span class="w"> </span>/etc/modprobe.d/nvidia.conf<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>mkinitcpio<span class="w"> </span>-P
+</span></code></pre></div>
+<p>After doing that, I rebooted again, heart in hand, fingers n toes crossed lol. Once rebooted, a sigh of relief, I could see the login screen again. So I login, and this time everything was great. Performance was so smooth n fast, sorta felt like <strong>XFCE</strong>. Fired up <code>top</code> to see memory usage, and to my surprise, it was only using 800mb RAM on fresh boot, that's almost 500MB less than <strong>KDE Plasma</strong> ! Nice !</p>
+<p>Now came the time to configure the DE. Since I had watched so many videos regarding it, I had a general idea of what to do. Since I have 2 Nics (1 for each ISP), first order of business was to disable one keeping the other active. So I hover mouse over the tray icon, click it then attempt to click to disable the one I do not need, only to see that I couldn't do shit. They seem to just be static indicators, at least for now. So arming myself with all that knowledge I fire up terminal and run <code>nmtui</code> and deactivate it from there making sure it doesn't automatically reconnect on login.</p>
+<p>Now on to the <code>System Settings</code>. I will not bore you with the details, suffice it to say, that's where the biggest Alpha cracks started to show up big time. User profile modification missing, Default Apps too. I mean I could barely do anything besides modify top panel, color scheme, applets, keyboard shortcuts (keybinds) and power profiles. There isn't even a way to enable autologin..</p>
+<p>That's when I began to get frustrated. I mean, how were users online saying they had a great experience when some of the most important things were missing ? I don't understand.</p>
+<p>Anyway, I then took my attention to the included apps. I open the launcher from the bottom dock and click a random one, didn't open, I thought was a mouse issue, so I click again, and again, only after a few clicks did app decide to finally run. WTF!! Angry, I open File Manager again n try to open a document, nothing... OMG!!! I mean not even default app to handle simple text document ? I mean <strong>Cosmic-Notes</strong> was there, just not handling documents...</p>
+<p>I try to right-click &gt; open with, only to see that part was missing as well, I mean it shows the open-with panel to the right, only nothing's there, it's empty. I kept repeating to myself "It's Alpha Software, calm down Steve".</p>
+<p>To relax a bit n make things easier, I installed my toolkit. Then when I tried launching it from the app menu thingy, no matter how many times I clicked it wouldn't launch. So I tried adding a keyboard shortcut for it, still nothing. I guess it's because it's a <code>CLI</code> and no default app set ? I dunno.</p>
+<p>Finally I decided to try out the thing that almost everyone's raving about, <strong>Tiling/Stacking</strong>. And yes, that part was amazing, worked out great no major deal breaking issues to speak of, just minor nit-picks. Nothing that wasn't mentioned in all them videos on the Tubes. Oh Great ! I thought to myself, sarcastically, coz the only thing that works best is the thing I will never use since I do not like that Tiling stuff. Meh...</p>
+<p>That's where I gave up and decided to go back home to <strong>KDE Plasma</strong>.</p>
+<h3 id="final-words">Final words<a class="headerlink" href="#final-words" title="Permanent link">¶</a></h3>
+<p>Now I know this wasn't a complete experience, but when the most essential features are either missing or incomplete, there's no point in going any further, simply because, the more I used it the more frustrated I got.</p>
+<p>Now, I can't be mean to the devs, they are doing a great job. It was all a false expectation on my part. <strong>Cosmic</strong> has come a long way in such a short time. I mean, writing a DE from scratch using <strong>Rust</strong> a sorta new programming language is no easy feat.</p>
+<p>I want to congratulate the <strong>System76</strong> dev team on work well done. I cannot wait to see what the future holds. I wish them the best of luck. Oh and also, who knows if it wins me over, I might add a <strong>XeroCosmic</strong> to the family.. Just don't hold your breath on that, it ain't set in stone.</p></div>
 
 
 
@@ -1063,7 +1050,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../build-archiso/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ArchISO Build">
+          <a href="../../projects/why-is-distro-back/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Why Revive XeroLinux">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1073,20 +1060,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                ArchISO Build
+                Why Revive XeroLinux
               </div>
             </div>
           </a>
         
         
           
-          <a href="../mkdocs-install/" class="md-footer__link md-footer__link--next" aria-label="Next: MKDocs Install">
+          <a href="../docker-containers-a-love-story/" class="md-footer__link md-footer__link--next" aria-label="Next: Docker A Love Story">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                MKDocs Install
+                Docker A Love Story
               </div>
             </div>
             <div class="md-footer__button md-icon">
