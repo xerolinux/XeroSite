@@ -43,13 +43,17 @@ Keep in mind that I am doing all this while still in `chroot` post-install. Once
 
 ### Experience
 
-Now on to what y'all came here for. All was good, weel sorta, system rebooted into `Grub`, selected the OS and waitied... That's when I started to sweat a little, coz I was greeted with some `TTY dmsg` errors, flickering on and off. But after a few seconds I finally saw the **Cosmic Greeter** login screen, relief finally.
+Now on to what y'all came here for. All was good, well sorta, system rebooted into `Grub`, selected the OS and waitied... That's when I started to sweat a little, coz I was greeted with some `TTY dmsg` errors, flickering on and off. But after a few seconds I finally saw the **Cosmic Greeter** login screen, relief finally.
 
 <p align="center">
   <img src="https://i.imgur.com/TPjWMjR.png">
 </p>
 
-I type my super secure password in n wait to see the Desktop. So far so good, or so I thought. More anxiety, as when I opened the Cosmic file manager, what I saw wasn't so great. Being n **nVidia** user, I thought could be a driver issue since on first boot it uses the not so great `nouveau` ones. That's why my first reflex was to install them GPU drivers. So I did.
+I type my super secure password in n wait to see the Desktop. So far so good, or so I thought. More anxiety, as when I opened the Cosmic file manager, what I saw wasn't so great; icons were blacked out, and performance was shit. Being an **nVidia** user, I thought could be a driver issue since on first boot it uses the not so great `nouveau` ones. That's why my first reflex was to install them GPU drivers. So I did.
+
+<p align="center">
+  <img src="https://i.imgur.com/VotUyBS.jpeg">
+</p>
 
 After driver install was done, I rebooted and that's when my heart sank so deep I couldn't feel it anymore. Why ? How about a screen with so many errors in many colors complaining about `EGL drm` crap ? Yep wasn't showing the login screen anymore. OH NO! Failed already ?!?!?!?!?
 
