@@ -31,7 +31,7 @@ pacman -Syy && pacman -S cosmic linux-headers pacman-contrib xdg-user-dirs power
   <img src="https://i.imgur.com/tR8WJJI.png">
 </p>
 
-Now, that needs a bit of explaining. In case you were wondering why so few packages, well, it's because [**cosmic**](https://archlinux.org/packages/?sort=&q=cosmic&maintainer=&flagged=){:target="_blank"} is not a single one, it's a *Group* of packages or a *meta-package* as it is known as. That said, the reason I installed `linux-headers` is because for whatever reason, they were not included, same goes for the rest. Especially `xdg-user-dirs` without which no `Documents, Pictures, Videos...` folders will be created. Strange I know.
+Now, that needs a bit of explaining. In case you were wondering why so few packages, well, it's because [**cosmic**](https://archlinux.org/packages/?sort=&q=cosmic&maintainer=&flagged=){:target="_blank"} is not a single one, it's a *Group* of packages or a *meta-package* as it is known as. That said, the reason I installed `linux-headers` is because for whatever reason, they were only included if and when you select drivers, same goes for the rest. Especially `xdg-user-dirs` without which no `Documents, Pictures, Videos...` folders will be created. Strange I know.
 
 What I also found weird, is the fact that `cosmic-greeter` service was not being enabled after install which was netting me a boot to `TTY` session. So I had to enable it while at the same time generating the `user-dirs` via...
 
@@ -49,7 +49,7 @@ Now on to what y'all came here for. All was good, well sorta, system rebooted in
   <img src="https://i.imgur.com/TPjWMjR.png">
 </p>
 
-I type my super secure password in n wait to see the Desktop. So far so good, or so I thought. More anxiety, as when I opened the Cosmic file manager, what I saw wasn't so great; icons were blacked out, and performance was shit. Being an **nVidia** user, I thought could be a driver issue since on first boot it uses the not so great `nouveau` ones. That's why my first reflex was to install them GPU drivers. So I did.
+I type my super secure password in n wait to see the Desktop. So far so good, or so I thought. More anxiety, as when I opened the Cosmic file manager, what I saw wasn't so great; icons were blacked out, and performance was shit. Being an **nVidia** user, I thought could be a driver issue since on first boot it uses the not so great `nouveau` ones. That's why my first reflex was to install them, so I did.
 
 <p align="center">
   <img src="https://i.imgur.com/VotUyBS.jpeg">

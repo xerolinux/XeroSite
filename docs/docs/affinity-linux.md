@@ -56,7 +56,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 
     For guide version check [**Affinity Photo**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Guide.md){:target="_blank"}, and [**Affinity Designer**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityDesigner/Guide.md){:target="_blank"} finally [**Affinity Publisher**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPublisher/Guide.md){:target="_blank"}. For scripts, well here's an [**Example**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh). It's the same script basically just `exe` is different.
 
-That's it. Once all done we can launch them from the shortcuts the scripts create. THat's the closest we will get to **Photoshop** I have ever gotten, without having to go through *WinBlows* if ya know what I mean.
+That's it. Once all done we can launch them from the shortcuts the scripts create. That's the closest to **Photoshop** I have ever gotten, without having to go through *WinBlows* if ya know what I mean.
 
-Guide wasn't posted on main site due to the nature of the products in this guide. Also this was, as I said earlier primarily written for myself so I do not have to go digging for it on the web. For archival purposes sorta.
+Guide wasn't posted on main site due to the nature of the products included. Also this was, as I said earlier primarily written for myself so I do not have to go digging for it on the web. For archival purposes sorta.
 
