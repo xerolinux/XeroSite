@@ -8,6 +8,8 @@ tags:
 cover: https://i.imgur.com/ejZ1ZQv.png
 ---
 
+# Updated on September 14th 2024
+
 !!! warning
 
     The script shared herein is and will be a work-in-progress for a while. **Cosmic** is still in Alpha stages; so it needs time to reach full maturity. Please do not use it on your production machine. If you want to test in a VM, for best performance I would highly recommend [**ProxmoxVe**](https://www.proxmox.com/en/proxmox-virtual-environment/overview){:target="_blank"}.
@@ -16,10 +18,11 @@ It's a beautiful Sunday morning. What did I decide to do ? Well, if you know me 
 
 ### Script info
 
-Well, it does what title says, it installs **Cosmic** in one of 2 ways, similar to how my [**Plasma Install**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script does. I also discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` & `system76-power` is missing which the `Cosmic Settings` will prompt you for; so I added them.
+Well, it does what title says, it installs **Cosmic** in one of 3 ways, similar to how my [**Plasma Install**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script does. I also discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` & `system76-power` is missing which the `Cosmic Settings` will prompt you for; so I added them.
 
-- **Complete** : Just installs every Cosmic package available
-- **Selective** : Allows selection of individual packages.
+- **Complete**     : Just installs every Cosmic package available
+- **Selective**    : Allows selection of individual packages.
+- **Development**  : Rolling   Cosmic Install -DANGER-.
 
 <p align="center">
   <img src="https://i.imgur.com/Fvl9uRU.png">
@@ -53,29 +56,33 @@ I also need to figure out what packages are missing from the **Arch Cosmic Group
 
 ### Installation
 
+!!! warning
+
+    Do not select the **Development Version** unless you are ready to fix issues that might arise from it. It's the *Rolling* version which means it's commit based. Should you choose it, I recommend you do regular backups before updating. Please report all the bugs related to the DE or any feature requests you might have upstream, to the [**Cosmic Bug Tracker**](https://github.com/pop-os){:target="_blank"}
+
 Using this script is identical to the [**Plasma Installer**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} am not gonna rehash it all here. So follow the instructions there up until **Part 2**. then continue on here to get **Cosmic DE**. Sorry for jump around. Due to the nature of this, I would prefer to keep it here, at least until **Cosmic** reaches stable release, at which point there will be a full guide on the main site/wiki.
 
 Anyway, once that's all done, we will be prompted if we want to `chroot` into our new install, we answer with yes of course since we still have no DE yet.
 
-!!! warning
-
-    **User Caution**. We do not recommend to blindly execute scripts without inspecting them first. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}.
-
-Once you trust it, you can move on. Now, we type the following command :
+**User Caution**. We do not recommend to blindly execute scripts without inspecting them first. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}. Once you trust it, you can move on. Now, we type the following command :
 
 ```Bash
-bash -c "$(curl -fsSL https://tinyurl.com/Xero-Cosmic)"
+bash -c "$(curl -fsSL https://tinyurl.com/CosmicXero)"
 ```
 
-This will execute the script. Just go through the prompts. In this case however, I would **Highly** recommend option **1) Complete Cosmic Install** to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.
+This will execute the script. Just go through the prompts. In this case however, I would **Highly** recommend option **Complete Cosmic Install** to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.
 
-At the end, script will prompt us if we want to enable the repos and install the Toolkit, to which we answer with yes, since we will be using it to set everything up later on.
+The script will tell you that going throught with the installation, the **XeroLinux** as well as the **Chaotic-AUR** repos will be eadded & enabled in order for script to work correctly, like so...
+
+<p align="center">
+  <img src="https://i.imgur.com/Ph3HbCH.png">
+</p>
 
 You will notice that, the *multilib* repo was enabled as well. I made sure of that since most newcomers forget to do it. It's an essential repo required for the likes of **Steam**, and various drivers.
 
 Finally, for now at least, once script is done, we will be prompted to exit and reboot the system. We do that by typing `exit` then `reboot`, that's it !
 
-Now use my toolkit to install any drivers *especially* if you are using an **nVidia** GPU otherwise you will have a bad time. Besides that enjoy the DE, and more importantly report all the bugs related to it or any feature requests you might have upstream, to the [**Cosmic Bug Tracker**](https://github.com/pop-os){:target="_blank"}
+Now use my toolkit to install any drivers *especially* if you are using an **nVidia** GPU otherwise you will have a bad time. Besides that enjoy the DE.
 
 If you would like to customize the look, feel free to jump on over to the all-new [**Cosmic-Themes**](https://cosmic-themes.org){:target="_blank"} site, where you will be able to grab a few cool ones, like **Catppuccin**, **Dracula** among others. Keep in mind that those are just color schemes no more no less. They do not apply to everything.
 
