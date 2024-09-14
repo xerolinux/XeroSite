@@ -8,7 +8,7 @@ tags:
 cover: https://i.imgur.com/ejZ1ZQv.png
 ---
 
-# Updated on September 14th 2024
+<h2 align="center">.//Updated on September 14th 2024\\.</h2>
 
 !!! warning
 
