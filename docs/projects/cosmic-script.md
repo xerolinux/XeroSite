@@ -72,7 +72,7 @@ bash -c "$(curl -fsSL https://tinyurl.com/CosmicXero)"
 
 This will execute the script. Just go through the prompts. In this case however, I would **Highly** recommend option **Complete Cosmic Install** to avoid any future headaches. But that's not to say we cannot select any of the other option, it's all up to you in the end.
 
-The script will tell you that going throught with the installation, the **XeroLinux** as well as the **Chaotic-AUR** repos will be eadded & enabled in order for script to work correctly, like so...
+The script will tell you that going throught with the installation, the **XeroLinux** as well as the **Chaotic-AUR** repos will be enabled in order for script to work correctly, like so...
 
 <p align="center">
   <img src="https://i.imgur.com/Ph3HbCH.png">
