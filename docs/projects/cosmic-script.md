@@ -8,7 +8,7 @@ tags:
 cover: https://i.imgur.com/ejZ1ZQv.png
 ---
 
-<h2 align="center">.//Updated on September 14th 2024\\.</h2>
+<h2 align="center">.//Updated on Sep. 14th 2024\\.</h2>
 
 !!! warning
 
@@ -20,9 +20,9 @@ It's a beautiful Sunday morning. What did I decide to do ? Well, if you know me 
 
 Well, it does what title says, it installs **Cosmic** in one of 3 ways, similar to how my [**Plasma Install**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script does. I also discovered the **Cosmic** group on **Arch** does not include the `xdg-user-dirs` package which creates the `Documents, Music, Pictures, Downloads & Videos` folders in your `home` & `system76-power` is missing which the `Cosmic Settings` will prompt you for; so I added them.
 
-- **Complete**     : Just installs every Cosmic package available
-- **Selective**    : Allows selection of individual packages.
-- **Development**  : Rolling   Cosmic Install -DANGER-.
+- **Complete**     : Installs Cosmic from Extra Repos.
+- **Selective**    : Select pkgs you want yourselves.
+- **Development**  : Commit-based Install -DANGER-.
 
 <p align="center">
   <img src="https://i.imgur.com/Fvl9uRU.png">
@@ -42,8 +42,6 @@ The reason I blocked script execution completely in case of *Custom Arch Distros
 
 So to avoid the headaches, I decided to block the execution. Better for everyone. This will allow me to concentrate on the distro and other current/future projects, with support being limited within **XeroLinux**.
 
-Anyway, the rest of the script is exactly the same as the **Plasma Install** one, where it prompts if you want to include the **XeroLinux** and **Chaotic-AUR** repos with the [**XeroLinux Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"} among other neat things.
-
 ### To do list
 
 The script is far from done. I have yet to figure some things out.
@@ -52,19 +50,21 @@ Although I have added a sort of *Hardware Checker* that will make the script che
 
 I also need to figure out what packages are missing from the **Arch Cosmic Group** that I would need to include in the script for a much better and problem free experience, while it's being developed, since it's just in **Alpha 1** stages, meaning it's still missing a lot of *essential* features.
 
+Scroll down for usage instructions...
+
 ------
 
-### Installation
+<h1 align="center">.// Installation \\.</h1>
 
 !!! warning
 
     Do not select the **Development Version** unless you are ready to fix issues that might arise from it. It's the *Rolling* version which means it's commit based. Should you choose it, I recommend you do regular backups before updating. Please report all the bugs related to the DE or any feature requests you might have upstream, to the [**Cosmic Bug Tracker**](https://github.com/pop-os){:target="_blank"}
 
-Using this script is identical to the [**Plasma Installer**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} am not gonna rehash it all here. So follow the instructions there up until **Part 2**. then continue on here to get **Cosmic DE**. Sorry for jump around. Due to the nature of this, I would prefer to keep it here, at least until **Cosmic** reaches stable release, at which point there will be a full guide on the main site/wiki.
+Using this script is identical to the [**Plasma Installer**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} am not gonna rehash it all here. Suffice it to say, you will need to go through the **ArchInstall** script, skipping the *Profiles* and *Drivers* sections completely, which would result in a minimal *Server* install of Arch.
 
 Anyway, once that's all done, we will be prompted if we want to `chroot` into our new install, we answer with yes of course since we still have no DE yet.
 
-**User Caution**. We do not recommend to blindly execute scripts without inspecting them first. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}. Once you trust it, you can move on. Now, we type the following command :
+**Caution :** We do not recommend to blindly execute scripts without inspecting them first. You can find the code >> [**Here**](https://github.com/xerolinux/xero-plasma/blob/main/xero-cosmic.sh){:target="_blank"}. Once you trust it, you can move on. Now, we type the following command :
 
 ```Bash
 bash -c "$(curl -fsSL https://tinyurl.com/CosmicXero)"
