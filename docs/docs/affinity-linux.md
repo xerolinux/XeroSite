@@ -54,7 +54,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 
 !!! tip
 
-    Check the [**Written Guide**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md) if you prefer doing it manually. Also the author posted his scripts on the **Affinity**'s forums, who knows maybe in the future a **Linux** native version ?.
+    Check the [**Written Guide**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md){:target="_blank"} if you prefer doing it manually. Also the author posted his scripts on the **Affinity**'s forums, who knows maybe in the future a **Linux** native version ? Let's all cross our fingers 🤞
 
 That's it. Once all done we can launch them from the shortcuts the scripts create. That's the closest to **Photoshop** I have ever gotten, without having to go through *WinBlows* if ya know what I mean.
 
