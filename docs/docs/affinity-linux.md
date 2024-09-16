@@ -30,8 +30,10 @@ Once we have created an account on the [**Affinity Site**](https://affinity.seri
 
 Affinity Photo is a professional-grade photo editing software, designed for photographers, artists, and designers. Known for its robust performance, it offers a comprehensive suite of tools, including advanced retouching, color correction, RAW editing, and non-destructive layering, making it a versatile alternative to Adobe Photoshop.
 
+Check if you have the required [**Dependencies**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies){:target="_blank"}
+
 ```Bash
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPhoto/Script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPhoto.sh)"
 ```
 
 - [**Affinity Designer**](https://affinity.serif.com/en-us/designer/?#top){:target="_blank"}
@@ -39,7 +41,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 Affinity Designer is a versatile vector graphics design software, ideal for illustrators, graphic designers, and artists. It offers a comprehensive set of tools for vector illustration, typography, and layout, allowing for precise control over shapes, paths, colors, and gradients. Known for its smooth performance, even with complex designs.
 
 ```Bash
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityDesigner/Script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityDesigner.sh)"
 ```
 
 - [**Affinity Publisher**](https://affinity.serif.com/en-us/designer/?#top){:target="_blank"}
@@ -47,14 +49,14 @@ bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/ma
 Affinity Publisher is a professional desktop publishing software, designed for creating layouts for books, magazines, brochures, and other print and digital publications. It provides a range of powerful tools for precise typography, image placement, and page design, allowing users to create visually engaging documents.
 
 ```Bash
-bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityPublisher/Script.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPublisher.sh)"
 ```
 
 ### Wrap up
 
 !!! tip
 
-    For guide version check [**Affinity Photo**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Guide.md){:target="_blank"}, and [**Affinity Designer**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityDesigner/Guide.md){:target="_blank"} finally [**Affinity Publisher**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPublisher/Guide.md){:target="_blank"}. For scripts, well here's an [**Example**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh). It's the same script basically just `exe` is different.
+    Check the [**Written Guide**](https://github.com/Twig6943/AffinityOnLinux/blob/main/AffinityPhoto/Script.sh). Author posted his scripts on **Affinity**'s forums, who knows maybe in the future a **Linux** native version ?.
 
 That's it. Once all done we can launch them from the shortcuts the scripts create. That's the closest to **Photoshop** I have ever gotten, without having to go through *WinBlows* if ya know what I mean.
 
