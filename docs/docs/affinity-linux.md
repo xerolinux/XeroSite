@@ -20,7 +20,7 @@ This for my own use. Use it if you want to. Just documenting the installation of
 
 ### Installation
 
-Once we have created an account on the [**Affinity Site**](https://affinity.serif.com/en-us/){:target="_blank"} and downloaded and saved them in a safe location, we will need to go through the following scripts. Process might take time and a **Discreet GPU** is highly recommended for Hardware Acceleration & good performance.
+Firs we will need to download `exe` of choice from the dropdown at [**Affinity Photo**](https://store.serif.com/update/windows/photo/2/){:target="_blank"}, [**Affinity Designer**](https://store.serif.com/update/windows/designer/2/){:target="_blank"} or [**Affinity Publisher**](https://store.serif.com/update/windows/publisher/2/){:target="_blank"}. Once we have downloaded and saved it in a safe location, we will need to go through the following scripts. Process might take time and a **Discreet GPU** is highly recommended for Hardware Acceleration & good performance.
 
 !!! note
 
