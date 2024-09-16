@@ -20,13 +20,11 @@ This for my own use. Use it if you want to. Just documenting the installation of
 
 ### Installation
 
-Firs we will need to download `exe` of choice from the dropdown at [**Affinity Photo**](https://store.serif.com/update/windows/photo/2/){:target="_blank"}, [**Affinity Designer**](https://store.serif.com/update/windows/designer/2/){:target="_blank"} or [**Affinity Publisher**](https://store.serif.com/update/windows/publisher/2/){:target="_blank"}. Once we have downloaded and saved it in a safe location, we will need to go through the following scripts. Process might take time and a **Discreet GPU** is highly recommended for Hardware Acceleration & good performance.
+Firs we will need to download the `exe` of choice from the dropdown at [**Photo**](https://store.serif.com/update/windows/photo/2/){:target="_blank"}, [**Designer**](https://store.serif.com/update/windows/designer/2/){:target="_blank"} or [**Publisher**](https://store.serif.com/update/windows/publisher/2/){:target="_blank"}. Once we have downloaded and saved it in a safe location, we will need to go through the following scripts. Process might take time and a **Discreet GPU** is highly recommended for Hardware Acceleration & good performance.
 
 !!! note
 
-    Do not cut-paste installers into location indicated by scripts as they will get deleted once script is done. I recommend you do a copy-paste instead just so you do not have to download them all over again. Also self-updates are disabled. You will have to manually get the updated installers. Guide updated **Sep. 16th 2024**...
-
-Before running the scripts below, check if you have the required [**Dependencies**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies){:target="_blank"}
+    Do not cut-paste installers into location indicated by scripts as they will get deleted once script is done. Before running the scripts below, check if you have the required [**Dependencies**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies){:target="_blank"}
 
 - [**Affinity Photo**](https://affinity.serif.com/en-gb/photo/?#top){:target="_blank"}
 
