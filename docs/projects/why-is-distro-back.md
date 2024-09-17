@@ -11,6 +11,16 @@ tags:
 
     This post will explain why I decided to bring back **XeroLinux** and how you can get your hands on it. All I ask is for you to read the entire post to understand why it is the way it is. I hope this post clarifies my situation. If you grabbed a copy, find out how to install it via the [**XeroLinux Wiki**](https://wiki.xerolinux.xyz/distro/){:target="_blank"}
 
+### What is XeroLinux
+
+In short, it's just an alternative to the **XeroLinux Plasma Install** script, making it easier to install **Arch**, bypassing the need for **ArchInstall**. The ISO includes my toolkit as well as my famous **XeroLayan** rice all-in-one shot.
+
+<p align="center">
+  <img src="https://i.imgur.com/ejZ1ZQv.png">
+</p>
+
+You can use the included **Post-Install Toolkit**, 1st icon with my logo in the Dock, to configure it, keeping in mind that some of the features were already applied to the ISO. I have also taken the liberty of including the [**Chaotic-AUR**](https://aur.chaotic.cx) repository so it's easier for you to install **AUR** packages rather from having to compile them.
+
 ### Why is XeroLinux back
 
 To explain why, let me set the stage. As you may already know, I’m going through significant financial difficulties. Living in Lebanon, finding a job—especially a remote one—is extremely challenging, and the situation continues to worsen. I won’t rehash the entire story here, but if you’re not familiar, you can read more about it in this [**BlogPost**](https://blog.techxero.com/index.php/2024/06/07/actively-looking-for-a-job/){:target="_blank"}.
