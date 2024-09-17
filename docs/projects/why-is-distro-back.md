@@ -13,13 +13,13 @@ tags:
 
 ### What is XeroLinux
 
-In short, it's just an alternative to the **XeroLinux Plasma Install** script, making it easier to install **Arch**, bypassing the need for **ArchInstall**. The ISO includes my toolkit as well as my famous **XeroLayan** rice all-in-one shot.
+In short, it's just an alternative to the [**Plasma Install Script**](https://wiki.xerolinux.xyz/plasma/){:target="_blank"}, making it easier to install **Arch**, bypassing the need for **ArchInstall**. The ISO includes my toolkit as well as my famous [**Xero Layan Rice**](https://wiki.xerolinux.xyz/rice/){:target="_blank"} all-in-one shot.
 
 <p align="center">
   <img src="https://i.imgur.com/ejZ1ZQv.png">
 </p>
 
-You can use the included **Post-Install Toolkit**, 1st icon with my logo in the Dock, to configure it, keeping in mind that some of the features were already applied to the ISO. I have also taken the liberty of including the [**Chaotic-AUR**](https://aur.chaotic.cx) repository so it's easier for you to install **AUR** packages rather from having to compile them.
+You can use the included [**Xero Toolkit**](https://wiki.xerolinux.xyz/xlapit/){:target="_blank"}, 1st icon with my logo in the Dock, to configure it, keeping in mind that some of the features were already applied to the ISO. I have also taken the liberty of including the [**Chaotic-AUR**](https://aur.chaotic.cx){:target="_blank"} repository so it's easier for you to install **AUR** packages rather from having to compile them.
 
 ### Why is XeroLinux back
 
