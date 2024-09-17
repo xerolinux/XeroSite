@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://bytes.xerolinux.xyz/docs/ffmpeg-cheats/">
+        <link rel="canonical" href="https://bytes.xerolinux.xyz/docs/passwd-reset/">
       
       
-        <link rel="prev" href="../build-archiso/">
+        <link rel="prev" href="../mkdocs-install/">
       
       
-        <link rel="next" href="../linux-explained/">
+        <link rel="next" href="../../fund/foss-fundraising/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
@@ -27,7 +27,7 @@
     
     
       
-        <title>FFmpeg Cheat Sheet - DarkXero's Bytes</title>
+        <title>Reset Password - DarkXero's Bytes</title>
       
     
     
@@ -62,11 +62,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="FFmpeg Cheat Sheet - DarkXero's Bytes" >
+        <meta  property="og:title"  content="Reset Password - DarkXero's Bytes" >
       
         <meta  property="og:description"  content="Thoughts, Opinions, Documentation, and more..." >
       
-        <meta  property="og:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/ffmpeg-cheats.png" >
+        <meta  property="og:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/passwd-reset.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -74,15 +74,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://bytes.xerolinux.xyz/docs/ffmpeg-cheats/" >
+        <meta  property="og:url"  content="https://bytes.xerolinux.xyz/docs/passwd-reset/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="FFmpeg Cheat Sheet - DarkXero's Bytes" >
+        <meta  name="twitter:title"  content="Reset Password - DarkXero's Bytes" >
       
         <meta  name="twitter:description"  content="Thoughts, Opinions, Documentation, and more..." >
       
-        <meta  name="twitter:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/ffmpeg-cheats.png" >
+        <meta  name="twitter:image"  content="https://bytes.xerolinux.xyz/assets/images/social/docs/passwd-reset.png" >
       
     
     
@@ -112,7 +112,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#whats-this" class="md-skip">
+        <a href="#information" class="md-skip">
           Skip to content
         </a>
       
@@ -147,7 +147,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FFmpeg Cheat Sheet
+              Reset Password
             
           </span>
         </div>
@@ -361,28 +361,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    FFmpeg Cheat Sheet
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../ffmpeg-cheats/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -391,216 +373,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#whats-this" class="md-nav__link">
-    <span class="md-ellipsis">
-      What's This?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#basic-conversion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Basic conversion
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Basic conversion">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#remux-an-mkv-file-into-mp4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remux an MKV file into MP4
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#high-quality-encoding" class="md-nav__link">
-    <span class="md-ellipsis">
-      High-quality encoding
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trimming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trimming
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mux-video-and-audio-from-another-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mux video and audio from another video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concat-demuxer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concat demuxer
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delay-audiovideo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Delay audio/video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#burn-subtitles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Burn subtitles
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extract-the-frames-from-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Extract the frames from a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rotate-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rotate a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#download-transport-stream-video-streams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Download "Transport Stream" video streams
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mute-some-of-the-audio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mute some of the audio
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deinterlace" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deinterlace
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-video-slideshow-from-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create a video slideshow from images
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extract-images-from-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Extract images from a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#display-the-frame-number-on-each-frame" class="md-nav__link">
-    <span class="md-ellipsis">
-      Display the frame number on each frame
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metadata-change-the-title" class="md-nav__link">
-    <span class="md-ellipsis">
-      Metadata: Change the title
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Metadata: Change the title">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#wrap-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrap up
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -652,10 +424,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../passwd-reset/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Reset Password
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -664,6 +454,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lets-do-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      Let's do this 🚀
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1127,194 +953,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#whats-this" class="md-nav__link">
+  <a href="#information" class="md-nav__link">
     <span class="md-ellipsis">
-      What's This?
+      Information
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#lets-do-this" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Let's do this 🚀
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#basic-conversion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Basic conversion
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Basic conversion">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#remux-an-mkv-file-into-mp4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Remux an MKV file into MP4
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#high-quality-encoding" class="md-nav__link">
-    <span class="md-ellipsis">
-      High-quality encoding
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trimming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trimming
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mux-video-and-audio-from-another-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mux video and audio from another video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concat-demuxer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concat demuxer
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delay-audiovideo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Delay audio/video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#burn-subtitles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Burn subtitles
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extract-the-frames-from-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Extract the frames from a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rotate-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rotate a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#download-transport-stream-video-streams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Download "Transport Stream" video streams
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mute-some-of-the-audio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mute some of the audio
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deinterlace" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deinterlace
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#create-a-video-slideshow-from-images" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create a video slideshow from images
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#extract-images-from-a-video" class="md-nav__link">
-    <span class="md-ellipsis">
-      Extract images from a video
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#display-the-frame-number-on-each-frame" class="md-nav__link">
-    <span class="md-ellipsis">
-      Display the frame number on each frame
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#metadata-change-the-title" class="md-nav__link">
-    <span class="md-ellipsis">
-      Metadata: Change the title
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Metadata: Change the title">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#wrap-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrap up
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1333,132 +985,38 @@
                   
 
 
-<div><h3 id="whats-this">What's This?<a class="headerlink" href="#whats-this" title="Permanent link">¶</a></h3>
-<p>This for my own use. Use it if you want to. Just documenting the use of <a href="https://www.ffmpeg.org/ffmpeg.html" target="_blank"><strong>FFmpeg</strong></a> on <strong>Linux</strong>.</p>
+  <h1>Reset Password</h1>
+
+<div><h3 id="information">Information<a class="headerlink" href="#information" title="Permanent link">¶</a></h3>
+<p>I have lost my root pass on <strong>Linux</strong> more times than I can count. This guide is here so I do not have to <em>Google</em> it lol. Might be useful to you I dunno. But it's here.</p>
 <p align="center">
-  <a class="glightbox" href="https://i.imgur.com/TweW8fW.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/TweW8fW.png"></a>
+    <a class="glightbox" href="https://i.imgur.com/VFXV09r.jpeg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/VFXV09r.jpeg"></a>
 </p>
 
-<h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h3>
-<p>First we will need to install <code>FFmpeg</code>. I will be doing it on <strong>ArchLinux</strong> since that's what I use. Look for packages on your distro if you don't use it.</p>
-<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>sudo<span class="w"> </span>pacman<span class="w"> </span>-S<span class="w"> </span>--noconfirm<span class="w"> </span>--needed<span class="w"> </span>ffmpeg<span class="w"> </span>ffmpegthumbnailer<span class="w"> </span>ffmpegthumbs<span class="w"> </span>qt6-multimedia-ffmpeg
-</span></code></pre></div>
-<p>Now that we have it, it's time for the cheat sheet.</p>
-<hr>
-<h1 align="center">.// The Cheat Sheet \\.</h1>
-
-<h2 id="basic-conversion">Basic conversion<a class="headerlink" href="#basic-conversion" title="Permanent link">¶</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ffmpeg -i in.mp4 out.avi
-</span></code></pre></div>
-<h3 id="remux-an-mkv-file-into-mp4">Remux an MKV file into MP4<a class="headerlink" href="#remux-an-mkv-file-into-mp4" title="Permanent link">¶</a></h3>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ffmpeg -i in.mkv -c:v copy -c:a copy out.mp4
-</span></code></pre></div>
-<h3 id="high-quality-encoding">High-quality encoding<a class="headerlink" href="#high-quality-encoding" title="Permanent link">¶</a></h3>
-<p>Use the <code>crf</code> (Constant Rate Factor) parameter to control the output quality. The lower crf, the higher the quality (range: 0-51). The default value is 23, and visually lossless compression corresponds to <code>-crf 18</code>. Use the <code>preset</code> parameter to control the speed of the compression process. <a href="https://trac.ffmpeg.org/wiki/Encode/H.264" target="_blank"><strong>Additional info</strong></a>.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ffmpeg -i in.mp4 -preset slower -crf 18 out.mp4
-</span></code></pre></div>
-<h2 id="trimming">Trimming<a class="headerlink" href="#trimming" title="Permanent link">¶</a></h2>
-<p>Without re-encoding:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ffmpeg -ss [start] -i in.mp4 -t [duration] -c copy out.mp4
-</span></code></pre></div>
-- <a href="http://ffmpeg.org/ffmpeg-all.html#Main-options" target="_blank"><code>-ss</code></a> specifies the start time, e.g. <code>00:01:23.000</code> or <code>83</code> (in seconds)
-- <a href="http://ffmpeg.org/ffmpeg-all.html#Main-options" target="_blank"><code>-t</code></a> specifies the duration of the clip (same format).
-- Recent <code>ffmpeg</code> also has a flag to supply the end time with <code>-to</code>.
-- <a href="http://ffmpeg.org/ffmpeg-all.html#Main-options" target="_blank"><code>-c</code></a> copy copies the first video, audio, and subtitle bitstream from the input to the output file without re-encoding them. This won't harm the quality and make the command run within seconds.
-<p>With re-encoding:</p>
-<p>If you leave out the <code>-c copy</code> option, <code>ffmpeg</code> will automatically re-encode the output video and audio according to the format you chose. For high quality video and audio, read the <a href="https://ffmpeg.org/trac/ffmpeg/wiki/x264EncodingGuide" target="_blank"><strong>x264 Encoding Guide</strong></a> and the <a href="http://ffmpeg.org/trac/ffmpeg/wiki/AACEncodingGuide" target="_blank"><strong>AAC Encoding Guide</strong></a>, respectively.</p>
-<p>For example:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ffmpeg -ss [start] -i in.mp4 -t [duration] -c:v libx264 -c:a aac -strict experimental -b:a 128k out.mp4
-</span></code></pre></div>
-<h2 id="mux-video-and-audio-from-another-video">Mux video and audio from another video<a class="headerlink" href="#mux-video-and-audio-from-another-video" title="Permanent link">¶</a></h2>
-<p>To copy the video from in0.mp4 and audio from in1.mp4:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>ffmpeg -i in0.mp4 -i in1.mp4 -c copy -map 0:0 -map 1:1 -shortest out.mp4
-</span></code></pre></div>
-- With <a href="http://ffmpeg.org/ffmpeg.html#Stream-copy" target="_blank">-c copy</a> the streams will be <code>stream copied</code>, not re-encoded, so there will be no quality loss. If you want to re-encode, see <a href="https://trac.ffmpeg.org/wiki/Encode/H.264" target="_blank"><strong>FFmpeg Wiki: H.264 Encoding Guide</strong></a>.
-- The <code>-shortest</code> option will cause the output duration to match the duration of the shortest input stream.
-- See the <a href="http://ffmpeg.org/ffmpeg.html#Advanced-options" target="_blank"><code>-map</code> option documentation</a> for more info.
-<h2 id="concat-demuxer">Concat demuxer<a class="headerlink" href="#concat-demuxer" title="Permanent link">¶</a></h2>
-<p>First, make a text file.
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>file 'in1.mp4'
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>file 'in2.mp4'
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>file 'in3.mp4'
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>file 'in4.mp4'
-</span></code></pre></div>
-Then, run <code>ffmpeg</code>:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>ffmpeg -f concat -i list.txt -c copy out.mp4
-</span></code></pre></div>
-<h2 id="delay-audiovideo">Delay audio/video<a class="headerlink" href="#delay-audiovideo" title="Permanent link">¶</a></h2>
-<p>Delay video by 3.84 seconds:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>ffmpeg -i in.mp4 -itsoffset 3.84 -i in.mp4 -map 1:v -map 0:a -vcodec copy -acodec copy out.mp4
-</span></code></pre></div>
-Delay audio by 3.84 seconds:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>ffmpeg -i in.mp4 -itsoffset 3.84 -i in.mp4 -map 0:v -map 1:a -vcodec copy -acodec copy out.mp4
-</span></code></pre></div>
-<h2 id="burn-subtitles">Burn subtitles<a class="headerlink" href="#burn-subtitles" title="Permanent link">¶</a></h2>
-<p>Use the <a href="http://ffmpeg.org/ffmpeg.html#ass" target="_blank">libass</a> library (make sure your ffmpeg install has the library in the configuration <code>--enable-libass</code>).</p>
-<p>First convert the subtitles to .ass format:
-</p><div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>ffmpeg -i sub.srt sub.ass
-</span></code></pre></div>
-Then add them using a video filter:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>ffmpeg -i in.mp4 -vf ass=sub.ass out.mp4
-</span></code></pre></div>
-<h2 id="extract-the-frames-from-a-video">Extract the frames from a video<a class="headerlink" href="#extract-the-frames-from-a-video" title="Permanent link">¶</a></h2>
-<p>To extract all frames from between 1 and 5 seconds, and also between 11 and 15 seconds:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>ffmpeg -i in.mp4 -vf select='between(t,1,5)+between(t,11,15)' -vsync 0 out%d.png
-</span></code></pre></div>
-<p>To extract one frame per second only:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>ffmpeg -i in.mp4 -fps=1 -vsync 0 out%d.png
-</span></code></pre></div>
-<h2 id="rotate-a-video">Rotate a video<a class="headerlink" href="#rotate-a-video" title="Permanent link">¶</a></h2>
-<p>Rotate 90 clockwise:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>ffmpeg -i in.mov -vf "transpose=1" out.mov
-</span></code></pre></div>
-<p>For the transpose parameter you can pass:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>0 = 90CounterCLockwise and Vertical Flip (default)
-</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>1 = 90Clockwise
-</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>2 = 90CounterClockwise
-</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>3 = 90Clockwise and Vertical Flip
-</span></code></pre></div>
-<p>Use <code>-vf "transpose=2,transpose=2"</code> for 180 degrees.</p>
-<h2 id="download-transport-stream-video-streams">Download "Transport Stream" video streams<a class="headerlink" href="#download-transport-stream-video-streams" title="Permanent link">¶</a></h2>
+<h3 id="lets-do-this">Let's do this 🚀<a class="headerlink" href="#lets-do-this" title="Permanent link">¶</a></h3>
+<p>How to reset forgotten root password in a <strong>GNU/Linux</strong> distribution with <code>GRUB</code>?</p>
+<p>If this is a laptop or a desktop which you have next to you then follow these steps.</p>
 <ol>
-<li>Locate the playlist file, e.g. using Chrome &gt; F12 &gt; Network &gt; Filter: m3u8</li>
-<li>Download and concatenate the video fragments:</li>
+<li>Shut down the device.</li>
+<li>Start it again. When you see GRUB menu, press the <code>e</code> key on the keyboard before the system starts booting.</li>
+<li>In the <code>GRUB</code> boot options, scroll down and locate the line that begins with <code>linux</code>. In this line move the cursor to the end, right after <code>ro quiet</code>. Delete everything after that. Change <code>ro</code> to <code>rw</code>. Append the parameter <code>init=/bin/bash</code></li>
+<li>Press Ctrl+x, or F10, to boot.</li>
+<li>You will see a root prompt.</li>
 </ol>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>ffmpeg -i "path_to_playlist.m3u8" -c copy -bsf:a aac_adtstoasc out.mp4
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>:#
 </span></code></pre></div>
-<p>If you get a "Protocol 'https not on whitelist 'file,crypto'!" error, add the <code>protocol_whitelist</code> option:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>ffmpeg -protocol_whitelist "file,http,https,tcp,tls" -i "path_to_playlist.m3u8" -c copy -bsf:a aac_adtstoasc out.mp4
+<p>Remount the filesystem in read/write mode:</p>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>:#<span class="w"> </span>mount<span class="w"> </span>-no<span class="w"> </span>remount,rw<span class="w"> </span>/
 </span></code></pre></div>
-<h2 id="mute-some-of-the-audio">Mute some of the audio<a class="headerlink" href="#mute-some-of-the-audio" title="Permanent link">¶</a></h2>
-<p>To replace the first 90 seconds of audio with silence:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>ffmpeg -i in.mp4 -vcodec copy -af "volume=enable='lte(t,90)':volume=0" out.mp4
+<ol>
+<li>Set the password of any user(s).</li>
+</ol>
+<div class="language-Bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>:#<span class="w"> </span>passwd<span class="w"> </span>joe
 </span></code></pre></div>
-<p>To replace all audio between 1'20" and 1'30" with silence:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>ffmpeg -i in.mp4 -vcodec copy -af "volume=enable='between(t,80,90)':volume=0" out.mp4
-</span></code></pre></div>
-<h2 id="deinterlace">Deinterlace<a class="headerlink" href="#deinterlace" title="Permanent link">¶</a></h2>
-<p>Deinterlacing using "yet another deinterlacing filter".</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>ffmpeg -i in.mp4 -vf yadif out.mp4
-</span></code></pre></div>
-<h2 id="create-a-video-slideshow-from-images">Create a video slideshow from images<a class="headerlink" href="#create-a-video-slideshow-from-images" title="Permanent link">¶</a></h2>
-<p>Parameters: <code>-r</code> marks the image framerate (inverse time of each image); <code>-vf fps=25</code> marks the true framerate of the output.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>ffmpeg -r 1/5 -i img%03d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
-</span></code></pre></div>
-<h2 id="extract-images-from-a-video">Extract images from a video<a class="headerlink" href="#extract-images-from-a-video" title="Permanent link">¶</a></h2>
-<ul>
-<li>Extract all frames: <code>ffmpeg -i input.mp4 thumb%04d.jpg -hide_banner</code></li>
-<li>Extract a frame each second: <code>ffmpeg -i input.mp4 -vf fps=1 thumb%04d.jpg -hide_banner</code></li>
-<li>Extract only one frame: <code>ffmpeg -i input.mp4 -ss 00:00:10.000 -vframes 1 thumb.jpg</code></li>
-</ul>
-<h2 id="display-the-frame-number-on-each-frame">Display the frame number on each frame<a class="headerlink" href="#display-the-frame-number-on-each-frame" title="Permanent link">¶</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>ffmpeg -i in.mov -vf "drawtext=fontfile=arial.ttf: text=%{n}: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: box=1: boxcolor=0x00000099: fontsize=72" -y out.mov
-</span></code></pre></div>
-<h2 id="metadata-change-the-title">Metadata: Change the title<a class="headerlink" href="#metadata-change-the-title" title="Permanent link">¶</a></h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>ffmpeg -i in.mp4 -map_metadata -1 -metadata title="My Title" -c:v copy -c:a copy out.mp4
-</span></code></pre></div>
-<h3 id="wrap-up">Wrap up<a class="headerlink" href="#wrap-up" title="Permanent link">¶</a></h3>
-<p>That's it. If you have any additional tips send them my way so I can add to this thing. The more the merrier. Useful for all.</p></div>
+<ol>
+<li>Reboot with the command <code>reboot -f</code>.</li>
+</ol>
+<p>That's it ! The new password should work now.</p></div>
 
 
 
@@ -1499,7 +1057,7 @@ Then add them using a video filter:
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../build-archiso/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ArchISO Build">
+          <a href="../mkdocs-install/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MKDocs Install">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1509,20 +1067,20 @@ Then add them using a video filter:
                 Previous
               </span>
               <div class="md-ellipsis">
-                ArchISO Build
+                MKDocs Install
               </div>
             </div>
           </a>
         
         
           
-          <a href="../linux-explained/" class="md-footer__link md-footer__link--next" aria-label="Next: Linux in a Nutshell">
+          <a href="../../fund/foss-fundraising/" class="md-footer__link md-footer__link--next" aria-label="Next: FOSS Fundraising">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Linux in a Nutshell
+                FOSS Fundraising
               </div>
             </div>
             <div class="md-footer__button md-icon">

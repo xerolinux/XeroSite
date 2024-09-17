@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bytes.xerolinux.xyz/docs/passwd-reset/</loc>
+         <lastmod>2024-09-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bytes.xerolinux.xyz/fund/foss-fundraising/</loc>
          <lastmod>2024-09-17</lastmod>
          <changefreq>daily</changefreq>
