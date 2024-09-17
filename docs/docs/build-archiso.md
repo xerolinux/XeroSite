@@ -10,7 +10,7 @@ tags:
 This guide was written by following the **ArchWiki**. It's for my own use. The public version can be found on the official [**XeroLinux**](https://xerolinux.xyz/posts/build-archiso/){:target="_blank"}. This version will always be updated. Sometimes need to remind myself which files to modify...
 
 <p align="center">
-    <img width="500" src="https://i.imgur.com/QWqMIsr.png" alt="logo">
+    <img src="https://i.imgur.com/QWqMIsr.png" alt="logo">
 </p>
 
 ### Let's do this 🚀
@@ -30,7 +30,7 @@ mkdir ~/XeroWork && mkdir ~/XeroOut
 Modify the `packages.x86_64` inside `releng` folder add the necessary required packages. Now that it's all done we can proceed to building a fresh new & updated **ArchISO**. Just use the command below and watch the magic happen.
 
 ```Bash
-sudo mkarchiso -v -w ~/ArchWork -o ~/ArchOut /usr/share/archiso/configs/releng
+sudo mkarchiso -v -w ~/XeroWork -o ~/XeroOut /usr/share/archiso/configs/releng
 ```
 
 Finally we can delete the work directory to save space. just do `sudo rm -rf ~/XeroWork/`.
