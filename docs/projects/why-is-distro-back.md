@@ -4,12 +4,14 @@ tags:
   - Linux
   - XeroLinux
   - ArchLinux
-cover: https://i.imgur.com/ejZ1ZQv.png
+  - Distribution
 ---
 
-Time for me to lay everything down and explain why, after so long, I decided to bring the distro back from the dead. Read on...
+!!! info
 
-### XeroLinux is back, But why?
+    This post will explain why I decided to bring back **XeroLinux** and how you can get your hands on it. All I ask is for you to read the entire post to understand why it is the way it is. I hope this post clarifies my situation. If you grabbed a copy, find out how to install it via the [**XeroLinux Wiki**](https://wiki.xerolinux.xyz/distro/){:target="_blank"}
+
+### Why is XeroLinux back
 
 To explain why, let me set the stage. As you may already know, I’m going through significant financial difficulties. Living in Lebanon, finding a job—especially a remote one—is extremely challenging, and the situation continues to worsen. I won’t rehash the entire story here, but if you’re not familiar, you can read more about it in this [**BlogPost**](https://blog.techxero.com/index.php/2024/06/07/actively-looking-for-a-job/){:target="_blank"}.
 
@@ -21,7 +23,7 @@ Not to mention that I've been running it on my own this whole time, and maintain
 
 That answers the why.
 
-### How is it being distributed ?
+### How to get it
 
 I've decided to put the distro behind a donation wall. By supporting me financially, you'll gain access to the XeroLinux ISO—a true win-win. Your support helps me keep going, and you get something valuable in return. For more details, check out the [**Release Post**](https://xerolinux.xyz/iso/){:target="_blank"}
 
@@ -29,15 +31,15 @@ Now, I know that some of you will say, "But it's FOSS; you shouldn't charge for 
 
 The distro will be continuously updated to ensure it works seamlessly and will stay alive as long as I have your support. If support ever dries up… well, let's not dwell on that. Let’s focus on keeping it alive and thriving for a long and happy journey together!
 
-### Is it any Special?
+### Is it any Special
 
 This is a common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way for you to support my journey.
 
 Users are free to prefer any other distro over mine. I am not and will never force it. Also, I have never pretended that **XeroLinux** is better than any other distro. It's never been a competition, and I would hate for people to think it was. I hope this clarifies things.
 
-### Can I get it for free?
+### How to get it for free
 
-If you can’t support me financially but still want **XeroLinux**, while the ISO isn't available for free right now, you can still achieve similar results with my [**PlasmaInstall**](https://github.com/xerolinux/xero-plasma){:target="_blank"} script, which will always be free of charge. It just requires a bit more elbow grease on your part—that’s all there is to it!
+If you can’t support me financially but still want **XeroLinux**, while the ISO isn't available for free right now, you can still achieve similar results with my [**PlasmaInstall**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script, which will always be free of charge. It just requires a bit more elbow grease on your part—that’s all there is to it!
 
 ### I don't like Arch
 
