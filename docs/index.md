@@ -2,7 +2,7 @@
 
 !!! info
 
-    All the documentation found herein, will be for **ArchLinux** since that's the distro I use. Some will be general **Linux** ones. Also any documentation found here will be mostly modified to work for me and my hardware. Please do keep that in mind when going through this site.
+    All the documentation found herein, will be for **ArchLinux** since that's the distro I use. Some will be general **Linux** ones. Also docs will be mostly modified to work for me and my hardware. Please do keep that in mind when going through this site.
 
 Welcome to **DarkXero's Bytes** ! This is where I will be posting my thoughts, feelings and some documentation for myself so I do not have to keep looking for them. All the opinions, thoughts and feelings are my own. If I find something useful worth sharing publicly, I will be posting it on the [**XeroLinux**](https://xerolinux.xyz){:target="_blank"} main site.
 
