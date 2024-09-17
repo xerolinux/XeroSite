@@ -26,6 +26,10 @@ First we will need to download the [**Photo**](https://store.serif.com/update/wi
 
     Do not cut-paste installers into location indicated by scripts as they will get deleted once script is done. Before running the scripts below, check if you have the required [**Dependencies**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies){:target="_blank"}
 
+<p align="center">
+  <img src="https://i.imgur.com/YPXV9bc.png">
+</p>
+
 - [**Affinity Photo**](https://affinity.serif.com/en-gb/photo/?#top){:target="_blank"}
 
 Affinity Photo is a professional-grade photo editing software, designed for photographers, artists, and designers. Known for its robust performance, it offers a comprehensive suite of tools, including advanced retouching, color correction, RAW editing, and non-destructive layering, making it a versatile alternative to Adobe Photoshop.
