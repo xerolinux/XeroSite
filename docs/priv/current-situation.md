@@ -22,7 +22,9 @@ For the first time in my life, I genuinely don’t know what to do. Should I fle
 
 ### Safety 1st
 
-With everything that’s happening, I need to prioritize my safety and that of my family. If the situation continues to deteriorate, I may be forced to stop everything I’m doing just to focus on survival. We’re actively searching for potential shelters, just in case things take an even darker turn. It’s heartbreaking, but these are the conversations we’re having right now—finding a safe place to hide from the chaos.
+With everything that’s happening, I need to prioritize my safety and that of my family. If the situation continues to deteriorate, I may be forced to stop everything I’m doing just to focus on survival. We’re actively searching for potential shelters, just in case things take an even darker turn. It’s heartbreaking, but these are the conversations we’re having right now—finding a safe place to hide from the chaos. Just look at this mini-nuke that happened earlier.
+
+![type:video](https://dl.techxero.com/files/boom.mp4)
 
 I know many of you are eagerly waiting for updates on the **XeroLinux** project, and believe me, I haven’t forgotten about it. But I hope you understand that it’s nearly impossible to work under these conditions. My mind is constantly racing, wondering if we’ll be the next to face the violence, or if a full-scale war will erupt before we even have a chance to react.
 
