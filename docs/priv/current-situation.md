@@ -24,19 +24,15 @@ For the first time in my life, I genuinely don’t know what to do. Should I fle
 
 With everything that’s happening, I need to prioritize my safety and that of my family. If the situation continues to deteriorate, I may be forced to stop everything I’m doing just to focus on survival. We’re actively searching for potential shelters, just in case things take an even darker turn. It’s heartbreaking, but these are the conversations we’re having right now—finding a safe place to hide from the chaos. Just look at this mini-nuke that happened earlier.
 
-![type:video](https://dl.techxero.com/files/boom.mp4)
+![type:video](https://www.youtube.com/embed/q_5ls3FBrHU)
 
-I know many of you are eagerly waiting for updates on the **XeroLinux** project, and believe me, I haven’t forgotten about it. But I hope you understand that it’s nearly impossible to work under these conditions. My mind is constantly racing, wondering if we’ll be the next to face the violence, or if a full-scale war will erupt before we even have a chance to react.
+I must emphasize that this situation is incredibly time-sensitive. Our city has only one airport, and there are active discussions about shutting it down. [**Many flights have already been cancelled**](https://today.lorientlejour.com/article/1428327/increase-in-flight-cancellations-at-beirut-airport-following-israeli-strikes.html){:target="_blank"}. If I’m going to make it out, it has to be soon, extremely soon. We need to act now before it's too late.
 
 ### How to help
-
-As most of you are aware, my financial situation has been precarious for quite some time. If I do have to flee the country, I’m going to need resources to make that happen. Right now, I have about $320 to my name. That’s not nearly enough to cover the costs of leaving Lebanon if things continue to worsen.
 
 If you want to help, please know that this is separate from any funds raised for the XeroLinux project. I’ve made sure to keep the project’s funds separate so they are used exclusively for its development and survival. The funds I need now are for a different, more personal cause—ensuring my safety and the safety of my family.
 
 If you’re able and willing to contribute, your help could make a real difference in what happens next. No amount is too small, and every bit helps in these uncertain times.
-
-I must emphasize that this situation is incredibly time-sensitive. Our city has only one airport, and there are active discussions about shutting it down. [**Many flights have already been cancelled**](https://today.lorientlejour.com/article/1428327/increase-in-flight-cancellations-at-beirut-airport-following-israeli-strikes.html){:target="_blank"}. If I’m going to make it out, it has to be soon, extremely soon. We need to act now before it's too late.
 
 To do so head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
 
