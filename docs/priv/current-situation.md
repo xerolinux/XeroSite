@@ -36,7 +36,7 @@ If you want to help, please know that this is separate from any funds raised for
 
 If you’re able and willing to contribute, your help could make a real difference in what happens next. No amount is too small, and every bit helps in these uncertain times.
 
-To do so head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc).
+To do so head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
 
 Thanks for all your help & support !
 
