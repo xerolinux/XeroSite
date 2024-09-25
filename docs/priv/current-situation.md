@@ -9,9 +9,9 @@ tags:
 
 !!! info
 
-    If you’re able and willing to contribute, your help could make a real difference. No amount is too small, and every bit helps in these uncertain times. To know more, head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
+    If you’re able and willing to contribute, your help could make a real difference. No amount is too small, and every bit helps in these uncertain times. To know more and donate, head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
 
-### Hello everyone,
+**Hello everyone,**
 
 It's one of those times where words fall short. The past few days have been incredibly difficult for us here in **Lebanon**, and it feels like things are only getting worse with each passing moment. Both the political and economic situation are spiraling out of control, and it’s impacting every single person here. Close friends, people I’ve known for years, have been injured, and some have even been forced to flee their homes. We’re now living in a reality where technology, something we all rely on daily, has become a source of fear. Can you imagine? Tech warfare? Exploding pagers and phones? It’s something straight out of a dystopian novel, but it's happening right here, right now.
 
