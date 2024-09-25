@@ -6,35 +6,20 @@ tags:
   - Situation
   - Struggles
 ---
+
+!!! info
+
+    If you’re able and willing to contribute, your help could make a real difference. No amount is too small, and every bit helps in these uncertain times. To know more, head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
+
 ### Hello everyone,
 
-Today is one of those days where words fall short. The past few days have been incredibly difficult for us here in **Lebanon**, and it feels like things are only getting worse with each passing moment. Both the political and economic situation are spiraling out of control, and it’s impacting every single person here. Close friends, people I’ve known for years, have been injured, and some have even been forced to flee their homes. We’re now living in a reality where technology, something we all rely on daily, has become a source of fear. Can you imagine? Tech warfare? Exploding pagers and phones? It’s something straight out of a dystopian novel, but it's happening right here, right now.
-
-We are terrified to carry even the most basic tech devices, and it's surreal to say the least.
+It's one of those times where words fall short. The past few days have been incredibly difficult for us here in **Lebanon**, and it feels like things are only getting worse with each passing moment. Both the political and economic situation are spiraling out of control, and it’s impacting every single person here. Close friends, people I’ve known for years, have been injured, and some have even been forced to flee their homes. We’re now living in a reality where technology, something we all rely on daily, has become a source of fear. Can you imagine? Tech warfare? Exploding pagers and phones? It’s something straight out of a dystopian novel, but it's happening right here, right now.
 
 ![type:video](https://www.youtube.com/embed/OmeKpICXiBA)
 
-In the video below, you’ll see just how grim the situation has become. Just yesterday, a town not far from where I live was hit. I didn’t just hear it, I *felt* it. The windows shook violently as multiple, deafening sonic booms erupted overhead. I don’t exaggerate when I say my heart sank. The sound alone brought back memories of the 1970s and 80s, when I lived through a different war, but the fear is just as real now as it was then. I’m still shaking as I write this. This kind of fear paralyzes you. You never know if the next blast will be the one that hits your home.
-
-![type:video](https://www.youtube.com/embed/tC1a3kk8jKQ)
+We are terrified to carry even the most basic tech devices, and it's surreal to say the least.
 
 For the first time in my life, I genuinely don’t know what to do. Should I flee? Should I stay? Do I hide and pray it doesn’t get worse? I’ve been praying for things to calm down for over a year now, ever since the violence in the south started, but each day feels heavier, as if we’re on the edge of something catastrophic.
-
-### Safety 1st
-
-With everything that’s happening, I need to prioritize my safety and that of my family. If the situation continues to deteriorate, I may be forced to stop everything I’m doing just to focus on survival. We’re actively searching for potential shelters, just in case things take an even darker turn. It’s heartbreaking, but these are the conversations we’re having right now—finding a safe place to hide from the chaos. Just look at this mini-nuke that happened earlier.
-
-![type:video](https://www.youtube.com/embed/q_5ls3FBrHU)
-
-I must emphasize that this situation is incredibly time-sensitive. Our city has only one airport, and there are active discussions about shutting it down. [**Many flights have already been cancelled**](https://today.lorientlejour.com/article/1428327/increase-in-flight-cancellations-at-beirut-airport-following-israeli-strikes.html){:target="_blank"}. If I’m going to make it out, it has to be soon, extremely soon. We need to act now before it's too late.
-
-### How to help
-
-If you want to help, please know that this is separate from any funds raised for the XeroLinux project. I’ve made sure to keep the project’s funds separate so they are used exclusively for its development and survival. The funds I need now are for a different, more personal cause—ensuring my safety and the safety of my family.
-
-If you’re able and willing to contribute, your help could make a real difference in what happens next. No amount is too small, and every bit helps in these uncertain times.
-
-To do so head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
 
 Thanks for all your help & support !
 
