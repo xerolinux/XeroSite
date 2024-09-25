@@ -36,7 +36,7 @@ If you want to help, please know that this is separate from any funds raised for
 
 If you’re able and willing to contribute, your help could make a real difference in what happens next. No amount is too small, and every bit helps in these uncertain times.
 
-I must emphasize that this situation is incredibly time-sensitive. Our city has only one airport, and there are active discussions about shutting it down. If I’m going to make it out, it has to be soon, extremely soon. We need to act now before it's too late.
+I must emphasize that this situation is incredibly time-sensitive. Our city has only one airport, and there are active discussions about shutting it down. [**Many flights have already been cancelled**](https://today.lorientlejour.com/article/1428327/increase-in-flight-cancellations-at-beirut-airport-following-israeli-strikes.html){:target="_blank"}. If I’m going to make it out, it has to be soon, extremely soon. We need to act now before it's too late.
 
 To do so head on over to [**FundRazr**](https://fundrazr.com/XeroLinux?ref=ab_eBckkc){:target="_blank"}.
 
