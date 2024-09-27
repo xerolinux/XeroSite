@@ -59,20 +59,6 @@ I have found a few that I liked on the **AUR**, let's install them via :
 paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav
 ```
 
-For RSS feed plugin we will have to do it manually. I think this method is being discontinued but that's the only way it worked for me, so will use it lol...
-
-- MKDocs-RSS
-
-```Bash
-git clone https://github.com/Guts/mkdocs-rss-plugin.git
-```
-
-Now we `cd` into it then run the following command :
-
-```Bash
-sudo python setup.py install
-```
-
 To activate them we edit the same `mkdocs.yml` file as before like so :
 
 ```YAML

@@ -16,11 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bytes.xerolinux.xyz/docs/build-archiso/</loc>
-         <lastmod>2024-09-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://bytes.xerolinux.xyz/docs/ffmpeg-cheats/</loc>
          <lastmod>2024-09-27</lastmod>
          <changefreq>daily</changefreq>
