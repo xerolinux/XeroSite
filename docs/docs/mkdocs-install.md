@@ -16,7 +16,7 @@ This for my own use. Use it if you want to. Just documenting the installation of
 We will need to install it with some extras. The 2 main packages exist on the **Arch** repos. The rest are on the **AUR**, so to grab everything in one go, I will be using **Paru**. Compiling might take a while, so sit back wile it finishes.
 
 ```Bash
-paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx
+paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
 ```
 
 Donce that's done we need to create the site. There's a command for that.
@@ -56,22 +56,10 @@ This will make it use the **Slate Material** Theme with **Deep Purple** accents.
 I have found a few that I liked on the **AUR**, let's install them via :
 
 ```Bash
-paru -S --noconfirm mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav
+paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav
 ```
 
-For RSS feed and video plugins we will have to do it manually. I think this method is being discontinued but that's the only way it worked for me, so will use it lol...
-
-- MKDocs-Video
-
-```Bash
-wget https://files.pythonhosted.org/packages/cf/16/45213649b6756744f36f31014fc8673df1d7c998bb9a801c2d769fff4114/mkdocs-video-1.5.0.tar.gz
-```
-
-Extract & `cd` into it then run the following command :
-
-```Bash
-sudo python setup.py install
-```
+For RSS feed plugin we will have to do it manually. I think this method is being discontinued but that's the only way it worked for me, so will use it lol...
 
 - MKDocs-RSS
 
