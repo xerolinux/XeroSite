@@ -1,6 +1,5 @@
 - [🏠Home](index.md)
 - [🗒️Documentation](/docs/)
-- [💰Fundraising](/fund/)
 - [🗨️Communication](/priv/)
-- [💻Projects](/projects/)
-- [⚙️Technology](/tech/)
+- [💻Xero Projects](/projects/)
+- [🖱️Technology](/tech/)

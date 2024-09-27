@@ -36,16 +36,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://bytes.xerolinux.xyz/fund/foss-fundraising/</loc>
-         <lastmod>2024-09-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://bytes.xerolinux.xyz/fund/new-gpu-cpu-fund/</loc>
-         <lastmod>2024-09-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://bytes.xerolinux.xyz/priv/be-thankful/</loc>
          <lastmod>2024-09-27</lastmod>
          <changefreq>daily</changefreq>
@@ -57,6 +47,16 @@
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/developing-is-fun-but/</loc>
+         <lastmod>2024-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bytes.xerolinux.xyz/priv/foss-fundraising/</loc>
+         <lastmod>2024-09-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bytes.xerolinux.xyz/priv/new-gpu-cpu-fund/</loc>
          <lastmod>2024-09-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
