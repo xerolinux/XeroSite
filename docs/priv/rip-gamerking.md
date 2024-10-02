@@ -21,16 +21,14 @@ For over a year, our country has been engulfed in a conflict, one that escalated
 
 Two weeks ago, his neighborhood was hit for the first time, and he suffered severe injuries, losing a significant amount of blood. From his hospital bed, he reached out to me, recounting the terrifying events. The details of his condition were harrowing, but he maintained his characteristic humor, and we joked about the situation, as we often did. It was a brief, bittersweet exchange, and when we said our goodbyes, I was reassured that he would recover. I had no idea it would be the last time we spoke.
 
-![type:video](https://www.youtube.com/embed/9c1AU9wIteI)
+<p align="center">
+    <img src="https://i.imgur.com/vQFu6YT.jpeg" alt="rip">
+</p>
 
 As the conflict worsened, bombings crept closer to both of us. I assumed he was resting and chose not to disturb him, unaware of the devastation that was to follow.
 
 Yesterday, as I write this, a massive bombing destroyed a six-building complex near **GamerKing**'s location. Soon after, I received a message from his younger brother. At first, I believed it was **GamerKing** himself, and my immediate question was, "**Are you OK?**" But the reply came from his brother, who, after a moment of silence, shared the heartbreaking news: "**He told me that if anything happened to me, open Discord and tell Dark**." I asked, trembling, "**Why? What happened?**" After what felt like an eternity, he delivered the words that shattered my world: "**He just left us**."
 
 I still don’t know what took him from us, whether it was his injuries or the bombing—but the tragic truth remains: I have lost a dear friend, a colleague, and one of the brightest individuals I have ever had the privilege to know. The shock of his passing has yet to settle in, and I fear it never truly will.
-
-<p align="center">
-    <img src="https://i.imgur.com/vQFu6YT.jpeg" alt="rip">
-</p>
 
 I will always remember his infectious energy, his humor, and his brilliance. He was the light of **XeroLinux**, and his absence will be deeply felt. Please join me in mourning the loss of a truly exceptional man. **Rest in peace, little brother**.
