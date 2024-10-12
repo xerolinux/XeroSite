@@ -2,74 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bytes.xerolinux.xyz/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/SUMMARY/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/docs/affinity-linux/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/docs/ffmpeg-cheats/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/docs/linux-explained/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/docs/mkdocs-install/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/docs/passwd-reset/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
+    </url>
+    <url>
+         <loc>https://bytes.xerolinux.xyz/docs/sddm-display/</loc>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/be-thankful/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/current-situation/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/developing-is-fun-but/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/foss-fundraising/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/real-foss-struggles/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/priv/rip-gamerking/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/projects/other-xero-spins/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/projects/what-s-up-with-my-channel/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/projects/why-is-distro-back/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/tech/cosmic-experience/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
     <url>
          <loc>https://bytes.xerolinux.xyz/tech/docker-containers-a-love-story/</loc>
-         <lastmod>2024-10-06</lastmod>
+         <lastmod>2024-10-12</lastmod>
     </url>
 </urlset>
