@@ -23,9 +23,9 @@ xrandr | grep -w connected
 
 Output should be like this (mine)
 
-> HDMI-A-2 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 521mm x 293mm <br />
+> HDMI-1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 521mm x 293mm <br />
   DP-2 connected primary 2560x1440+1920+0 (normal left inverted right x axis y axis) 598mm x 336mm <br />
-  HDMI-A-1 connected 1920x1080+4480+0 (normal left inverted right x axis y axis) 531mm x 299mm
+  HDMI-0 connected 1920x1080+4480+0 (normal left inverted right x axis y axis) 531mm x 299mm
 
 This is my own `Xsetup` for the login window, yours may differ :
 
