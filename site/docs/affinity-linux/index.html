@@ -981,49 +981,18 @@
 
 <div><div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>I am aware that these apps are what's called "<strong>Proprietary</strong>" and require us to purchase a one-time <em>License</em> in order to use them indefinitely. It's on you how you get them. I will not condone piracy anywhere on my sites. Please be aware of that while you follow this guide.</p>
+<p>This guide has been updated linking to maintainer's Github, since he has since deleted the scripts. I will try to keep this up to date, checking up on progress.</p>
 </div>
 <h3 id="whats-this">What's This?<a class="headerlink" href="#whats-this" title="Permanent link">¶</a></h3>
-<p>This for my own use. Use it if you want to. Just documenting the installation of <a href="https://affinity.serif.com/en-us/" target="_blank"><strong>Affinity Apps</strong></a> on <strong>Linux</strong> with the help of some scripts I found thanks to <a href="https://github.com/Twig6943" target="_blank"><strong>Twig6943</strong></a> who went out of his way to create them.</p>
+<p>This for my own use. Use it if you want to. Just documenting the installation of <a href="https://affinity.serif.com/en-us/" target="_blank"><strong>Affinity Apps</strong></a> on <strong>Linux</strong> thanks to <a href="https://github.com/Twig6943" target="_blank"><strong>Twig6943</strong></a>.</p>
 <p align="center">
   <a class="glightbox" href="https://i.imgur.com/MABHj31.jpeg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/MABHj31.jpeg"></a>
 </p>
 
 <h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h3>
-<p>First we will need to download the <a href="https://store.serif.com/update/windows/photo/2/" target="_blank"><strong>Photo</strong></a>, <a href="https://store.serif.com/update/windows/designer/2/" target="_blank"><strong>Designer</strong></a> or <a href="https://store.serif.com/update/windows/publisher/2/" target="_blank"><strong>Publisher</strong></a> <code>exe</code> from the dropdown. Once we have it/them, we will need to go through the following script(s). Process might take time and a <strong>Discreet GPU</strong> is highly recommended for Hardware Acceleration &amp; good performance.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Do not cut-paste installers into location indicated by scripts as they will get deleted once script is done. Before running the scripts below, check if you have the required <a href="https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md#required-dependencies" target="_blank"><strong>Dependencies</strong></a></p>
-</div>
-<p align="center">
-  <a class="glightbox" href="https://i.imgur.com/YPXV9bc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://i.imgur.com/YPXV9bc.png"></a>
-</p>
-
-<ul>
-<li><a href="https://affinity.serif.com/en-gb/photo/?#top" target="_blank"><strong>Affinity Photo</strong></a></li>
-</ul>
-<p>Affinity Photo is a professional-grade photo editing software, designed for photographers, artists, and designers. Known for its robust performance, it offers a comprehensive suite of tools, including advanced retouching, color correction, RAW editing, and non-destructive layering, making it a versatile alternative to Adobe Photoshop.</p>
-<div class="language-Bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPhoto.sh<span class="k">)</span><span class="s2">"</span>
-</span></code></pre></div>
-<ul>
-<li><a href="https://affinity.serif.com/en-us/designer/?#top" target="_blank"><strong>Affinity Designer</strong></a></li>
-</ul>
-<p>Affinity Designer is a versatile vector graphics design software, ideal for illustrators, graphic designers, and artists. It offers a comprehensive set of tools for vector illustration, typography, and layout, allowing for precise control over shapes, paths, colors, and gradients. Known for its smooth performance, even with complex designs.</p>
-<div class="language-Bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityDesigner.sh<span class="k">)</span><span class="s2">"</span>
-</span></code></pre></div>
-<ul>
-<li><a href="https://affinity.serif.com/en-us/designer/?#top" target="_blank"><strong>Affinity Publisher</strong></a></li>
-</ul>
-<p>Affinity Publisher is a professional desktop publishing software, designed for creating layouts for books, magazines, brochures, and other print and digital publications. It provides a range of powerful tools for precise typography, image placement, and page design, allowing users to create visually engaging documents.</p>
-<div class="language-Bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">"</span><span class="k">$(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/Twig6943/AffinityOnLinux/main/AffinityScripts/AffinityPublisher.sh<span class="k">)</span><span class="s2">"</span>
-</span></code></pre></div>
+<p>First we will need to download the <a href="https://store.serif.com/update/windows/photo/2/" target="_blank"><strong>Photo</strong></a>, <a href="https://store.serif.com/update/windows/designer/2/" target="_blank"><strong>Designer</strong></a> or <a href="https://store.serif.com/update/windows/publisher/2/" target="_blank"><strong>Publisher</strong></a> <code>exe</code> from the dropdown. Once we have it/them, follow the guide over on maintainer's <a href="https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Affinity-Guide.md" target="_blank"><strong>Github</strong></a></p>
 <h3 id="wrap-up">Wrap up<a class="headerlink" href="#wrap-up" title="Permanent link">¶</a></h3>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Check the <a href="https://github.com/Twig6943/AffinityOnLinux/blob/main/Guide/Guide.md" target="_blank"><strong>Written Guide</strong></a> if you prefer doing it manually. Also the author posted his scripts on the <strong>Affinity</strong>'s forums, who knows maybe in the future a <strong>Linux</strong> native version ? Let's all cross our fingers 🤞</p>
-</div>
-<p>That's it. Once all done we can launch them from the shortcuts the scripts create. That's the closest to <strong>Photoshop</strong> I have ever gotten, without having to go through <em>WinBlows</em> if ya know what I mean.</p>
-<p>Guide wasn't posted on main site due to the nature of the products included. Also this was, as I said earlier primarily written for myself so I do not have to go digging for it on the web. For archival purposes sorta.</p></div>
+<p>That's it. Once all done we can launch them from the shortcuts the scripts create. That's the closest to <strong>Photoshop</strong> I have ever gotten, without having to go through <em>WinBlows</em> if ya know what I mean. Guide wasn't posted on main site due to the nature of the products included. Also this was, as I said earlier primarily written for myself so I do not have to go digging for it on the web. For archival purposes sorta.</p></div>
 
 
 
