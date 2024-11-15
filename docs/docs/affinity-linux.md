@@ -20,7 +20,7 @@ This for my own use. Use it if you want to. Just documenting the installation of
 
 ### Installation
 
-First we will need to download the [**Photo**](https://store.serif.com/update/windows/photo/2/){:target="_blank"}, [**Designer**](https://store.serif.com/update/windows/designer/2/){:target="_blank"} or [**Publisher**](https://store.serif.com/update/windows/publisher/2/){:target="_blank"} `exe` from the dropdown. Once we have it/them, follow the guide over on maintainer's [**Github**](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Affinity-Guide.md){:target="_blank"}
+First we will need to download the [**Photo**](https://store.serif.com/update/windows/photo/2/){:target="_blank"}, [**Designer**](https://store.serif.com/update/windows/designer/2/){:target="_blank"} or [**Publisher**](https://store.serif.com/update/windows/publisher/2/){:target="_blank"} `exe` from the dropdown. Once we have it/them, follow the guide over on maintainer's [**Github**](https://github.com/Twig6943/AffinityOnLinux){:target="_blank"}
 
 ### Wrap up
 
