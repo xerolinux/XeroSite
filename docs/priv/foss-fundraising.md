@@ -16,11 +16,15 @@ Since then I started getting the urge to build my own *Distro* my way. With ever
 
 ### Fundraising
 
-Now we get to the meat and potatoes of this post, why ask for money when it's **FOSS** ? Well in case you did not know, the *Free* in *Free Open Source* does **NOT** mean free of charcge, instead it means Freedom to fork and do with what you want. So us Developers have all the right in the word to charge for our time. Read that again, charge for our **TIME**.
+Now we get to the meat and potatoes of this post, why ask for money when it's **FOSS** ? Well in case you did not know, the *Free* in *Free Open Source* does **NOT** mean free of charcge, instead it means *Freedom* to fork and do with what you want. So us Developers have all the right in the word to charge for our time. Read that again, charge for our **TIME**.
 
 Many of us are just contributers, contributing much of our free time, constantly giving without asking for anything in return. Which means no R.O.I (return on time invested). Some, not many, with a *real* job can do that for a long time, with the rest of us without one, or having difficulties IRL, use the knowledge and creations as a sole means of survival. Especially as a single individual.
 
+![type:video](https://www.youtube.com/embed/PrShvhw1dNw)
+
 Now, I do agree with you when you say, we shouldn't force you to pay. That's why we use the *Fundraising* or *Donation* methods. While we do not force you, it would be great if you did. Would help both of us. You get a useful product while we are able to survive to give you more. A Win-Win scenario. So if you feel like helping me out financially, you can do so via the **Donate** button in the menu up top or on the side if you are on mobile, or via button below. Thanks ;)
+
+As to why am doing this, well, all I will say about this is, just *Google* the following three terms and all your questions will be answered. **Lebanon Financial Crisis**, **Beirut Port Explosion** and **Lebanon War 2024**. That's it. I will not judge you for your opinions, and will not entertain any harassment or elitist bullying with any replies. You disagree, you are free to do so, just move on to a Distro that satisfies you or build your own.
 
 ### Hate in FOSS
 
