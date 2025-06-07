@@ -22,12 +22,12 @@ Hehe, I do not know to be perfectly honest. Am not getting enough views, and my 
 
 This comes with a caveat, since I won't be making any money there, due to the mentioned issue, I will instead have no choice but to rely on the [**XeroLinux Ko-Fi**](https://ko-fi.com/XeroLinux){:target="_blank"} fundraiser for the forseeable future.
 
-Why there ? Err, coz that's the only service that has no issues with my bank. Simple as that. I hope you understand my situation here. As I mentioned on a previous post, you are not obligated to *donate*, however would be highly appreciated if you do.
+Why there ? Err, coz that's the only service that has no issues with my bank. Simple as that. I hope you understand my situation here. As I mentioned on a previous post, you are not obligated to *donate*, however would be highly appreciated if you do. PayPal not enabled coz not supported here, sorry !
 
 ### Future Plans
 
 When it comes to plans for the channel from this point on, simple, I will be using it as a tool. What I mean by that is, I will be publishing videos only when I feel the situation needs it, for example if I feel a guide I want to put out cannot be done in writing. Or when I need to show off a tool/script am working on. You get the idea.
 
-Bottom line is, my channel is nothing but a tool, not a way to monetize anymore. I hope I don't lose you as a subscriber because of this. However, it's fine if you feel the need to leave, no harm no foul.
+Bottom line is, my channel is nothing but a tool, not a way to monetize anymore. That's why I will only be making videos when I feel it's really required. Might take months, nay years off at a time. I hope I don't lose you as a subscriber because of this. However, it's fine if you feel the need to leave, no harm no foul. It is what it is...
 
 Anyways, thanks again for reading this. If you want to discuss the matter, you can *Toot* me on [**Fosstodon**](https://fosstodon.org/@XeroLinux){:target="_blank"} or by joining me on my [**Discord Server**](https://discord.gg/5sqxTSuKZu){:target="_blank"}.

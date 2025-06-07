@@ -56,7 +56,7 @@ This will make it use the **Slate Material** Theme with **Deep Purple** accents.
 I have found a few that I liked on the **AUR**, let's install them via :
 
 ```Bash
-paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav
+paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
 ```
 
 To activate them we edit the same `mkdocs.yml` file as before like so :

@@ -13,7 +13,7 @@ tags:
 
 ### What is XeroLinux
 
-In short, it's just an alternative to the [**Plasma Install Script**](https://wiki.xerolinux.xyz/plasma/){:target="_blank"}, making it easier to install **Arch**, bypassing the need for **ArchInstall**. The ISO includes my toolkit as well as my famous [**Xero Layan Rice**](https://wiki.xerolinux.xyz/rice/){:target="_blank"} all-in-one shot.
+In short, it just makes it easier to install **Arch**, bypassing the need for **ArchInstall**. The ISO includes my famous [**Xero Layan Rice**](https://wiki.xerolinux.xyz/rices/){:target="_blank"} all-in-one shot.
 
 <p align="center">
   <img src="https://i.imgur.com/ejZ1ZQv.png">
@@ -35,7 +35,7 @@ That answers the why.
 
 ### How to get it
 
-I've decided to put the distro behind a donation wall. By supporting me financially, you'll gain access to the XeroLinux ISO—a true win-win. Your support helps me keep going, and you get something valuable in return. For more details, check out the [**Release Post**](https://xerolinux.xyz/iso/){:target="_blank"}
+I've decided to put the distro behind a donation wall. By supporting me financially, you'll gain access to the XeroLinux ISO—a true win-win. Your support helps me keep going, and you get something valuable in return. For more details, check out the [**Release Post**](https://xerolinux.xyz/){:target="_blank"}
 
 Now, I know that some of you will say, "But it's FOSS; you shouldn't charge for it." To which I will say the same thing I have been saying for a long time: the Free in Free Open Source does NOT mean free of charge; it just means Freedom to fork the [**Source Code**](https://github.com/XeroLinuxDev){:target="_blank"} and do with it as you wish. I am simply charging for my time.
 
@@ -43,13 +43,13 @@ The distro will be continuously updated to ensure it works seamlessly and will s
 
 ### Is it any Special
 
-This is a common question I get. To be honest, there’s no groundbreaking advantage—it simply provides an easier way to install **Arch** with a polished **KDE** experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way for you to support my journey.
+This is a common question I get. To be honest, there’s no groundbreaking advantage over others that do things way better, it simply provides an easier way to install **Arch** with a polished and optimized Desktop experience right out of the box, which many users seem to appreciate. I created it specifically for them, as an alternative to my DIY install script, and as a way for you to support my journey.
 
 Users are free to prefer any other distro over mine. I am not and will never force it. Also, I have never pretended that **XeroLinux** is better than any other distro. It's never been a competition, and I would hate for people to think it was. I hope this clarifies things.
 
 ### How to get it for free
 
-If you can’t support me financially but still want **XeroLinux**, while the ISO isn't available for free right now, you can still achieve similar results with my [**PlasmaInstall**](https://xerolinux.xyz/news/xerolinux-plasma/){:target="_blank"} script, which will always be free of charge. It just requires a bit more elbow grease on your part—that’s all there is to it!
+If you can’t support me financially but still want **XeroLinux**, while the ISO isn't available for free right now, you can still achieve similar results with my [**DE Install**](https://wiki.xerolinux.xyz/script/){:target="_blank"} script, which will always be free of charge. It just requires a bit more elbow grease on your part, that’s all there is to it!
 
 ### I don't like Arch
 
