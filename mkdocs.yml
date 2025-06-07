@@ -2,9 +2,6 @@ site_name: DarkXero's Bytes
 site_description: Thoughts, Opinions, Documentation, and more...
 site_url: https://bytes.xerolinux.xyz
 
-# Copyright
-copyright: Copyright &copy; 2024 <a href="https://xerolinux.xyz" target="_blank"><strong>XeroLinux Group</strong></a>.
-
 theme:
   name: material
   logo: assets/Tux.gif
@@ -106,3 +103,6 @@ extra:
       link: https://fosstodon.org/@xerolinux
     - icon: fontawesome/solid/rss
       link: /feed.xml
+
+# Copyright
+copyright: Copyright &copy; <a href="https://xerolinux.xyz" target="_blank"><strong>XeroLinux Group</strong></a>.
