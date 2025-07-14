@@ -2,17 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-        <loc>https://bytes.xerolinux.xyz/</loc>
-        <lastmod>2025-07-14T00:00:00+00:00</lastmod>
-      </url><url>
         <loc>https://bytes.xerolinux.xyz/posts/nixos-challenge/</loc>
         <lastmod>2025-07-14T00:00:00+00:00</lastmod>
       </url><url>
         <loc>https://bytes.xerolinux.xyz/posts/</loc>
         <lastmod>2025-07-14T00:00:00+00:00</lastmod>
       </url><url>
-        <loc>https://bytes.xerolinux.xyz/posts/welcome/</loc>
-        <lastmod>2025-07-13T00:00:00+00:00</lastmod>
+        <loc>https://bytes.xerolinux.xyz/</loc>
+        <lastmod>2025-07-14T00:00:00+00:00</lastmod>
       </url><url>
         <loc>https://bytes.xerolinux.xyz/posts/foss-struggles/</loc>
         <lastmod>2025-03-29T00:00:00+00:00</lastmod>

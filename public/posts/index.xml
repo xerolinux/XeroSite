@@ -124,17 +124,6 @@
     </item>
     
     <item>
-      <title>Welcome</title>
-      <link>/posts/welcome/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <author>info@techxero.com (DarkXero)</author>
-      <guid>/posts/welcome/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;DarkXero&amp;rsquo;s Bytes&lt;/strong&gt; ! This is where I will be posting my thoughts, feelings and some documentation for myself so I do not have to keep looking for them. All the opinions, thoughts and feelings are my own. If I find something useful worth sharing publicly, I will be posting it on the &lt;a href=&#34;https://xerolinux.xyz&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; main site.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ZAvPAkx.png&#34; alt=&#34;img1&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>FOSS Struggles</title>
       <link>/posts/foss-struggles/</link>
       <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>

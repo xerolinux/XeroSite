@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DarkXero Bytes</title>
+    <title>Welcome on DarkXero Bytes</title>
     <link>/</link>
-    <description>DarkXero Bytes</description>
+    <description>DarkXero Bytes (Welcome)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -120,17 +120,6 @@
 &lt;p&gt;After a week of use, the system is fully functional for everyday activities like web browsing, watching movies, writing blog posts, and even gaming. I managed to set up &lt;strong&gt;Steam&lt;/strong&gt; and everything needed to enjoy my favorite games. Interestingly, the performance feels slightly better than on &lt;strong&gt;Arch&lt;/strong&gt;, which I find both surprising and impressive.&lt;/p&gt;
 &lt;p&gt;I plan to take things slow and steady, moving forward at my own comfortable pace. Once am fully happy with what I have accomplished, and feel comfortable enough, I will be tackling &lt;strong&gt;Flakes&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Wish me luck&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>/posts/welcome/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      <author>info@techxero.com (DarkXero)</author>
-      <guid>/posts/welcome/</guid>
-      <description>&lt;p&gt;Welcome to &lt;strong&gt;DarkXero&amp;rsquo;s Bytes&lt;/strong&gt; ! This is where I will be posting my thoughts, feelings and some documentation for myself so I do not have to keep looking for them. All the opinions, thoughts and feelings are my own. If I find something useful worth sharing publicly, I will be posting it on the &lt;a href=&#34;https://xerolinux.xyz&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; main site.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ZAvPAkx.png&#34; alt=&#34;img1&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
