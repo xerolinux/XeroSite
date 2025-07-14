@@ -1,5 +1,0 @@
-- [🏠Home](index.md)
-- [🗒️Documentation](/docs/)
-- [🗨️Communication](/priv/)
-- [💻Xero Projects](/projects/)
-- [🖱️Technology](/tech/)

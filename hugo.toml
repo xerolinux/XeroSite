@@ -1,0 +1,102 @@
+baseURL = "https://bytes.xerolinux.xyz"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "DarkXero Bytes"
+theme = "anubis2"
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "DarkXero"
+email  = "info@techxero.com"
+location = "Lebanon"
+
+[params]
+description = "Thoughts of a FOSS Maintainer"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+
+readNextPosts = 2
+
+rssAsSocialIcon = true
+locale = "en-us"
+toc = true
+
+[params.anubis2]
+    enableMathGlobally = true # MathJax (default is false)
+    enableCopyCodeButton = true
+    enableReadMoreButton = true
+    hideFooterAttribution = true # hide "Powered by Hugo, theme" in footer
+    colorTheme = "dark"
+    enableColorThemeSwitcher = false
+
+    social = [
+        { id = "github", url = "https://github.com/hugo-theme-anubis2/hugo-theme-anubis2" },
+        { id = "linkedin", url = "https://www.linkedin.com/in/schaanine/" },
+        { id = "email", url = "info@techxero.com.com" },
+        { id = "youtube", url = "https://www.youtube.com/@TechXeroLB" },
+    ]
+
+
+    [params.anubis2.services]
+        [params.anubis2.services.giscus]
+            # Giscus Comment System https://giscus.app/
+            repo        = "hugo-theme-anubis2/hugo-theme-anubis2"
+            repoId      = "R_kgDOLEp76Q"
+            category    = "General"
+            categoryId  = "DIC_kwDOLEp76c4CcbPS"
+            dataMapping = "pathname"
+            lazyLoad    = true
+
+        # [params.anubis2.services.disqus]
+        #   shortName = "junyide-xiao-wu"
+
+        # [params.anubis2.services.utterances]
+        #   repo = "hugo-theme-anubis2/hugo-theme-anubis2"
+        #   theme = "github-light"
+        #   issueTerm = "pathname"
+
+        [params.anubis2.services.umami]
+            # Umami Analytics https://umami.is/
+            id = "e4f661ff-9a8c-49d4-b3cc-2efe553e3973"                                            # Website ID
+            url = "https://umami.xtra.science/script.js"
+            datacache = true
+            dnt       = false
+            # if shareUrl is set, a button will be shown on the end of each page
+            shareUrl = "https://cloud.umami.is/share/CUTKp6yiDQllAqq9/hugo-theme-anubis2.netlify.app"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
+[languages]
+[languages.en]
+languageName = "English"
+
+[markup]
+defaultMarkdownHandler = 'goldmark'
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+anchorLineNos      = false
+codeFences         = true # tested with true and false. Both work.
+noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
+style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
+tabWidth           = 4
