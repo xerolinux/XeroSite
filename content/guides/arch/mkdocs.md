@@ -3,9 +3,9 @@ title: "MKDocs Setup"
 ---
 # What's This?
 
-This for my own use. Use it if you want to. Just documenting the installation of [**MKDocs**](https://www.mkdocs.org) the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it's all there on their site. Also this for **ArchLinux** if you don't use that distro, well, their site shows how to install for your distro.
+This for my own use. Use it if you want to. Just documenting the installation of [**MKDocs**](https://www.mkdocs.org) the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it's all there on their site. Also this for **ArchLinux** if you don't use that distro, well, their site shows how to install for your distro.<br /><br />
 
-![type:video](https://www.youtube.com/embed/9V0NpLPXS-Y)
+{{< youtube 9V0NpLPXS-Y >}}
 
 # Installing MKDocs
 
