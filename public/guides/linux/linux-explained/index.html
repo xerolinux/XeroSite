@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+
+
+
+    
+
+
+
+    
+
+
+<html lang="en-us" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="theme-name" content="Anubis2">
+
+<title>Linux in a Nutshell - DarkXero Bytes</title>
+
+<meta name="description" content="I thought I&rsquo;d share this explanation about Linux a good friend and fellow Linux enthusiast REALERvolker1 recently posted on Discord.
+
+
+    
+        ##
+    
+    What is Linux ?
+
+
+Since not everyone&rsquo;s super familiar with Linux, here&rsquo;s a quick crash course.
+Linux is a Monolithic Kernel, so all the drivers and whatnot are compiled into the binary. The Nonfree software is usually put in the actual source repo as binary blobs, or in the case of nVidia drivers, built using a system called DKMS and compiled into the kernel binary.">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://bytes.xerolinux.xyz/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/favicon.png">
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.ac9fbad24609bd533b00c98f0dfbd971989a71aca4b450e1e77ab6c33ee463c6.css" integrity="sha256-rJ&#43;60kYJvVM7AMmPDfvZcZiacayktFDh53q2wz7kY8Y=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.c4c04b3ef88e3d619ad4c7ee5e03048422bc55c4fefdc1f07657c1133670aa22.css" integrity="sha256-xMBLPviOPWGa1MfuXgMEhCK8VcT&#43;/cHwdlfBEzZwqiI=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.21c5d8fe0a79d623b0adc1ce4bd4f6dd2c05cd939c9aaaa966ba7186b1464f4d.css" integrity="sha256-IcXY/gp51iOwrcHOS9T23SwFzZOcmqqpZrpxhrFGT00=">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="/js/script.min.08f04d96386c73c9bf4d160333f8f448c05a6e01c06770542ee0e013954ce930.js" type="text/javascript" charset="utf-8" integrity="sha256-CPBNljhsc8m/TRYDM/j0SMBabgHAZ3BULuDgE5VM6TA="></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header">
+            
+                <div class="header-top">
+    <div class="header-top-left">
+        <h1 class="site-title noselect">
+    <a href="/">DarkXero Bytes</a>
+</h1>
+
+        
+
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <ul class="social-icons noselect">
+
+ 
+
+
+    
+
+
+
+
+
+    
+        <li>
+            <a href="https://github.com/DarkXero-dev" title="Github" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.linkedin.com/in/schaanine/" title="Linkedin" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="info@techxero.com.com" title="Email" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.youtube.com/@TechXeroLB" title="Youtube" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+
+
+
+    <li>
+            <a href="/index.xml" title="RSS" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rss"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 4a16 16 0 0 1 16 16" /><path d="M4 11a9 9 0 0 1 9 9" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+
+    </div>
+    <div class="header-top-right">
+
+    </div>
+</div>
+
+
+    <nav class="noselect">
+        
+        
+        <a class="" href="https://bytes.xerolinux.xyz/" title="">Home</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/guides/" title="">Guides</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/about/" title="">About</a>
+        
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1">
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                
+                
+                
+                <h1 class="p-name post-title ">Linux in a Nutshell</h1>
+                
+
+            </header>
+            
+
+    
+
+
+
+<div class="post-info noselect">
+    
+
+    <a class="post-hidden-url u-url" href="/guides/linux/linux-explained/">/guides/linux/linux-explained/</a>
+    <a href="https://bytes.xerolinux.xyz/" class="p-name p-author post-hidden-author h-card" rel="me">map[email:info@techxero.com location:Lebanon name:DarkXero]</a>
+
+
+    <div class="post-taxonomies">
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+        
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+        <div class="content e-content">
+            <p>I thought I&rsquo;d share this explanation about <strong>Linux</strong> a good friend and fellow Linux enthusiast <a href="https://github.com/REALERvolker1"><strong>REALERvolker1</strong></a> recently posted on <strong>Discord</strong>.</p>
+<h1 id="what-is-linux-" >
+<div>
+    <a href="#what-is-linux-">
+        ##
+    </a>
+    What is Linux ?
+</div>
+</h1>
+<p>Since not everyone&rsquo;s super familiar with Linux, here&rsquo;s a quick crash course.</p>
+<p>Linux is a <a href="https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware."><strong>Monolithic Kernel</strong></a>, so all the drivers and whatnot are compiled into the binary. The <a href="https://www.fsf.org/about/what-is-free-software"><strong>Nonfree software</strong></a> is usually put in the actual source repo as binary blobs, or in the case of <strong>nVidia</strong> drivers, built using a system called <a href="https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support"><strong>DKMS</strong></a> and compiled into the kernel binary.</p>
+<p>Once the computer boots up, an init process is started (the default is <code>/sbin/init</code>, usually a symlink to your init system), which is <code>PID 1</code>. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having <em>too</em> much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.</p>
+<p>Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being <a href="https://en.wikipedia.org/wiki/POSIX"><strong>POSIX</strong></a> compliant, and not really caring about file extensions.</p>
+<p align="center">
+    <img width="600" src="https://i.imgur.com/Mu7NHx9.png" alt="logo">
+</p>
+<h1 id="distros--pkg-managers" >
+<div>
+    <a href="#distros--pkg-managers">
+        ##
+    </a>
+    Distros &amp; PKG Managers
+</div>
+</h1>
+<p>On <a href="https://www.debian.org"><strong>Debian</strong></a>, you install packages with <code>apt</code>. If you can&rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a <em>GUI</em> frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&rsquo;t install programs by downloading them from the internet. If you have any questions, the <a href="https://wiki.debian.org/DontBreakDebian"><strong>Debian Wiki</strong></a> is pretty mid, but the <a href="https://wiki.archlinux.org"><strong>Arch Wiki</strong></a> is amazing.</p>
+<p>Since <a href="https://archlinux.org"><strong>Arch Linux</strong></a> aims to be the most generic <em>Linux distro</em> ever, information written for it should also help with <strong>Debian</strong>, as long as the Arch package didn&rsquo;t receive significant updates in the meantime. There are other ways to install software, like:</p>
+<ul>
+<li><strong>Flatpak:</strong> Sandboxed apps that &ldquo;just work&rdquo; on every distribution.</li>
+<li><strong>Snap:</strong> <em>Ubuntu</em>&rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.</li>
+<li><strong>AppImages:</strong> These are like <code>.exe</code> files on <strong>Windows</strong>, but they require adding executable permissions and manually launching them. They also won&rsquo;t have a desktop entry by default.</li>
+</ul>
+<h1 id="filesystem--updates" >
+<div>
+    <a href="#filesystem--updates">
+        ##
+    </a>
+    Filesystem &amp; Updates
+</div>
+</h1>
+<p>If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you&rsquo;re not connected to the internet, you can choose whether to update or not—it might fix a bug.</p>
+<p>As for the filesystem:</p>
+<ul>
+<li><code>/etc</code> is where your Editable Text Configurations go.</li>
+<li><code>/usr</code> is where program files go.</li>
+<li><code>/usr/local</code> is where program files go for programs you manually installed.</li>
+<li><code>/home</code> is where your personal files go.</li>
+<li><code>/dev</code> is for device files.</li>
+<li>There is no <code>C</code> or <code>D</code> drive; instead, you mount external drives to a location, like <code>/mnt</code>. A GUI file manager mounts flash drives somewhere in <code>/run</code> since it is temporary.</li>
+<li><code>/opt</code> is where miscellaneous stuff goes.</li>
+<li><code>/var</code> is for variable data like system logs.</li>
+<li><code>/tmp</code> is for temporary files.</li>
+<li><code>/dev/null</code> is a &ldquo;black hole&rdquo; for data you want to discard.</li>
+<li><code>/dev/urandom</code> is an IO-based random number generator.</li>
+</ul>
+<p>In <a href="https://en.wikipedia.org/wiki/Unix"><strong>UNIX</strong></a>,  everything is a file. This means you can:</p>
+<ul>
+<li>See process details by reading files in <code>/proc</code>.</li>
+<li>Check system settings or driver configurations in <code>/sys</code>.</li>
+<li>View your bootloader in <code>/boot</code>.</li>
+</ul>
+<h1 id="wrapping-it-all-up" >
+<div>
+    <a href="#wrapping-it-all-up">
+        ##
+    </a>
+    Wrapping it all up
+</div>
+</h1>
+<p>This was a quick run-through explaining what <strong>GNU/Linux</strong> is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&rsquo;s not as complete as I would like it to be.</p>
+
+        </div>
+
+    </article>
+
+    
+    
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+    
+    
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/guides/linux/passwd-reset/">Reset Password</a>
+            
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+  
+
+
+
+
+
+
+<script>
+        function detectCurrentScheme2() {
+                const defaultTheme = "dark";
+                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+                        return localStorage.getItem("user-color-scheme");
+                }
+                if (defaultTheme === "dark" || defaultTheme === "light") {
+                        return defaultTheme;
+                }
+                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        let giscusTheme = detectCurrentScheme2();
+        let giscusAttributes = {
+                src: "https://giscus.app/client.js",
+                "data-repo": "xerolinux\/XeroSite",
+                "data-repo-id": "R_kgDOMmVchg",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOMmVchs4Cs7z_",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": giscusTheme,
+                "data-lang": "en",
+                crossorigin: "anonymous",
+                lazyload: "true",
+                async: true,
+        };
+        let main = document.querySelector("main");
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        main.appendChild(giscusScript);
+</script>
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+    
+    
+
+        </main>
+        
+            <footer class="common-footer noselect">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+
+        <div style="display: flex; align-items: center; gap:8px">
+            ©  DarkXero,  2025
+            
+        </div>
+        <div style="display:flex; align-items: center; gap:4px">
+
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+
+            
+        </div>
+        
+            <div>
+                Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
+            </div>
+        
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://bytes.xerolinux.xyz/ class="p-name u-url url fn" rel="me">map[email:info@techxero.com location:Lebanon name:DarkXero]</a>
+
+    
+
+    
+</p>
+
+</footer>
+
+        
+    </div>
+</body>
+</html>

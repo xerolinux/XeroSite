@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+
+
+
+
+    
+
+
+
+    
+
+
+<html lang="en-us" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="theme-name" content="Anubis2">
+
+<title>FFmpeg Cheat Sheet - DarkXero Bytes</title>
+
+<meta name="description" content="
+
+    
+        ##
+    
+    What&rsquo;s This?
+
+
+This for my own use. Use it if you want to. Just documenting the use of FFmpeg on Linux.
+
+  
+
+
+
+    
+        ##
+    
+    Installation
+
+
+First we will need to install FFmpeg. I will be doing it on ArchLinux since that&rsquo;s what I use. Look for packages on your distro if you don&rsquo;t use it.
+sudo pacman -S --noconfirm --needed ffmpeg ffmpegthumbnailer ffmpegthumbs qt6-multimedia-ffmpeg
+Now that we have it, it&rsquo;s time for the cheat sheet.">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://bytes.xerolinux.xyz/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/favicon.png">
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.ac9fbad24609bd533b00c98f0dfbd971989a71aca4b450e1e77ab6c33ee463c6.css" integrity="sha256-rJ&#43;60kYJvVM7AMmPDfvZcZiacayktFDh53q2wz7kY8Y=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.c4c04b3ef88e3d619ad4c7ee5e03048422bc55c4fefdc1f07657c1133670aa22.css" integrity="sha256-xMBLPviOPWGa1MfuXgMEhCK8VcT&#43;/cHwdlfBEzZwqiI=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.21c5d8fe0a79d623b0adc1ce4bd4f6dd2c05cd939c9aaaa966ba7186b1464f4d.css" integrity="sha256-IcXY/gp51iOwrcHOS9T23SwFzZOcmqqpZrpxhrFGT00=">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="/js/script.min.08f04d96386c73c9bf4d160333f8f448c05a6e01c06770542ee0e013954ce930.js" type="text/javascript" charset="utf-8" integrity="sha256-CPBNljhsc8m/TRYDM/j0SMBabgHAZ3BULuDgE5VM6TA="></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header">
+            
+                <div class="header-top">
+    <div class="header-top-left">
+        <h1 class="site-title noselect">
+    <a href="/">DarkXero Bytes</a>
+</h1>
+
+        
+
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <ul class="social-icons noselect">
+
+ 
+
+
+    
+
+
+
+
+
+    
+        <li>
+            <a href="https://github.com/DarkXero-dev" title="Github" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.linkedin.com/in/schaanine/" title="Linkedin" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="info@techxero.com.com" title="Email" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.youtube.com/@TechXeroLB" title="Youtube" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+
+
+
+    <li>
+            <a href="/index.xml" title="RSS" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rss"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 4a16 16 0 0 1 16 16" /><path d="M4 11a9 9 0 0 1 9 9" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+
+    </div>
+    <div class="header-top-right">
+
+    </div>
+</div>
+
+
+    <nav class="noselect">
+        
+        
+        <a class="" href="https://bytes.xerolinux.xyz/" title="">Home</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/guides/" title="">Guides</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/about/" title="">About</a>
+        
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1">
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                
+                
+                
+                <h1 class="p-name post-title ">FFmpeg Cheat Sheet</h1>
+                
+
+            </header>
+            
+
+    
+
+
+
+<div class="post-info noselect">
+    
+
+    <a class="post-hidden-url u-url" href="/guides/arch/ffmpeg-cheats/">/guides/arch/ffmpeg-cheats/</a>
+    <a href="https://bytes.xerolinux.xyz/" class="p-name p-author post-hidden-author h-card" rel="me">map[email:info@techxero.com location:Lebanon name:DarkXero]</a>
+
+
+    <div class="post-taxonomies">
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+        
+
+  
+  
+
+
+
+
+  
+  
+  
+  <details class="toc noselect">
+    <summary>Table of Contents</summary>
+    <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#basic-conversion">Basic conversion</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#trimming">Trimming</a></li>
+    <li><a href="#mux-video-and-audio-from-another-video">Mux video and audio from another video</a></li>
+    <li><a href="#concat-demuxer">Concat demuxer</a></li>
+    <li><a href="#burn-subtitles">Burn subtitles</a></li>
+    <li><a href="#extract-the-frames-from-a-video">Extract the frames from a video</a></li>
+    <li><a href="#rotate-a-video">Rotate a video</a></li>
+    <li><a href="#download-transport-stream-video-streams">Download &ldquo;Transport Stream&rdquo; video streams</a></li>
+    <li><a href="#mute-some-of-the-audio">Mute some of the audio</a></li>
+    <li><a href="#deinterlace">Deinterlace</a></li>
+    <li><a href="#create-a-video-slideshow-from-images">Create a video slideshow from images</a></li>
+    <li><a href="#extract-images-from-a-video">Extract images from a video</a></li>
+    <li><a href="#metadata-change-the-title">Metadata: Change the title</a></li>
+  </ul>
+</nav></div>
+  </details>
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+        <div class="content e-content">
+            <h1 id="whats-this" >
+<div>
+    <a href="#whats-this">
+        ##
+    </a>
+    What&rsquo;s This?
+</div>
+</h1>
+<p>This for my own use. Use it if you want to. Just documenting the use of <a href="https://www.ffmpeg.org/ffmpeg.html"><strong>FFmpeg</strong></a> on <strong>Linux</strong>.</p>
+<p align="center">
+  <img src="https://i.imgur.com/TweW8fW.png">
+</p>
+<h1 id="installation" >
+<div>
+    <a href="#installation">
+        ##
+    </a>
+    Installation
+</div>
+</h1>
+<p>First we will need to install <code>FFmpeg</code>. I will be doing it on <strong>ArchLinux</strong> since that&rsquo;s what I use. Look for packages on your distro if you don&rsquo;t use it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>sudo pacman -S --noconfirm --needed ffmpeg ffmpegthumbnailer ffmpegthumbs qt6-multimedia-ffmpeg
+</span></span></code></pre></div><p>Now that we have it, it&rsquo;s time for the cheat sheet.</p>
+<hr>
+<h1 align="center">.// The Cheat Sheet \\.</h1>
+<h2 id="basic-conversion" >
+<div>
+    <a href="#basic-conversion">
+        #
+    </a>
+    Basic conversion
+</div>
+</h2>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 out.avi
+</code></pre><h1 id="remux-an-mkv-file-into-mp4" >
+<div>
+    <a href="#remux-an-mkv-file-into-mp4">
+        ##
+    </a>
+    Remux an MKV file into MP4
+</div>
+</h1>
+<pre tabindex="0"><code>ffmpeg -i in.mkv -c:v copy -c:a copy out.mp4
+</code></pre><h1 id="high-quality-encoding" >
+<div>
+    <a href="#high-quality-encoding">
+        ##
+    </a>
+    High-quality encoding
+</div>
+</h1>
+<p>Use the <code>crf</code> (Constant Rate Factor) parameter to control the output quality. The lower crf, the higher the quality (range: 0-51). The default value is 23, and visually lossless compression corresponds to <code>-crf 18</code>. Use the <code>preset</code> parameter to control the speed of the compression process. <a href="https://trac.ffmpeg.org/wiki/Encode/H.264"><strong>Additional info</strong></a>.</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -preset slower -crf 18 out.mp4
+</code></pre><h2 id="trimming" >
+<div>
+    <a href="#trimming">
+        #
+    </a>
+    Trimming
+</div>
+</h2>
+<p>Without re-encoding:</p>
+<pre tabindex="0"><code>ffmpeg -ss [start] -i in.mp4 -t [duration] -c copy out.mp4
+</code></pre><ul>
+<li><a href="http://ffmpeg.org/ffmpeg-all.html#Main-options"><code>-ss</code></a> specifies the start time, e.g. <code>00:01:23.000</code> or <code>83</code> (in seconds)</li>
+<li><a href="http://ffmpeg.org/ffmpeg-all.html#Main-options"><code>-t</code></a> specifies the duration of the clip (same format).</li>
+<li>Recent <code>ffmpeg</code> also has a flag to supply the end time with <code>-to</code>.</li>
+<li><a href="http://ffmpeg.org/ffmpeg-all.html#Main-options"><code>-c</code></a> copy copies the first video, audio, and subtitle bitstream from the input to the output file without re-encoding them. This won&rsquo;t harm the quality and make the command run within seconds.</li>
+</ul>
+<h2 id="mux-video-and-audio-from-another-video" >
+<div>
+    <a href="#mux-video-and-audio-from-another-video">
+        #
+    </a>
+    Mux video and audio from another video
+</div>
+</h2>
+<p>To copy the video from in0.mp4 and audio from in1.mp4:</p>
+<pre tabindex="0"><code>ffmpeg -i in0.mp4 -i in1.mp4 -c copy -map 0:0 -map 1:1 -shortest out.mp4
+</code></pre><ul>
+<li>With <a href="http://ffmpeg.org/ffmpeg.html#Stream-copy">-c copy</a> the streams will be <code>stream copied</code>, not re-encoded, so there will be no quality loss. If you want to re-encode, see <a href="https://trac.ffmpeg.org/wiki/Encode/H.264"><strong>FFmpeg Wiki: H.264 Encoding Guide</strong></a>.</li>
+<li>The <code>-shortest</code> option will cause the output duration to match the duration of the shortest input stream.</li>
+<li>See the <a href="http://ffmpeg.org/ffmpeg.html#Advanced-options"><code>-map</code> option documentation</a> for more info.</li>
+</ul>
+<h2 id="concat-demuxer" >
+<div>
+    <a href="#concat-demuxer">
+        #
+    </a>
+    Concat demuxer
+</div>
+</h2>
+<p>First, make a text file.</p>
+<pre tabindex="0"><code>file &#39;in1.mp4&#39;
+file &#39;in2.mp4&#39;
+file &#39;in3.mp4&#39;
+file &#39;in4.mp4&#39;
+</code></pre><p>Then, run <code>ffmpeg</code>:</p>
+<pre tabindex="0"><code>ffmpeg -f concat -i list.txt -c copy out.mp4
+</code></pre><h2 id="burn-subtitles" >
+<div>
+    <a href="#burn-subtitles">
+        #
+    </a>
+    Burn subtitles
+</div>
+</h2>
+<p>Use the <a href="http://ffmpeg.org/ffmpeg.html#ass">libass</a> library (make sure your ffmpeg install has the library in the configuration <code>--enable-libass</code>).</p>
+<p>First convert the subtitles to .ass format:</p>
+<pre tabindex="0"><code>ffmpeg -i sub.srt sub.ass
+</code></pre><p>Then add them using a video filter:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -vf ass=sub.ass out.mp4
+</code></pre><h2 id="extract-the-frames-from-a-video" >
+<div>
+    <a href="#extract-the-frames-from-a-video">
+        #
+    </a>
+    Extract the frames from a video
+</div>
+</h2>
+<p>To extract all frames from between 1 and 5 seconds, and also between 11 and 15 seconds:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -vf select=&#39;between(t,1,5)+between(t,11,15)&#39; -vsync 0 out%d.png
+</code></pre><p>To extract one frame per second only:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -fps=1 -vsync 0 out%d.png
+</code></pre><h2 id="rotate-a-video" >
+<div>
+    <a href="#rotate-a-video">
+        #
+    </a>
+    Rotate a video
+</div>
+</h2>
+<p>Rotate 90 clockwise:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mov -vf &#34;transpose=1&#34; out.mov
+</code></pre><p>For the transpose parameter you can pass:</p>
+<pre tabindex="0"><code>0 = 90CounterCLockwise and Vertical Flip (default)
+1 = 90Clockwise
+2 = 90CounterClockwise
+3 = 90Clockwise and Vertical Flip
+</code></pre><p>Use <code>-vf &quot;transpose=2,transpose=2&quot;</code> for 180 degrees.</p>
+<h2 id="download-transport-stream-video-streams" >
+<div>
+    <a href="#download-transport-stream-video-streams">
+        #
+    </a>
+    Download &ldquo;Transport Stream&rdquo; video streams
+</div>
+</h2>
+<ol>
+<li>Locate the playlist file, e.g. using Chrome &gt; F12 &gt; Network &gt; Filter: m3u8</li>
+<li>Download and concatenate the video fragments:</li>
+</ol>
+<pre tabindex="0"><code>ffmpeg -i &#34;path_to_playlist.m3u8&#34; -c copy -bsf:a aac_adtstoasc out.mp4
+</code></pre><h2 id="mute-some-of-the-audio" >
+<div>
+    <a href="#mute-some-of-the-audio">
+        #
+    </a>
+    Mute some of the audio
+</div>
+</h2>
+<p>To replace the first 90 seconds of audio with silence:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -vcodec copy -af &#34;volume=enable=&#39;lte(t,90)&#39;:volume=0&#34; out.mp4
+</code></pre><p>To replace all audio between 1'20&quot; and 1'30&quot; with silence:</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -vcodec copy -af &#34;volume=enable=&#39;between(t,80,90)&#39;:volume=0&#34; out.mp4
+</code></pre><h2 id="deinterlace" >
+<div>
+    <a href="#deinterlace">
+        #
+    </a>
+    Deinterlace
+</div>
+</h2>
+<p>Deinterlacing using &ldquo;yet another deinterlacing filter&rdquo;.</p>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -vf yadif out.mp4
+</code></pre><h2 id="create-a-video-slideshow-from-images" >
+<div>
+    <a href="#create-a-video-slideshow-from-images">
+        #
+    </a>
+    Create a video slideshow from images
+</div>
+</h2>
+<p>Parameters: <code>-r</code> marks the image framerate (inverse time of each image); <code>-vf fps=25</code> marks the true framerate of the output.</p>
+<pre tabindex="0"><code>ffmpeg -r 1/5 -i img%03d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
+</code></pre><h2 id="extract-images-from-a-video" >
+<div>
+    <a href="#extract-images-from-a-video">
+        #
+    </a>
+    Extract images from a video
+</div>
+</h2>
+<ul>
+<li>Extract all frames: <code>ffmpeg -i input.mp4 thumb%04d.jpg -hide_banner</code></li>
+<li>Extract a frame each second: <code>ffmpeg -i input.mp4 -vf fps=1 thumb%04d.jpg -hide_banner</code></li>
+<li>Extract only one frame: <code>ffmpeg -i input.mp4 -ss 00:00:10.000 -vframes 1 thumb.jpg</code></li>
+</ul>
+<h2 id="metadata-change-the-title" >
+<div>
+    <a href="#metadata-change-the-title">
+        #
+    </a>
+    Metadata: Change the title
+</div>
+</h2>
+<pre tabindex="0"><code>ffmpeg -i in.mp4 -map_metadata -1 -metadata title=&#34;My Title&#34; -c:v copy -c:a copy out.mp4
+</code></pre><h1 id="wrap-up" >
+<div>
+    <a href="#wrap-up">
+        ##
+    </a>
+    Wrap up
+</div>
+</h1>
+<p>That&rsquo;s it. If you have any additional tips send them my way so I can add to this thing. The more the merrier. Useful for all.</p>
+
+        </div>
+
+    </article>
+
+    
+    
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+    
+    
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/guides/arch/mkdocs/">MKDocs Setup</a>
+            
+        </div>
+        <div class="right pagination-item disabled">
+            
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+  
+
+
+
+
+
+
+<script>
+        function detectCurrentScheme2() {
+                const defaultTheme = "dark";
+                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+                        return localStorage.getItem("user-color-scheme");
+                }
+                if (defaultTheme === "dark" || defaultTheme === "light") {
+                        return defaultTheme;
+                }
+                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        let giscusTheme = detectCurrentScheme2();
+        let giscusAttributes = {
+                src: "https://giscus.app/client.js",
+                "data-repo": "xerolinux\/XeroSite",
+                "data-repo-id": "R_kgDOMmVchg",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOMmVchs4Cs7z_",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": giscusTheme,
+                "data-lang": "en",
+                crossorigin: "anonymous",
+                lazyload: "true",
+                async: true,
+        };
+        let main = document.querySelector("main");
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        main.appendChild(giscusScript);
+</script>
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+    
+    
+
+        </main>
+        
+            <footer class="common-footer noselect">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+
+        <div style="display: flex; align-items: center; gap:8px">
+            ©  DarkXero,  2025
+            
+        </div>
+        <div style="display:flex; align-items: center; gap:4px">
+
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+
+            
+        </div>
+        
+            <div>
+                Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
+            </div>
+        
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://bytes.xerolinux.xyz/ class="p-name u-url url fn" rel="me">map[email:info@techxero.com location:Lebanon name:DarkXero]</a>
+
+    
+
+    
+</p>
+
+</footer>
+
+        
+    </div>
+</body>
+</html>

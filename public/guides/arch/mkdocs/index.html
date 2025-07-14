@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+
+
+
+    
+
+
+
+    
+
+
+<html lang="en-us" data-theme="">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="theme-name" content="Anubis2">
+
+<title>MKDocs Setup - DarkXero Bytes</title>
+
+<meta name="description" content="Set up MKDocs on Arch">
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://bytes.xerolinux.xyz/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/favicon.png">
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.ac9fbad24609bd533b00c98f0dfbd971989a71aca4b450e1e77ab6c33ee463c6.css" integrity="sha256-rJ&#43;60kYJvVM7AMmPDfvZcZiacayktFDh53q2wz7kY8Y=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.c4c04b3ef88e3d619ad4c7ee5e03048422bc55c4fefdc1f07657c1133670aa22.css" integrity="sha256-xMBLPviOPWGa1MfuXgMEhCK8VcT&#43;/cHwdlfBEzZwqiI=">
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <link rel="stylesheet" href="/css/style.min.21c5d8fe0a79d623b0adc1ce4bd4f6dd2c05cd939c9aaaa966ba7186b1464f4d.css" integrity="sha256-IcXY/gp51iOwrcHOS9T23SwFzZOcmqqpZrpxhrFGT00=">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+    
+
+    
+
+
+
+
+
+    
+    
+        
+    
+    
+
+    
+        <script src="/js/script.min.08f04d96386c73c9bf4d160333f8f448c05a6e01c06770542ee0e013954ce930.js" type="text/javascript" charset="utf-8" integrity="sha256-CPBNljhsc8m/TRYDM/j0SMBabgHAZ3BULuDgE5VM6TA="></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header">
+            
+                <div class="header-top">
+    <div class="header-top-left">
+        <h1 class="site-title noselect">
+    <a href="/">DarkXero Bytes</a>
+</h1>
+
+        
+
+  
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <ul class="social-icons noselect">
+
+ 
+
+
+    
+
+
+
+
+
+    
+        <li>
+            <a href="https://github.com/DarkXero-dev" title="Github" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.linkedin.com/in/schaanine/" title="Linkedin" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="info@techxero.com.com" title="Email" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+    
+        <li>
+            <a href="https://www.youtube.com/@TechXeroLB" title="Youtube" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+
+
+
+
+
+    <li>
+            <a href="/index.xml" title="RSS" rel="me">
+            <span class="inline-svg">
+
+    
+
+
+    
+    
+    
+    
+    
+
+    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rss"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M4 4a16 16 0 0 1 16 16" /><path d="M4 11a9 9 0 0 1 9 9" /></svg>
+
+
+</span>
+
+            </a>
+        </li>
+    
+
+</ul>
+
+    </div>
+    <div class="header-top-right">
+
+    </div>
+</div>
+
+
+    <nav class="noselect">
+        
+        
+        <a class="" href="https://bytes.xerolinux.xyz/" title="">Home</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/guides/" title="">Guides</a>
+        
+        <a class="" href="https://bytes.xerolinux.xyz/about/" title="">About</a>
+        
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        </header>
+        <main id="main" tabindex="-1">
+            
+    
+
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                
+                
+                
+                <h1 class="p-name post-title ">MKDocs Setup</h1>
+                
+
+            </header>
+            
+
+    
+
+
+
+<div class="post-info noselect">
+    
+        <div class="post-date dt-published">
+            <time datetime="2025-07-14">2025-07-14</time>
+            
+        </div>
+    
+
+    <a class="post-hidden-url u-url" href="/guides/arch/mkdocs/">/guides/arch/mkdocs/</a>
+    <a href="https://bytes.xerolinux.xyz/" class="p-name p-author post-hidden-author h-card" rel="me">DarkXero</a>
+
+
+    <div class="post-taxonomies">
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+        
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+<script>
+  var toc = document.querySelector(".toc");
+  if (toc) {
+    toc.addEventListener("click", function () {
+      if (event.target.tagName !== "A") {
+        event.preventDefault();
+        if (this.open) {
+          this.open = false;
+          this.classList.remove("expanded");
+        } else {
+          this.open = true;
+          this.classList.add("expanded");
+        }
+      }
+    });
+  }
+</script>
+
+        <div class="content e-content">
+            <h1 id="whats-this" >
+<div>
+    <a href="#whats-this">
+        ##
+    </a>
+    What&rsquo;s This?
+</div>
+</h1>
+<p>This for my own use. Use it if you want to. Just documenting the installation of <a href="https://www.mkdocs.org"><strong>MKDocs</strong></a> the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it&rsquo;s all there on their site. Also this for <strong>ArchLinux</strong> if you don&rsquo;t use that distro, well, their site shows how to install for your distro.</p>
+<p><img src="https://www.youtube.com/embed/9V0NpLPXS-Y" alt="type:video"></p>
+<h1 id="installing-mkdocs" >
+<div>
+    <a href="#installing-mkdocs">
+        ##
+    </a>
+    Installing MKDocs
+</div>
+</h1>
+<p>We will need to install it with some extras. The 2 main packages exist on the <strong>Arch</strong> repos. The rest are on the <strong>AUR</strong>, so to grab everything in one go, I will be using <strong>Paru</strong>. Compiling might take a while, so sit back wile it finishes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
+</span></span></code></pre></div><p>Donce that&rsquo;s done we need to create the site. There&rsquo;s a command for that.</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>mkdocs new my-project
+</span></span><span style="display:flex;"><span><span style="color:#89dceb">cd</span> my-project
+</span></span></code></pre></div><p>Now that we initialized the new site we need to configure it. We do so by editing the <code>mkdocs.yml</code> file putting in the following info :</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">site_name</span>: Sitename
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#cba6f7">theme</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">name</span>: material
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">logo</span>: assets/Tux.gif
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">favicon</span>: assets/favicon.ico
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">palette</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#cba6f7">scheme</span>: slate
+</span></span><span style="display:flex;"><span>    <span style="color:#cba6f7">primary</span>: deep purple
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">features</span>:
+</span></span><span style="display:flex;"><span>   - navigation.top
+</span></span><span style="display:flex;"><span>   - navigation.footer
+</span></span><span style="display:flex;"><span>   - navigation.indexes
+</span></span><span style="display:flex;"><span>   - content.code.copy
+</span></span><span style="display:flex;"><span>   - search.suggest
+</span></span><span style="display:flex;"><span>   - search.highlight
+</span></span><span style="display:flex;"><span>   - search.share
+</span></span><span style="display:flex;"><span>   - navigation.expand
+</span></span></code></pre></div><p>This will make it use the <strong>Slate Material</strong> Theme with <strong>Deep Purple</strong> accents. To know more about the theme check the <a href="https://squidfunk.github.io/mkdocs-material/getting-started/"><strong>MKDocs Material Wiki</strong></a>. That&rsquo;s it go from there.</p>
+<h1 id="plugins--extra-stuff" >
+<div>
+    <a href="#plugins--extra-stuff">
+        ##
+    </a>
+    Plugins &amp; Extra Stuff
+</div>
+</h1>
+<p>I have found a few that I liked on the <strong>AUR</strong>, let&rsquo;s install them via :</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
+</span></span></code></pre></div><p>To activate them we edit the same <code>mkdocs.yml</code> file as before like so :</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">plugins</span>:
+</span></span><span style="display:flex;"><span>  - rss
+</span></span><span style="display:flex;"><span>  - social
+</span></span><span style="display:flex;"><span>  - search
+</span></span><span style="display:flex;"><span>  - autorefs
+</span></span><span style="display:flex;"><span>  - glightbox
+</span></span></code></pre></div><p>There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :</p>
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">markdown_extensions</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6c7086;font-style:italic"># Python Markdown</span>
+</span></span><span style="display:flex;"><span>   - abbr
+</span></span><span style="display:flex;"><span>   - admonition
+</span></span><span style="display:flex;"><span>   - attr_list
+</span></span><span style="display:flex;"><span>   - def_list
+</span></span><span style="display:flex;"><span>   - footnotes
+</span></span><span style="display:flex;"><span>   - md_in_html
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">toc</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">permalink</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6c7086;font-style:italic"># Python Markdown Extensions</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.arithmatex</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">generic</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.betterem</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">smart_enable</span>: all
+</span></span><span style="display:flex;"><span>   - pymdownx.caret
+</span></span><span style="display:flex;"><span>   - pymdownx.details
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.emoji</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">emoji_index</span>: <span style="color:#6c7086;font-style:italic">!!python/name:material.extensions.emoji.twemoji</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">emoji_generator</span>: <span style="color:#6c7086;font-style:italic">!!python/name:material.extensions.emoji.to_svg</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.highlight</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">anchor_linenums</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">line_spans</span>: __span
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">pygments_lang_class</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - pymdownx.inlinehilite
+</span></span><span style="display:flex;"><span>   - pymdownx.keys
+</span></span><span style="display:flex;"><span>   - pymdownx.mark
+</span></span><span style="display:flex;"><span>   - pymdownx.smartsymbols
+</span></span><span style="display:flex;"><span>   - pymdownx.superfences
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.tabbed</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">alternate_style</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.tasklist</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">custom_checkbox</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - pymdownx.tilde
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#cba6f7">extra</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">social</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/github
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://github.com/darkxero-dev
+</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/youtube
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://youtube.com/XeroLinuxOfficial
+</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/x-twitter
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://twitter.com/xerolinuxop
+</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/mastodon
+</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://fosstodon.org/@xerolinux
+</span></span></code></pre></div><p>That&rsquo;s it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to <a href="https://github.com/drewgrif"><strong>@JustAGuyLinux</strong></a> for helping out a little hehe.</p>
+
+        </div>
+
+    </article>
+
+    
+    
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+    
+    
+    <div class="pagination post-pagination">
+        <div class="left pagination-item disabled">
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/guides/arch/ffmpeg-cheats/">FFmpeg Cheat Sheet</a>
+            
+        </div>
+    </div>
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+  
+
+
+
+
+
+
+<script>
+        function detectCurrentScheme2() {
+                const defaultTheme = "dark";
+                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
+                        return localStorage.getItem("user-color-scheme");
+                }
+                if (defaultTheme === "dark" || defaultTheme === "light") {
+                        return defaultTheme;
+                }
+                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+
+        let giscusTheme = detectCurrentScheme2();
+        let giscusAttributes = {
+                src: "https://giscus.app/client.js",
+                "data-repo": "xerolinux\/XeroSite",
+                "data-repo-id": "R_kgDOMmVchg",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOMmVchs4Cs7z_",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": giscusTheme,
+                "data-lang": "en",
+                crossorigin: "anonymous",
+                lazyload: "true",
+                async: true,
+        };
+        let main = document.querySelector("main");
+        let giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        main.appendChild(giscusScript);
+</script>
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+    
+    
+
+        </main>
+        
+            <footer class="common-footer noselect">
+    
+    
+
+    <div class="common-footer-bottom">
+        
+
+        <div style="display: flex; align-items: center; gap:8px">
+            ©  DarkXero,  2025
+            
+        </div>
+        <div style="display:flex; align-items: center; gap:4px">
+
+            
+            
+
+            
+            
+            
+            
+
+            
+            
+
+            
+        </div>
+        
+            <div>
+                Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
+            </div>
+        
+    </div>
+
+    <p class="h-card vcard">
+
+    <a href=https://bytes.xerolinux.xyz/ class="p-name u-url url fn" rel="me">map[email:info@techxero.com location:Lebanon name:DarkXero]</a>
+
+    
+
+    
+</p>
+
+</footer>
+
+        
+    </div>
+</body>
+</html>

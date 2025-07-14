@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DarkXero Bytes</title>
+    <link>/guides/arch-copy-copy/</link>
+    <description>DarkXero Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+      
+        <managingEditor>info@techxero.com
+          
+            (DarkXero)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/guides/arch-copy-copy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MKDocs Setup</title>
+      <link>/guides/arch-copy-copy/mkdocs/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/guides/arch-copy-copy/mkdocs/</guid>
+      <description>&lt;h1 id=&#34;whats-this&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#whats-this&#34;&gt;
+        ##
+    &lt;/a&gt;
+    What&amp;rsquo;s This?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;This for my own use. Use it if you want to. Just documenting the installation of &lt;a href=&#34;https://www.mkdocs.org&#34;&gt;&lt;strong&gt;MKDocs&lt;/strong&gt;&lt;/a&gt; the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it&amp;rsquo;s all there on their site. Also this for &lt;strong&gt;ArchLinux&lt;/strong&gt; if you don&amp;rsquo;t use that distro, well, their site shows how to install for your distro.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.youtube.com/embed/9V0NpLPXS-Y&#34; alt=&#34;type:video&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;installing-mkdocs&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#installing-mkdocs&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Installing MKDocs
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;We will need to install it with some extras. The 2 main packages exist on the &lt;strong&gt;Arch&lt;/strong&gt; repos. The rest are on the &lt;strong&gt;AUR&lt;/strong&gt;, so to grab everything in one go, I will be using &lt;strong&gt;Paru&lt;/strong&gt;. Compiling might take a while, so sit back wile it finishes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donce that&amp;rsquo;s done we need to create the site. There&amp;rsquo;s a command for that.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdocs new my-project
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#89dceb&#34;&gt;cd&lt;/span&gt; my-project
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that we initialized the new site we need to configure it. We do so by editing the &lt;code&gt;mkdocs.yml&lt;/code&gt; file putting in the following info :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;site_name&lt;/span&gt;: Sitename
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;theme&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;name&lt;/span&gt;: material
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;logo&lt;/span&gt;: assets/Tux.gif
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;favicon&lt;/span&gt;: assets/favicon.ico
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;palette&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#cba6f7&#34;&gt;scheme&lt;/span&gt;: slate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#cba6f7&#34;&gt;primary&lt;/span&gt;: deep purple
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;features&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.top
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.footer
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.indexes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - content.code.copy
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.suggest
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.highlight
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.share
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.expand
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will make it use the &lt;strong&gt;Slate Material&lt;/strong&gt; Theme with &lt;strong&gt;Deep Purple&lt;/strong&gt; accents. To know more about the theme check the &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/getting-started/&#34;&gt;&lt;strong&gt;MKDocs Material Wiki&lt;/strong&gt;&lt;/a&gt;. That&amp;rsquo;s it go from there.&lt;/p&gt;
+&lt;h1 id=&#34;plugins--extra-stuff&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#plugins--extra-stuff&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Plugins &amp;amp; Extra Stuff
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I have found a few that I liked on the &lt;strong&gt;AUR&lt;/strong&gt;, let&amp;rsquo;s install them via :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To activate them we edit the same &lt;code&gt;mkdocs.yml&lt;/code&gt; file as before like so :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;plugins&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - rss
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - social
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - search
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - autorefs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - glightbox
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;markdown_extensions&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Python Markdown&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - abbr
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - admonition
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - attr_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - def_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - footnotes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - md_in_html
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;toc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;permalink&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Python Markdown Extensions&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.arithmatex&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;generic&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.betterem&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;smart_enable&lt;/span&gt;: all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.caret
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.details
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.emoji&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;emoji_index&lt;/span&gt;: &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;!!python/name:material.extensions.emoji.twemoji&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;emoji_generator&lt;/span&gt;: &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;!!python/name:material.extensions.emoji.to_svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.highlight&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;anchor_linenums&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;line_spans&lt;/span&gt;: __span
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;pygments_lang_class&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.inlinehilite
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.keys
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.mark
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.smartsymbols
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.superfences
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.tabbed&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;alternate_style&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.tasklist&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;custom_checkbox&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.tilde
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;extra&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;social&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/github
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://github.com/darkxero-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/youtube
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://youtube.com/XeroLinuxOfficial
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/x-twitter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://twitter.com/xerolinuxop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/mastodon
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://fosstodon.org/@xerolinux
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to &lt;a href=&#34;https://github.com/drewgrif&#34;&gt;&lt;strong&gt;@JustAGuyLinux&lt;/strong&gt;&lt;/a&gt; for helping out a little hehe.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

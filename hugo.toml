@@ -24,10 +24,9 @@ locale = "en-us"
 toc = true
 
 [params.anubis2]
-    enableMathGlobally = true # MathJax (default is false)
     enableCopyCodeButton = true
     enableReadMoreButton = true
-    hideFooterAttribution = true # hide "Powered by Hugo, theme" in footer
+    hideFooterAttribution = false # hide "Powered by Hugo, theme" in footer
     colorTheme = "dark"
     enableColorThemeSwitcher = false
 
@@ -56,9 +55,9 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
+identifier = "guides"
+name = "Guides"
+url = "/guides/"
 weight = 2
 
 [[menu.main]]
@@ -66,10 +65,6 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 3
-
-[languages]
-[languages.en]
-languageName = "English"
 
 [markup]
 defaultMarkdownHandler = 'goldmark'
@@ -81,5 +76,5 @@ unsafe = true # Enable unsafe mode to have a better experience
 anchorLineNos      = false
 codeFences         = true # tested with true and false. Both work.
 noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
-style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
+style              = 'catppuccin-mocha' # Find more style at here: https://swapoff.org/chroma/playground/
 tabWidth           = 4

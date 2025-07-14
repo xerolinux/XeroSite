@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reset on DarkXero Bytes</title>
+    <link>/tags/reset/</link>
+    <description>DarkXero Bytes (Reset)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+      
+        <managingEditor>info@techxero.com
+          
+            (DarkXero)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    
+    <atom:link href="/tags/reset/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reset Password</title>
+      <link>/guides/linux/passwd-reset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/guides/linux/passwd-reset/</guid>
+      <description>&lt;h3 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;I have lost my root pass on &lt;strong&gt;Linux&lt;/strong&gt; more times than I can count. This guide is here so I do not have to &lt;em&gt;Google&lt;/em&gt; it lol. Might be useful to you I dunno. But it&amp;rsquo;s here.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://i.imgur.com/VFXV09r.jpeg&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;lets-do-this-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#lets-do-this-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Let&amp;rsquo;s do this 🚀
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;How to reset forgotten root password in a &lt;strong&gt;GNU/Linux&lt;/strong&gt; distribution with &lt;code&gt;GRUB&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;If this is a laptop or a desktop which you have next to you then follow these steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Shut down the device.&lt;/li&gt;
+&lt;li&gt;Start it again. When you see GRUB menu, press the &lt;code&gt;e&lt;/code&gt; key on the keyboard before the system starts booting.&lt;/li&gt;
+&lt;li&gt;In the &lt;code&gt;GRUB&lt;/code&gt; boot options, scroll down and locate the line that begins with &lt;code&gt;linux&lt;/code&gt;. In this line move the cursor to the end, right after &lt;code&gt;ro quiet&lt;/code&gt;. Delete everything after that. Change &lt;code&gt;ro&lt;/code&gt; to &lt;code&gt;rw&lt;/code&gt;. Append the parameter &lt;code&gt;init=/bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Press Ctrl+x, or F10, to boot.&lt;/li&gt;
+&lt;li&gt;You will see a root prompt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:#
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remount the filesystem in read/write mode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# mount -no remount,rw /
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Set the password of any user(s).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# passwd joe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Reboot with the command &lt;code&gt;reboot -f&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s it ! The new password should work now.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
