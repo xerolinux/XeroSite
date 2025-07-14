@@ -6,6 +6,8 @@ Welcome to **DarkXero's Bytes** ! This is where I will be posting my thoughts, f
 
 <div style="text-align: center;">
 
--------- ![img1](https://i.imgur.com/WnJx6Ae.png) --------
+![img1](https://i.imgur.com/MUbjQcr.png)
+
+**---------- Main Content ----------**
 
 </div><br />
