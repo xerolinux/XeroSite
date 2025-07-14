@@ -32,7 +32,7 @@ toc = true
     enableColorThemeSwitcher = false
 
     social = [
-        { id = "github", url = "https://github.com/hugo-theme-anubis2/hugo-theme-anubis2" },
+        { id = "github", url = "https://github.com/DarkXero-dev" },
         { id = "linkedin", url = "https://www.linkedin.com/in/schaanine/" },
         { id = "email", url = "info@techxero.com.com" },
         { id = "youtube", url = "https://www.youtube.com/@TechXeroLB" },
@@ -42,21 +42,12 @@ toc = true
     [params.anubis2.services]
         [params.anubis2.services.giscus]
             # Giscus Comment System https://giscus.app/
-            repo        = "hugo-theme-anubis2/hugo-theme-anubis2"
-            repoId      = "R_kgDOLEp76Q"
+            repo        = "xerolinux/XeroSite"
+            repoId      = "R_kgDOMmVchg"
             category    = "General"
-            categoryId  = "DIC_kwDOLEp76c4CcbPS"
+            categoryId  = "DIC_kwDOMmVchs4Cs7z_"
             dataMapping = "pathname"
             lazyLoad    = true
-
-        [params.anubis2.services.umami]
-            # Umami Analytics https://umami.is/
-            id = "e4f661ff-9a8c-49d4-b3cc-2efe553e3973"                                            # Website ID
-            url = "https://umami.xtra.science/script.js"
-            datacache = true
-            dnt       = false
-            # if shareUrl is set, a button will be shown on the end of each page
-            shareUrl = "https://cloud.umami.is/share/CUTKp6yiDQllAqq9/hugo-theme-anubis2.netlify.app"
 
 [[menu.main]]
 identifier = "home"

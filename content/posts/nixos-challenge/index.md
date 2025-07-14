@@ -36,8 +36,6 @@ After almost a decade of following what I’ll call “The Linux Way,” I’ve 
 
 **NixOS**, however, takes a different approach. While familiar tools like mount are still available, the recommended method is to handle these configurations through the `hardware-configuration.nix` file or by defining them in `configuration.nix`. The same goes for mounting the various drives, they belong in the config files.
 
-Adapting to this new workflow has been a challenge. During my initial setup, I often defaulted to my old habits, forgetting that **NixOS** expects a different process. While this didn’t cause any major issues, it was a source of frustration, mainly because I haven’t yet experienced a clear advantage to doing things the *Nix* way.
-
 I’ve just finalized my [**NixOS Configuration**](https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix), successfully mounting all my drives, setting **Wayland** as the default, enabling **ZSH/OhMyZSH**, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.
 
 # NixOS Packages & Updates
