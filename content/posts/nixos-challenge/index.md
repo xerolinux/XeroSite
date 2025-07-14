@@ -14,7 +14,9 @@ In case you don't know by now, or are new to this site/blog, let me give you som
 
 # The Challenge
 
-With the introduction out of the way, let me explain the so-called *Challenge*. I’m setting out to use **NixOS** as my daily driver for an entire year. However, for the sake of transparency, I won’t be using it exclusively all the time. Why? As I mentioned earlier, I’m a distro maintainer, and there are some critical tasks that simply can’t be done on NixOS. For example, I can’t compile or build **Arch** packages on it, I can’t maintain my Wiki which uses **MKDocs** because some plugins are missing on Nix, and I can’t even build any of the ISOs either.
+With the introduction out of the way, let me explain the so-called *Challenge*. I’m setting out to use **NixOS** as my daily driver for an entire year. However, for the sake of transparency, I won’t be using it exclusively all the time.
+
+As I mentioned earlier, I’m a distro maintainer, and there are some critical tasks that simply can’t be done on NixOS. For example, I can’t compile or build **Arch** packages on it, I can’t maintain my Wiki which uses **MKDocs** because some plugins are missing on Nix, and I can’t even build any of the ISOs either.
 
 I know some of you might suggest *"Just use DistroBox"* in the comments. I wish it were that simple. **DistroBox** provides a minimal environment, but I need a full GUI to stay productive. So, no, that’s not a viable solution. Unfortunately, there isn’t one. That’s why during this challenge, I’ll be alternating between **NixOS** and **Arch**, using Arch only when I have specific work to do.
 
