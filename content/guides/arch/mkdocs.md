@@ -1,9 +1,5 @@
 ---
 title: "MKDocs Setup"
-description: "Set up MKDocs on Arch"
-date: "2025-07-14"
-aliases: ["foss","linux","mkdocs","guide"]
-author: "DarkXero"
 ---
 # What's This?
 

@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-        <loc>https://bytes.xerolinux.xyz/guides/arch/</loc>
-        <lastmod>2025-07-14T00:00:00+00:00</lastmod>
-      </url><url>
         <loc>https://bytes.xerolinux.xyz/</loc>
-        <lastmod>2025-07-14T00:00:00+00:00</lastmod>
-      </url><url>
-        <loc>https://bytes.xerolinux.xyz/guides/</loc>
-        <lastmod>2025-07-14T00:00:00+00:00</lastmod>
-      </url><url>
-        <loc>https://bytes.xerolinux.xyz/guides/arch/mkdocs/</loc>
         <lastmod>2025-07-14T00:00:00+00:00</lastmod>
       </url><url>
         <loc>https://bytes.xerolinux.xyz/posts/nixos-challenge/</loc>
@@ -35,6 +26,8 @@
         <loc>https://bytes.xerolinux.xyz/posts/be-thankful/</loc>
         <lastmod>2024-04-08T00:00:00+00:00</lastmod>
       </url><url>
+        <loc>https://bytes.xerolinux.xyz/guides/arch/</loc>
+      </url><url>
         <loc>https://bytes.xerolinux.xyz/guides/linux/</loc>
       </url><url>
         <loc>https://bytes.xerolinux.xyz/guides/nixos/</loc>
@@ -45,7 +38,11 @@
       </url><url>
         <loc>https://bytes.xerolinux.xyz/guides/arch/ffmpeg-cheats/</loc>
       </url><url>
+        <loc>https://bytes.xerolinux.xyz/guides/</loc>
+      </url><url>
         <loc>https://bytes.xerolinux.xyz/guides/linux/linux-explained/</loc>
+      </url><url>
+        <loc>https://bytes.xerolinux.xyz/guides/arch/mkdocs/</loc>
       </url><url>
         <loc>https://bytes.xerolinux.xyz/guides/linux/passwd-reset/</loc>
       </url><url>
