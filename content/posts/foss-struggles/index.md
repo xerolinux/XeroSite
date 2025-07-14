@@ -33,13 +33,13 @@ The **FOSS** community, known for its spirit of freedom, often struggles with th
 
 # Health Concerns
 
-On top of these challenges, I have been dealing with significant health issues. Most notably, I have severe dental problems that require a full set of dentures. This isn’t cheap, and without stable income, it’s been impossible to address. These health issues have affected my confidence and my ability to engage publicly, adding another layer of difficulty to my situation. Health must come before everything else, including fun and passion projects.
+On top of these challenges, I have been dealing with significant health issues. Most notably, I have severe dental problems that require a full set of dentures. Not to forget other health issues like Sciatica, blood pressure and more. All this isn’t cheap, and without stable income, it’s been impossible to address. These health issues have affected my confidence and my ability to engage publicly, adding another layer of difficulty to my situation. Health must come before everything else, including fun and passion projects.
 
 The stress from these financial and health challenges has also taken a toll on my mental health. I've been experiencing frequent anxiety and panic attacks, and the constant pressure has led to a deep sense of depression. The overwhelming silence and lack of engagement have exacerbated these feelings, making it even harder to stay motivated and productive.
 
 # The Way Forward
 
-Given these circumstances, I’m focusing more on forums and this blog. Writing provides a creative outlet that isn’t constrained by algorithms or view counts. I’ll continue to work on my current projects, primarily for my own needs. I will freely share what I can, not everything. I am currently spending more than the income am getting.
+Given these circumstances, I’m focusing more on my various projects and this blog. Writing provides a creative outlet that isn’t constrained by algorithms or view counts. I will freely share what I can, not everything. I am currently spending more than the income am getting.
 
 My main priority now is finding ways to support my financial needs. If and when I achieve that stability, I plan to return to my passion projects with renewed energy and many new ideas.
 
