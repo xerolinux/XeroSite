@@ -49,14 +49,6 @@ toc = true
             dataMapping = "pathname"
             lazyLoad    = true
 
-        # [params.anubis2.services.disqus]
-        #   shortName = "junyide-xiao-wu"
-
-        # [params.anubis2.services.utterances]
-        #   repo = "hugo-theme-anubis2/hugo-theme-anubis2"
-        #   theme = "github-light"
-        #   issueTerm = "pathname"
-
         [params.anubis2.services.umami]
             # Umami Analytics https://umami.is/
             id = "e4f661ff-9a8c-49d4-b3cc-2efe553e3973"                                            # Website ID
@@ -78,11 +70,11 @@ name = "Posts"
 url = "/posts/"
 weight = 2
 
-# [[menu.main]]
-# identifier = "about"
-# name = "About"
-# url = "/about/"
-# weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
 
 [languages]
 [languages.en]
