@@ -8,7 +8,7 @@ author: "DarkXero"
 
 # Background
 
-In case you don't know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an [**ArchLinux**](https://archlinux.org) user for the past 7 years, or so, maintaining my very own *Arch-Based* Distro for past 4 almost 5 called [**XeroLinux](https://xerolinux.xyz). I haven't really used anything else long-term since. Until now that is...<br /><br />
+In case you don't know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an [**ArchLinux**](https://archlinux.org) user for the past 7 years, or so, maintaining my very own *Arch-Based* Distro for past 4 almost 5 called [**XeroLinux**](https://xerolinux.xyz). I haven't really used anything else long-term since. Until now that is...<br /><br />
 
 {{< youtube lsYg6-wUWXw >}}<br />
 
