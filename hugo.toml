@@ -78,11 +78,11 @@ name = "Posts"
 url = "/posts/"
 weight = 2
 
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
+# [[menu.main]]
+# identifier = "about"
+# name = "About"
+# url = "/about/"
+# weight = 3
 
 [languages]
 [languages.en]
