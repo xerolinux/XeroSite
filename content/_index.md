@@ -8,6 +8,6 @@ Welcome to **DarkXero's Bytes** ! This is where I will be posting my thoughts, f
 
 ![img1](https://i.imgur.com/WnJx6Ae.png)
 
--------------------- Main Content/Posts --------------------
+--------------- Main Content/Posts ---------------
 
 </div><br />
