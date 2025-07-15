@@ -44,6 +44,8 @@ If it's not the price though, then what is it ? Is it the fact that it isn't up 
 
 With all that out of the way, I am eager to know what the situation is. Should I keep the **Gnome** edition out there or not ? Would a **Cosmic Spin** be worth my time to release once it reaches maturity ? I wonder...
 
+On the other hand, someone told me leave it as is no more modifications, just build new updated ISOs n forget.. You never know. Same with **cosmic** once it's out let it be set it n forget it sort of thing.. Always good to have choices for those who want it.. Concentrate on **KDE**. I do not have a clue what to do...
+
 Please be vocal, without your voice I would be acting in total darkness, and deafness... After all I am doing this for the community not myself. If I was, then only **KDE** would exist nothing else..
 
 Thanks ❤️‍🔥 🙏
