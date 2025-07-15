@@ -19,10 +19,72 @@
     
 
     
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Xero Gnome</title>
+      <link>/posts/xero-gnome/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/posts/xero-gnome/</guid>
+      <description>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; has had 2 flavors for a while now, with a 3rd one coming. That being &lt;strong&gt;Gnome&lt;/strong&gt;. I have created that version due to what I thought was popular demand and because many do not like the way the &lt;strong&gt;KDE Plasma&lt;/strong&gt; devs do things, shoving features down our throats without doing much &lt;em&gt;bug-fixing&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Gnome&lt;/strong&gt; version doesn&amp;rsquo;t have many tweaks applied to it simply because I wanted to be stable, having less reasons to break, and the point of it was and still is to stay out of your way so you can do what you wanna do without issue creeping in when least expected. I applied just enough making it more useable/functional than stock &lt;strong&gt;Gnome&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;stalemate&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#stalemate&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Stalemate
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The question am now asking myself is, &lt;em&gt;&amp;ldquo;What the heck happened ?&amp;rdquo;&lt;/em&gt;. Yeah, coz it&amp;rsquo;s been months now, no one showing any interest in it. As you can see from the image below, only 20 people showed interest since it came out vs &lt;strong&gt;KDE&lt;/strong&gt;&amp;rsquo;s 437. Why is that I wonder ?&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/bGIkm9C.png&#34; alt=&#34;Sales&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;price-or-what-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#price-or-what-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Price or what ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Could it be the price ? I mean it&amp;rsquo;s only $5 more than &lt;strong&gt;KDE&lt;/strong&gt;. Nothing too steep.&lt;/p&gt;
+&lt;p&gt;The reason behind the price difference is very simple. Since I do not use &lt;strong&gt;Gnome&lt;/strong&gt; on the daily, I would have to do extra work to support it and make sure it keeps working as intended. Extra work means extra cost for me. Think about it this way, would you agree to put in extra hours at work for &lt;strong&gt;NO EXTRA PAY&lt;/strong&gt; ?&lt;/p&gt;
+&lt;p&gt;I mean, it&amp;rsquo;s similar to over-time. Each extra hour you work you get extra &lt;strong&gt;$$$&lt;/strong&gt;, that&amp;rsquo;s how it normally is right ? Same here. I use &lt;strong&gt;KDE Plasma&lt;/strong&gt; on the daily, so it&amp;rsquo;s what I call &lt;em&gt;Normal 9 to 5 working day&lt;/em&gt;. As for &lt;strong&gt;Gnome&lt;/strong&gt;, it&amp;rsquo;s &lt;em&gt;Over-Time&lt;/em&gt;, hence the extra $5. I hope this clarifies things. I want to offer choices.&lt;/p&gt;
+&lt;h1 id=&#34;quality-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#quality-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Quality ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If it&amp;rsquo;s not the price though, then what is it ? Is it the fact that it isn&amp;rsquo;t up to Quality expectations ? I mean I do not want it to be too bloated, or have reasons to break. Stability is what I aim for, not looks as I did with &lt;strong&gt;KDE&lt;/strong&gt;. Do you want more ? I am confused. Please do let me know in the comments below.&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;With all that out of the way, I am eager to know what the situation is. Should I keep the &lt;strong&gt;Gnome&lt;/strong&gt; edition out there or not ? Would a &lt;strong&gt;Cosmic Spin&lt;/strong&gt; be worth my time to release once it reaches maturity ? I wonder&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Please be vocal, without your voice I would be acting in total darkness, and deafness&amp;hellip; After all I am doing this for the community not myself. If I was, then only &lt;strong&gt;KDE&lt;/strong&gt; would exist nothing else..&lt;/p&gt;
+&lt;p&gt;Thanks ❤️‍🔥 🙏&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NixOS Challenge</title>
