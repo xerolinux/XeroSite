@@ -10,6 +10,12 @@ author: "DarkXero"
 
 **XeroLinux** has had 2 flavors for a while now, with a 3rd one coming. That being **Gnome**. I have created that version due to what I thought was popular demand and because many do not like the way the **KDE Plasma** devs do things, shoving features down our throats without doing much *bug-fixing*. 
 
+<div style="text-align: center;">
+
+![Sales](https://i.imgur.com/u5uXdJZ.jpeg)
+
+</div>
+
 The **Gnome** version doesn't have many tweaks applied to it simply because I wanted to be stable, having less reasons to break, and the point of it was and still is to stay out of your way so you can do what you wanna do without issue creeping in when least expected. I applied just enough making it more useable/functional than stock **Gnome**.
 
 # Stalemate
