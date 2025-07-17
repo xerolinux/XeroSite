@@ -55,4 +55,6 @@ Lastly I would like to share my appreciation to every person out there who has a
 - The **XeroLinux** ISOs => [**Here**](https://ko-fi.com/xerolinux/shop)
 - Project Donations Page => [**Here**](https://ko-fi.com/xerolinux)
 
+Also please do let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It's ok if you dont agree, I will not judge you, it's a judgement-free zone over here.
+
 Thanks for reding. ❤️‍🔥🙏
