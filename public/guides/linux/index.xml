@@ -99,6 +99,76 @@
 &lt;/h1&gt;
 &lt;p&gt;This was a quick run-through explaining what &lt;strong&gt;GNU/Linux&lt;/strong&gt; is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&amp;rsquo;s not as complete as I would like it to be.&lt;/p&gt;
 </description>
+      <content>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast &lt;a href=&#34;https://github.com/REALERvolker1&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-linux-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#what-is-linux-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    What is Linux ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Since not everyone&amp;rsquo;s super familiar with Linux, here&amp;rsquo;s a quick crash course.&lt;/p&gt;
+&lt;p&gt;Linux is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt;, so all the drivers and whatnot are compiled into the binary. The &lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; and compiled into the kernel binary.&lt;/p&gt;
+&lt;p&gt;Once the computer boots up, an init process is started (the default is &lt;code&gt;/sbin/init&lt;/code&gt;, usually a symlink to your init system), which is &lt;code&gt;PID 1&lt;/code&gt;. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having &lt;em&gt;too&lt;/em&gt; much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.&lt;/p&gt;
+&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; compliant, and not really caring about file extensions.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img width=&#34;600&#34; src=&#34;https://i.imgur.com/Mu7NHx9.png&#34; alt=&#34;logo&#34;&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;distros--pkg-managers&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#distros--pkg-managers&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Distros &amp;amp; PKG Managers
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;On &lt;a href=&#34;https://www.debian.org&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt;, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the &lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; is pretty mid, but the &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; is amazing.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href=&#34;https://archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flatpak:&lt;/strong&gt; Sandboxed apps that &amp;ldquo;just work&amp;rdquo; on every distribution.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snap:&lt;/strong&gt; &lt;em&gt;Ubuntu&lt;/em&gt;&amp;rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AppImages:&lt;/strong&gt; These are like &lt;code&gt;.exe&lt;/code&gt; files on &lt;strong&gt;Windows&lt;/strong&gt;, but they require adding executable permissions and manually launching them. They also won&amp;rsquo;t have a desktop entry by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;filesystem--updates&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#filesystem--updates&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Filesystem &amp;amp; Updates
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you&amp;rsquo;re not connected to the internet, you can choose whether to update or not—it might fix a bug.&lt;/p&gt;
+&lt;p&gt;As for the filesystem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/etc&lt;/code&gt; is where your Editable Text Configurations go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr&lt;/code&gt; is where program files go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr/local&lt;/code&gt; is where program files go for programs you manually installed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/home&lt;/code&gt; is where your personal files go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev&lt;/code&gt; is for device files.&lt;/li&gt;
+&lt;li&gt;There is no &lt;code&gt;C&lt;/code&gt; or &lt;code&gt;D&lt;/code&gt; drive; instead, you mount external drives to a location, like &lt;code&gt;/mnt&lt;/code&gt;. A GUI file manager mounts flash drives somewhere in &lt;code&gt;/run&lt;/code&gt; since it is temporary.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/opt&lt;/code&gt; is where miscellaneous stuff goes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/var&lt;/code&gt; is for variable data like system logs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/tmp&lt;/code&gt; is for temporary files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev/null&lt;/code&gt; is a &amp;ldquo;black hole&amp;rdquo; for data you want to discard.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev/urandom&lt;/code&gt; is an IO-based random number generator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt;,  everything is a file. This means you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See process details by reading files in &lt;code&gt;/proc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check system settings or driver configurations in &lt;code&gt;/sys&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;View your bootloader in &lt;code&gt;/boot&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wrapping-it-all-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrapping-it-all-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrapping it all up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;This was a quick run-through explaining what &lt;strong&gt;GNU/Linux&lt;/strong&gt; is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&amp;rsquo;s not as complete as I would like it to be.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -148,6 +218,47 @@
 &lt;/ol&gt;
 &lt;p&gt;That&amp;rsquo;s it ! The new password should work now.&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I have lost my root pass on &lt;strong&gt;Linux&lt;/strong&gt; more times than I can count. This guide is here so I do not have to &lt;em&gt;Google&lt;/em&gt; it lol. Might be useful to you I dunno. But it&amp;rsquo;s here.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://i.imgur.com/VFXV09r.jpeg&#34;&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;lets-do-this-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#lets-do-this-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Let&amp;rsquo;s do this 🚀
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;How to reset forgotten root password in a &lt;strong&gt;GNU/Linux&lt;/strong&gt; distribution with &lt;code&gt;GRUB&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;If this is a laptop or a desktop which you have next to you then follow these steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Shut down the device.&lt;/li&gt;
+&lt;li&gt;Start it again. When you see GRUB menu, press the &lt;code&gt;e&lt;/code&gt; key on the keyboard before the system starts booting.&lt;/li&gt;
+&lt;li&gt;In the &lt;code&gt;GRUB&lt;/code&gt; boot options, scroll down and locate the line that begins with &lt;code&gt;linux&lt;/code&gt;. In this line move the cursor to the end, right after &lt;code&gt;ro quiet&lt;/code&gt;. Delete everything after that. Change &lt;code&gt;ro&lt;/code&gt; to &lt;code&gt;rw&lt;/code&gt;. Append the parameter &lt;code&gt;init=/bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Press Ctrl+x, or F10, to boot.&lt;/li&gt;
+&lt;li&gt;You will see a root prompt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:#
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remount the filesystem in read/write mode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# mount -no remount,rw /
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Set the password of any user(s).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# passwd joe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Reboot with the command &lt;code&gt;reboot -f&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s it ! The new password should work now.&lt;/p&gt;
+</content>
     </item>
     
   </channel>

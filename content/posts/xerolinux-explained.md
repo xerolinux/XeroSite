@@ -12,7 +12,7 @@ For the past few months I’ve been asked these questions time and time again. W
 
 So sit tight and read-on…
 
-# XeroLinux & Goal
+# XeroLinux Goal
 
 **XeroLinux** is an *Arch-Based* Linux Distribution that I created primarily for myself making it easier for me to install using [**Calamares**](https://calamares.io). As for the D.E of choice, well, it's [**KDE Plasma**](https://kde.org) of course. In the beginning I was too ambitious and included way too much bloat *Garuda Style*, which was really bad. Below is a video of the very 1st release of **XeroLinux** see how bad it was.
 
@@ -23,6 +23,14 @@ As time went on however, I kept optimizing it until I got myself a solid base I 
 “What about drivers?” The same reasoning, my hardware changes from time to time, so having ones that work for my system today might not work in a week or month. That's why I decided to only have basic (*Kernel*) drivers out of the box with the ability to install extra ones later on. 
 
 Once I started sharing the ISO around with my close friends, they loved it so much for its stability, ease of installation, and bloat-free'ness that they suggested I turn it into a full-on Distro available to everyone. I was reluctant to agree, because by making it public would mean I am  responsible for providing support for it. It took time but got there eventually.
+
+# Benefits & Features
+
+Now **XeroLinux** unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of [**Arch Linux**](https://wiki.archlinux.org) using our toolkit shown in the video below. It's well optimized for best out of the box experience while looking great too.
+
+{{< youtube YGSOthQbefI >}}
+
+The distro stay out of your way as much as possible, while you turn it into whatever you want, be it gaming, content creation or even development OS. Instead of forcing things like apps, tools or anything you might agree with, we opted to leave the choice completely up to you. It's bloat free. It's the type of distro that puts you in control. If you are lost, we are always here to lend a hand.
 
 # Rise & Fall
 

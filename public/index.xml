@@ -40,12 +40,12 @@
 &lt;/h2&gt;
 &lt;p&gt;For the past few months I’ve been asked these questions time and time again. What exactly is &lt;strong&gt;XeroLinux&lt;/strong&gt; and why is it shoved behind a so-called &lt;em&gt;donation wall&lt;/em&gt;? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.&lt;/p&gt;
 &lt;p&gt;So sit tight and read-on…&lt;/p&gt;
-&lt;h1 id=&#34;xerolinux--goal&#34; &gt;
+&lt;h1 id=&#34;xerolinux-goal&#34; &gt;
 &lt;div&gt;
-    &lt;a href=&#34;#xerolinux--goal&#34;&gt;
+    &lt;a href=&#34;#xerolinux-goal&#34;&gt;
         ##
     &lt;/a&gt;
-    XeroLinux &amp;amp; Goal
+    XeroLinux Goal
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-Based&lt;/em&gt; Linux Distribution that I created primarily for myself making it easier for me to install using &lt;a href=&#34;https://calamares.io&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt;. As for the D.E of choice, well, it&amp;rsquo;s &lt;a href=&#34;https://kde.org&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt; of course. In the beginning I was too ambitious and included way too much bloat &lt;em&gt;Garuda Style&lt;/em&gt;, which was really bad. Below is a video of the very 1st release of &lt;strong&gt;XeroLinux&lt;/strong&gt; see how bad it was.&lt;/p&gt;
@@ -56,6 +56,20 @@
 &lt;p&gt;As time went on however, I kept optimizing it until I got myself a solid base I can build on. See, I did not want to have every piece of software I used available to me out of the box, just the settings, since those take much longer to set up. And by settings I mean system optimizations as well as &amp;ldquo;&lt;em&gt;Ricing&lt;/em&gt;&amp;rdquo;. Why?, Because what I need changes every week/month and it would grow the ISO to unmanageable sizes.&lt;/p&gt;
 &lt;p&gt;“What about drivers?” The same reasoning, my hardware changes from time to time, so having ones that work for my system today might not work in a week or month. That&amp;rsquo;s why I decided to only have basic (&lt;em&gt;Kernel&lt;/em&gt;) drivers out of the box with the ability to install extra ones later on.&lt;/p&gt;
 &lt;p&gt;Once I started sharing the ISO around with my close friends, they loved it so much for its stability, ease of installation, and bloat-free&amp;rsquo;ness that they suggested I turn it into a full-on Distro available to everyone. I was reluctant to agree, because by making it public would mean I am  responsible for providing support for it. It took time but got there eventually.&lt;/p&gt;
+&lt;h1 id=&#34;benefits--features&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#benefits--features&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Benefits &amp;amp; Features
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The distro stay out of your way as much as possible, while you turn it into whatever you want, be it gaming, content creation or even development OS. Instead of forcing things like apps, tools or anything you might agree with, we opted to leave the choice completely up to you. It&amp;rsquo;s bloat free. It&amp;rsquo;s the type of distro that puts you in control. If you are lost, we are always here to lend a hand.&lt;/p&gt;
 &lt;h1 id=&#34;rise--fall&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#rise--fall&#34;&gt;
@@ -98,6 +112,88 @@
 &lt;p&gt;Also please let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It&amp;rsquo;s ok if you don&amp;rsquo;t agree, I will not judge you, it&amp;rsquo;s a judgement-free zone over here.&lt;/p&gt;
 &lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
 </description>
+      <content>&lt;h2 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        #
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;For the past few months I’ve been asked these questions time and time again. What exactly is &lt;strong&gt;XeroLinux&lt;/strong&gt; and why is it shoved behind a so-called &lt;em&gt;donation wall&lt;/em&gt;? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.&lt;/p&gt;
+&lt;p&gt;So sit tight and read-on…&lt;/p&gt;
+&lt;h1 id=&#34;xerolinux-goal&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#xerolinux-goal&#34;&gt;
+        ##
+    &lt;/a&gt;
+    XeroLinux Goal
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-Based&lt;/em&gt; Linux Distribution that I created primarily for myself making it easier for me to install using &lt;a href=&#34;https://calamares.io&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt;. As for the D.E of choice, well, it&amp;rsquo;s &lt;a href=&#34;https://kde.org&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt; of course. In the beginning I was too ambitious and included way too much bloat &lt;em&gt;Garuda Style&lt;/em&gt;, which was really bad. Below is a video of the very 1st release of &lt;strong&gt;XeroLinux&lt;/strong&gt; see how bad it was.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/l8Z7fr79A8I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;As time went on however, I kept optimizing it until I got myself a solid base I can build on. See, I did not want to have every piece of software I used available to me out of the box, just the settings, since those take much longer to set up. And by settings I mean system optimizations as well as &amp;ldquo;&lt;em&gt;Ricing&lt;/em&gt;&amp;rdquo;. Why?, Because what I need changes every week/month and it would grow the ISO to unmanageable sizes.&lt;/p&gt;
+&lt;p&gt;“What about drivers?” The same reasoning, my hardware changes from time to time, so having ones that work for my system today might not work in a week or month. That&amp;rsquo;s why I decided to only have basic (&lt;em&gt;Kernel&lt;/em&gt;) drivers out of the box with the ability to install extra ones later on.&lt;/p&gt;
+&lt;p&gt;Once I started sharing the ISO around with my close friends, they loved it so much for its stability, ease of installation, and bloat-free&amp;rsquo;ness that they suggested I turn it into a full-on Distro available to everyone. I was reluctant to agree, because by making it public would mean I am  responsible for providing support for it. It took time but got there eventually.&lt;/p&gt;
+&lt;h1 id=&#34;benefits--features&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#benefits--features&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Benefits &amp;amp; Features
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The distro stay out of your way as much as possible, while you turn it into whatever you want, be it gaming, content creation or even development OS. Instead of forcing things like apps, tools or anything you might agree with, we opted to leave the choice completely up to you. It&amp;rsquo;s bloat free. It&amp;rsquo;s the type of distro that puts you in control. If you are lost, we are always here to lend a hand.&lt;/p&gt;
+&lt;h1 id=&#34;rise--fall&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#rise--fall&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Rise &amp;amp; Fall
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating &lt;a href=&#34;https://endeavouros.com&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; at one point on &lt;a href=&#34;https://distrowatch.com&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; as long as it was &lt;em&gt;Free&lt;/em&gt; and available that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, as soon as I put a price on it, it took a turn for the worse.&lt;/p&gt;
+&lt;p&gt;Adding &lt;a href=&#34;https://www.gnome.org&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; to the family by popular request made things a just a bit more difficult&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;donation-wall&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#donation-wall&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Donation-Wall
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;As my responsibility towards my users grew, and new versions were added, so did the cost of working on the project. Being a one-man project from a 3rd-world country like &lt;strong&gt;Lebanon&lt;/strong&gt;, the situation is bleak to say the least. With jobs being scarce, I couldn&amp;rsquo;t keep up financially speaking. That&amp;rsquo;s why I took a short break to re-evaluate things. I tried turning the project into a &lt;em&gt;post-install script&lt;/em&gt; for &lt;em&gt;Vanilla Arch&lt;/em&gt; which worked at first, but then people started requesting I bring Distro back to life, which I did eventually.&lt;/p&gt;
+&lt;p&gt;I had to change something in order for it to survive. That&amp;rsquo;s when I found &lt;a href=&#34;https://archcraft.io/premium.html&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt;, an amazing &lt;em&gt;Arch-Based&lt;/em&gt; Distro who was charging for so called &lt;em&gt;Premium Versions&lt;/em&gt; of his Distro, which gave me the idea of putting &lt;strong&gt;XeroLinux&lt;/strong&gt; behind a &lt;em&gt;Donation Wall&lt;/em&gt;. With this model you donate for my time, not the ISO. The code is, and forever will be available free of charge for you to fork and do with it as you please on &lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now before you say it, I will, &amp;ldquo;&lt;em&gt;But it&amp;rsquo;s not the same !&lt;/em&gt;&amp;rdquo;. I do agree that it&amp;rsquo;s not the same thing, but hear me out. While he offers &lt;em&gt;Free&lt;/em&gt; versions for everyone to test the waters, in reality it&amp;rsquo;s a great &lt;strong&gt;Marketing Strategy&lt;/strong&gt; on his part. See, every product has a sort of free &lt;em&gt;Demo&lt;/em&gt; which is used as a so called &lt;em&gt;Hook&lt;/em&gt;. It&amp;rsquo;s called a &lt;em&gt;Hook&lt;/em&gt; simply because it&amp;rsquo;s used to hook you into buying the full, or a more &lt;em&gt;premium&lt;/em&gt; version of said product.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; doesn&amp;rsquo;t use the same strategy, simply because it&amp;rsquo;s too risky, it does offer other ways to achieve similar, but not exact, results via various &lt;a href=&#34;https://xerolinux.xyz/scripts/&#34;&gt;&lt;strong&gt;Scripts&lt;/strong&gt;&lt;/a&gt; I make available totally for free. What do I mean by &lt;em&gt;Too Risky&lt;/em&gt; you ask ? Lemme explain that.&lt;/p&gt;
+&lt;p&gt;If I offered a free version of the Distro, people would stick to it and avoid any other paid version. There&amp;rsquo;s no way to create a &lt;em&gt;limited&lt;/em&gt; version either. I have been part of the Linux community long enough to know that most people like to think that the word &lt;em&gt;Free&lt;/em&gt; in the &lt;em&gt;Free Open Source&lt;/em&gt; model means free beer which is a huge misconception. It just means &lt;em&gt;Freedom&lt;/em&gt; to do with as you please.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why almost no one pays for such projects and we get attacked for charging for them. This has to stop or else projects will continue to fade away!&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Let&amp;rsquo;s wrap this up shall we? I would like to close this post by saying, even though &lt;strong&gt;XeroLinux&lt;/strong&gt; does not offer much in the way of features like &lt;a href=&#34;https://cachyos.org&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; and others out there, that wasn&amp;rsquo;t the aim of this distro. If you do not agree with the project&amp;rsquo;s vision, please do not hate, just move on and use whatever works for you. No judgement.&lt;/p&gt;
+&lt;p&gt;Anyway, if and when I am more financially stable I promise you that there will no longer be a price associated with this project, it will be free for everyone to enjoy. Until then however, please do understand that I am currently struggling financially with this being my only source of income. I have no other means at my disposal.&lt;/p&gt;
+&lt;p&gt;Lastly I would like to share my appreciation to every person out there who has and is still supporting the project financially or via time investments. You are making it possible for me to keep going! If you haven&amp;rsquo;t yet gotten yourself a copy or don&amp;rsquo;t know how to support the &lt;strong&gt;XeroLinux&lt;/strong&gt; project, here are some links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;XeroLinux&lt;/strong&gt; ISOs =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Project Donations Page =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also please let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It&amp;rsquo;s ok if you don&amp;rsquo;t agree, I will not judge you, it&amp;rsquo;s a judgement-free zone over here.&lt;/p&gt;
+&lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -163,6 +259,63 @@
 &lt;p&gt;Please be vocal, without your voice I would be acting in total darkness, and deafness&amp;hellip; After all I am doing this for the community not myself. If I was, then only &lt;strong&gt;KDE&lt;/strong&gt; would exist nothing else..&lt;/p&gt;
 &lt;p&gt;Thanks ❤️‍🔥 🙏&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; has had 2 flavors for a while now, with a 3rd one coming. That being &lt;strong&gt;Gnome&lt;/strong&gt;. I have created that version due to what I thought was popular demand and because many do not like the way the &lt;strong&gt;KDE Plasma&lt;/strong&gt; devs do things, shoving features down our throats without doing much &lt;em&gt;bug-fixing&lt;/em&gt;.&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/u5uXdJZ.jpeg&#34; alt=&#34;Sales&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;strong&gt;Gnome&lt;/strong&gt; version doesn&amp;rsquo;t have many tweaks applied to it simply because I wanted to be stable, having less reasons to break, and the point of it was and still is to stay out of your way so you can do what you wanna do without issue creeping in when least expected. I applied just enough making it more useable/functional than stock &lt;strong&gt;Gnome&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;stalemate&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#stalemate&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Stalemate
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The question am now asking myself is, &lt;em&gt;&amp;ldquo;What the heck happened ?&amp;rdquo;&lt;/em&gt;. Yeah, coz it&amp;rsquo;s been months now, no one showing any interest in it. As you can see from the image below, only 20 people showed interest since it came out vs &lt;strong&gt;KDE&lt;/strong&gt;&amp;rsquo;s 437. Why is that I wonder ?&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/bGIkm9C.png&#34; alt=&#34;Sales&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;price-or-what-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#price-or-what-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Price or what ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Could it be the price ? I mean it&amp;rsquo;s only $5 more than &lt;strong&gt;KDE&lt;/strong&gt;. Nothing too steep.&lt;/p&gt;
+&lt;p&gt;The reason behind the price difference is very simple. Since I do not use &lt;strong&gt;Gnome&lt;/strong&gt; on the daily, I would have to do extra work to support it and make sure it keeps working as intended. Extra work means extra cost for me. Think about it this way, would you agree to put in extra hours at work for &lt;strong&gt;NO EXTRA PAY&lt;/strong&gt; ?&lt;/p&gt;
+&lt;p&gt;I mean, it&amp;rsquo;s similar to over-time. Each extra hour you work you get extra &lt;strong&gt;$$$&lt;/strong&gt;, that&amp;rsquo;s how it normally is right ? Same here. I use &lt;strong&gt;KDE Plasma&lt;/strong&gt; on the daily, so it&amp;rsquo;s what I call &lt;em&gt;Normal 9 to 5 working day&lt;/em&gt;. As for &lt;strong&gt;Gnome&lt;/strong&gt;, it&amp;rsquo;s &lt;em&gt;Over-Time&lt;/em&gt;, hence the extra $5. I hope this clarifies things. I want to offer choices.&lt;/p&gt;
+&lt;h1 id=&#34;quality-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#quality-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Quality ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If it&amp;rsquo;s not the price though, then what is it ? Is it the fact that it isn&amp;rsquo;t up to Quality expectations ? I mean I do not want it to be too bloated, or have reasons to break. Stability is what I aim for, not looks as I did with &lt;strong&gt;KDE&lt;/strong&gt;. Do you want more ? I am confused. Please do let me know in the comments below.&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;With all that out of the way, I am eager to know what the situation is. Should I keep the &lt;strong&gt;Gnome&lt;/strong&gt; edition out there or not ? Would a &lt;strong&gt;Cosmic Spin&lt;/strong&gt; be worth my time to release once it reaches maturity ? I wonder&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Please be vocal, without your voice I would be acting in total darkness, and deafness&amp;hellip; After all I am doing this for the community not myself. If I was, then only &lt;strong&gt;KDE&lt;/strong&gt; would exist nothing else..&lt;/p&gt;
+&lt;p&gt;Thanks ❤️‍🔥 🙏&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -262,6 +415,97 @@
 &lt;p&gt;I plan to take things slow and steady, moving forward at my own comfortable pace. Once am fully happy with what I have accomplished, and feel comfortable enough, I will be tackling &lt;strong&gt;Flakes&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Wish me luck&amp;hellip;&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;background&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#background&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Background
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;In case you don&amp;rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an &lt;a href=&#34;https://archlinux.org&#34;&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/a&gt; user for the past 7 years, or so, maintaining my very own &lt;em&gt;Arch-Based&lt;/em&gt; Distro for past 4 almost 5 called &lt;a href=&#34;https://xerolinux.xyz&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt;. I haven&amp;rsquo;t really used anything else long-term since. Until now that is&amp;hellip;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lsYg6-wUWXw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;the-challenge&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-challenge&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The Challenge
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;With the introduction out of the way, let me explain the so-called &lt;em&gt;Challenge&lt;/em&gt;. I’m setting out to use &lt;strong&gt;NixOS&lt;/strong&gt; as my daily driver for an entire year. However, for the sake of transparency, I won’t be using it exclusively all the time.&lt;/p&gt;
+&lt;p&gt;As I mentioned earlier, I’m a distro maintainer, and there are some critical tasks that simply can’t be done on NixOS. For example, I can’t compile or build &lt;strong&gt;Arch&lt;/strong&gt; packages on it, I can’t maintain my Wiki which uses &lt;strong&gt;MKDocs&lt;/strong&gt; because some plugins are missing on Nix, and I can’t even build any of the ISOs either.&lt;/p&gt;
+&lt;p&gt;I know some of you might suggest &lt;em&gt;&amp;ldquo;Just use DistroBox&amp;rdquo;&lt;/em&gt; in the comments. I wish it were that simple. &lt;strong&gt;DistroBox&lt;/strong&gt; provides a minimal environment, but I need a full GUI to stay productive. So, no, that’s not a viable solution. Unfortunately, there isn’t one. That’s why during this challenge, I’ll be alternating between &lt;strong&gt;NixOS&lt;/strong&gt; and &lt;strong&gt;Arch&lt;/strong&gt;, using Arch only when I have specific work to do.&lt;/p&gt;
+&lt;p&gt;Oh, and did I mention that &lt;strong&gt;NixOS&lt;/strong&gt; is installed on an external NVMe SSD? That makes it very portable!&lt;/p&gt;
+&lt;h1 id=&#34;nixos-early-days&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#nixos-early-days&#34;&gt;
+        ##
+    &lt;/a&gt;
+    NixOS Early days
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Having established my background and perspective, it&amp;rsquo;s important to state that it&amp;rsquo;s still too early for me to offer a complete judgment on the distribution or its underlying language. I will be regularly updating this post as I continue my journey, so feel free to bookmark it if you&amp;rsquo;re interested in further insights. As of writing this post, I have been using the system for 7 Days.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/sDDUARJ.png&#34; alt=&#34;nixos&#34;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see from the image above, I was able to import my &lt;a href=&#34;https://wiki.xerolinux.xyz/rices/&#34;&gt;&lt;strong&gt;Xero-Layan&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;KDE Plasma&lt;/strong&gt; rice from &lt;strong&gt;XeroLinux&lt;/strong&gt;. It wasn&amp;rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on &lt;strong&gt;NixOS&lt;/strong&gt;. Which I have luckily enough. Though the package names were weird to say the least.&lt;/p&gt;
+&lt;h1 id=&#34;the-nixos-config-file&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-nixos-config-file&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The NixOS Config File
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;After almost a decade of following what I’ll call “The Linux Way,” I’ve become very comfortable with the traditional methods, mounting drives, installing packages, and updating my system, knowing that these processes are nearly identical across distributions like &lt;strong&gt;Debian&lt;/strong&gt; or &lt;strong&gt;Arch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NixOS&lt;/strong&gt;, however, takes a different approach. While familiar tools like mount are still available, the recommended method is to handle these configurations through the &lt;code&gt;hardware-configuration.nix&lt;/code&gt; file or by defining them in &lt;code&gt;configuration.nix&lt;/code&gt;. The same goes for mounting the various drives, they belong in the config files.&lt;/p&gt;
+&lt;p&gt;I’ve just finalized my &lt;a href=&#34;https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix&#34;&gt;&lt;strong&gt;NixOS Configuration&lt;/strong&gt;&lt;/a&gt;, successfully mounting all my drives, setting &lt;strong&gt;Wayland&lt;/strong&gt; as the default, enabling &lt;strong&gt;ZSH/OhMyZSH&lt;/strong&gt;, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.&lt;/p&gt;
+&lt;h1 id=&#34;nixos-packages--updates&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#nixos-packages--updates&#34;&gt;
+        ##
+    &lt;/a&gt;
+    NixOS Packages &amp;amp; Updates
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Installing packages on NixOS is quite different from other distributions. Instead of using a package manager directly, you add the packages you want to the configuration.nix file and then run sudo nixos-rebuild switch. This command pulls the packages from the Nix store and applies the changes declaratively.&lt;/p&gt;
+&lt;p&gt;Updating the system also differs from traditional distros. You run sudo nixos-rebuild switch &amp;ndash;upgrade, which compares versions and upgrades to the latest available packages accordingly.&lt;/p&gt;
+&lt;p&gt;This approach emphasizes a &lt;em&gt;declarative&lt;/em&gt; and &lt;em&gt;reproducible&lt;/em&gt; system configuration, rather than manual package installs.&lt;/p&gt;
+&lt;h1 id=&#34;nixos-generations&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#nixos-generations&#34;&gt;
+        ##
+    &lt;/a&gt;
+    NixOS Generations
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Long story short, every time the system state is rebuilt using &lt;code&gt;nixos-rebuild switch&lt;/code&gt;, a new &lt;a href=&#34;https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations&#34;&gt;&lt;em&gt;generation&lt;/em&gt;&lt;/a&gt; is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.&lt;/p&gt;
+&lt;p&gt;This can quickly become overwhelming, particularly when dealing with the &lt;em&gt;bootloader&lt;/em&gt;. Accumulating over 100 generations isn&amp;rsquo;t ideal, which is why I&amp;rsquo;ve added an alias to my &lt;code&gt;.bashrc&lt;/code&gt; file. This alias automatically removes all old generations, keeping only the most recent one after I&amp;rsquo;ve confirmed its stability. Feel free to add it to your setup if you find it useful.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#89dceb&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color:#f5e0dc&#34;&gt;ncg&lt;/span&gt;&lt;span style=&#34;color:#89dceb;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a6e3a1&#34;&gt;&amp;#34;nix-collect-garbage --delete-old &amp;amp;&amp;amp; sudo nix-collect-garbage -d &amp;amp;&amp;amp; sudo /run/current-system/bin/switch-to-configuration boot&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;flakes--home-manager&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#flakes--home-manager&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Flakes &amp;amp; Home-Manager
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;From the get-go I decided I will never use &lt;a href=&#34;https://nix-community.github.io/home-manager/index.xhtml#ch-introduction&#34;&gt;&lt;strong&gt;Home-Manager&lt;/strong&gt;&lt;/a&gt; thing. I do not like the ideology behind it. I want to keep it simple.&lt;/p&gt;
+&lt;p&gt;However, I am willing to go to the next level with something called &lt;a href=&#34;https://wiki.nixos.org/wiki/Flakes&#34;&gt;&lt;strong&gt;Flakes&lt;/strong&gt;&lt;/a&gt;. Right now though, I am still at the beginning of my &lt;strong&gt;NixOS&lt;/strong&gt; adventure/challenge.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#conclusion&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Conclusion
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;After a week of use, the system is fully functional for everyday activities like web browsing, watching movies, writing blog posts, and even gaming. I managed to set up &lt;strong&gt;Steam&lt;/strong&gt; and everything needed to enjoy my favorite games. Interestingly, the performance feels slightly better than on &lt;strong&gt;Arch&lt;/strong&gt;, which I find both surprising and impressive.&lt;/p&gt;
+&lt;p&gt;I plan to take things slow and steady, moving forward at my own comfortable pace. Once am fully happy with what I have accomplished, and feel comfortable enough, I will be tackling &lt;strong&gt;Flakes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Wish me luck&amp;hellip;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -347,6 +591,83 @@
 &lt;p&gt;For now, I need to prioritize my well-being and financial stability. Once those are in place, I’ll be back with future projects. Right now, I’m dealing with depression, anxiety, and panic attacks due to my job situation and need time to recover.&lt;/p&gt;
 &lt;p&gt;Thank you for understanding and supporting me through this journey.&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;hello-everyone&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#hello-everyone&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Hello everyone,
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Today, I need to share some of my thoughts and frustrations. If this isn&amp;rsquo;t your cup of tea, feel free to check out other posts. For those sticking around, thank you for lending an ear.&lt;/p&gt;
+&lt;p&gt;Writing this post wasn&amp;rsquo;t easy; it took a lot of reflection and courage to open up about these feelings.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of FOSS and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/BpmAFwZy0Gg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;my-frustration&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#my-frustration&#34;&gt;
+        ##
+    &lt;/a&gt;
+    My Frustration
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Recently, I’ve been investing a lot of time and effort into my projects and contributing to &lt;strong&gt;FOSS&lt;/strong&gt; (Free and Open Source Software) wherever possible. While I find this work rewarding, it’s also been increasingly frustrating. Why? Let me explain.&lt;/p&gt;
+&lt;p&gt;I spend countless hours working behind the scenes to make everyone’s life easier. While there are a few of you who go above and beyond to support my work, and I am incredibly grateful for that, it’s disheartening to see so little engagement overall. Feedback is crucial for improvement, and without issue reports or suggestions, it&amp;rsquo;s challenging to know if I’m making a real impact.&lt;/p&gt;
+&lt;h1 id=&#34;seeking-purpose&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#seeking-purpose&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Seeking Purpose
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Initially, I embarked on this journey for fun and to learn new things. However, lately, I’ve been questioning the purpose behind my efforts. It feels like I’m stuck in a cycle of constant work with little to show for it. This isn’t about blaming anyone; it’s about seeking the motivation to keep going.&lt;/p&gt;
+&lt;h1 id=&#34;monetization-attempts&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#monetization-attempts&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Monetization Attempts
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;As my financial situation became more strained, I reluctantly turned to monetization. Many advised me to turn my passion into a viable source of income. So, I tried implementing a &amp;ldquo;pay what you can&amp;rdquo; model, hoping it would help sustain my work. However, this didn’t go as planned.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;FOSS&lt;/strong&gt; community, known for its spirit of freedom, often struggles with the concept of financial support for free software. It’s a complex issue, and while some have been supportive, overall, the response hasn’t been enough to make a significant difference.&lt;/p&gt;
+&lt;h1 id=&#34;health-concerns&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#health-concerns&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Health Concerns
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;On top of these challenges, I have been dealing with significant health issues. Most notably, I have severe dental problems that require a full set of dentures. Not to forget other health issues like Sciatica, blood pressure and more. All this isn’t cheap, and without stable income, it’s been impossible to address. These health issues have affected my confidence and my ability to engage publicly, adding another layer of difficulty to my situation. Health must come before everything else, including fun and passion projects.&lt;/p&gt;
+&lt;p&gt;The stress from these financial and health challenges has also taken a toll on my mental health. I&amp;rsquo;ve been experiencing frequent anxiety and panic attacks, and the constant pressure has led to a deep sense of depression. The overwhelming silence and lack of engagement have exacerbated these feelings, making it even harder to stay motivated and productive.&lt;/p&gt;
+&lt;h1 id=&#34;the-way-forward&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-way-forward&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The Way Forward
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Given these circumstances, I’m focusing more on my various projects and this blog. Writing provides a creative outlet that isn’t constrained by algorithms or view counts. I will freely share what I can, not everything. I am currently spending more than the income am getting.&lt;/p&gt;
+&lt;p&gt;My main priority now is finding ways to support my financial needs. If and when I achieve that stability, I plan to return to my passion projects with renewed energy and many new ideas.&lt;/p&gt;
+&lt;h1 id=&#34;closing-thoughts&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#closing-thoughts&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Closing Thoughts
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I want to extend my heartfelt thanks to those of you who continue to support my work. Your appreciation means the world to me and keeps me going even when things get tough.&lt;/p&gt;
+&lt;p&gt;For now, I need to prioritize my well-being and financial stability. Once those are in place, I’ll be back with future projects. Right now, I’m dealing with depression, anxiety, and panic attacks due to my job situation and need time to recover.&lt;/p&gt;
+&lt;p&gt;Thank you for understanding and supporting me through this journey.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -393,6 +714,44 @@
 &lt;p&gt;I used to keep stuff to myself until I began sharing. That&amp;rsquo;s when everything took off, and I was able to help others. If it&amp;rsquo;s not a project, maybe it&amp;rsquo;s the knowledge you&amp;rsquo;ve gained. Share it by helping others when and where you can.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Sharing is caring,&amp;rdquo; as the saying goes. Anyway, I hope this post was a good read. Enjoy! ;)&lt;/p&gt;
 </description>
+      <content>&lt;h3 id=&#34;am-i-a-developer-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#am-i-a-developer-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Am I a Developer ?
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Lol, yeah, I know—it&amp;rsquo;s a question I get a lot. But in my humble opinion, no, I am not. Far from it. I&amp;rsquo;m just a guy who, at most, messes with code—specifically &lt;strong&gt;Bash&lt;/strong&gt;. I take what I understand, put it together in a way that makes sense (to me at least), and hope it works. That&amp;rsquo;s all I do.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8_K-NOu-STs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;And if it does work, I&amp;rsquo;m happy and share the result with the &lt;strong&gt;FOSS&lt;/strong&gt; community.&lt;/p&gt;
+&lt;h3 id=&#34;its-fun-until&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#its-fun-until&#34;&gt;
+        ##
+    &lt;/a&gt;
+    It&amp;rsquo;s fun until&amp;hellip;
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Doing this is super fun and fulfilling—until I hit a brick wall, stop getting new ideas, or can&amp;rsquo;t find a solution to what I&amp;rsquo;m trying to accomplish. Yes, it&amp;rsquo;s super frustrating.&lt;/p&gt;
+&lt;p&gt;Now, I know I can reach out to the &lt;strong&gt;FOSS&lt;/strong&gt; community for help. However, not all of it is sunshine and roses. I try, but I often get more frustrated with the differences of opinion out there. No matter how much I try to satisfy some requests, I can&amp;rsquo;t do it for everyone.&lt;/p&gt;
+&lt;p&gt;Sometimes, I run into some elitists who think their opinion is the only one that matters. I always make the mistake of replying to them when it&amp;rsquo;s better to ignore them. Yes, those types of people exist everywhere—not just in &lt;strong&gt;FOSS&lt;/strong&gt;. But alas, that&amp;rsquo;s where we feel it the most, especially when we try to monetize our work. But I already discussed that in another post.&lt;/p&gt;
+&lt;p&gt;Nevertheless, once a project is complete, the feeling of accomplishment is so rewarding, lol.&lt;/p&gt;
+&lt;h3 id=&#34;sharing-is-caring&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#sharing-is-caring&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Sharing is caring
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;This is the part where I say: please, don&amp;rsquo;t keep your work to yourself. Share it with the community—who knows, maybe you&amp;rsquo;ll find someone who can help take your project to another level.&lt;/p&gt;
+&lt;p&gt;I used to keep stuff to myself until I began sharing. That&amp;rsquo;s when everything took off, and I was able to help others. If it&amp;rsquo;s not a project, maybe it&amp;rsquo;s the knowledge you&amp;rsquo;ve gained. Share it by helping others when and where you can.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Sharing is caring,&amp;rdquo; as the saying goes. Anyway, I hope this post was a good read. Enjoy! ;)&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -427,6 +786,32 @@
 &lt;p&gt;I still don’t know what took him from us, whether it was his injuries or the bombing—but the tragic truth remains: I have lost a dear friend, a colleague, and one of the brightest individuals I have ever had the privilege to know. The shock of his passing has yet to settle in, and I fear it never truly will.&lt;/p&gt;
 &lt;p&gt;I will always remember his infectious energy, his humor, and his brilliance. He was the light of &lt;strong&gt;XeroLinux&lt;/strong&gt;, and his absence will be deeply felt. Please join me in mourning the loss of a truly exceptional man. &lt;strong&gt;Rest in peace, little brother&lt;/strong&gt;.&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;in-memoriam&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#in-memoriam&#34;&gt;
+        ##
+    &lt;/a&gt;
+    In Memoriam
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;It is with a heavy heart that I share the passing of &lt;strong&gt;GamerKing&lt;/strong&gt;, a remarkable 19-year-old from my region who lived only 20 minutes away. He was not only a brilliant &lt;strong&gt;Linux&lt;/strong&gt; enthusiast but also a vibrant soul who played a significant role in shaping the future of &lt;strong&gt;XeroLinux&lt;/strong&gt;. His relentless pursuit of perfection and attention to detail, particularly when it came to consistency, pushed the project to heights it would never have reached without his insightful input.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/37Ew8GN.jpeg&#34; alt=&#34;gk&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I will admit, there were times when I disagreed with his ideas, but his persistence, backed by reason and logic, often changed my mind. &lt;strong&gt;XeroLinux&lt;/strong&gt; carries his imprint, and his contributions will forever be woven into its fabric. In a place like &lt;strong&gt;Lebanon&lt;/strong&gt;, where &lt;strong&gt;Linux&lt;/strong&gt; is a rarity, he stood out as a true gem, his knowledge far surpassing that of most people in our country.&lt;/p&gt;
+&lt;p&gt;For over a year, our country has been engulfed in a conflict, one that escalated into tragic proportions in the last few weeks. It began as a high-tech war, with explosive devices disguised as everyday objects like pagers and walkie-talkies. The violence claimed many lives, and &lt;strong&gt;GamerKing&lt;/strong&gt; was caught in the crossfire.&lt;/p&gt;
+&lt;p&gt;Two weeks ago, as of the writing of this post, his neighborhood was hit for the first time, and he suffered severe injuries, losing a significant amount of blood. From his hospital bed, he reached out to me, recounting the terrifying events. The details of his condition were harrowing, but he maintained his characteristic humor, and we joked about the situation, as we often did. It was a brief, bittersweet exchange, and when we said our goodbyes, I was reassured that he would recover. I had no idea it would be the last time we spoke.&lt;/p&gt;
+&lt;p&gt;As the conflict worsened, bombings crept closer to both of us. I assumed he was resting and chose not to disturb him, unaware of the devastation that was to follow.&lt;/p&gt;
+&lt;h1 id=&#34;the-loss&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-loss&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The Loss
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Yesterday, as I write this, a massive bombing destroyed a six-building complex near &lt;strong&gt;GamerKing&lt;/strong&gt;&amp;rsquo;s location. Soon after, I received a message from his younger brother. At first, I believed it was &lt;strong&gt;GamerKing&lt;/strong&gt; himself, and my immediate question was, &amp;ldquo;&lt;strong&gt;Are you OK?&lt;/strong&gt;&amp;rdquo; But the reply came from his brother, who, after a moment of silence, shared the heartbreaking news: &amp;ldquo;&lt;strong&gt;He told me that if anything happened to me, open Discord and tell Dark&lt;/strong&gt;.&amp;rdquo; I asked, trembling, &amp;ldquo;&lt;strong&gt;Why? What happened?&lt;/strong&gt;&amp;rdquo; After what felt like an eternity, he delivered the words that shattered my world: &amp;ldquo;&lt;strong&gt;He just left us&lt;/strong&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I still don’t know what took him from us, whether it was his injuries or the bombing—but the tragic truth remains: I have lost a dear friend, a colleague, and one of the brightest individuals I have ever had the privilege to know. The shock of his passing has yet to settle in, and I fear it never truly will.&lt;/p&gt;
+&lt;p&gt;I will always remember his infectious energy, his humor, and his brilliance. He was the light of &lt;strong&gt;XeroLinux&lt;/strong&gt;, and his absence will be deeply felt. Please join me in mourning the loss of a truly exceptional man. &lt;strong&gt;Rest in peace, little brother&lt;/strong&gt;.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -497,6 +882,68 @@
 &lt;/h3&gt;
 &lt;p&gt;Thank you for reading. I wanted to share my thoughts and recommendations in hopes of making the Linux community a more positive and welcoming place, free from negativity and elitism. By supporting each other and fostering a culture of constructive feedback, we can help each other grow and create a more vibrant and inclusive F.O.S.S. community.&lt;/p&gt;
 </description>
+      <content>&lt;h3 id=&#34;whats-this&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#whats-this&#34;&gt;
+        ##
+    &lt;/a&gt;
+    What&amp;rsquo;s This?
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Today, after reflecting on my activities and our collective behavior as Linux users, I realized a few things I wanted to share. This post doesn&amp;rsquo;t belong on the main site but here, where I can speak candidly about how things have been and how we, as so-called Linux users, often behave. I&amp;rsquo;m as guilty as anyone else, so let&amp;rsquo;s sit back, relax, grab a cup of coffee or a bottle of beer, and read on.&lt;/p&gt;
+&lt;h3 id=&#34;content-creators&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#content-creators&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Content Creators
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Before diving in, I want to clarify that I am not a content creator. I&amp;rsquo;ve tried many times and failed miserably, so I don&amp;rsquo;t include myself in this group for now. However, I need to address the challenges they face.&lt;/p&gt;
+&lt;p&gt;YouTube content creators (CCs) do a thankless job. It&amp;rsquo;s incredibly hard work, requiring meticulous planning, high-quality equipment, and, above all, an enormous amount of patience. Unfortunately, the comment sections are often filled with toxic trash talk, which can be demoralizing. Reading these negative comments can lead to feelings of depression and inadequacy, making creators feel they are not meeting viewer expectations. This is far from the truth; the reality is that satisfying everyone is impossible.&lt;/p&gt;
+&lt;p&gt;Content creators invest significant time, money, and energy into producing videos that inform, entertain, and educate. Their efforts are crucial for enhancing our understanding and enjoyment of various topics. Even writers like myself sometimes rely on their videos to illustrate points or tools we discuss in our posts. Blog posts and YouTube videos complement each other, making our content more engaging and informative.&lt;/p&gt;
+&lt;h3 id=&#34;writers--blog-posters&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#writers--blog-posters&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Writers / Blog Posters
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;This is where I include myself. We do our best to bring you high-quality content. We strive to be as unbiased as possible, but mistakes happen. We are human and sometimes say the wrong things out of frustration, but that&amp;rsquo;s no excuse.&lt;/p&gt;
+&lt;p&gt;One common mistake we make is not doing enough research before posting. This can lead to a lack of primary sources to back up our claims, which makes our posts less trustworthy. Recently, it was brought to my attention that I was guilty of this. Instead of pushing away constructive criticism, I embraced it and made sure to do better. Thanks to a user on Discord, I’ve learned to improve, and I thank them for that.&lt;/p&gt;
+&lt;h3 id=&#34;appreciating-ccs-and-writers&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#appreciating-ccs-and-writers&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Appreciating CCs and Writers
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;We often overlook the effort and dedication that content creators and writers put into their work. From brainstorming ideas to scripting, filming, editing, and publishing, every step requires significant effort and attention to detail. They often juggle these tasks alongside their personal and professional lives, making their commitment even more commendable.&lt;/p&gt;
+&lt;p&gt;Both content creators and writers face the challenge of staying updated with the latest trends, technologies, and viewer preferences. This constant evolution demands flexibility and a willingness to learn and adapt. Despite these challenges, many persist, driven by their passion and dedication to their craft.&lt;/p&gt;
+&lt;p&gt;As writers and bloggers, we pour our hearts into our work, aiming to provide valuable insights and information. We strive to deliver accurate and engaging content, but we are not infallible. Constructive feedback helps us grow and improve, enabling us to produce better content for our readers. It&amp;rsquo;s essential to recognize that writing is an iterative process. Each piece we publish is a step toward improvement. Constructive criticism, when offered kindly and thoughtfully, is a valuable tool that helps us refine our skills and enhance the quality of our work.&lt;/p&gt;
+&lt;h3 id=&#34;fostering-a-positive-community&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#fostering-a-positive-community&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Fostering a Positive Community
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;The F.O.S.S. Linux community thrives on collaboration and mutual support. By fostering a positive and inclusive environment, we can attract more people and encourage contributions. Let&amp;rsquo;s move away from harsh judgments and toward constructive dialogues that promote growth and understanding.&lt;/p&gt;
+&lt;p&gt;When we encounter content we don&amp;rsquo;t agree with, let&amp;rsquo;s engage in respectful discussions. Share your perspectives, offer suggestions, and be open to different viewpoints. This approach enriches our community and helps content creators and writers deliver better content.&lt;/p&gt;
+&lt;p&gt;Instead of judging writers and content creators harshly, provide constructive criticism and exchange ideas to help us improve and bring you more useful content. Many of us, myself included, have been guilty of negativity. This message serves as a reminder to be more supportive. Let&amp;rsquo;s help each other grow in the F.O.S.S. Linux community and attract more people by discussing and recommending content thoughtfully.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#conclusion&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Conclusion
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you for reading. I wanted to share my thoughts and recommendations in hopes of making the Linux community a more positive and welcoming place, free from negativity and elitism. By supporting each other and fostering a culture of constructive feedback, we can help each other grow and create a more vibrant and inclusive F.O.S.S. community.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -527,6 +974,28 @@
 &lt;p&gt;Other than that, I do freelance as a &lt;strong&gt;Technical Support specialist&lt;/strong&gt; from time to time. I have landed a Job at &lt;strong&gt;Apple&lt;/strong&gt; in 2019, in &lt;strong&gt;Ireland&lt;/strong&gt;. But it didn’t last long unfortunately, can’t go into detail as to why, but at least I can say that I have worked for that company LoL… I am currently unemployed, but it’s OK. I do get by.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Cheers y&amp;rsquo;all 😀&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;a-short-biography&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#a-short-biography&#34;&gt;
+        ##
+    &lt;/a&gt;
+    A short biography
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;My name’s &lt;strong&gt;Steve&lt;/strong&gt;, A.K.A &lt;strong&gt;TechXero/DarkXero&lt;/strong&gt;, and I am a 45 year old Tech fanatic from &lt;strong&gt;Lebanon&lt;/strong&gt;. I love technology, mainly Computer Hardware/Software, smartphones, and &lt;strong&gt;Linux&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;center-image&#34;&gt;&lt;img src=&#34;https://i.imgur.com/V8UErup.png&#34;
+    alt=&#34;Support&#34;&gt;
+&lt;/figure&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;I currently maintain my very own &lt;i&gt;ArchLinux Toolkik/Distro&lt;/i&gt; &lt;strong&gt;XeroLinux&lt;/strong&gt;.&lt;/center&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;figure class=&#34;center-image&#34;&gt;&lt;img src=&#34;https://i.imgur.com/gu80XY3.png&#34;
+    alt=&#34;Support&#34;&gt;
+&lt;/figure&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;I am an avid &lt;strong&gt;iOS&lt;/strong&gt; user when it comes to smartphones. I did use &lt;strong&gt;Android&lt;/strong&gt; for 5 years, was happy on it for a while, I moved to &lt;strong&gt;iOS&lt;/strong&gt; and have been a happy man ever since. However, it’s not to say that I will stick with it for good, who knows what the future holds? I might go back to &lt;strong&gt;Android&lt;/strong&gt;.. I use both in parallel now see where I will land…&lt;/p&gt;
+&lt;p&gt;Other than that, I do freelance as a &lt;strong&gt;Technical Support specialist&lt;/strong&gt; from time to time. I have landed a Job at &lt;strong&gt;Apple&lt;/strong&gt; in 2019, in &lt;strong&gt;Ireland&lt;/strong&gt;. But it didn’t last long unfortunately, can’t go into detail as to why, but at least I can say that I have worked for that company LoL… I am currently unemployed, but it’s OK. I do get by.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Cheers y&amp;rsquo;all 😀&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -605,6 +1074,76 @@
 &lt;/h1&gt;
 &lt;p&gt;This was a quick run-through explaining what &lt;strong&gt;GNU/Linux&lt;/strong&gt; is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&amp;rsquo;s not as complete as I would like it to be.&lt;/p&gt;
 </description>
+      <content>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast &lt;a href=&#34;https://github.com/REALERvolker1&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-linux-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#what-is-linux-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    What is Linux ?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Since not everyone&amp;rsquo;s super familiar with Linux, here&amp;rsquo;s a quick crash course.&lt;/p&gt;
+&lt;p&gt;Linux is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt;, so all the drivers and whatnot are compiled into the binary. The &lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; and compiled into the kernel binary.&lt;/p&gt;
+&lt;p&gt;Once the computer boots up, an init process is started (the default is &lt;code&gt;/sbin/init&lt;/code&gt;, usually a symlink to your init system), which is &lt;code&gt;PID 1&lt;/code&gt;. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having &lt;em&gt;too&lt;/em&gt; much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.&lt;/p&gt;
+&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; compliant, and not really caring about file extensions.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img width=&#34;600&#34; src=&#34;https://i.imgur.com/Mu7NHx9.png&#34; alt=&#34;logo&#34;&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;distros--pkg-managers&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#distros--pkg-managers&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Distros &amp;amp; PKG Managers
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;On &lt;a href=&#34;https://www.debian.org&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt;, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the &lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; is pretty mid, but the &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; is amazing.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href=&#34;https://archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flatpak:&lt;/strong&gt; Sandboxed apps that &amp;ldquo;just work&amp;rdquo; on every distribution.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snap:&lt;/strong&gt; &lt;em&gt;Ubuntu&lt;/em&gt;&amp;rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AppImages:&lt;/strong&gt; These are like &lt;code&gt;.exe&lt;/code&gt; files on &lt;strong&gt;Windows&lt;/strong&gt;, but they require adding executable permissions and manually launching them. They also won&amp;rsquo;t have a desktop entry by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;filesystem--updates&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#filesystem--updates&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Filesystem &amp;amp; Updates
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If you connect your system to the internet, you should update it at least once a week to protect against known vulnerabilities. If you&amp;rsquo;re not connected to the internet, you can choose whether to update or not—it might fix a bug.&lt;/p&gt;
+&lt;p&gt;As for the filesystem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/etc&lt;/code&gt; is where your Editable Text Configurations go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr&lt;/code&gt; is where program files go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr/local&lt;/code&gt; is where program files go for programs you manually installed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/home&lt;/code&gt; is where your personal files go.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev&lt;/code&gt; is for device files.&lt;/li&gt;
+&lt;li&gt;There is no &lt;code&gt;C&lt;/code&gt; or &lt;code&gt;D&lt;/code&gt; drive; instead, you mount external drives to a location, like &lt;code&gt;/mnt&lt;/code&gt;. A GUI file manager mounts flash drives somewhere in &lt;code&gt;/run&lt;/code&gt; since it is temporary.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/opt&lt;/code&gt; is where miscellaneous stuff goes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/var&lt;/code&gt; is for variable data like system logs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/tmp&lt;/code&gt; is for temporary files.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev/null&lt;/code&gt; is a &amp;ldquo;black hole&amp;rdquo; for data you want to discard.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/dev/urandom&lt;/code&gt; is an IO-based random number generator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt;,  everything is a file. This means you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;See process details by reading files in &lt;code&gt;/proc&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check system settings or driver configurations in &lt;code&gt;/sys&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;View your bootloader in &lt;code&gt;/boot&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;wrapping-it-all-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrapping-it-all-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrapping it all up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;This was a quick run-through explaining what &lt;strong&gt;GNU/Linux&lt;/strong&gt; is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&amp;rsquo;s not as complete as I would like it to be.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -726,6 +1265,119 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://fosstodon.org/@xerolinux
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to &lt;a href=&#34;https://github.com/drewgrif&#34;&gt;&lt;strong&gt;@JustAGuyLinux&lt;/strong&gt;&lt;/a&gt; for helping out a little hehe.&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;whats-this&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#whats-this&#34;&gt;
+        ##
+    &lt;/a&gt;
+    What&amp;rsquo;s This?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;This for my own use. Use it if you want to. Just documenting the installation of &lt;a href=&#34;https://www.mkdocs.org&#34;&gt;&lt;strong&gt;MKDocs&lt;/strong&gt;&lt;/a&gt; the way that works for me. You are free to go over this and take from it what suites you the best. Please do not ask me for help, it&amp;rsquo;s all there on their site. Also this for &lt;strong&gt;ArchLinux&lt;/strong&gt; if you don&amp;rsquo;t use that distro, well, their site shows how to install for your distro.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/9V0NpLPXS-Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;installing-mkdocs&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#installing-mkdocs&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Installing MKDocs
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;We will need to install it with some extras. The 2 main packages exist on the &lt;strong&gt;Arch&lt;/strong&gt; repos. The rest are on the &lt;strong&gt;AUR&lt;/strong&gt;, so to grab everything in one go, I will be using &lt;strong&gt;Paru&lt;/strong&gt;. Compiling might take a while, so sit back wile it finishes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Donce that&amp;rsquo;s done we need to create the site. There&amp;rsquo;s a command for that.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdocs new my-project
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#89dceb&#34;&gt;cd&lt;/span&gt; my-project
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that we initialized the new site we need to configure it. We do so by editing the &lt;code&gt;mkdocs.yml&lt;/code&gt; file putting in the following info :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;site_name&lt;/span&gt;: Sitename
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;theme&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;name&lt;/span&gt;: material
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;logo&lt;/span&gt;: assets/Tux.gif
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;favicon&lt;/span&gt;: assets/favicon.ico
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;palette&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#cba6f7&#34;&gt;scheme&lt;/span&gt;: slate
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#cba6f7&#34;&gt;primary&lt;/span&gt;: deep purple
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;features&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.top
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.footer
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.indexes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - content.code.copy
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.suggest
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.highlight
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - search.share
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - navigation.expand
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will make it use the &lt;strong&gt;Slate Material&lt;/strong&gt; Theme with &lt;strong&gt;Deep Purple&lt;/strong&gt; accents. To know more about the theme check the &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/getting-started/&#34;&gt;&lt;strong&gt;MKDocs Material Wiki&lt;/strong&gt;&lt;/a&gt;. That&amp;rsquo;s it go from there.&lt;/p&gt;
+&lt;h1 id=&#34;plugins--extra-stuff&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#plugins--extra-stuff&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Plugins &amp;amp; Extra Stuff
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I have found a few that I liked on the &lt;strong&gt;AUR&lt;/strong&gt;, let&amp;rsquo;s install them via :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To activate them we edit the same &lt;code&gt;mkdocs.yml&lt;/code&gt; file as before like so :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;plugins&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - rss
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - social
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - search
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - autorefs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - glightbox
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;markdown_extensions&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Python Markdown&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - abbr
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - admonition
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - attr_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - def_list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - footnotes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - md_in_html
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;toc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;permalink&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;# Python Markdown Extensions&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.arithmatex&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;generic&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.betterem&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;smart_enable&lt;/span&gt;: all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.caret
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.details
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.emoji&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;emoji_index&lt;/span&gt;: &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;!!python/name:material.extensions.emoji.twemoji&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;emoji_generator&lt;/span&gt;: &lt;span style=&#34;color:#6c7086;font-style:italic&#34;&gt;!!python/name:material.extensions.emoji.to_svg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.highlight&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;anchor_linenums&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;line_spans&lt;/span&gt;: __span
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;pygments_lang_class&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.inlinehilite
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.keys
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.mark
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.smartsymbols
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.superfences
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.tabbed&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;alternate_style&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - &lt;span style=&#34;color:#cba6f7&#34;&gt;pymdownx.tasklist&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#cba6f7&#34;&gt;custom_checkbox&lt;/span&gt;: &lt;span style=&#34;color:#fab387&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - pymdownx.tilde
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;extra&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#cba6f7&#34;&gt;social&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/github
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://github.com/darkxero-dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/youtube
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://youtube.com/XeroLinuxOfficial
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/x-twitter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://twitter.com/xerolinuxop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#cba6f7&#34;&gt;icon&lt;/span&gt;: fontawesome/brands/mastodon
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#cba6f7&#34;&gt;link&lt;/span&gt;: https://fosstodon.org/@xerolinux
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to &lt;a href=&#34;https://github.com/drewgrif&#34;&gt;&lt;strong&gt;@JustAGuyLinux&lt;/strong&gt;&lt;/a&gt; for helping out a little hehe.&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -740,6 +1392,12 @@
     &lt;/div&gt;
 &lt;br /&gt;&lt;/p&gt;
 </description>
+      <content>&lt;p&gt;On this page I will post all the interesting &lt;strong&gt;NixOS&lt;/strong&gt; video guides I find with some links. Sort of like a Video DB.. If you know of any good ones share them with me. Check &lt;a href=&#34;https://mynixos.com&#34;&gt;&lt;strong&gt;MyNixOS&lt;/strong&gt;&lt;/a&gt; for more interesting ones. &lt;strong&gt;NOT FOR THE LIGHT-HEARTED !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AGVXJ-TIv3Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;br /&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>
@@ -789,6 +1447,47 @@
 &lt;/ol&gt;
 &lt;p&gt;That&amp;rsquo;s it ! The new password should work now.&lt;/p&gt;
 </description>
+      <content>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I have lost my root pass on &lt;strong&gt;Linux&lt;/strong&gt; more times than I can count. This guide is here so I do not have to &lt;em&gt;Google&lt;/em&gt; it lol. Might be useful to you I dunno. But it&amp;rsquo;s here.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;https://i.imgur.com/VFXV09r.jpeg&#34;&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;lets-do-this-&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#lets-do-this-&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Let&amp;rsquo;s do this 🚀
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;How to reset forgotten root password in a &lt;strong&gt;GNU/Linux&lt;/strong&gt; distribution with &lt;code&gt;GRUB&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;If this is a laptop or a desktop which you have next to you then follow these steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Shut down the device.&lt;/li&gt;
+&lt;li&gt;Start it again. When you see GRUB menu, press the &lt;code&gt;e&lt;/code&gt; key on the keyboard before the system starts booting.&lt;/li&gt;
+&lt;li&gt;In the &lt;code&gt;GRUB&lt;/code&gt; boot options, scroll down and locate the line that begins with &lt;code&gt;linux&lt;/code&gt;. In this line move the cursor to the end, right after &lt;code&gt;ro quiet&lt;/code&gt;. Delete everything after that. Change &lt;code&gt;ro&lt;/code&gt; to &lt;code&gt;rw&lt;/code&gt;. Append the parameter &lt;code&gt;init=/bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Press Ctrl+x, or F10, to boot.&lt;/li&gt;
+&lt;li&gt;You will see a root prompt.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:#
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Remount the filesystem in read/write mode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# mount -no remount,rw /
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Set the password of any user(s).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:# passwd joe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Reboot with the command &lt;code&gt;reboot -f&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s it ! The new password should work now.&lt;/p&gt;
+</content>
     </item>
     
   </channel>
