@@ -8,7 +8,7 @@ author: "DarkXero"
 
 ## Introduction
 
-For the past few months I’ve been asked these questions time and time again. What exactly is **XeroLinux** and Why is it shoved behind a so-called donation wall? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.
+For the past few months I’ve been asked these questions time and time again. What exactly is **XeroLinux** and why is it shoved behind a so-called *donation wall*? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.
 
 So sit tight and read-on…
 
