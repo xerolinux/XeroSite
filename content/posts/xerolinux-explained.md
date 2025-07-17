@@ -30,7 +30,7 @@ Now **XeroLinux** unlike many distros out there that have tons of neat and usefu
 
 {{< youtube YGSOthQbefI >}}
 
-The distro stay out of your way as much as possible, while you turn it into whatever you want, be it gaming, content creation or even development OS. Instead of forcing things like apps, tools or anything you might agree with, we opted to leave the choice completely up to you. It's bloat free. It's the type of distro that puts you in control. If you are lost, we are always here to lend a hand.
+The distro stays out of your way as much as possible, while you turn it into whatever you want, be it gaming, content creation or even development OS. Instead of forcing things like apps, tools or anything you might agree with, we opted to leave the choice completely up to you. It's bloat free. It's the type of distro that puts you in control. Lost or want to know more ? We are always here to lend a hand.
 
 # Rise & Fall
 
