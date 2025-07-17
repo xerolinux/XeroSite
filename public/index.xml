@@ -30,14 +30,14 @@
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
       <author>info@techxero.com (DarkXero)</author>
       <guid>/posts/xerolinux-explained/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; &gt;
+      <description>&lt;h1 id=&#34;introduction&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#introduction&#34;&gt;
-        #
+        ##
     &lt;/a&gt;
     Introduction
 &lt;/div&gt;
-&lt;/h2&gt;
+&lt;/h1&gt;
 &lt;p&gt;For the past few months I’ve been asked these questions time and time again. What exactly is &lt;strong&gt;XeroLinux&lt;/strong&gt; and why is it shoved behind a so-called &lt;em&gt;donation wall&lt;/em&gt;? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.&lt;/p&gt;
 &lt;p&gt;So sit tight and read-on…&lt;/p&gt;
 &lt;h1 id=&#34;xerolinux-goal&#34; &gt;
@@ -64,7 +64,7 @@
     Benefits &amp;amp; Features
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
+&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -112,14 +112,14 @@
 &lt;p&gt;Also please let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It&amp;rsquo;s ok if you don&amp;rsquo;t agree, I will not judge you, it&amp;rsquo;s a judgement-free zone over here.&lt;/p&gt;
 &lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
 </description>
-      <content>&lt;h2 id=&#34;introduction&#34; &gt;
+      <content>&lt;h1 id=&#34;introduction&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#introduction&#34;&gt;
-        #
+        ##
     &lt;/a&gt;
     Introduction
 &lt;/div&gt;
-&lt;/h2&gt;
+&lt;/h1&gt;
 &lt;p&gt;For the past few months I’ve been asked these questions time and time again. What exactly is &lt;strong&gt;XeroLinux&lt;/strong&gt; and why is it shoved behind a so-called &lt;em&gt;donation wall&lt;/em&gt;? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.&lt;/p&gt;
 &lt;p&gt;So sit tight and read-on…&lt;/p&gt;
 &lt;h1 id=&#34;xerolinux-goal&#34; &gt;
@@ -146,7 +146,7 @@
     Benefits &amp;amp; Features
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
+&lt;p&gt;Now &lt;strong&gt;XeroLinux&lt;/strong&gt; unlike many distros out there that have tons of neat and useful features, offers an easy installation as well as many ways for you to learn the ways of &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; using our toolkit shown in the video below. It&amp;rsquo;s well optimized for best out of the box experience while looking great too.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;

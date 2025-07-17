@@ -6,7 +6,7 @@ aliases: ["foss","linux","xerolinux"]
 author: "DarkXero"
 ---
 
-## Introduction
+# Introduction
 
 For the past few months I’ve been asked these questions time and time again. What exactly is **XeroLinux** and why is it shoved behind a so-called *donation wall*? Well, in this post I will be explaining it once and for all in an attempt to clarify everything.
 
@@ -26,7 +26,7 @@ Once I started sharing the ISO around with my close friends, they loved it so mu
 
 # Benefits & Features
 
-Now **XeroLinux** unlike many distros out there that have tons of neat and useful features, this distro offers an easy installation as well as many ways for you to learn the ways of [**Arch Linux**](https://wiki.archlinux.org) using our toolkit shown in the video below. It's well optimized for best out of the box experience while looking great too.
+Now **XeroLinux** unlike many distros out there that have tons of neat and useful features, offers an easy installation as well as many ways for you to learn the ways of [**Arch Linux**](https://wiki.archlinux.org) using our toolkit shown in the video below. It's well optimized for best out of the box experience while looking great too.
 
 {{< youtube YGSOthQbefI >}}
 
