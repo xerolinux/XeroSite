@@ -19,10 +19,85 @@
     
 
     
-    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XeroLinux Explained</title>
+      <link>/posts/xerolinux-explained/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/posts/xerolinux-explained/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I have been, for the past few months being asked this question over and over and over again. Also why it is shoved behind a so called &lt;em&gt;donation wall&lt;/em&gt;. Well, in this here post I will be explaining it all once and for all clarifying everything so I can use it when am asked again so I do not have to repeat the same thing multiple times.&lt;/p&gt;
+&lt;p&gt;So sit tight and read-on&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;xerolinux--goal&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#xerolinux--goal&#34;&gt;
+        ##
+    &lt;/a&gt;
+    XeroLinux &amp;amp; Goal
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-Based&lt;/em&gt; Linux Distribution that I have created primarily for myself making it easier for me to install using &lt;a href=&#34;https://calamares.io&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt;. As for the D.E of choice, well, it&amp;rsquo;s &lt;a href=&#34;https://kde.org&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt; of course. In the beginning I was too ambitious and included way too much bloat &lt;em&gt;Garuda Style&lt;/em&gt;, which was real bad. Below is a video of the very 1st release of &lt;strong&gt;XeroLinux&lt;/strong&gt; see how bad it was.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/l8Z7fr79A8I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;As time went on however, I kept optimizing it until I got myself a solid base I can build on. See, I did not want to have every piece of software I used available to me out the box, just the settings, since those take much longer to set up. And by settings I mean system optimizations as well as &amp;ldquo;&lt;em&gt;Ricing&lt;/em&gt;&amp;rdquo;. Why ? Because what I need changes every week/month and it would grow the ISO to unmanageable sizes.&lt;/p&gt;
+&lt;p&gt;What about drivers ? Well same reasoning, my hardware changes from time to time, so having ones that work for my system today might not work in a week or month. That&amp;rsquo;s why I decided to only have basic (&lt;em&gt;Kernel&lt;/em&gt;) ones out the box with the ability to install extra ones later on.&lt;/p&gt;
+&lt;p&gt;Once I started sharing the ISO around with close friends, they loved it so much for its stablity, ease of installation, and bloat-free&amp;rsquo;ness that they suggested I turn it into a full-on Distro available to everyone. I reluctantly agreed, coz by making it public I would be responsible for providing support for it. It took time but got there eventually.&lt;/p&gt;
+&lt;h1 id=&#34;rise--fall&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#rise--fall&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Rise &amp;amp; Fall
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating &lt;a href=&#34;https://endeavouros.com&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; at one point on &lt;a href=&#34;https://distrowatch.com&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; as long as it was &lt;em&gt;Free&lt;/em&gt; that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, as soon as I put a price on it, it took a turn to the worst.&lt;/p&gt;
+&lt;p&gt;And adding &lt;a href=&#34;https://www.gnome.org&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; to the family upon popular request, made things a bit more difficult to manage&amp;hellip;&lt;/p&gt;
+&lt;h1 id=&#34;donation-wall&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#donation-wall&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Donation-Wall
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;As my reposibilities towards my users grew, and versions were added, so did the cost of working on the project. And being a one-man project, from a 3rd-world country like &lt;strong&gt;Lebanon&lt;/strong&gt;, where situation is bleek to say the least. With jobs being scarce, I couldn&amp;rsquo;t keep up, financially speaking, that&amp;rsquo;s why I took a short break to re-evaluate things. I tried turning the project into a &lt;em&gt;post-install script&lt;/em&gt; for &lt;em&gt;Vanilla Arch&lt;/em&gt; which worked at first, then people started requesting I bring Distro back to life. Which I did eventually.&lt;/p&gt;
+&lt;p&gt;But I had to change something in order for it to survive. That&amp;rsquo;s when I found &lt;a href=&#34;https://archcraft.io/premium.html&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt;, an amazing &lt;em&gt;Arch-Based&lt;/em&gt; Distro who whas charging for so called &lt;em&gt;Premium Versions&lt;/em&gt; of his Distro, which gave me the idea of putting &lt;strong&gt;XeroLinux&lt;/strong&gt; behind a &lt;em&gt;Donation Wall&lt;/em&gt;, where you donate for my time not the ISO. The code is, and forever will be available free of charge for you to fork and do with it as you please on &lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now before you say it, I will, &amp;ldquo;&lt;em&gt;But it&amp;rsquo;s not the same !&lt;/em&gt;&amp;rdquo;. I do agree it&amp;rsquo;s not the same thing, but hear me out, while he offers &lt;em&gt;Free&lt;/em&gt; versions for everyone to test the grounds, in reality it&amp;rsquo;s a great &lt;strong&gt;Marketing Strategy&lt;/strong&gt; on his part. See, every product has a sort of a Free &lt;em&gt;Demo&lt;/em&gt; which is used as a so called &lt;em&gt;Hook&lt;/em&gt;. What does that mean ? Well, this is called a &lt;em&gt;Hook&lt;/em&gt; simply because it&amp;rsquo;s used to hook you into buying the full or a more &lt;em&gt;premium&lt;/em&gt; version of said product.&lt;/p&gt;
+&lt;p&gt;While &lt;strong&gt;XeroLinux&lt;/strong&gt; doesn&amp;rsquo;t use the same Strategy, simply because it&amp;rsquo;s too risky, it does offer other ways to achieve similar but not exact results via various &lt;a href=&#34;https://xerolinux.xyz/scripts/&#34;&gt;&lt;strong&gt;Scripts&lt;/strong&gt;&lt;/a&gt; available totally for free. What do I mean by &lt;em&gt;Too Risky&lt;/em&gt; you ask ? Lemme explain that then.&lt;/p&gt;
+&lt;p&gt;If I offered a free version of the Distro, people would stick to it and avoid any other paid version. There&amp;rsquo;s no way to created a &lt;em&gt;limited&lt;/em&gt; version either. I have been part of the Linux community long enough to know that most it likes to think that the word &lt;em&gt;Free&lt;/em&gt; in the &lt;em&gt;Free Open Source&lt;/em&gt; sentence means free beer which is a huge misconception. It just means &lt;em&gt;Freedom&lt;/em&gt; to do with as you please.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why almost no one pays for such projects and we get attacked for charging for them. This has to stop !&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Let&amp;rsquo;s wrap this up shall we ? I would like to close this post by saying, even though &lt;strong&gt;XeroLinux&lt;/strong&gt; does not offer much in the way of features like &lt;a href=&#34;https://cachyos.org&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; and others out there do, that wasn&amp;rsquo;t the aim of this distro. If you do not agree with project&amp;rsquo;s vision, please do not hate, just move on and use whatever works for you. No judgement.&lt;/p&gt;
+&lt;p&gt;Anyway, if and when I am more financially stable I do promise you that there will no longer be a price associated whith this project, it will be free for everyone to enjoy. Until then however, please do understand that am currently struggling financially with this being my only source of income. I have no other means at my disposal.&lt;/p&gt;
+&lt;p&gt;Lastly I would like to share my appreciation to every person out there who has and is still supporting the project financially, making it possible for me to keep doing it. If you haven&amp;rsquo;t yet gotten yourself a copy of don&amp;rsquo;t know how to support, here are some links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Donations Page =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;XxeroLinux&lt;/strong&gt; ISOs =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for reding. ❤️‍🔥🙏&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Xero Gnome</title>
