@@ -19,10 +19,82 @@
     
 
     
-    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DistroWatch</title>
+      <link>/posts/distrowatch/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/posts/distrowatch/</guid>
+      <description>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;**DistroWatch&lt;/a&gt; is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place. They also have weekly news updates and summary articles to keep you in the loop with the latest happenings in the Linux world. Plus, there’s a friendly community vibe with forums and guides for beginners and pros alike. Overall, it’s like a one-stop shop for exploring and staying ahead in the open-source OS game.&lt;/p&gt;
+&lt;h1 id=&#34;the-good-the-bad--the-ugly&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-good-the-bad--the-ugly&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The Good, The Bad &amp;amp; The Ugly
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Starting with the &lt;strong&gt;Good&lt;/strong&gt;—DistroWatch is basically the reason a lot of distros get noticed at all. Without it, many would just be stuck in obscurity with hardly anyone hearing about them. For example, I credit some of the buzz around &lt;strong&gt;XeroLinux&lt;/strong&gt; to this site. Plus, I like how they keep track of each distro’s release history so users can easily follow along with updates and changes.&lt;/p&gt;
+&lt;p&gt;Now for the &lt;strong&gt;Bad&lt;/strong&gt;—there’s a downside. The site isn’t really well-moderated. That means anyone can post whatever, true or not, and it just stays there. The admins don’t seem to verify or control what’s being said about distros. So you end up with stuff floating around that might be misleading or flat out wrong. Not cool, in my opinion.&lt;/p&gt;
+&lt;p&gt;And finally, the &lt;strong&gt;Ugly&lt;/strong&gt;—which is the main reason I’m venting here. &lt;strong&gt;XeroLinux&lt;/strong&gt; has been listed on DistroWatch since 2022 and was gradually gaining traction. Then, when I had to step away due to burnout, they marked it as &lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34;&gt;&lt;strong&gt;Discontinued&lt;/strong&gt;&lt;/a&gt;. At first, I was like, fine, no big deal. But the distro’s been back in action nearly a year now, and despite my repeated &lt;strong&gt;emails&lt;/strong&gt;, &lt;strong&gt;Mastodon&lt;/strong&gt; messages, and even supporting them on &lt;strong&gt;Patreon&lt;/strong&gt; asking to update the status, nothing’s changed. Total radio silence. At this point, I’m convinced it’s all managed by some kind of &lt;strong&gt;A.I&lt;/strong&gt; that doesn’t care about the hard work behind projects. It’s super frustrating and disrespectful. I rely on that exposure, yet they just ignore me. What kind of site does that? A bad one.&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, ignore what &lt;strong&gt;DistroWatch&lt;/strong&gt; says about &lt;strong&gt;XeroLinux&lt;/strong&gt; being discontinued, it’s wrong and shouldn’t be trusted. The distro is alive and kicking. If you want to help get their attention, feel free to bug them via &lt;a href=&#34;distro@distrowatch.com&#34;&gt;&lt;strong&gt;E-mail&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://mastodon.social/@DistroWatch&#34;&gt;&lt;strong&gt;Mastodon&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://www.patreon.com/distrowatch&#34;&gt;&lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;. Beyond that, I’m out of ideas.&lt;/p&gt;
+&lt;p&gt;Drop your thoughts about this mess in the comments. I’d love to hear what you think.&lt;/p&gt;
+&lt;p&gt;Thanks for reading ❤️‍🔥🙏&lt;/p&gt;
+</description>
+      <content>&lt;h1 id=&#34;information&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#information&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Information
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;**DistroWatch&lt;/a&gt; is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place. They also have weekly news updates and summary articles to keep you in the loop with the latest happenings in the Linux world. Plus, there’s a friendly community vibe with forums and guides for beginners and pros alike. Overall, it’s like a one-stop shop for exploring and staying ahead in the open-source OS game.&lt;/p&gt;
+&lt;h1 id=&#34;the-good-the-bad--the-ugly&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#the-good-the-bad--the-ugly&#34;&gt;
+        ##
+    &lt;/a&gt;
+    The Good, The Bad &amp;amp; The Ugly
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Starting with the &lt;strong&gt;Good&lt;/strong&gt;—DistroWatch is basically the reason a lot of distros get noticed at all. Without it, many would just be stuck in obscurity with hardly anyone hearing about them. For example, I credit some of the buzz around &lt;strong&gt;XeroLinux&lt;/strong&gt; to this site. Plus, I like how they keep track of each distro’s release history so users can easily follow along with updates and changes.&lt;/p&gt;
+&lt;p&gt;Now for the &lt;strong&gt;Bad&lt;/strong&gt;—there’s a downside. The site isn’t really well-moderated. That means anyone can post whatever, true or not, and it just stays there. The admins don’t seem to verify or control what’s being said about distros. So you end up with stuff floating around that might be misleading or flat out wrong. Not cool, in my opinion.&lt;/p&gt;
+&lt;p&gt;And finally, the &lt;strong&gt;Ugly&lt;/strong&gt;—which is the main reason I’m venting here. &lt;strong&gt;XeroLinux&lt;/strong&gt; has been listed on DistroWatch since 2022 and was gradually gaining traction. Then, when I had to step away due to burnout, they marked it as &lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34;&gt;&lt;strong&gt;Discontinued&lt;/strong&gt;&lt;/a&gt;. At first, I was like, fine, no big deal. But the distro’s been back in action nearly a year now, and despite my repeated &lt;strong&gt;emails&lt;/strong&gt;, &lt;strong&gt;Mastodon&lt;/strong&gt; messages, and even supporting them on &lt;strong&gt;Patreon&lt;/strong&gt; asking to update the status, nothing’s changed. Total radio silence. At this point, I’m convinced it’s all managed by some kind of &lt;strong&gt;A.I&lt;/strong&gt; that doesn’t care about the hard work behind projects. It’s super frustrating and disrespectful. I rely on that exposure, yet they just ignore me. What kind of site does that? A bad one.&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, ignore what &lt;strong&gt;DistroWatch&lt;/strong&gt; says about &lt;strong&gt;XeroLinux&lt;/strong&gt; being discontinued, it’s wrong and shouldn’t be trusted. The distro is alive and kicking. If you want to help get their attention, feel free to bug them via &lt;a href=&#34;distro@distrowatch.com&#34;&gt;&lt;strong&gt;E-mail&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://mastodon.social/@DistroWatch&#34;&gt;&lt;strong&gt;Mastodon&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://www.patreon.com/distrowatch&#34;&gt;&lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;. Beyond that, I’m out of ideas.&lt;/p&gt;
+&lt;p&gt;Drop your thoughts about this mess in the comments. I’d love to hear what you think.&lt;/p&gt;
+&lt;p&gt;Thanks for reading ❤️‍🔥🙏&lt;/p&gt;
+</content>
+    </item>
     
     <item>
       <title>XeroLinux Explained</title>
