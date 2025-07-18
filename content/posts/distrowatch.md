@@ -24,7 +24,7 @@ At first, I was like, fine, no big deal. But the distro’s been back in action 
 
 # Wrap-Up
 
-So, ignore what **DistroWatch** says about **XeroLinux** being discontinued, it’s wrong and shouldn’t be trusted. The distro is alive and kicking. If you want to help get their attention, feel free to bug them via [**E-mail**](distro@distrowatch.com), [**Mastodon**](https://mastodon.social/@DistroWatch), or [**Patreon**](https://www.patreon.com/distrowatch). Beyond that, I’m out of ideas.
+So, ignore what **DistroWatch** says about **XeroLinux** being discontinued, it’s wrong and shouldn’t be trusted. The distro is alive and kicking. If you want to help get their attention, feel free to bug them via [**E-mail**](mailto:distro@distrowatch.com), [**Mastodon**](https://mastodon.social/@DistroWatch), or [**Patreon**](https://www.patreon.com/distrowatch). Beyond that, I’m out of ideas.
 
 Drop your thoughts about this mess in the comments. I’d love to hear what you think.
 
