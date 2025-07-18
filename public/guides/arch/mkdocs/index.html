@@ -460,21 +460,21 @@ This for my own use. Use it if you want to. Just documenting the installation of
 </div>
 </h1>
 <p>We will need to install it with some extras. The 2 main packages exist on the <strong>Arch</strong> repos. The rest are on the <strong>AUR</strong>, so to grab everything in one go, I will be using <strong>Paru</strong>. Compiling might take a while, so sit back wile it finishes.</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs mkdocs-get-deps mkdocs-material python-pipx python-pillow python-cairosvg mkdocs-material-extensions python-regex pymdown-extensions mkdocs-material-pymdownx-extras
 </span></span></code></pre></div><p>Donce that&rsquo;s done we need to create the site. There&rsquo;s a command for that.</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>mkdocs new my-project
-</span></span><span style="display:flex;"><span><span style="color:#89dceb">cd</span> my-project
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>mkdocs new my-project
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">cd</span> my-project
 </span></span></code></pre></div><p>Now that we initialized the new site we need to configure it. We do so by editing the <code>mkdocs.yml</code> file putting in the following info :</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">site_name</span>: Sitename
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#ff79c6">site_name</span>: Sitename
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#cba6f7">theme</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">name</span>: material
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">logo</span>: assets/Tux.gif
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">favicon</span>: assets/favicon.ico
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">palette</span>:
-</span></span><span style="display:flex;"><span>    <span style="color:#cba6f7">scheme</span>: slate
-</span></span><span style="display:flex;"><span>    <span style="color:#cba6f7">primary</span>: deep purple
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">features</span>:
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">theme</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">name</span>: material
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">logo</span>: assets/Tux.gif
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">favicon</span>: assets/favicon.ico
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">palette</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">scheme</span>: slate
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">primary</span>: deep purple
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">features</span>:
 </span></span><span style="display:flex;"><span>   - navigation.top
 </span></span><span style="display:flex;"><span>   - navigation.footer
 </span></span><span style="display:flex;"><span>   - navigation.indexes
@@ -493,62 +493,62 @@ This for my own use. Use it if you want to. Just documenting the installation of
 </div>
 </h1>
 <p>I have found a few that I liked on the <strong>AUR</strong>, let&rsquo;s install them via :</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>paru -S --noconfirm mkdocs-rss-plugin mkdocs-video mkdocs-autorefs mkdocs-section-index mkdocs-glightbox mkdocs-backlinks-plugin mkdocs-redirects mkdocs-ezlinks-plugin mkdocs-literate-nav mkdocs-macros-plugin
 </span></span></code></pre></div><p>To activate them we edit the same <code>mkdocs.yml</code> file as before like so :</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">plugins</span>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#ff79c6">plugins</span>:
 </span></span><span style="display:flex;"><span>  - rss
 </span></span><span style="display:flex;"><span>  - social
 </span></span><span style="display:flex;"><span>  - search
 </span></span><span style="display:flex;"><span>  - autorefs
 </span></span><span style="display:flex;"><span>  - glightbox
 </span></span></code></pre></div><p>There are some cool features we can enable too. Only gotta figure out why some are not working. Besides that, this is how we add them :</p>
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#cba6f7">markdown_extensions</span>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span><span style="color:#ff79c6">markdown_extensions</span>:
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#6c7086;font-style:italic"># Python Markdown</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#6272a4"># Python Markdown</span>
 </span></span><span style="display:flex;"><span>   - abbr
 </span></span><span style="display:flex;"><span>   - admonition
 </span></span><span style="display:flex;"><span>   - attr_list
 </span></span><span style="display:flex;"><span>   - def_list
 </span></span><span style="display:flex;"><span>   - footnotes
 </span></span><span style="display:flex;"><span>   - md_in_html
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">toc</span>:
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">permalink</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">toc</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">permalink</span>: <span style="color:#ff79c6">true</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#6c7086;font-style:italic"># Python Markdown Extensions</span>
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.arithmatex</span>:
-</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">generic</span>: <span style="color:#fab387">true</span>
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.betterem</span>:
-</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">smart_enable</span>: all
+</span></span><span style="display:flex;"><span>  <span style="color:#6272a4"># Python Markdown Extensions</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.arithmatex</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#ff79c6">generic</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.betterem</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#ff79c6">smart_enable</span>: all
 </span></span><span style="display:flex;"><span>   - pymdownx.caret
 </span></span><span style="display:flex;"><span>   - pymdownx.details
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.emoji</span>:
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">emoji_index</span>: <span style="color:#6c7086;font-style:italic">!!python/name:material.extensions.emoji.twemoji</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">emoji_generator</span>: <span style="color:#6c7086;font-style:italic">!!python/name:material.extensions.emoji.to_svg</span>
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.highlight</span>:
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">anchor_linenums</span>: <span style="color:#fab387">true</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">line_spans</span>: __span
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">pygments_lang_class</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.emoji</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">emoji_index</span>: <span style="color:#ff79c6">!!python/name:material.extensions.emoji.twemoji</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">emoji_generator</span>: <span style="color:#ff79c6">!!python/name:material.extensions.emoji.to_svg</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.highlight</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">anchor_linenums</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">line_spans</span>: __span
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">pygments_lang_class</span>: <span style="color:#ff79c6">true</span>
 </span></span><span style="display:flex;"><span>   - pymdownx.inlinehilite
 </span></span><span style="display:flex;"><span>   - pymdownx.keys
 </span></span><span style="display:flex;"><span>   - pymdownx.mark
 </span></span><span style="display:flex;"><span>   - pymdownx.smartsymbols
 </span></span><span style="display:flex;"><span>   - pymdownx.superfences
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.tabbed</span>:
-</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">alternate_style</span>: <span style="color:#fab387">true</span>
-</span></span><span style="display:flex;"><span>   - <span style="color:#cba6f7">pymdownx.tasklist</span>:
-</span></span><span style="display:flex;"><span>       <span style="color:#cba6f7">custom_checkbox</span>: <span style="color:#fab387">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.tabbed</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#ff79c6">alternate_style</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#ff79c6">pymdownx.tasklist</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#ff79c6">custom_checkbox</span>: <span style="color:#ff79c6">true</span>
 </span></span><span style="display:flex;"><span>   - pymdownx.tilde
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#cba6f7">extra</span>:
-</span></span><span style="display:flex;"><span>  <span style="color:#cba6f7">social</span>:
-</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/github
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://github.com/darkxero-dev
-</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/youtube
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://youtube.com/XeroLinuxOfficial
-</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/x-twitter
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://twitter.com/xerolinuxop
-</span></span><span style="display:flex;"><span>    - <span style="color:#cba6f7">icon</span>: fontawesome/brands/mastodon
-</span></span><span style="display:flex;"><span>      <span style="color:#cba6f7">link</span>: https://fosstodon.org/@xerolinux
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">extra</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">social</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">icon</span>: fontawesome/brands/github
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">link</span>: https://github.com/darkxero-dev
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">icon</span>: fontawesome/brands/youtube
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">link</span>: https://youtube.com/XeroLinuxOfficial
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">icon</span>: fontawesome/brands/x-twitter
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">link</span>: https://twitter.com/xerolinuxop
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">icon</span>: fontawesome/brands/mastodon
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">link</span>: https://fosstodon.org/@xerolinux
 </span></span></code></pre></div><p>That&rsquo;s it for now. I will be updating this post as I learn more. Still need to figure out a few things. I am just starting with this. Thanks to <a href="https://github.com/drewgrif"><strong>@JustAGuyLinux</strong></a> for helping out a little hehe.</p>
 
         </div>

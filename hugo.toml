@@ -13,7 +13,7 @@ email  = "info@techxero.com"
 location = "Lebanon"
 
 [params]
-description = "Thoughts of a FOSS Maintainer"
+description = "Home of a FOSS Maintainer"
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 
@@ -76,5 +76,5 @@ unsafe = true # Enable unsafe mode to have a better experience
 anchorLineNos      = false
 codeFences         = true # tested with true and false. Both work.
 noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
-style              = 'catppuccin-mocha' # Find more style at here: https://swapoff.org/chroma/playground/
-tabWidth           = 4
+style              = 'dracula' # Find more style at here: https://swapoff.org/chroma/playground/
+tabWidth           = 6
