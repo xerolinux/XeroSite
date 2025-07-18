@@ -8,7 +8,9 @@ author: "DarkXero"
 
 # Information
 
-[**DistroWatch](https://distrowatch.com/) is basically your go-to website if you're into **Linux** or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place. They also have weekly news updates and summary articles to keep you in the loop with the latest happenings in the Linux world. Plus, there’s a friendly community vibe with forums and guides for beginners and pros alike. Overall, it’s like a one-stop shop for exploring and staying ahead in the open-source OS game.
+[**DistroWatch**](https://distrowatch.com/) is basically your go-to website if you're into **Linux** or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place. 
+
+They also have weekly news updates and summary articles to keep you in the loop with the latest happenings in the Linux world. Plus, there’s a friendly community vibe with forums and guides for beginners and pros alike. Overall, it’s like a one-stop shop for exploring and staying ahead in the open-source OS game.
 
 # The Good, The Bad & The Ugly
 
