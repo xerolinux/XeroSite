@@ -30,14 +30,16 @@ At first, I was like, fine, no big deal. But the distro’s been back in action 
 
 # Situation Update
 
-Since publishing this post, situation has been resolved. **XeroLinux** has been re-instated, links updated, and slowly getting back on the ladder. It was all thanks to one person from the **DistroWatch** team. I dunno if I should mention his name, but thanks nevertheless. 
+Since this post originally went up, the situation's been sorted out. **XeroLinux** is back up and running, the links are fixed, and things are slowly getting back on track. Big shoutout to that one awesome person from the **DistroWatch** team who made this possible (I won't name names, but you know who you are—thank you!).
 
-I chose not to delete the post simply because parts of it remain to be true as some of my fellow Distro maintainers have told me recently and in the past. I am just updating you on recent events. Anyway if you want to help us climb the *Popularity Ladder* much faster and/or write a short review you can do so [**Over Here**](https://distrowatch.com/table.php?distribution=xero).
+I decided to leave this post up because, honestly, some parts are still relevant. Other distro maintainers have shared similar experiences with me, both recently and in the past. Just wanted to keep you all in the loop about what's happened since.
 
-But please do not use this site as the defacto place for *Popularity Measure*. That site just lists Distros by download and view counts not by how many users actually use it. Nobody knows if reviewers are actually using the distro they reviewed or not, or how long they used it for before revieweing it.
+If you want to help us climb the *popularity ladder* quicker or maybe even write a quick review, you can do that [**right here**](https://distrowatch.com/table.php?distribution=xero).
 
-Finally be mindful of the information posted about each and every distro, some of it might be accurate, some of it not so much. Only by testing the distro yourself will you know the truth.
+But just a heads up, don’t treat **DistroWatch** as the ultimate measure of popularity. That site mainly sorts distros by downloads and page views, not by actual user numbers. Plus, nobody really knows if the reviewers actually use the distro for any meaningful amount of time before leaving a review.
 
-Drop your thoughts about this mess in the comments. I’d love to hear what you think.
+And hey, always take the info about any distro (not just ours) with a pinch of salt. Some of it’s spot on, some... not so much. The only real way to know is to try it out yourself!
+
+Let me know what you think of all this in the comments, I’d really love to hear your thoughts.
 
 Thanks for reading ❤️‍🔥🙏
