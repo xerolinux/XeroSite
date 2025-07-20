@@ -17,13 +17,13 @@ description = "Home of a FOSS Maintainer"
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 
-readNextPosts = 2
-
-rssAsSocialIcon = true
 locale = "en-us"
-toc = true
 
 [params.anubis2]
+    tocWordCount = true
+    enableRssIcon = true
+    readNextPosts = 2
+    openInNewTab = true
     enableCopyCodeButton = true
     enableReadMoreButton = true
     hideFooterAttribution = false # hide "Powered by Hugo, theme" in footer

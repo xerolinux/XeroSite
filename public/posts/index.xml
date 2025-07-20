@@ -38,7 +38,9 @@
     Information
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://distrowatch.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; 
+ is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place.&lt;/p&gt;
 &lt;div style=&#34;text-align: center;&#34;&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/o6WRNpx.png&#34; alt=&#34;Sales&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -64,7 +66,9 @@
 &lt;/h1&gt;
 &lt;p&gt;Since this post originally went up, the situation&amp;rsquo;s been sorted out. &lt;strong&gt;XeroLinux&lt;/strong&gt; is back up and running, the links are fixed, and things are slowly getting back on track. Big shoutout to that one awesome person from the &lt;strong&gt;DistroWatch&lt;/strong&gt; team who made this possible (I won&amp;rsquo;t name names, but you know who you are—thank you!).&lt;/p&gt;
 &lt;p&gt;I decided to leave this post up because, honestly, some parts are still relevant. Other distro maintainers have shared similar experiences with me, both recently and in the past. Just wanted to keep you all in the loop about what&amp;rsquo;s happened since.&lt;/p&gt;
-&lt;p&gt;If you want to help us climb the &lt;em&gt;popularity ladder&lt;/em&gt; quicker or maybe even write a quick review, you can do that &lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34;&gt;&lt;strong&gt;right here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to help us climb the &lt;em&gt;popularity ladder&lt;/em&gt; quicker or maybe even write a quick review, you can do that 
+&lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;right here&lt;/strong&gt;&lt;/a&gt; 
+.&lt;/p&gt;
 &lt;p&gt;But just a heads up, don’t treat &lt;strong&gt;DistroWatch&lt;/strong&gt; as the ultimate measure of popularity. That site mainly sorts distros by downloads and page views, not by actual user numbers. Plus, nobody really knows if the reviewers actually use the distro for any meaningful amount of time before leaving a review.&lt;/p&gt;
 &lt;p&gt;And hey, always take the info about any distro (not just ours) with a pinch of salt. Some of it’s spot on, some&amp;hellip; not so much. The only real way to know is to try it out yourself!&lt;/p&gt;
 &lt;p&gt;Let me know what you think of all this in the comments, I’d really love to hear your thoughts.&lt;/p&gt;
@@ -78,7 +82,9 @@
     Information
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://distrowatch.com/&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://distrowatch.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; 
+ is basically your go-to website if you&amp;rsquo;re into &lt;strong&gt;Linux&lt;/strong&gt; or other open-source Unix-like operating systems. It’s been around since 2001 and keeps a huge, up-to-date database of hundreds of Linux distributions plus some BSDs and other niche OSes. You can check out detailed info, compare them, see their release histories, read user reviews, and snag official download links all in one place.&lt;/p&gt;
 &lt;div style=&#34;text-align: center;&#34;&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/o6WRNpx.png&#34; alt=&#34;Sales&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -104,7 +110,9 @@
 &lt;/h1&gt;
 &lt;p&gt;Since this post originally went up, the situation&amp;rsquo;s been sorted out. &lt;strong&gt;XeroLinux&lt;/strong&gt; is back up and running, the links are fixed, and things are slowly getting back on track. Big shoutout to that one awesome person from the &lt;strong&gt;DistroWatch&lt;/strong&gt; team who made this possible (I won&amp;rsquo;t name names, but you know who you are—thank you!).&lt;/p&gt;
 &lt;p&gt;I decided to leave this post up because, honestly, some parts are still relevant. Other distro maintainers have shared similar experiences with me, both recently and in the past. Just wanted to keep you all in the loop about what&amp;rsquo;s happened since.&lt;/p&gt;
-&lt;p&gt;If you want to help us climb the &lt;em&gt;popularity ladder&lt;/em&gt; quicker or maybe even write a quick review, you can do that &lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34;&gt;&lt;strong&gt;right here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to help us climb the &lt;em&gt;popularity ladder&lt;/em&gt; quicker or maybe even write a quick review, you can do that 
+&lt;a href=&#34;https://distrowatch.com/table.php?distribution=xero&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;right here&lt;/strong&gt;&lt;/a&gt; 
+.&lt;/p&gt;
 &lt;p&gt;But just a heads up, don’t treat &lt;strong&gt;DistroWatch&lt;/strong&gt; as the ultimate measure of popularity. That site mainly sorts distros by downloads and page views, not by actual user numbers. Plus, nobody really knows if the reviewers actually use the distro for any meaningful amount of time before leaving a review.&lt;/p&gt;
 &lt;p&gt;And hey, always take the info about any distro (not just ours) with a pinch of salt. Some of it’s spot on, some&amp;hellip; not so much. The only real way to know is to try it out yourself!&lt;/p&gt;
 &lt;p&gt;Let me know what you think of all this in the comments, I’d really love to hear your thoughts.&lt;/p&gt;
@@ -136,7 +144,11 @@
     XeroLinux Goal
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-based&lt;/em&gt; Linux distro I built mainly for myself, to make installing Arch easier using &lt;a href=&#34;https://calamares.io&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt;. And the desktop environment? Well, it’s gotta be &lt;a href=&#34;https://kde.org&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt;, obviously. At first, I went a bit overboard and packed in way too much bloat, kinda like &lt;em&gt;Garuda&lt;/em&gt;, which honestly wasn’t great. Here’s a video from the very first release so you can see just how rough it was:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-based&lt;/em&gt; Linux distro I built mainly for myself, to make installing Arch easier using 
+&lt;a href=&#34;https://calamares.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt; 
+. And the desktop environment? Well, it’s gotta be 
+&lt;a href=&#34;https://kde.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt; 
+, obviously. At first, I went a bit overboard and packed in way too much bloat, kinda like &lt;em&gt;Garuda&lt;/em&gt;, which honestly wasn’t great. Here’s a video from the very first release so you can see just how rough it was:&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/l8Z7fr79A8I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -152,7 +164,9 @@
     Benefits &amp;amp; Features
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Unlike many distros packed with tons of features and apps, &lt;strong&gt;XeroLinux&lt;/strong&gt; focuses on a smooth, easy installation and helping you learn &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; through the toolkit we provide. Check out the video below for a look:&lt;/p&gt;
+&lt;p&gt;Unlike many distros packed with tons of features and apps, &lt;strong&gt;XeroLinux&lt;/strong&gt; focuses on a smooth, easy installation and helping you learn 
+&lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; 
+ through the toolkit we provide. Check out the video below for a look:&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -166,8 +180,14 @@
     Rise &amp;amp; Fall
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating &lt;a href=&#34;https://endeavouros.com&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; at one point on &lt;a href=&#34;https://distrowatch.com&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; as long as it was &lt;em&gt;Free&lt;/em&gt; and available that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, once I added a price tag, things took a hit.&lt;/p&gt;
-&lt;p&gt;Adding &lt;a href=&#34;https://www.gnome.org&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; by popular demand brought new challenges on top of everything else&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating 
+&lt;a href=&#34;https://endeavouros.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; 
+ at one point on 
+&lt;a href=&#34;https://distrowatch.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; 
+ as long as it was &lt;em&gt;Free&lt;/em&gt; and available that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, once I added a price tag, things took a hit.&lt;/p&gt;
+&lt;p&gt;Adding 
+&lt;a href=&#34;https://www.gnome.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; 
+ by popular demand brought new challenges on top of everything else&amp;hellip;&lt;/p&gt;
 &lt;h1 id=&#34;donation-wall&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#donation-wall&#34;&gt;
@@ -177,9 +197,15 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;When I started taking on more for the project, like pumping out new versions, the costs just kept growing. Honestly, I’m one person out here in &lt;strong&gt;Lebanon&lt;/strong&gt;, and let’s just say it’s not exactly easy to find a solid job, so keeping things going got pretty tough. That’s why I had to step back for a bit and rethink everything. I even tried making it just a &lt;em&gt;post-install script&lt;/em&gt; for &lt;em&gt;Vanilla Arch&lt;/em&gt;, and that was okay for a while, but then people kept telling me to bring back the full distro, so I did.&lt;/p&gt;
-&lt;p&gt;But keeping things the same just wasn’t going to cut it if I wanted &lt;strong&gt;XeroLinux&lt;/strong&gt; to survive. Then I noticed &lt;a href=&#34;https://archcraft.io/premium.html&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt; doing their own thing, charging for &lt;em&gt;premium versions&lt;/em&gt;, and it made me think, “Hey, maybe I should try something similar.” That’s how the whole &lt;em&gt;donation wall&lt;/em&gt; idea was born. If you decide to chip in, you’re supporting the time and effort I put in, not just paying for an ISO. And relax—the code is still totally free; you can always grab it from &lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;, fork it, tweak it, or do whatever you want.&lt;/p&gt;
+&lt;p&gt;But keeping things the same just wasn’t going to cut it if I wanted &lt;strong&gt;XeroLinux&lt;/strong&gt; to survive. Then I noticed 
+&lt;a href=&#34;https://archcraft.io/premium.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt; 
+ doing their own thing, charging for &lt;em&gt;premium versions&lt;/em&gt;, and it made me think, “Hey, maybe I should try something similar.” That’s how the whole &lt;em&gt;donation wall&lt;/em&gt; idea was born. If you decide to chip in, you’re supporting the time and effort I put in, not just paying for an ISO. And relax—the code is still totally free; you can always grab it from 
+&lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt; 
+, fork it, tweak it, or do whatever you want.&lt;/p&gt;
 &lt;p&gt;Now before you say it, I will, &amp;ldquo;&lt;em&gt;But it&amp;rsquo;s not the same !&lt;/em&gt;&amp;rdquo;. Honestly, I get that it’s not exactly the same, hear me out. He gives out these free versions for people to mess around with, but let’s be real, it’s all a clever &lt;strong&gt;marketing move&lt;/strong&gt;. Pretty much every product out there has some kind of &lt;em&gt;free demo&lt;/em&gt; that’s designed to &lt;strong&gt;hook&lt;/strong&gt; you in. The whole point is to get you interested, so you’ll hopefully want to pay for the full or premium version later on.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; doesn’t roll with the same kind of strategy because, honestly, it’s just too risky. Instead, it offers other ways to get pretty close results but not exactly the same, mostly through a bunch of handy &lt;a href=&#34;https://xerolinux.xyz/scripts/&#34;&gt;&lt;strong&gt;scripts&lt;/strong&gt;&lt;/a&gt; I put out there totally free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; doesn’t roll with the same kind of strategy because, honestly, it’s just too risky. Instead, it offers other ways to get pretty close results but not exactly the same, mostly through a bunch of handy 
+&lt;a href=&#34;https://xerolinux.xyz/scripts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;scripts&lt;/strong&gt;&lt;/a&gt; 
+ I put out there totally free.&lt;/p&gt;
 &lt;p&gt;You might be wondering what I mean by &lt;em&gt;too risky&lt;/em&gt;, so here’s the deal: These scripts are powerful tools aimed mainly at folks comfortable with &lt;strong&gt;Arch Linux&lt;/strong&gt; and who know their way around the command line. They give you loads of flexibility and choice, but they’re not everyone&amp;rsquo;s cup of tea since they require some Linux know-how. So, rather than locking you into a &lt;em&gt;one-size-fits-all&lt;/em&gt; approach, I prefer giving you options, mostly for the &lt;em&gt;Linux geeks&lt;/em&gt; out there who want full control without the risk of breaking things unintentionally. If you’re more into clicking around in a GUI, no worries, you can always go with the distro itself or whatever suits your style. It’s really all about what you want to do and how deep you wanna dive into Linux fun.&lt;/p&gt;
 &lt;p&gt;If I put out a free version of the distro, most people would probably just stick with it and skip any paid ones. There’s also no way to make a &lt;em&gt;limited&lt;/em&gt; free version that works right. From being part of the Linux community for a while, I’ve noticed that many people think &lt;em&gt;Free&lt;/em&gt; in &lt;em&gt;Free Open Source&lt;/em&gt; means free beer, which it doesn’t. It actually means you have the &lt;em&gt;freedom&lt;/em&gt; to use, modify, and share the software however you want.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s why almost no one pays for such projects and we get attacked for charging for them. This has to stop or else projects will continue to fade away!&lt;/p&gt;
@@ -192,12 +218,18 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;Alright, let’s wrap things up!&lt;/p&gt;
-&lt;p&gt;Honestly, I know &lt;strong&gt;XeroLinux&lt;/strong&gt; might not pack as many flashy features as &lt;a href=&#34;https://cachyos.org&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; or some of the other distros out there, but that was never really the goal. I wanted to make something different. If you’re not vibing with the vision behind the project, that’s totally cool, just use whatever distro works for you. No hard feelings, no judgment.&lt;/p&gt;
+&lt;p&gt;Honestly, I know &lt;strong&gt;XeroLinux&lt;/strong&gt; might not pack as many flashy features as 
+&lt;a href=&#34;https://cachyos.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; 
+ or some of the other distros out there, but that was never really the goal. I wanted to make something different. If you’re not vibing with the vision behind the project, that’s totally cool, just use whatever distro works for you. No hard feelings, no judgment.&lt;/p&gt;
 &lt;p&gt;Truth is, if I ever get a little more financially secure, I swear I’ll ditch the price tag entirely and make XeroLinux free for everyone. For now though, this is my only source of income, and things are pretty tight. I just hope folks get where I’m coming from.&lt;/p&gt;
 &lt;p&gt;Huge thanks to everyone who’s stuck by the project—whether you’ve chipped in financially or donated your time. You’re the reason I’m able to keep this going, and I seriously appreciate every bit of support. If you haven’t grabbed a copy yet or aren’t sure how to help out, check out the links below and see if there’s a way you’d like to jump in.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;XeroLinux&lt;/strong&gt; ISOs =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Project Donations Page =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;XeroLinux&lt;/strong&gt; ISOs =&amp;gt; 
+&lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;Project Donations Page =&amp;gt; 
+&lt;a href=&#34;https://ko-fi.com/xerolinux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; 
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Also please let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It&amp;rsquo;s ok if you don&amp;rsquo;t agree, I will not judge you, it&amp;rsquo;s a judgement-free zone over here.&lt;/p&gt;
 &lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
@@ -220,7 +252,11 @@
     XeroLinux Goal
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-based&lt;/em&gt; Linux distro I built mainly for myself, to make installing Arch easier using &lt;a href=&#34;https://calamares.io&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt;. And the desktop environment? Well, it’s gotta be &lt;a href=&#34;https://kde.org&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt;, obviously. At first, I went a bit overboard and packed in way too much bloat, kinda like &lt;em&gt;Garuda&lt;/em&gt;, which honestly wasn’t great. Here’s a video from the very first release so you can see just how rough it was:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; is an &lt;em&gt;Arch-based&lt;/em&gt; Linux distro I built mainly for myself, to make installing Arch easier using 
+&lt;a href=&#34;https://calamares.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Calamares&lt;/strong&gt;&lt;/a&gt; 
+. And the desktop environment? Well, it’s gotta be 
+&lt;a href=&#34;https://kde.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;KDE Plasma&lt;/strong&gt;&lt;/a&gt; 
+, obviously. At first, I went a bit overboard and packed in way too much bloat, kinda like &lt;em&gt;Garuda&lt;/em&gt;, which honestly wasn’t great. Here’s a video from the very first release so you can see just how rough it was:&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/l8Z7fr79A8I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -236,7 +272,9 @@
     Benefits &amp;amp; Features
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Unlike many distros packed with tons of features and apps, &lt;strong&gt;XeroLinux&lt;/strong&gt; focuses on a smooth, easy installation and helping you learn &lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; through the toolkit we provide. Check out the video below for a look:&lt;/p&gt;
+&lt;p&gt;Unlike many distros packed with tons of features and apps, &lt;strong&gt;XeroLinux&lt;/strong&gt; focuses on a smooth, easy installation and helping you learn 
+&lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; 
+ through the toolkit we provide. Check out the video below for a look:&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YGSOthQbefI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -250,8 +288,14 @@
     Rise &amp;amp; Fall
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating &lt;a href=&#34;https://endeavouros.com&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; at one point on &lt;a href=&#34;https://distrowatch.com&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; as long as it was &lt;em&gt;Free&lt;/em&gt; and available that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, once I added a price tag, things took a hit.&lt;/p&gt;
-&lt;p&gt;Adding &lt;a href=&#34;https://www.gnome.org&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; by popular demand brought new challenges on top of everything else&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The Distro rose to become more popular than I had ever imagined, beating 
+&lt;a href=&#34;https://endeavouros.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;EndeavourOS&lt;/strong&gt;&lt;/a&gt; 
+ at one point on 
+&lt;a href=&#34;https://distrowatch.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DistroWatch&lt;/strong&gt;&lt;/a&gt; 
+ as long as it was &lt;em&gt;Free&lt;/em&gt; and available that is.. Yes, my fellow readers, that was great and all but with every rise comes a hard fall. What I mean by that is, once I added a price tag, things took a hit.&lt;/p&gt;
+&lt;p&gt;Adding 
+&lt;a href=&#34;https://www.gnome.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Gnome&lt;/strong&gt;&lt;/a&gt; 
+ by popular demand brought new challenges on top of everything else&amp;hellip;&lt;/p&gt;
 &lt;h1 id=&#34;donation-wall&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#donation-wall&#34;&gt;
@@ -261,9 +305,15 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;When I started taking on more for the project, like pumping out new versions, the costs just kept growing. Honestly, I’m one person out here in &lt;strong&gt;Lebanon&lt;/strong&gt;, and let’s just say it’s not exactly easy to find a solid job, so keeping things going got pretty tough. That’s why I had to step back for a bit and rethink everything. I even tried making it just a &lt;em&gt;post-install script&lt;/em&gt; for &lt;em&gt;Vanilla Arch&lt;/em&gt;, and that was okay for a while, but then people kept telling me to bring back the full distro, so I did.&lt;/p&gt;
-&lt;p&gt;But keeping things the same just wasn’t going to cut it if I wanted &lt;strong&gt;XeroLinux&lt;/strong&gt; to survive. Then I noticed &lt;a href=&#34;https://archcraft.io/premium.html&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt; doing their own thing, charging for &lt;em&gt;premium versions&lt;/em&gt;, and it made me think, “Hey, maybe I should try something similar.” That’s how the whole &lt;em&gt;donation wall&lt;/em&gt; idea was born. If you decide to chip in, you’re supporting the time and effort I put in, not just paying for an ISO. And relax—the code is still totally free; you can always grab it from &lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;, fork it, tweak it, or do whatever you want.&lt;/p&gt;
+&lt;p&gt;But keeping things the same just wasn’t going to cut it if I wanted &lt;strong&gt;XeroLinux&lt;/strong&gt; to survive. Then I noticed 
+&lt;a href=&#34;https://archcraft.io/premium.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ArchCraft&lt;/strong&gt;&lt;/a&gt; 
+ doing their own thing, charging for &lt;em&gt;premium versions&lt;/em&gt;, and it made me think, “Hey, maybe I should try something similar.” That’s how the whole &lt;em&gt;donation wall&lt;/em&gt; idea was born. If you decide to chip in, you’re supporting the time and effort I put in, not just paying for an ISO. And relax—the code is still totally free; you can always grab it from 
+&lt;a href=&#34;https://github.com/XeroLinuxDev/xero-build&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt; 
+, fork it, tweak it, or do whatever you want.&lt;/p&gt;
 &lt;p&gt;Now before you say it, I will, &amp;ldquo;&lt;em&gt;But it&amp;rsquo;s not the same !&lt;/em&gt;&amp;rdquo;. Honestly, I get that it’s not exactly the same, hear me out. He gives out these free versions for people to mess around with, but let’s be real, it’s all a clever &lt;strong&gt;marketing move&lt;/strong&gt;. Pretty much every product out there has some kind of &lt;em&gt;free demo&lt;/em&gt; that’s designed to &lt;strong&gt;hook&lt;/strong&gt; you in. The whole point is to get you interested, so you’ll hopefully want to pay for the full or premium version later on.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; doesn’t roll with the same kind of strategy because, honestly, it’s just too risky. Instead, it offers other ways to get pretty close results but not exactly the same, mostly through a bunch of handy &lt;a href=&#34;https://xerolinux.xyz/scripts/&#34;&gt;&lt;strong&gt;scripts&lt;/strong&gt;&lt;/a&gt; I put out there totally free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt; doesn’t roll with the same kind of strategy because, honestly, it’s just too risky. Instead, it offers other ways to get pretty close results but not exactly the same, mostly through a bunch of handy 
+&lt;a href=&#34;https://xerolinux.xyz/scripts/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;scripts&lt;/strong&gt;&lt;/a&gt; 
+ I put out there totally free.&lt;/p&gt;
 &lt;p&gt;You might be wondering what I mean by &lt;em&gt;too risky&lt;/em&gt;, so here’s the deal: These scripts are powerful tools aimed mainly at folks comfortable with &lt;strong&gt;Arch Linux&lt;/strong&gt; and who know their way around the command line. They give you loads of flexibility and choice, but they’re not everyone&amp;rsquo;s cup of tea since they require some Linux know-how. So, rather than locking you into a &lt;em&gt;one-size-fits-all&lt;/em&gt; approach, I prefer giving you options, mostly for the &lt;em&gt;Linux geeks&lt;/em&gt; out there who want full control without the risk of breaking things unintentionally. If you’re more into clicking around in a GUI, no worries, you can always go with the distro itself or whatever suits your style. It’s really all about what you want to do and how deep you wanna dive into Linux fun.&lt;/p&gt;
 &lt;p&gt;If I put out a free version of the distro, most people would probably just stick with it and skip any paid ones. There’s also no way to make a &lt;em&gt;limited&lt;/em&gt; free version that works right. From being part of the Linux community for a while, I’ve noticed that many people think &lt;em&gt;Free&lt;/em&gt; in &lt;em&gt;Free Open Source&lt;/em&gt; means free beer, which it doesn’t. It actually means you have the &lt;em&gt;freedom&lt;/em&gt; to use, modify, and share the software however you want.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s why almost no one pays for such projects and we get attacked for charging for them. This has to stop or else projects will continue to fade away!&lt;/p&gt;
@@ -276,12 +326,18 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;Alright, let’s wrap things up!&lt;/p&gt;
-&lt;p&gt;Honestly, I know &lt;strong&gt;XeroLinux&lt;/strong&gt; might not pack as many flashy features as &lt;a href=&#34;https://cachyos.org&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; or some of the other distros out there, but that was never really the goal. I wanted to make something different. If you’re not vibing with the vision behind the project, that’s totally cool, just use whatever distro works for you. No hard feelings, no judgment.&lt;/p&gt;
+&lt;p&gt;Honestly, I know &lt;strong&gt;XeroLinux&lt;/strong&gt; might not pack as many flashy features as 
+&lt;a href=&#34;https://cachyos.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;CachyOS&lt;/strong&gt;&lt;/a&gt; 
+ or some of the other distros out there, but that was never really the goal. I wanted to make something different. If you’re not vibing with the vision behind the project, that’s totally cool, just use whatever distro works for you. No hard feelings, no judgment.&lt;/p&gt;
 &lt;p&gt;Truth is, if I ever get a little more financially secure, I swear I’ll ditch the price tag entirely and make XeroLinux free for everyone. For now though, this is my only source of income, and things are pretty tight. I just hope folks get where I’m coming from.&lt;/p&gt;
 &lt;p&gt;Huge thanks to everyone who’s stuck by the project—whether you’ve chipped in financially or donated your time. You’re the reason I’m able to keep this going, and I seriously appreciate every bit of support. If you haven’t grabbed a copy yet or aren’t sure how to help out, check out the links below and see if there’s a way you’d like to jump in.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &lt;strong&gt;XeroLinux&lt;/strong&gt; ISOs =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Project Donations Page =&amp;gt; &lt;a href=&#34;https://ko-fi.com/xerolinux&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;XeroLinux&lt;/strong&gt; ISOs =&amp;gt; 
+&lt;a href=&#34;https://ko-fi.com/xerolinux/shop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;Project Donations Page =&amp;gt; 
+&lt;a href=&#34;https://ko-fi.com/xerolinux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Here&lt;/strong&gt;&lt;/a&gt; 
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Also please let me know your thoughts in the comments below, tell me if you agree or disagree with the reasoning behind my actions. It&amp;rsquo;s ok if you don&amp;rsquo;t agree, I will not judge you, it&amp;rsquo;s a judgement-free zone over here.&lt;/p&gt;
 &lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
@@ -424,7 +480,11 @@
     Background
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;In case you don&amp;rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an &lt;a href=&#34;https://archlinux.org&#34;&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/a&gt; user for the past 7 years, or so, maintaining my very own &lt;em&gt;Arch-Based&lt;/em&gt; Distro for past 4 almost 5 called &lt;a href=&#34;https://xerolinux.xyz&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt;. I haven&amp;rsquo;t really used anything else long-term since. Until now that is&amp;hellip;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;In case you don&amp;rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an 
+&lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/a&gt; 
+ user for the past 7 years, or so, maintaining my very own &lt;em&gt;Arch-Based&lt;/em&gt; Distro for past 4 almost 5 called 
+&lt;a href=&#34;https://xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; 
+. I haven&amp;rsquo;t really used anything else long-term since. Until now that is&amp;hellip;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lsYg6-wUWXw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -451,7 +511,9 @@
 &lt;/h1&gt;
 &lt;p&gt;Having established my background and perspective, it&amp;rsquo;s important to state that it&amp;rsquo;s still too early for me to offer a complete judgment on the distribution or its underlying language. I will be regularly updating this post as I continue my journey, so feel free to bookmark it if you&amp;rsquo;re interested in further insights. As of writing this post, I have been using the system for 7 Days.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/sDDUARJ.png&#34; alt=&#34;nixos&#34;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;As you can see from the image above, I was able to import my &lt;a href=&#34;https://wiki.xerolinux.xyz/rices/&#34;&gt;&lt;strong&gt;Xero-Layan&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;KDE Plasma&lt;/strong&gt; rice from &lt;strong&gt;XeroLinux&lt;/strong&gt;. It wasn&amp;rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on &lt;strong&gt;NixOS&lt;/strong&gt;. Which I have luckily enough. Though the package names were weird to say the least.&lt;/p&gt;
+&lt;p&gt;As you can see from the image above, I was able to import my 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/rices/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Xero-Layan&lt;/strong&gt;&lt;/a&gt; 
+ &lt;strong&gt;KDE Plasma&lt;/strong&gt; rice from &lt;strong&gt;XeroLinux&lt;/strong&gt;. It wasn&amp;rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on &lt;strong&gt;NixOS&lt;/strong&gt;. Which I have luckily enough. Though the package names were weird to say the least.&lt;/p&gt;
 &lt;h1 id=&#34;the-nixos-config-file&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#the-nixos-config-file&#34;&gt;
@@ -462,7 +524,9 @@
 &lt;/h1&gt;
 &lt;p&gt;After almost a decade of following what I’ll call “The Linux Way,” I’ve become very comfortable with the traditional methods, mounting drives, installing packages, and updating my system, knowing that these processes are nearly identical across distributions like &lt;strong&gt;Debian&lt;/strong&gt; or &lt;strong&gt;Arch&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NixOS&lt;/strong&gt;, however, takes a different approach. While familiar tools like mount are still available, the recommended method is to handle these configurations through the &lt;code&gt;hardware-configuration.nix&lt;/code&gt; file or by defining them in &lt;code&gt;configuration.nix&lt;/code&gt;. The same goes for mounting the various drives, they belong in the config files.&lt;/p&gt;
-&lt;p&gt;I’ve just finalized my &lt;a href=&#34;https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix&#34;&gt;&lt;strong&gt;NixOS Configuration&lt;/strong&gt;&lt;/a&gt;, successfully mounting all my drives, setting &lt;strong&gt;Wayland&lt;/strong&gt; as the default, enabling &lt;strong&gt;ZSH/OhMyZSH&lt;/strong&gt;, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.&lt;/p&gt;
+&lt;p&gt;I’ve just finalized my 
+&lt;a href=&#34;https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;NixOS Configuration&lt;/strong&gt;&lt;/a&gt; 
+, successfully mounting all my drives, setting &lt;strong&gt;Wayland&lt;/strong&gt; as the default, enabling &lt;strong&gt;ZSH/OhMyZSH&lt;/strong&gt;, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.&lt;/p&gt;
 &lt;h1 id=&#34;nixos-packages--updates&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#nixos-packages--updates&#34;&gt;
@@ -482,7 +546,9 @@
     NixOS Generations
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Long story short, every time the system state is rebuilt using &lt;code&gt;nixos-rebuild switch&lt;/code&gt;, a new &lt;a href=&#34;https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations&#34;&gt;&lt;em&gt;generation&lt;/em&gt;&lt;/a&gt; is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.&lt;/p&gt;
+&lt;p&gt;Long story short, every time the system state is rebuilt using &lt;code&gt;nixos-rebuild switch&lt;/code&gt;, a new 
+&lt;a href=&#34;https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;generation&lt;/em&gt;&lt;/a&gt; 
+ is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.&lt;/p&gt;
 &lt;p&gt;This can quickly become overwhelming, particularly when dealing with the &lt;em&gt;bootloader&lt;/em&gt;. Accumulating over 100 generations isn&amp;rsquo;t ideal, which is why I&amp;rsquo;ve added an alias to my &lt;code&gt;.bashrc&lt;/code&gt; file. This alias automatically removes all old generations, keeping only the most recent one after I&amp;rsquo;ve confirmed its stability. Feel free to add it to your setup if you find it useful.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;ncg&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;nix-collect-garbage --delete-old &amp;amp;&amp;amp; sudo nix-collect-garbage -d &amp;amp;&amp;amp; sudo /run/current-system/bin/switch-to-configuration boot&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;flakes--home-manager&#34; &gt;
@@ -493,8 +559,12 @@
     Flakes &amp;amp; Home-Manager
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;From the get-go I decided I will never use &lt;a href=&#34;https://nix-community.github.io/home-manager/index.xhtml#ch-introduction&#34;&gt;&lt;strong&gt;Home-Manager&lt;/strong&gt;&lt;/a&gt; thing. I do not like the ideology behind it. I want to keep it simple.&lt;/p&gt;
-&lt;p&gt;However, I am willing to go to the next level with something called &lt;a href=&#34;https://wiki.nixos.org/wiki/Flakes&#34;&gt;&lt;strong&gt;Flakes&lt;/strong&gt;&lt;/a&gt;. Right now though, I am still at the beginning of my &lt;strong&gt;NixOS&lt;/strong&gt; adventure/challenge.&lt;/p&gt;
+&lt;p&gt;From the get-go I decided I will never use 
+&lt;a href=&#34;https://nix-community.github.io/home-manager/index.xhtml#ch-introduction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Home-Manager&lt;/strong&gt;&lt;/a&gt; 
+ thing. I do not like the ideology behind it. I want to keep it simple.&lt;/p&gt;
+&lt;p&gt;However, I am willing to go to the next level with something called 
+&lt;a href=&#34;https://wiki.nixos.org/wiki/Flakes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Flakes&lt;/strong&gt;&lt;/a&gt; 
+. Right now though, I am still at the beginning of my &lt;strong&gt;NixOS&lt;/strong&gt; adventure/challenge.&lt;/p&gt;
 &lt;h1 id=&#34;conclusion&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#conclusion&#34;&gt;
@@ -515,7 +585,11 @@
     Background
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;In case you don&amp;rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an &lt;a href=&#34;https://archlinux.org&#34;&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/a&gt; user for the past 7 years, or so, maintaining my very own &lt;em&gt;Arch-Based&lt;/em&gt; Distro for past 4 almost 5 called &lt;a href=&#34;https://xerolinux.xyz&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt;. I haven&amp;rsquo;t really used anything else long-term since. Until now that is&amp;hellip;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;In case you don&amp;rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an 
+&lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/a&gt; 
+ user for the past 7 years, or so, maintaining my very own &lt;em&gt;Arch-Based&lt;/em&gt; Distro for past 4 almost 5 called 
+&lt;a href=&#34;https://xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; 
+. I haven&amp;rsquo;t really used anything else long-term since. Until now that is&amp;hellip;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lsYg6-wUWXw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -542,7 +616,9 @@
 &lt;/h1&gt;
 &lt;p&gt;Having established my background and perspective, it&amp;rsquo;s important to state that it&amp;rsquo;s still too early for me to offer a complete judgment on the distribution or its underlying language. I will be regularly updating this post as I continue my journey, so feel free to bookmark it if you&amp;rsquo;re interested in further insights. As of writing this post, I have been using the system for 7 Days.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/sDDUARJ.png&#34; alt=&#34;nixos&#34;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;As you can see from the image above, I was able to import my &lt;a href=&#34;https://wiki.xerolinux.xyz/rices/&#34;&gt;&lt;strong&gt;Xero-Layan&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;KDE Plasma&lt;/strong&gt; rice from &lt;strong&gt;XeroLinux&lt;/strong&gt;. It wasn&amp;rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on &lt;strong&gt;NixOS&lt;/strong&gt;. Which I have luckily enough. Though the package names were weird to say the least.&lt;/p&gt;
+&lt;p&gt;As you can see from the image above, I was able to import my 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/rices/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Xero-Layan&lt;/strong&gt;&lt;/a&gt; 
+ &lt;strong&gt;KDE Plasma&lt;/strong&gt; rice from &lt;strong&gt;XeroLinux&lt;/strong&gt;. It wasn&amp;rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on &lt;strong&gt;NixOS&lt;/strong&gt;. Which I have luckily enough. Though the package names were weird to say the least.&lt;/p&gt;
 &lt;h1 id=&#34;the-nixos-config-file&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#the-nixos-config-file&#34;&gt;
@@ -553,7 +629,9 @@
 &lt;/h1&gt;
 &lt;p&gt;After almost a decade of following what I’ll call “The Linux Way,” I’ve become very comfortable with the traditional methods, mounting drives, installing packages, and updating my system, knowing that these processes are nearly identical across distributions like &lt;strong&gt;Debian&lt;/strong&gt; or &lt;strong&gt;Arch&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NixOS&lt;/strong&gt;, however, takes a different approach. While familiar tools like mount are still available, the recommended method is to handle these configurations through the &lt;code&gt;hardware-configuration.nix&lt;/code&gt; file or by defining them in &lt;code&gt;configuration.nix&lt;/code&gt;. The same goes for mounting the various drives, they belong in the config files.&lt;/p&gt;
-&lt;p&gt;I’ve just finalized my &lt;a href=&#34;https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix&#34;&gt;&lt;strong&gt;NixOS Configuration&lt;/strong&gt;&lt;/a&gt;, successfully mounting all my drives, setting &lt;strong&gt;Wayland&lt;/strong&gt; as the default, enabling &lt;strong&gt;ZSH/OhMyZSH&lt;/strong&gt;, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.&lt;/p&gt;
+&lt;p&gt;I’ve just finalized my 
+&lt;a href=&#34;https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;NixOS Configuration&lt;/strong&gt;&lt;/a&gt; 
+, successfully mounting all my drives, setting &lt;strong&gt;Wayland&lt;/strong&gt; as the default, enabling &lt;strong&gt;ZSH/OhMyZSH&lt;/strong&gt;, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.&lt;/p&gt;
 &lt;h1 id=&#34;nixos-packages--updates&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#nixos-packages--updates&#34;&gt;
@@ -573,7 +651,9 @@
     NixOS Generations
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;Long story short, every time the system state is rebuilt using &lt;code&gt;nixos-rebuild switch&lt;/code&gt;, a new &lt;a href=&#34;https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations&#34;&gt;&lt;em&gt;generation&lt;/em&gt;&lt;/a&gt; is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.&lt;/p&gt;
+&lt;p&gt;Long story short, every time the system state is rebuilt using &lt;code&gt;nixos-rebuild switch&lt;/code&gt;, a new 
+&lt;a href=&#34;https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;generation&lt;/em&gt;&lt;/a&gt; 
+ is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.&lt;/p&gt;
 &lt;p&gt;This can quickly become overwhelming, particularly when dealing with the &lt;em&gt;bootloader&lt;/em&gt;. Accumulating over 100 generations isn&amp;rsquo;t ideal, which is why I&amp;rsquo;ve added an alias to my &lt;code&gt;.bashrc&lt;/code&gt; file. This alias automatically removes all old generations, keeping only the most recent one after I&amp;rsquo;ve confirmed its stability. Feel free to add it to your setup if you find it useful.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;ncg&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;nix-collect-garbage --delete-old &amp;amp;&amp;amp; sudo nix-collect-garbage -d &amp;amp;&amp;amp; sudo /run/current-system/bin/switch-to-configuration boot&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;flakes--home-manager&#34; &gt;
@@ -584,8 +664,12 @@
     Flakes &amp;amp; Home-Manager
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;From the get-go I decided I will never use &lt;a href=&#34;https://nix-community.github.io/home-manager/index.xhtml#ch-introduction&#34;&gt;&lt;strong&gt;Home-Manager&lt;/strong&gt;&lt;/a&gt; thing. I do not like the ideology behind it. I want to keep it simple.&lt;/p&gt;
-&lt;p&gt;However, I am willing to go to the next level with something called &lt;a href=&#34;https://wiki.nixos.org/wiki/Flakes&#34;&gt;&lt;strong&gt;Flakes&lt;/strong&gt;&lt;/a&gt;. Right now though, I am still at the beginning of my &lt;strong&gt;NixOS&lt;/strong&gt; adventure/challenge.&lt;/p&gt;
+&lt;p&gt;From the get-go I decided I will never use 
+&lt;a href=&#34;https://nix-community.github.io/home-manager/index.xhtml#ch-introduction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Home-Manager&lt;/strong&gt;&lt;/a&gt; 
+ thing. I do not like the ideology behind it. I want to keep it simple.&lt;/p&gt;
+&lt;p&gt;However, I am willing to go to the next level with something called 
+&lt;a href=&#34;https://wiki.nixos.org/wiki/Flakes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Flakes&lt;/strong&gt;&lt;/a&gt; 
+. Right now though, I am still at the beginning of my &lt;strong&gt;NixOS&lt;/strong&gt; adventure/challenge.&lt;/p&gt;
 &lt;h1 id=&#34;conclusion&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#conclusion&#34;&gt;
