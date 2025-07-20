@@ -17,20 +17,22 @@ description = "Home of a FOSS Maintainer"
 dateFormat = "2006-01-02"
 paginationSinglePost = true
 
+rssIcon = true
 locale = "en-us"
 
 [params.anubis2]
     tocWordCount = true
     enableRssIcon = true
-    readNextPosts = 2
+    readNextPosts = 10
     openInNewTab = true
+    enableSummary = true
     enableCopyCodeButton = true
     enableReadMoreButton = true
     hideFooterAttribution = false # hide "Powered by Hugo, theme" in footer
     colorTheme = "dark"
     enableColorThemeSwitcher = false
 
-    social = [
+    socialIcons = [
         { id = "github", url = "https://github.com/DarkXero-dev" },
         { id = "linkedin", url = "https://www.linkedin.com/in/schaanine/" },
         { id = "email", url = "info@techxero.com.com" },
