@@ -24,9 +24,7 @@ Starting with the **Good**—DistroWatch is basically the reason a lot of distro
 
 Now for the **Bad**—there’s a downside. The site isn’t really well-moderated. That means anyone can post whatever, true or not, and it just stays there. The admins don’t seem to verify or control what’s being said about distros. So you end up with stuff floating around that might be misleading or flat out wrong. Not cool, in my opinion.
 
-And finally, the **Ugly**—which is the main reason I’m venting here. **XeroLinux** has been listed on DistroWatch since 2022 and was gradually gaining traction. Then, when I had to step away due to burnout, they marked it as **Discontinued**. *No longer is, check update below*.
-
-At first, I was like, fine, no big deal. But the distro’s been back in action nearly a year now, and despite my repeated **emails**, **Mastodon** messages, and even supporting them on **Patreon** asking to update the status, nothing’s changed. Total radio silence. At this point, I’m convinced it’s all managed by some kind of **A.I** that doesn’t care about the hard work behind projects. It’s super frustrating and disrespectful. I rely on that exposure, yet they just ignore me. What kind of site does that? A bad one.
+And finally, the **Ugly**, which is the main reason I’m venting here. **XeroLinux** has been listed on **DistroWatch** since 2022 and was gradually gaining traction. Then, when I had to step away due to burnout, they marked it as **Discontinued**. *No longer is, check update below*.
 
 # Situation Update
 
