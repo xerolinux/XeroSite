@@ -28,7 +28,7 @@ And finally, the **Ugly**—which is the main reason I’m venting here. **XeroL
 
 At first, I was like, fine, no big deal. But the distro’s been back in action nearly a year now, and despite my repeated **emails**, **Mastodon** messages, and even supporting them on **Patreon** asking to update the status, nothing’s changed. Total radio silence. At this point, I’m convinced it’s all managed by some kind of **A.I** that doesn’t care about the hard work behind projects. It’s super frustrating and disrespectful. I rely on that exposure, yet they just ignore me. What kind of site does that? A bad one.
 
-## Situation Update
+# Situation Update
 
 Since publishing this post, situation has been resolved. **XeroLinux** has been re-instated, links updated, and slowly getting back on the ladder. It was all thanks to one person from the **DistroWatch** team. I dunno if I should mention his name, but thanks nevertheless. 
 
