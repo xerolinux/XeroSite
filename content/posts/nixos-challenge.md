@@ -66,6 +66,8 @@ However, I am willing to go to the next level with something called [**Flakes**]
 
 After about **2 weeks** of poking around and tweaking things, I finally felt chill enough to jump into the world of **Flakes**. If I’m honest, the biggest reason was my growing obsession with **Flatpaks**. I wanted a straightforward, *declarative* way to install them, and **Flakes** was basically my only escape hatch for making it happen. So, I finally crossed that line.
 
+![XeroNix](https://i.imgur.com/JGD3Bfp.png)<br />
+
 Not a ton else has changed, you know how it goes with these setups, but I did have my own little victory: I managed to get **Virt-Manager** all set up, with the networking actually working for once (which, if you know, you know how annoying that can be). It felt pretty nice pulling all these pieces together. There’s something satisfying about seeing everything actually work after a bunch of trial and error !
 
 Access my **Flakes** on the [**XeroNix Repo**](https://github.com/DarkXero-dev/XeroNix)
