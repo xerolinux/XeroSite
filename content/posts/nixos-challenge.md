@@ -64,7 +64,7 @@ However, I am willing to go to the next level with something called [**Flakes**]
 
 # Update 1
 
-After about **2 weeks** of poking around and tweaking things, I finally felt chill enough to jump into the world of **Flakes**. If I’m honest, the biggest reason was my growing obsession with **Flatpaks**. I wanted a straightforward, *declarative* way to install them, and **Flakes** was basically my only escape hatch for making it happen. So, I finally crossed that line.
+After about **2 weeks** of poking around and tweaking things, I finally felt chill enough to jump into the world of **Flakes**. If I’m honest, the biggest reason was my growing obsession with **Flatpaks**. I wanted a straightforward, *declarative* way to install them, and **Flakes** was basically my only escape hatch for making it happen. So, I finally crossed that line.<br /><br />
 
 ![XeroNix](https://i.imgur.com/JGD3Bfp.png)<br />
 
