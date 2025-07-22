@@ -1,7 +1,7 @@
 ---
 title: "NixOS Challenge"
 description: "Trials & Tribulations of an Arch Maintainer"
-date: "2025-07-14"
+date: "2025-07-22"
 aliases: ["foss","linux","nixos"]
 author: "DarkXero"
 ---

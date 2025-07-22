@@ -1,7 +1,7 @@
 ---
 title: "DistroWatch"
 description: "Scummy Behavior"
-date: "2025-07-18"
+date: "2025-07-21"
 aliases: ["foss","linux","distrowatch","xerolinux","status"]
 author: "DarkXero"
 ---

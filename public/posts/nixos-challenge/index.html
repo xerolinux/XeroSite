@@ -25,7 +25,7 @@
 
 
 <link rel="icon" type="image/x-icon" href="https://bytes.xerolinux.xyz/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/favicon.png">
 
 
 
@@ -340,7 +340,7 @@
 <div class="post-info noselect">
     
         <div class="post-date dt-published">
-            <time datetime="2025-07-14">2025-07-14</time>
+            <time datetime="2025-07-22">2025-07-22</time>
             
         </div>
     
@@ -395,7 +395,11 @@
     Background
 </div>
 </h1>
-<p>In case you don&rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an <a href="https://archlinux.org" target="_blank" rel="noopener noreferrer"><strong>ArchLinux</strong></a> user for the past 7 years, or so, maintaining my very own <em>Arch-Based</em> Distro for past 4 almost 5 called <a href="https://xerolinux.xyz" target="_blank" rel="noopener noreferrer"><strong>XeroLinux</strong></a>. I haven&rsquo;t really used anything else long-term since. Until now that is&hellip;<br /><br /></p>
+<p>In case you don&rsquo;t know by now, or are new to this site/blog, let me give you some background before going through with this post. I am and have been an 
+<a href="https://archlinux.org" target="_blank" rel="noopener"><strong>ArchLinux</strong></a> 
+ user for the past 7 years, or so, maintaining my very own <em>Arch-Based</em> Distro for past 4 almost 5 called 
+<a href="https://xerolinux.xyz" target="_blank" rel="noopener"><strong>XeroLinux</strong></a> 
+. I haven&rsquo;t really used anything else long-term since. Until now that is&hellip;<br /><br /></p>
 <p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lsYg6-wUWXw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
@@ -422,7 +426,9 @@
 </h1>
 <p>Having established my background and perspective, it&rsquo;s important to state that it&rsquo;s still too early for me to offer a complete judgment on the distribution or its underlying language. I will be regularly updating this post as I continue my journey, so feel free to bookmark it if you&rsquo;re interested in further insights. As of writing this post, I have been using the system for 7 Days.<br /><br /></p>
 <p><img src="https://i.imgur.com/sDDUARJ.png" alt="nixos"><br /></p>
-<p>As you can see from the image above, I was able to import my <a href="https://wiki.xerolinux.xyz/rices/" target="_blank" rel="noopener noreferrer"><strong>Xero-Layan</strong></a> <strong>KDE Plasma</strong> rice from <strong>XeroLinux</strong>. It wasn&rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on <strong>NixOS</strong>. Which I have luckily enough. Though the package names were weird to say the least.</p>
+<p>As you can see from the image above, I was able to import my 
+<a href="https://wiki.xerolinux.xyz/rices/" target="_blank" rel="noopener"><strong>Xero-Layan</strong></a> 
+ <strong>KDE Plasma</strong> rice from <strong>XeroLinux</strong>. It wasn&rsquo;t that hard once you got the required knowledge. The only complex part was finding all packages I needed on <strong>NixOS</strong>. Which I have luckily enough. Though the package names were weird to say the least.</p>
 <h1 id="the-nixos-config-file" >
 <div>
     <a href="#the-nixos-config-file">
@@ -453,7 +459,9 @@
     NixOS Generations
 </div>
 </h1>
-<p>Long story short, every time the system state is rebuilt using <code>nixos-rebuild switch</code>, a new <a href="https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations" target="_blank" rel="noopener noreferrer"><em>generation</em></a> is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.</p>
+<p>Long story short, every time the system state is rebuilt using <code>nixos-rebuild switch</code>, a new 
+<a href="https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations" target="_blank" rel="noopener"><em>generation</em></a> 
+ is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.</p>
 <p>This can quickly become overwhelming, particularly when dealing with the <em>bootloader</em>. Accumulating over 100 generations isn&rsquo;t ideal, which is why I&rsquo;ve added an alias to my <code>.bashrc</code> file. This alias automatically removes all old generations, keeping only the most recent one after I&rsquo;ve confirmed its stability. Feel free to add it to your setup if you find it useful.<br /><br /></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">alias</span> <span style="color:#8be9fd;font-style:italic">ncg</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;nix-collect-garbage --delete-old &amp;&amp; sudo nix-collect-garbage -d &amp;&amp; sudo /run/current-system/bin/switch-to-configuration boot&#34;</span>
 </span></span></code></pre></div><h1 id="flakes--home-manager" >
@@ -464,8 +472,12 @@
     Flakes &amp; Home-Manager
 </div>
 </h1>
-<p>From the get-go I decided I will never use <a href="https://nix-community.github.io/home-manager/index.xhtml#ch-introduction" target="_blank" rel="noopener noreferrer"><strong>Home-Manager</strong></a> thing. I do not like the ideology behind it. I want to keep it simple.</p>
-<p>However, I am willing to go to the next level with something called <a href="https://wiki.nixos.org/wiki/Flakes" target="_blank" rel="noopener noreferrer"><strong>Flakes</strong></a>. Right now though, I am still at the beginning of my <strong>NixOS</strong> adventure/challenge.</p>
+<p>From the get-go I decided I will never use 
+<a href="https://nix-community.github.io/home-manager/index.xhtml#ch-introduction" target="_blank" rel="noopener"><strong>Home-Manager</strong></a> 
+ thing. I do not like the ideology behind it. I want to keep it simple.</p>
+<p>However, I am willing to go to the next level with something called 
+<a href="https://wiki.nixos.org/wiki/Flakes" target="_blank" rel="noopener"><strong>Flakes</strong></a> 
+. Right now though, I am still at the beginning of my <strong>NixOS</strong> adventure/challenge.</p>
 <h1 id="update-1" >
 <div>
     <a href="#update-1">
@@ -477,7 +489,9 @@
 <p>After about <strong>2 weeks</strong> of poking around and tweaking things, I finally felt chill enough to jump into the world of <strong>Flakes</strong>. If I’m honest, the biggest reason was my growing obsession with <strong>Flatpaks</strong>. I wanted a straightforward, <em>declarative</em> way to install them, and <strong>Flakes</strong> was basically my only escape hatch for making it happen. So, I finally crossed that line.<br /><br /></p>
 <p><img src="https://i.imgur.com/JGD3Bfp.png" alt="XeroNix"><br /></p>
 <p>Not a ton else has changed, you know how it goes with these setups, but I did have my own little victory: I managed to get <strong>Virt-Manager</strong> all set up, with the networking actually working for once (which, if you know, you know how annoying that can be). It felt pretty nice pulling all these pieces together. There’s something satisfying about seeing everything actually work after a bunch of trial and error !</p>
-<p>Access my <strong>Flakes</strong> on the <a href="https://github.com/DarkXero-dev/XeroNix" target="_blank" rel="noopener noreferrer"><strong>XeroNix Repo</strong></a></p>
+<p>Access my <strong>Flakes</strong> on the 
+<a href="https://github.com/DarkXero-dev/XeroNix" target="_blank" rel="noopener"><strong>XeroNix Repo</strong></a> 
+</p>
 <h1 id="conclusion" >
 <div>
     <a href="#conclusion">
