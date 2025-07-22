@@ -18,9 +18,7 @@
 
 <title>Linux in a Nutshell - DarkXero Bytes</title>
 
-<meta name="description" content="I thought I&rsquo;d share this explanation about Linux a good friend and fellow Linux enthusiast 
-REALERvolker1 
- recently posted on Discord.
+<meta name="description" content="I thought I&rsquo;d share this explanation about Linux a good friend and fellow Linux enthusiast REALERvolker1 recently posted on Discord.
 
 
     
@@ -30,20 +28,14 @@ REALERvolker1
 
 
 Since not everyone&rsquo;s super familiar with Linux, here&rsquo;s a quick crash course.
-Linux is a 
-Monolithic Kernel 
-, so all the drivers and whatnot are compiled into the binary. The 
-Nonfree software 
- is usually put in the actual source repo as binary blobs, or in the case of nVidia drivers, built using a system called 
-DKMS 
- and compiled into the kernel binary.">
+Linux is a Monolithic Kernel, so all the drivers and whatnot are compiled into the binary. The Nonfree software is usually put in the actual source repo as binary blobs, or in the case of nVidia drivers, built using a system called DKMS and compiled into the kernel binary.">
 
 
 
 
 
 <link rel="icon" type="image/x-icon" href="https://bytes.xerolinux.xyz/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="https://bytes.xerolinux.xyz/apple-touch-icon.png">
 
 
 
@@ -400,9 +392,7 @@ DKMS
 </script>
 
         <div class="content e-content">
-            <p>I thought I&rsquo;d share this explanation about <strong>Linux</strong> a good friend and fellow Linux enthusiast 
-<a href="https://github.com/REALERvolker1" target="_blank" rel="noopener"><strong>REALERvolker1</strong></a> 
- recently posted on <strong>Discord</strong>.</p>
+            <p>I thought I&rsquo;d share this explanation about <strong>Linux</strong> a good friend and fellow Linux enthusiast <a href="https://github.com/REALERvolker1" target="_blank" rel="noopener noreferrer"><strong>REALERvolker1</strong></a> recently posted on <strong>Discord</strong>.</p>
 <h1 id="what-is-linux-" >
 <div>
     <a href="#what-is-linux-">
@@ -412,17 +402,9 @@ DKMS
 </div>
 </h1>
 <p>Since not everyone&rsquo;s super familiar with Linux, here&rsquo;s a quick crash course.</p>
-<p>Linux is a 
-<a href="https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware." target="_blank" rel="noopener"><strong>Monolithic Kernel</strong></a> 
-, so all the drivers and whatnot are compiled into the binary. The 
-<a href="https://www.fsf.org/about/what-is-free-software" target="_blank" rel="noopener"><strong>Nonfree software</strong></a> 
- is usually put in the actual source repo as binary blobs, or in the case of <strong>nVidia</strong> drivers, built using a system called 
-<a href="https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support" target="_blank" rel="noopener"><strong>DKMS</strong></a> 
- and compiled into the kernel binary.</p>
+<p>Linux is a <a href="https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware." target="_blank" rel="noopener noreferrer"><strong>Monolithic Kernel</strong></a>, so all the drivers and whatnot are compiled into the binary. The <a href="https://www.fsf.org/about/what-is-free-software" target="_blank" rel="noopener noreferrer"><strong>Nonfree software</strong></a> is usually put in the actual source repo as binary blobs, or in the case of <strong>nVidia</strong> drivers, built using a system called <a href="https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support" target="_blank" rel="noopener noreferrer"><strong>DKMS</strong></a> and compiled into the kernel binary.</p>
 <p>Once the computer boots up, an init process is started (the default is <code>/sbin/init</code>, usually a symlink to your init system), which is <code>PID 1</code>. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having <em>too</em> much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.</p>
-<p>Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being 
-<a href="https://en.wikipedia.org/wiki/POSIX" target="_blank" rel="noopener"><strong>POSIX</strong></a> 
- compliant, and not really caring about file extensions.</p>
+<p>Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being <a href="https://en.wikipedia.org/wiki/POSIX" target="_blank" rel="noopener noreferrer"><strong>POSIX</strong></a> compliant, and not really caring about file extensions.</p>
 <p align="center">
     <img width="600" src="https://i.imgur.com/Mu7NHx9.png" alt="logo">
 </p>
@@ -434,16 +416,8 @@ DKMS
     Distros &amp; PKG Managers
 </div>
 </h1>
-<p>On 
-<a href="https://www.debian.org" target="_blank" rel="noopener"><strong>Debian</strong></a> 
-, you install packages with <code>apt</code>. If you can&rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a <em>GUI</em> frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&rsquo;t install programs by downloading them from the internet. If you have any questions, the 
-<a href="https://wiki.debian.org/DontBreakDebian" target="_blank" rel="noopener"><strong>Debian Wiki</strong></a> 
- is pretty mid, but the 
-<a href="https://wiki.archlinux.org" target="_blank" rel="noopener"><strong>Arch Wiki</strong></a> 
- is amazing.</p>
-<p>Since 
-<a href="https://archlinux.org" target="_blank" rel="noopener"><strong>Arch Linux</strong></a> 
- aims to be the most generic <em>Linux distro</em> ever, information written for it should also help with <strong>Debian</strong>, as long as the Arch package didn&rsquo;t receive significant updates in the meantime. There are other ways to install software, like:</p>
+<p>On <a href="https://www.debian.org" target="_blank" rel="noopener noreferrer"><strong>Debian</strong></a>, you install packages with <code>apt</code>. If you can&rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a <em>GUI</em> frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&rsquo;t install programs by downloading them from the internet. If you have any questions, the <a href="https://wiki.debian.org/DontBreakDebian" target="_blank" rel="noopener noreferrer"><strong>Debian Wiki</strong></a> is pretty mid, but the <a href="https://wiki.archlinux.org" target="_blank" rel="noopener noreferrer"><strong>Arch Wiki</strong></a> is amazing.</p>
+<p>Since <a href="https://archlinux.org" target="_blank" rel="noopener noreferrer"><strong>Arch Linux</strong></a> aims to be the most generic <em>Linux distro</em> ever, information written for it should also help with <strong>Debian</strong>, as long as the Arch package didn&rsquo;t receive significant updates in the meantime. There are other ways to install software, like:</p>
 <ul>
 <li><strong>Flatpak:</strong> Sandboxed apps that &ldquo;just work&rdquo; on every distribution.</li>
 <li><strong>Snap:</strong> <em>Ubuntu</em>&rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.</li>
@@ -472,9 +446,7 @@ DKMS
 <li><code>/dev/null</code> is a &ldquo;black hole&rdquo; for data you want to discard.</li>
 <li><code>/dev/urandom</code> is an IO-based random number generator.</li>
 </ul>
-<p>In 
-<a href="https://en.wikipedia.org/wiki/Unix" target="_blank" rel="noopener"><strong>UNIX</strong></a> 
-,  everything is a file. This means you can:</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Unix" target="_blank" rel="noopener noreferrer"><strong>UNIX</strong></a>,  everything is a file. This means you can:</p>
 <ul>
 <li>See process details by reading files in <code>/proc</code>.</li>
 <li>Check system settings or driver configurations in <code>/sys</code>.</li>

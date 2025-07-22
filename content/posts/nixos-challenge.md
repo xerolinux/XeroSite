@@ -36,11 +36,11 @@ After almost a decade of following what I’ll call “The Linux Way,” I’ve 
 
 **NixOS**, however, takes a different approach. While familiar tools like mount are still available, the recommended method is to handle these configurations through the `hardware-configuration.nix` file or by defining them in `configuration.nix`. The same goes for mounting the various drives, they belong in the config files.
 
-I’ve just finalized my [**NixOS Configuration**](https://github.com/DarkXero-dev/Storage/blob/main/NixOS/configuration.nix), successfully mounting all my drives, setting **Wayland** as the default, enabling **ZSH/OhMyZSH**, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.
+I’ve just finalized my **NixOS Configuration**, successfully mounting all my drives, setting **Wayland** as the default, enabling **ZSH/OhMyZSH**, and much more. The process was fairly straightforward, made even easier thanks to the support of some good friends.
 
 # NixOS Packages & Updates
 
-Installing packages on NixOS is quite different from other distributions. Instead of using a package manager directly, you add the packages you want to the configuration.nix file and then run sudo nixos-rebuild switch. This command pulls the packages from the Nix store and applies the changes declaratively.
+Installing packages on NixOS is quite different from other distributions. Instead of using a package manager directly, you add the packages you want to the `configuration.nix` file and then run sudo nixos-rebuild switch. This command pulls the packages from the Nix store and applies the changes declaratively.
 
 Updating the system also differs from traditional distros. You run sudo nixos-rebuild switch --upgrade, which compares versions and upgrades to the latest available packages accordingly.
 
@@ -62,11 +62,19 @@ From the get-go I decided I will never use [**Home-Manager**](https://nix-commun
 
 However, I am willing to go to the next level with something called [**Flakes**](https://wiki.nixos.org/wiki/Flakes). Right now though, I am still at the beginning of my **NixOS** adventure/challenge. 
 
+# Update 1
+
+After about **2 weeks** of poking around and tweaking things, I finally felt chill enough to jump into the world of **Flakes**. If I’m honest, the biggest reason was my growing obsession with **Flatpaks**. I wanted a straightforward, *declarative* way to install them, and **Flakes** was basically my only escape hatch for making it happen. So, I finally crossed that line.
+
+Not a ton else has changed, you know how it goes with these setups, but I did have my own little victory: I managed to get **Virt-Manager** all set up, with the networking actually working for once (which, if you know, you know how annoying that can be). It felt pretty nice pulling all these pieces together. There’s something satisfying about seeing everything actually work after a bunch of trial and error !
+
+Access my **Flakes** on the [**XeroNix Repo**](https://github.com/DarkXero-dev/XeroNix)
+
 # Conclusion
 
-After a week of use, the system is fully functional for everyday activities like web browsing, watching movies, writing blog posts, and even gaming. I managed to set up **Steam** and everything needed to enjoy my favorite games. Interestingly, the performance feels slightly better than on **Arch**, which I find both surprising and impressive.
+After two weeks of use, the system is fully functional for everyday activities like web browsing, watching movies, writing blog posts, and even gaming. I managed to set up **Steam** and everything needed to enjoy my favorite games. Interestingly, the performance feels slightly better than on **Arch**, which I find both surprising and impressive.
 
-I plan to take things slow and steady, moving forward at my own comfortable pace. Once am fully happy with what I have accomplished, and feel comfortable enough, I will be tackling **Flakes**.
+I'm still taking things slow and steady, moving forward at my own comfortable pace. 
 
 Wish me luck...
 
