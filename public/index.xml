@@ -19,10 +19,140 @@
     
 
     
-    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XeroLinux Demo</title>
+      <link>/posts/try-before-buy/</link>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/posts/try-before-buy/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Many people ask for a &lt;em&gt;free&lt;/em&gt; version of &lt;strong&gt;XeroLinux&lt;/strong&gt; so they can try it before deciding to donate. While I completely understand the wish to test it first, I’m unable to offer a free version. The reason is that if I did, many might use it forever without supporting the project.&lt;/p&gt;
+&lt;p&gt;But don’t worry! There is still a way to get a feel for what this distro offers before you decide to commit.&lt;/p&gt;
+&lt;p&gt;Grab a seat and let’s dive in…&lt;/p&gt;
+&lt;h1 id=&#34;xerolinux-de-script&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#xerolinux-de-script&#34;&gt;
+        ##
+    &lt;/a&gt;
+    XeroLinux D.E Script
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If you want to experience what &lt;strong&gt;XeroLinux&lt;/strong&gt; is all about, I’ve got you covered! I’ve created a special script that lets you install a &lt;em&gt;pure vanilla&lt;/em&gt; version of &lt;strong&gt;KDE Plasma&lt;/strong&gt;, &lt;strong&gt;Gnome&lt;/strong&gt;, &lt;strong&gt;XFCE&lt;/strong&gt;, &lt;strong&gt;Hyprland&lt;/strong&gt;, or even &lt;strong&gt;Cosmic&lt;/strong&gt; (Alpha), completely free.&lt;/p&gt;
+&lt;p&gt;Just follow the simple guide on the 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/script/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroWiki&lt;/strong&gt;&lt;/a&gt; 
+. Currently, we offer &lt;strong&gt;KDE Plasma&lt;/strong&gt; and &lt;strong&gt;Gnome&lt;/strong&gt; as our main options, so start with either one to get the real &lt;strong&gt;XeroLinux&lt;/strong&gt; feel!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/wDv1PAk.png&#34; alt=&#34;DEScript&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;Once you have your preferred desktop environment installed, simply launch the 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/xlapit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Toolkit&lt;/strong&gt;&lt;/a&gt; 
+. You can find it in the app menu or just open a terminal and type &lt;code&gt;clear &amp;amp;&amp;amp; xero-cli&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then choose option &lt;code&gt;4&lt;/code&gt; labeled &lt;code&gt;Customization&lt;/code&gt;. If you picked &lt;strong&gt;KDE Plasma&lt;/strong&gt;, select &lt;code&gt;x. XeroLinux&#39;s Layan Rice (Vanilla KDE)&lt;/code&gt;. If you chose &lt;strong&gt;Gnome&lt;/strong&gt;, go for &lt;code&gt;z. Apply XeroLinux Gnome Settings (Vanilla Gnome)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Sit back and watch the magic happen, then reboot to enjoy the experience!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/kGAUs3f.png&#34; alt=&#34;Toolkit&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;That’s it, really! You won’t be getting &lt;em&gt;everything&lt;/em&gt; the distro offers, just a taste. Think of the &lt;em&gt;Script + Toolkit&lt;/em&gt; as a way to get a demo of what &lt;strong&gt;XeroLinux&lt;/strong&gt; has in store for you.&lt;/p&gt;
+&lt;h1 id=&#34;benefits&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#benefits&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Benefits
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The great thing about all this is that you’ll learn how to install &lt;strong&gt;Arch Linux&lt;/strong&gt; and get a real feel for what you’ll get if you decide to donate to the project.&lt;/p&gt;
+&lt;p&gt;Just keep in mind that the &lt;em&gt;Script + Toolkit&lt;/em&gt; won’t give you &lt;em&gt;exactly&lt;/em&gt; what the ISOs offer. It’s pretty close, but the ISOs come with a lot more out of the box, they are &lt;em&gt;not&lt;/em&gt; just a rice. So, some things will still need to be done manually by you.&lt;/p&gt;
+&lt;p&gt;Remember that and enjoy exploring!&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Just so you know, this whole experience is absolutely free with no strings attached. Think of it as your exclusive sneak peek at what &lt;strong&gt;XeroLinux&lt;/strong&gt; has to offer! You get to dive in, try out its unique features, and get a genuine taste of its power and style without spending a dime.&lt;/p&gt;
+&lt;p&gt;If you find yourself loving the flexibility, the thoughtful design, and the freedom it brings, consider taking the next step. Your donation does more than cover costs; it fuels future updates, new features, and the extra layer of polish that makes 
+&lt;a href=&#34;https://xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; 
+ stand out.&lt;/p&gt;
+&lt;p&gt;Supporting the project keeps it alive and growing, so you and the community enjoy the best experience possible.&lt;/p&gt;
+&lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
+</description>
+      <content>&lt;h1 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Many people ask for a &lt;em&gt;free&lt;/em&gt; version of &lt;strong&gt;XeroLinux&lt;/strong&gt; so they can try it before deciding to donate. While I completely understand the wish to test it first, I’m unable to offer a free version. The reason is that if I did, many might use it forever without supporting the project.&lt;/p&gt;
+&lt;p&gt;But don’t worry! There is still a way to get a feel for what this distro offers before you decide to commit.&lt;/p&gt;
+&lt;p&gt;Grab a seat and let’s dive in…&lt;/p&gt;
+&lt;h1 id=&#34;xerolinux-de-script&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#xerolinux-de-script&#34;&gt;
+        ##
+    &lt;/a&gt;
+    XeroLinux D.E Script
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;If you want to experience what &lt;strong&gt;XeroLinux&lt;/strong&gt; is all about, I’ve got you covered! I’ve created a special script that lets you install a &lt;em&gt;pure vanilla&lt;/em&gt; version of &lt;strong&gt;KDE Plasma&lt;/strong&gt;, &lt;strong&gt;Gnome&lt;/strong&gt;, &lt;strong&gt;XFCE&lt;/strong&gt;, &lt;strong&gt;Hyprland&lt;/strong&gt;, or even &lt;strong&gt;Cosmic&lt;/strong&gt; (Alpha), completely free.&lt;/p&gt;
+&lt;p&gt;Just follow the simple guide on the 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/script/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroWiki&lt;/strong&gt;&lt;/a&gt; 
+. Currently, we offer &lt;strong&gt;KDE Plasma&lt;/strong&gt; and &lt;strong&gt;Gnome&lt;/strong&gt; as our main options, so start with either one to get the real &lt;strong&gt;XeroLinux&lt;/strong&gt; feel!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/wDv1PAk.png&#34; alt=&#34;DEScript&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;Once you have your preferred desktop environment installed, simply launch the 
+&lt;a href=&#34;https://wiki.xerolinux.xyz/xlapit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Toolkit&lt;/strong&gt;&lt;/a&gt; 
+. You can find it in the app menu or just open a terminal and type &lt;code&gt;clear &amp;amp;&amp;amp; xero-cli&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then choose option &lt;code&gt;4&lt;/code&gt; labeled &lt;code&gt;Customization&lt;/code&gt;. If you picked &lt;strong&gt;KDE Plasma&lt;/strong&gt;, select &lt;code&gt;x. XeroLinux&#39;s Layan Rice (Vanilla KDE)&lt;/code&gt;. If you chose &lt;strong&gt;Gnome&lt;/strong&gt;, go for &lt;code&gt;z. Apply XeroLinux Gnome Settings (Vanilla Gnome)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Sit back and watch the magic happen, then reboot to enjoy the experience!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/kGAUs3f.png&#34; alt=&#34;Toolkit&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;That’s it, really! You won’t be getting &lt;em&gt;everything&lt;/em&gt; the distro offers, just a taste. Think of the &lt;em&gt;Script + Toolkit&lt;/em&gt; as a way to get a demo of what &lt;strong&gt;XeroLinux&lt;/strong&gt; has in store for you.&lt;/p&gt;
+&lt;h1 id=&#34;benefits&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#benefits&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Benefits
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;The great thing about all this is that you’ll learn how to install &lt;strong&gt;Arch Linux&lt;/strong&gt; and get a real feel for what you’ll get if you decide to donate to the project.&lt;/p&gt;
+&lt;p&gt;Just keep in mind that the &lt;em&gt;Script + Toolkit&lt;/em&gt; won’t give you &lt;em&gt;exactly&lt;/em&gt; what the ISOs offer. It’s pretty close, but the ISOs come with a lot more out of the box, they are &lt;em&gt;not&lt;/em&gt; just a rice. So, some things will still need to be done manually by you.&lt;/p&gt;
+&lt;p&gt;Remember that and enjoy exploring!&lt;/p&gt;
+&lt;h1 id=&#34;wrap-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrap-Up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Just so you know, this whole experience is absolutely free with no strings attached. Think of it as your exclusive sneak peek at what &lt;strong&gt;XeroLinux&lt;/strong&gt; has to offer! You get to dive in, try out its unique features, and get a genuine taste of its power and style without spending a dime.&lt;/p&gt;
+&lt;p&gt;If you find yourself loving the flexibility, the thoughtful design, and the freedom it brings, consider taking the next step. Your donation does more than cover costs; it fuels future updates, new features, and the extra layer of polish that makes 
+&lt;a href=&#34;https://xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;XeroLinux&lt;/strong&gt;&lt;/a&gt; 
+ stand out.&lt;/p&gt;
+&lt;p&gt;Supporting the project keeps it alive and growing, so you and the community enjoy the best experience possible.&lt;/p&gt;
+&lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
+</content>
+    </item>
     
     <item>
       <title>NixOS Challenge</title>
@@ -876,78 +1006,78 @@
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <author>info@techxero.com (DarkXero)</author>
       <guid>/posts/developing-is-fun/</guid>
-      <description>&lt;h3 id=&#34;am-i-a-developer-&#34; &gt;
+      <description>&lt;h1 id=&#34;am-i-a-developer-&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#am-i-a-developer-&#34;&gt;
         ##
     &lt;/a&gt;
     Am I a Developer ?
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Lol, yeah, I know—it&amp;rsquo;s a question I get a lot. But in my humble opinion, no, I am not. Far from it. I&amp;rsquo;m just a guy who, at most, messes with code—specifically &lt;strong&gt;Bash&lt;/strong&gt;. I take what I understand, put it together in a way that makes sense (to me at least), and hope it works. That&amp;rsquo;s all I do.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8_K-NOu-STs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;p&gt;And if it does work, I&amp;rsquo;m happy and share the result with the &lt;strong&gt;FOSS&lt;/strong&gt; community.&lt;/p&gt;
-&lt;h3 id=&#34;its-fun-until&#34; &gt;
+&lt;h1 id=&#34;its-fun-until&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#its-fun-until&#34;&gt;
         ##
     &lt;/a&gt;
     It&amp;rsquo;s fun until&amp;hellip;
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Doing this is super fun and fulfilling—until I hit a brick wall, stop getting new ideas, or can&amp;rsquo;t find a solution to what I&amp;rsquo;m trying to accomplish. Yes, it&amp;rsquo;s super frustrating.&lt;/p&gt;
 &lt;p&gt;Now, I know I can reach out to the &lt;strong&gt;FOSS&lt;/strong&gt; community for help. However, not all of it is sunshine and roses. I try, but I often get more frustrated with the differences of opinion out there. No matter how much I try to satisfy some requests, I can&amp;rsquo;t do it for everyone.&lt;/p&gt;
 &lt;p&gt;Sometimes, I run into some elitists who think their opinion is the only one that matters. I always make the mistake of replying to them when it&amp;rsquo;s better to ignore them. Yes, those types of people exist everywhere—not just in &lt;strong&gt;FOSS&lt;/strong&gt;. But alas, that&amp;rsquo;s where we feel it the most, especially when we try to monetize our work. But I already discussed that in another post.&lt;/p&gt;
 &lt;p&gt;Nevertheless, once a project is complete, the feeling of accomplishment is so rewarding, lol.&lt;/p&gt;
-&lt;h3 id=&#34;sharing-is-caring&#34; &gt;
+&lt;h1 id=&#34;sharing-is-caring&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#sharing-is-caring&#34;&gt;
         ##
     &lt;/a&gt;
     Sharing is caring
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;This is the part where I say: please, don&amp;rsquo;t keep your work to yourself. Share it with the community—who knows, maybe you&amp;rsquo;ll find someone who can help take your project to another level.&lt;/p&gt;
 &lt;p&gt;I used to keep stuff to myself until I began sharing. That&amp;rsquo;s when everything took off, and I was able to help others. If it&amp;rsquo;s not a project, maybe it&amp;rsquo;s the knowledge you&amp;rsquo;ve gained. Share it by helping others when and where you can.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Sharing is caring,&amp;rdquo; as the saying goes. Anyway, I hope this post was a good read. Enjoy! ;)&lt;/p&gt;
 </description>
-      <content>&lt;h3 id=&#34;am-i-a-developer-&#34; &gt;
+      <content>&lt;h1 id=&#34;am-i-a-developer-&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#am-i-a-developer-&#34;&gt;
         ##
     &lt;/a&gt;
     Am I a Developer ?
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Lol, yeah, I know—it&amp;rsquo;s a question I get a lot. But in my humble opinion, no, I am not. Far from it. I&amp;rsquo;m just a guy who, at most, messes with code—specifically &lt;strong&gt;Bash&lt;/strong&gt;. I take what I understand, put it together in a way that makes sense (to me at least), and hope it works. That&amp;rsquo;s all I do.&lt;/p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8_K-NOu-STs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;p&gt;And if it does work, I&amp;rsquo;m happy and share the result with the &lt;strong&gt;FOSS&lt;/strong&gt; community.&lt;/p&gt;
-&lt;h3 id=&#34;its-fun-until&#34; &gt;
+&lt;h1 id=&#34;its-fun-until&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#its-fun-until&#34;&gt;
         ##
     &lt;/a&gt;
     It&amp;rsquo;s fun until&amp;hellip;
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Doing this is super fun and fulfilling—until I hit a brick wall, stop getting new ideas, or can&amp;rsquo;t find a solution to what I&amp;rsquo;m trying to accomplish. Yes, it&amp;rsquo;s super frustrating.&lt;/p&gt;
 &lt;p&gt;Now, I know I can reach out to the &lt;strong&gt;FOSS&lt;/strong&gt; community for help. However, not all of it is sunshine and roses. I try, but I often get more frustrated with the differences of opinion out there. No matter how much I try to satisfy some requests, I can&amp;rsquo;t do it for everyone.&lt;/p&gt;
 &lt;p&gt;Sometimes, I run into some elitists who think their opinion is the only one that matters. I always make the mistake of replying to them when it&amp;rsquo;s better to ignore them. Yes, those types of people exist everywhere—not just in &lt;strong&gt;FOSS&lt;/strong&gt;. But alas, that&amp;rsquo;s where we feel it the most, especially when we try to monetize our work. But I already discussed that in another post.&lt;/p&gt;
 &lt;p&gt;Nevertheless, once a project is complete, the feeling of accomplishment is so rewarding, lol.&lt;/p&gt;
-&lt;h3 id=&#34;sharing-is-caring&#34; &gt;
+&lt;h1 id=&#34;sharing-is-caring&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#sharing-is-caring&#34;&gt;
         ##
     &lt;/a&gt;
     Sharing is caring
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;This is the part where I say: please, don&amp;rsquo;t keep your work to yourself. Share it with the community—who knows, maybe you&amp;rsquo;ll find someone who can help take your project to another level.&lt;/p&gt;
 &lt;p&gt;I used to keep stuff to myself until I began sharing. That&amp;rsquo;s when everything took off, and I was able to help others. If it&amp;rsquo;s not a project, maybe it&amp;rsquo;s the knowledge you&amp;rsquo;ve gained. Share it by helping others when and where you can.&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Sharing is caring,&amp;rdquo; as the saying goes. Anyway, I hope this post was a good read. Enjoy! ;)&lt;/p&gt;
@@ -1020,128 +1150,128 @@
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       <author>info@techxero.com (DarkXero)</author>
       <guid>/posts/be-thankful/</guid>
-      <description>&lt;h3 id=&#34;whats-this&#34; &gt;
+      <description>&lt;h1 id=&#34;whats-this&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#whats-this&#34;&gt;
         ##
     &lt;/a&gt;
     What&amp;rsquo;s This?
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Today, after reflecting on my activities and our collective behavior as Linux users, I realized a few things I wanted to share. This post doesn&amp;rsquo;t belong on the main site but here, where I can speak candidly about how things have been and how we, as so-called Linux users, often behave. I&amp;rsquo;m as guilty as anyone else, so let&amp;rsquo;s sit back, relax, grab a cup of coffee or a bottle of beer, and read on.&lt;/p&gt;
-&lt;h3 id=&#34;content-creators&#34; &gt;
+&lt;h1 id=&#34;content-creators&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#content-creators&#34;&gt;
         ##
     &lt;/a&gt;
     Content Creators
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Before diving in, I want to clarify that I am not a content creator. I&amp;rsquo;ve tried many times and failed miserably, so I don&amp;rsquo;t include myself in this group for now. However, I need to address the challenges they face.&lt;/p&gt;
 &lt;p&gt;YouTube content creators (CCs) do a thankless job. It&amp;rsquo;s incredibly hard work, requiring meticulous planning, high-quality equipment, and, above all, an enormous amount of patience. Unfortunately, the comment sections are often filled with toxic trash talk, which can be demoralizing. Reading these negative comments can lead to feelings of depression and inadequacy, making creators feel they are not meeting viewer expectations. This is far from the truth; the reality is that satisfying everyone is impossible.&lt;/p&gt;
 &lt;p&gt;Content creators invest significant time, money, and energy into producing videos that inform, entertain, and educate. Their efforts are crucial for enhancing our understanding and enjoyment of various topics. Even writers like myself sometimes rely on their videos to illustrate points or tools we discuss in our posts. Blog posts and YouTube videos complement each other, making our content more engaging and informative.&lt;/p&gt;
-&lt;h3 id=&#34;writers--blog-posters&#34; &gt;
+&lt;h1 id=&#34;writers--blog-posters&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#writers--blog-posters&#34;&gt;
         ##
     &lt;/a&gt;
     Writers / Blog Posters
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;This is where I include myself. We do our best to bring you high-quality content. We strive to be as unbiased as possible, but mistakes happen. We are human and sometimes say the wrong things out of frustration, but that&amp;rsquo;s no excuse.&lt;/p&gt;
 &lt;p&gt;One common mistake we make is not doing enough research before posting. This can lead to a lack of primary sources to back up our claims, which makes our posts less trustworthy. Recently, it was brought to my attention that I was guilty of this. Instead of pushing away constructive criticism, I embraced it and made sure to do better. Thanks to a user on Discord, I’ve learned to improve, and I thank them for that.&lt;/p&gt;
-&lt;h3 id=&#34;appreciating-ccs-and-writers&#34; &gt;
+&lt;h1 id=&#34;appreciating-ccs-and-writers&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#appreciating-ccs-and-writers&#34;&gt;
         ##
     &lt;/a&gt;
     Appreciating CCs and Writers
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;We often overlook the effort and dedication that content creators and writers put into their work. From brainstorming ideas to scripting, filming, editing, and publishing, every step requires significant effort and attention to detail. They often juggle these tasks alongside their personal and professional lives, making their commitment even more commendable.&lt;/p&gt;
 &lt;p&gt;Both content creators and writers face the challenge of staying updated with the latest trends, technologies, and viewer preferences. This constant evolution demands flexibility and a willingness to learn and adapt. Despite these challenges, many persist, driven by their passion and dedication to their craft.&lt;/p&gt;
 &lt;p&gt;As writers and bloggers, we pour our hearts into our work, aiming to provide valuable insights and information. We strive to deliver accurate and engaging content, but we are not infallible. Constructive feedback helps us grow and improve, enabling us to produce better content for our readers. It&amp;rsquo;s essential to recognize that writing is an iterative process. Each piece we publish is a step toward improvement. Constructive criticism, when offered kindly and thoughtfully, is a valuable tool that helps us refine our skills and enhance the quality of our work.&lt;/p&gt;
-&lt;h3 id=&#34;fostering-a-positive-community&#34; &gt;
+&lt;h1 id=&#34;fostering-a-positive-community&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#fostering-a-positive-community&#34;&gt;
         ##
     &lt;/a&gt;
     Fostering a Positive Community
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;The F.O.S.S. Linux community thrives on collaboration and mutual support. By fostering a positive and inclusive environment, we can attract more people and encourage contributions. Let&amp;rsquo;s move away from harsh judgments and toward constructive dialogues that promote growth and understanding.&lt;/p&gt;
 &lt;p&gt;When we encounter content we don&amp;rsquo;t agree with, let&amp;rsquo;s engage in respectful discussions. Share your perspectives, offer suggestions, and be open to different viewpoints. This approach enriches our community and helps content creators and writers deliver better content.&lt;/p&gt;
 &lt;p&gt;Instead of judging writers and content creators harshly, provide constructive criticism and exchange ideas to help us improve and bring you more useful content. Many of us, myself included, have been guilty of negativity. This message serves as a reminder to be more supportive. Let&amp;rsquo;s help each other grow in the F.O.S.S. Linux community and attract more people by discussing and recommending content thoughtfully.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34; &gt;
+&lt;h1 id=&#34;conclusion&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#conclusion&#34;&gt;
         ##
     &lt;/a&gt;
     Conclusion
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Thank you for reading. I wanted to share my thoughts and recommendations in hopes of making the Linux community a more positive and welcoming place, free from negativity and elitism. By supporting each other and fostering a culture of constructive feedback, we can help each other grow and create a more vibrant and inclusive F.O.S.S. community.&lt;/p&gt;
 </description>
-      <content>&lt;h3 id=&#34;whats-this&#34; &gt;
+      <content>&lt;h1 id=&#34;whats-this&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#whats-this&#34;&gt;
         ##
     &lt;/a&gt;
     What&amp;rsquo;s This?
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Today, after reflecting on my activities and our collective behavior as Linux users, I realized a few things I wanted to share. This post doesn&amp;rsquo;t belong on the main site but here, where I can speak candidly about how things have been and how we, as so-called Linux users, often behave. I&amp;rsquo;m as guilty as anyone else, so let&amp;rsquo;s sit back, relax, grab a cup of coffee or a bottle of beer, and read on.&lt;/p&gt;
-&lt;h3 id=&#34;content-creators&#34; &gt;
+&lt;h1 id=&#34;content-creators&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#content-creators&#34;&gt;
         ##
     &lt;/a&gt;
     Content Creators
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Before diving in, I want to clarify that I am not a content creator. I&amp;rsquo;ve tried many times and failed miserably, so I don&amp;rsquo;t include myself in this group for now. However, I need to address the challenges they face.&lt;/p&gt;
 &lt;p&gt;YouTube content creators (CCs) do a thankless job. It&amp;rsquo;s incredibly hard work, requiring meticulous planning, high-quality equipment, and, above all, an enormous amount of patience. Unfortunately, the comment sections are often filled with toxic trash talk, which can be demoralizing. Reading these negative comments can lead to feelings of depression and inadequacy, making creators feel they are not meeting viewer expectations. This is far from the truth; the reality is that satisfying everyone is impossible.&lt;/p&gt;
 &lt;p&gt;Content creators invest significant time, money, and energy into producing videos that inform, entertain, and educate. Their efforts are crucial for enhancing our understanding and enjoyment of various topics. Even writers like myself sometimes rely on their videos to illustrate points or tools we discuss in our posts. Blog posts and YouTube videos complement each other, making our content more engaging and informative.&lt;/p&gt;
-&lt;h3 id=&#34;writers--blog-posters&#34; &gt;
+&lt;h1 id=&#34;writers--blog-posters&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#writers--blog-posters&#34;&gt;
         ##
     &lt;/a&gt;
     Writers / Blog Posters
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;This is where I include myself. We do our best to bring you high-quality content. We strive to be as unbiased as possible, but mistakes happen. We are human and sometimes say the wrong things out of frustration, but that&amp;rsquo;s no excuse.&lt;/p&gt;
 &lt;p&gt;One common mistake we make is not doing enough research before posting. This can lead to a lack of primary sources to back up our claims, which makes our posts less trustworthy. Recently, it was brought to my attention that I was guilty of this. Instead of pushing away constructive criticism, I embraced it and made sure to do better. Thanks to a user on Discord, I’ve learned to improve, and I thank them for that.&lt;/p&gt;
-&lt;h3 id=&#34;appreciating-ccs-and-writers&#34; &gt;
+&lt;h1 id=&#34;appreciating-ccs-and-writers&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#appreciating-ccs-and-writers&#34;&gt;
         ##
     &lt;/a&gt;
     Appreciating CCs and Writers
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;We often overlook the effort and dedication that content creators and writers put into their work. From brainstorming ideas to scripting, filming, editing, and publishing, every step requires significant effort and attention to detail. They often juggle these tasks alongside their personal and professional lives, making their commitment even more commendable.&lt;/p&gt;
 &lt;p&gt;Both content creators and writers face the challenge of staying updated with the latest trends, technologies, and viewer preferences. This constant evolution demands flexibility and a willingness to learn and adapt. Despite these challenges, many persist, driven by their passion and dedication to their craft.&lt;/p&gt;
 &lt;p&gt;As writers and bloggers, we pour our hearts into our work, aiming to provide valuable insights and information. We strive to deliver accurate and engaging content, but we are not infallible. Constructive feedback helps us grow and improve, enabling us to produce better content for our readers. It&amp;rsquo;s essential to recognize that writing is an iterative process. Each piece we publish is a step toward improvement. Constructive criticism, when offered kindly and thoughtfully, is a valuable tool that helps us refine our skills and enhance the quality of our work.&lt;/p&gt;
-&lt;h3 id=&#34;fostering-a-positive-community&#34; &gt;
+&lt;h1 id=&#34;fostering-a-positive-community&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#fostering-a-positive-community&#34;&gt;
         ##
     &lt;/a&gt;
     Fostering a Positive Community
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;The F.O.S.S. Linux community thrives on collaboration and mutual support. By fostering a positive and inclusive environment, we can attract more people and encourage contributions. Let&amp;rsquo;s move away from harsh judgments and toward constructive dialogues that promote growth and understanding.&lt;/p&gt;
 &lt;p&gt;When we encounter content we don&amp;rsquo;t agree with, let&amp;rsquo;s engage in respectful discussions. Share your perspectives, offer suggestions, and be open to different viewpoints. This approach enriches our community and helps content creators and writers deliver better content.&lt;/p&gt;
 &lt;p&gt;Instead of judging writers and content creators harshly, provide constructive criticism and exchange ideas to help us improve and bring you more useful content. Many of us, myself included, have been guilty of negativity. This message serves as a reminder to be more supportive. Let&amp;rsquo;s help each other grow in the F.O.S.S. Linux community and attract more people by discussing and recommending content thoughtfully.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34; &gt;
+&lt;h1 id=&#34;conclusion&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#conclusion&#34;&gt;
         ##
     &lt;/a&gt;
     Conclusion
 &lt;/div&gt;
-&lt;/h3&gt;
+&lt;/h1&gt;
 &lt;p&gt;Thank you for reading. I wanted to share my thoughts and recommendations in hopes of making the Linux community a more positive and welcoming place, free from negativity and elitism. By supporting each other and fostering a culture of constructive feedback, we can help each other grow and create a more vibrant and inclusive F.O.S.S. community.&lt;/p&gt;
 </content>
     </item>

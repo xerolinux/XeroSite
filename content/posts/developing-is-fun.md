@@ -5,7 +5,7 @@ date: "2024-11-15"
 aliases: ["foss","linux","development"]
 author: "DarkXero"
 ---
-### Am I a Developer ?
+# Am I a Developer ?
 
 Lol, yeah, I know—it's a question I get a lot. But in my humble opinion, no, I am not. Far from it. I'm just a guy who, at most, messes with code—specifically **Bash**. I take what I understand, put it together in a way that makes sense (to me at least), and hope it works. That's all I do.
 
@@ -13,7 +13,7 @@ Lol, yeah, I know—it's a question I get a lot. But in my humble opinion, no, I
 
 And if it does work, I'm happy and share the result with the **FOSS** community.
 
-### It's fun until...
+# It's fun until...
 
 Doing this is super fun and fulfilling—until I hit a brick wall, stop getting new ideas, or can't find a solution to what I'm trying to accomplish. Yes, it's super frustrating.
 
@@ -23,7 +23,7 @@ Sometimes, I run into some elitists who think their opinion is the only one that
 
 Nevertheless, once a project is complete, the feeling of accomplishment is so rewarding, lol.
 
-### Sharing is caring
+# Sharing is caring
 
 This is the part where I say: please, don't keep your work to yourself. Share it with the community—who knows, maybe you'll find someone who can help take your project to another level.
 
