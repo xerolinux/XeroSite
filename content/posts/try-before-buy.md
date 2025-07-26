@@ -10,7 +10,7 @@ author: "DarkXero"
 
 Many people ask for a *free* version of **XeroLinux** so they can try it before deciding to donate. While I completely understand the wish to test it first, I’m unable to offer a free version. The reason is that if I did, many might use it forever without supporting the project.
 
-But don’t worry! There is still a way to get a feel for what this distro offers before you decide to commit.
+But don’t worry! There is still a way to get a feel for what this distro offers before you decide to commit. It takes a little more effort, but it’s simple to follow.
 
 Grab a seat and let’s dive in…
 

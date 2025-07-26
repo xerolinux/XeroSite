@@ -29,9 +29,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>info@techxero.com (DarkXero)</author>
       <guid>/guides/linux/linux-explained/</guid>
-      <description>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast 
-&lt;a href=&#34;https://github.com/REALERvolker1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; 
- recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast &lt;a href=&#34;https://github.com/REALERvolker1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;what-is-linux-&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#what-is-linux-&#34;&gt;
@@ -41,17 +39,9 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;Since not everyone&amp;rsquo;s super familiar with Linux, here&amp;rsquo;s a quick crash course.&lt;/p&gt;
-&lt;p&gt;Linux is a 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt; 
-, so all the drivers and whatnot are compiled into the binary. The 
-&lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; 
- is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; 
- and compiled into the kernel binary.&lt;/p&gt;
+&lt;p&gt;Linux is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt;, so all the drivers and whatnot are compiled into the binary. The &lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; and compiled into the kernel binary.&lt;/p&gt;
 &lt;p&gt;Once the computer boots up, an init process is started (the default is &lt;code&gt;/sbin/init&lt;/code&gt;, usually a symlink to your init system), which is &lt;code&gt;PID 1&lt;/code&gt;. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having &lt;em&gt;too&lt;/em&gt; much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.&lt;/p&gt;
-&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; 
- compliant, and not really caring about file extensions.&lt;/p&gt;
+&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; compliant, and not really caring about file extensions.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
     &lt;img width=&#34;600&#34; src=&#34;https://i.imgur.com/Mu7NHx9.png&#34; alt=&#34;logo&#34;&gt;
 &lt;/p&gt;
@@ -63,16 +53,8 @@
     Distros &amp;amp; PKG Managers
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;On 
-&lt;a href=&#34;https://www.debian.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt; 
-, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the 
-&lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; 
- is pretty mid, but the 
-&lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; 
- is amazing.&lt;/p&gt;
-&lt;p&gt;Since 
-&lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; 
- aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
+&lt;p&gt;On &lt;a href=&#34;https://www.debian.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt;, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the &lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; is pretty mid, but the &lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; is amazing.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Flatpak:&lt;/strong&gt; Sandboxed apps that &amp;ldquo;just work&amp;rdquo; on every distribution.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Snap:&lt;/strong&gt; &lt;em&gt;Ubuntu&lt;/em&gt;&amp;rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.&lt;/li&gt;
@@ -101,9 +83,7 @@
 &lt;li&gt;&lt;code&gt;/dev/null&lt;/code&gt; is a &amp;ldquo;black hole&amp;rdquo; for data you want to discard.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;/dev/urandom&lt;/code&gt; is an IO-based random number generator.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt; 
-,  everything is a file. This means you can:&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt;,  everything is a file. This means you can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;See process details by reading files in &lt;code&gt;/proc&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Check system settings or driver configurations in &lt;code&gt;/sys&lt;/code&gt;.&lt;/li&gt;
@@ -119,9 +99,7 @@
 &lt;/h1&gt;
 &lt;p&gt;This was a quick run-through explaining what &lt;strong&gt;GNU/Linux&lt;/strong&gt; is written is, written as mentioned earlier by a good friend. I did not post it on the main site simply because I feel it&amp;rsquo;s not as complete as I would like it to be.&lt;/p&gt;
 </description>
-      <content>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast 
-&lt;a href=&#34;https://github.com/REALERvolker1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; 
- recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
+      <content>&lt;p&gt;I thought I&amp;rsquo;d share this explanation about &lt;strong&gt;Linux&lt;/strong&gt; a good friend and fellow Linux enthusiast &lt;a href=&#34;https://github.com/REALERvolker1&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;REALERvolker1&lt;/strong&gt;&lt;/a&gt; recently posted on &lt;strong&gt;Discord&lt;/strong&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;what-is-linux-&#34; &gt;
 &lt;div&gt;
     &lt;a href=&#34;#what-is-linux-&#34;&gt;
@@ -131,17 +109,9 @@
 &lt;/div&gt;
 &lt;/h1&gt;
 &lt;p&gt;Since not everyone&amp;rsquo;s super familiar with Linux, here&amp;rsquo;s a quick crash course.&lt;/p&gt;
-&lt;p&gt;Linux is a 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt; 
-, so all the drivers and whatnot are compiled into the binary. The 
-&lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; 
- is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; 
- and compiled into the kernel binary.&lt;/p&gt;
+&lt;p&gt;Linux is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Monolithic_kernel#:~:text=A%20monolithic%20kernel%20is%20an,virtual%20interface%20over%20computer%20hardware.&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Monolithic Kernel&lt;/strong&gt;&lt;/a&gt;, so all the drivers and whatnot are compiled into the binary. The &lt;a href=&#34;https://www.fsf.org/about/what-is-free-software&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Nonfree software&lt;/strong&gt;&lt;/a&gt; is usually put in the actual source repo as binary blobs, or in the case of &lt;strong&gt;nVidia&lt;/strong&gt; drivers, built using a system called &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_Kernel_Module_Support&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;DKMS&lt;/strong&gt;&lt;/a&gt; and compiled into the kernel binary.&lt;/p&gt;
 &lt;p&gt;Once the computer boots up, an init process is started (the default is &lt;code&gt;/sbin/init&lt;/code&gt;, usually a symlink to your init system), which is &lt;code&gt;PID 1&lt;/code&gt;. This is when userspace is initialized. Due to security concerns and whatnot, you are restricted from having &lt;em&gt;too&lt;/em&gt; much fun in userspace, so you need to ask the kernel to read files and allocate memory for you using syscalls.&lt;/p&gt;
-&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; 
- compliant, and not really caring about file extensions.&lt;/p&gt;
+&lt;p&gt;Anyways, init starts all the userspace stuff (it itself is run in userspace) and this keeps the system secure. Since Linux is monolithic, you can&amp;rsquo;t just throw a malicious library into kernel space at runtime somehow, you have to compile it in. Anyways, Linux is a lot like Unix, with one notable difference being that Linux Is Not UniX. This means it uses the typical Unixy way of doing things like restricting access based on users and groups, being &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;POSIX&lt;/strong&gt;&lt;/a&gt; compliant, and not really caring about file extensions.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
     &lt;img width=&#34;600&#34; src=&#34;https://i.imgur.com/Mu7NHx9.png&#34; alt=&#34;logo&#34;&gt;
 &lt;/p&gt;
@@ -153,16 +123,8 @@
     Distros &amp;amp; PKG Managers
 &lt;/div&gt;
 &lt;/h1&gt;
-&lt;p&gt;On 
-&lt;a href=&#34;https://www.debian.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt; 
-, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the 
-&lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; 
- is pretty mid, but the 
-&lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; 
- is amazing.&lt;/p&gt;
-&lt;p&gt;Since 
-&lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; 
- aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
+&lt;p&gt;On &lt;a href=&#34;https://www.debian.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/a&gt;, you install packages with &lt;code&gt;apt&lt;/code&gt;. If you can&amp;rsquo;t remember the package name you want, you can use apt to search for it, or use synaptic as a &lt;em&gt;GUI&lt;/em&gt; frontend. If your desktop environment comes with one, you can use theirs, as that one should be easier to use, while still providing the exact same functionality. You don&amp;rsquo;t install programs by downloading them from the internet. If you have any questions, the &lt;a href=&#34;https://wiki.debian.org/DontBreakDebian&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Debian Wiki&lt;/strong&gt;&lt;/a&gt; is pretty mid, but the &lt;a href=&#34;https://wiki.archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Arch Wiki&lt;/strong&gt;&lt;/a&gt; is amazing.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href=&#34;https://archlinux.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt;&lt;/a&gt; aims to be the most generic &lt;em&gt;Linux distro&lt;/em&gt; ever, information written for it should also help with &lt;strong&gt;Debian&lt;/strong&gt;, as long as the Arch package didn&amp;rsquo;t receive significant updates in the meantime. There are other ways to install software, like:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Flatpak:&lt;/strong&gt; Sandboxed apps that &amp;ldquo;just work&amp;rdquo; on every distribution.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Snap:&lt;/strong&gt; &lt;em&gt;Ubuntu&lt;/em&gt;&amp;rsquo;s sandboxed apps that are supposed to work on every distribution but have had mixed results.&lt;/li&gt;
@@ -191,9 +153,7 @@
 &lt;li&gt;&lt;code&gt;/dev/null&lt;/code&gt; is a &amp;ldquo;black hole&amp;rdquo; for data you want to discard.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;/dev/urandom&lt;/code&gt; is an IO-based random number generator.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt; 
-,  everything is a file. This means you can:&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;UNIX&lt;/strong&gt;&lt;/a&gt;,  everything is a file. This means you can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;See process details by reading files in &lt;code&gt;/proc&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Check system settings or driver configurations in &lt;code&gt;/sys&lt;/code&gt;.&lt;/li&gt;
