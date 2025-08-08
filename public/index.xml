@@ -19,10 +19,148 @@
     
 
     
-    <lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>XeroLinux Discord</title>
+      <link>/posts/xerolinux-discord/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <author>info@techxero.com (DarkXero)</author>
+      <guid>/posts/xerolinux-discord/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Lately I’ve been staring at my Discord server wondering what the heck to do with it. I created it to support &lt;strong&gt;XeroLinux&lt;/strong&gt; users, and while it still serves that purpose, it’s been feeling kind of&amp;hellip; empty. People join, sometimes leave the same day, and the overall vibe feels more like a ghost town than a growing community.&lt;/p&gt;
+&lt;p&gt;I’m not sure if I need to rethink how I’m using it, or if it’s just not clicking with folks the way I hoped. Either way, I’d love to hear your thoughts if you&amp;rsquo;re part of it, or even if you&amp;rsquo;re not. What would make you want to stick around?&lt;/p&gt;
+&lt;p&gt;Grab a seat and let’s dissect this…&lt;/p&gt;
+&lt;h1 id=&#34;serve-the-users&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#serve-the-users&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Serve the users
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I’m part of a bunch of distro-specific servers like &lt;strong&gt;CachyOS&lt;/strong&gt;, &lt;strong&gt;PikaOS&lt;/strong&gt;, and a few others, and honestly, they’re buzzing with activity. There’s always something going on, and the way they support their communities is something I really admire. That’s kind of what I wanted for &lt;strong&gt;XeroLinux&lt;/strong&gt;, a place where users could come together, talk about the distro, its related projects, and just geek out over Linux stuff in general.&lt;/p&gt;
+&lt;p&gt;But yeah&amp;hellip; that’s not how it’s playing out right now.&lt;/p&gt;
+&lt;h1 id=&#34;grow-baby-grow&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#grow-baby-grow&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Grow baby grow
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Another big reason I created the server is simple, without input, how am I supposed to grow the project? I mean, seriously. I know what works for me, but &lt;strong&gt;XeroLinux&lt;/strong&gt; was never just about me. It was built with users in mind. I wanted to make Arch more accessible and help people learn how to actually enjoy using it.&lt;/p&gt;
+&lt;p&gt;There are channels on the server specifically for feedback and ideas, but they’re mostly empty. No one shares anything, yet somehow I still get called out for not listening or not caring. What?! I &lt;em&gt;do&lt;/em&gt; care. But if no one speaks up, how can I improve anything? Growth only happens when there’s engagement, it’s a team effort.&lt;/p&gt;
+&lt;h1 id=&#34;future-plans&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#future-plans&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Future plans
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I really love the idea of having a space where all &lt;strong&gt;XeroLinux&lt;/strong&gt; fans, users, and future users can come together to chat about Linux and all things &lt;strong&gt;FOSS&lt;/strong&gt;. That was the dream. But with barely any activity, I’m starting to think it might just be better to shut it down. I can’t even get it to the point where Discord allows me to mark it as discoverable. It’s frustrating.&lt;/p&gt;
+&lt;p&gt;Funny thing is, I had a server before this one that was way more active. I shut it down because the toxicity got out of hand and I couldn’t manage it anymore. This new one is the exact opposite — barely a pulse.&lt;/p&gt;
+&lt;h1 id=&#34;your-voice&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#your-voice&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Your voice
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Alright, so here’s the deal, this time, unlike the last, I’m giving &lt;em&gt;you&lt;/em&gt; the chance to speak up before I make any final decisions. Should I shut the Discord server down, or keep it around a bit longer and try to breathe some life into it?&lt;/p&gt;
+&lt;p&gt;If this post gets no replies, I’ll take that silence as a loud, screaming &lt;strong&gt;&amp;ldquo;YES, KILL IT!&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m not trying to be dramatic, but I honestly need to know if anyone still finds value in it. So if you care, even a little, now’s the time to say something. Drop your thoughts, ideas, or even just a quick “keep it going”, anything helps. Otherwise, well… I’ll assume it’s time to let it go.&lt;/p&gt;
+&lt;h1 id=&#34;wrapping-it-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrapping-it-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrapping it up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;At the end of the day, I’m not here to force anything. I just want &lt;strong&gt;XeroLinux&lt;/strong&gt; to be more than a project sitting on a repo, I want it to be something people connect with, contribute to, and enjoy using. Whether that happens through Discord or another path entirely, I’m open to change.&lt;/p&gt;
+&lt;p&gt;This post isn’t about guilt-tripping anyone. It’s just me being real. If there&amp;rsquo;s still interest, I’ll gladly keep things going and explore ways to make the server more useful and fun. If not, that’s okay too. Projects evolve, and maybe it’s time for this one (server) to do the same.&lt;/p&gt;
+&lt;p&gt;Either way, I appreciate every single person who’s been part of the journey so far. Let’s see where it goes from here. &lt;a href=&#34;https://discord.xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Check The Server&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
+</description>
+      <content>&lt;h1 id=&#34;introduction&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#introduction&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Introduction
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Lately I’ve been staring at my Discord server wondering what the heck to do with it. I created it to support &lt;strong&gt;XeroLinux&lt;/strong&gt; users, and while it still serves that purpose, it’s been feeling kind of&amp;hellip; empty. People join, sometimes leave the same day, and the overall vibe feels more like a ghost town than a growing community.&lt;/p&gt;
+&lt;p&gt;I’m not sure if I need to rethink how I’m using it, or if it’s just not clicking with folks the way I hoped. Either way, I’d love to hear your thoughts if you&amp;rsquo;re part of it, or even if you&amp;rsquo;re not. What would make you want to stick around?&lt;/p&gt;
+&lt;p&gt;Grab a seat and let’s dissect this…&lt;/p&gt;
+&lt;h1 id=&#34;serve-the-users&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#serve-the-users&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Serve the users
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I’m part of a bunch of distro-specific servers like &lt;strong&gt;CachyOS&lt;/strong&gt;, &lt;strong&gt;PikaOS&lt;/strong&gt;, and a few others, and honestly, they’re buzzing with activity. There’s always something going on, and the way they support their communities is something I really admire. That’s kind of what I wanted for &lt;strong&gt;XeroLinux&lt;/strong&gt;, a place where users could come together, talk about the distro, its related projects, and just geek out over Linux stuff in general.&lt;/p&gt;
+&lt;p&gt;But yeah&amp;hellip; that’s not how it’s playing out right now.&lt;/p&gt;
+&lt;h1 id=&#34;grow-baby-grow&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#grow-baby-grow&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Grow baby grow
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Another big reason I created the server is simple, without input, how am I supposed to grow the project? I mean, seriously. I know what works for me, but &lt;strong&gt;XeroLinux&lt;/strong&gt; was never just about me. It was built with users in mind. I wanted to make Arch more accessible and help people learn how to actually enjoy using it.&lt;/p&gt;
+&lt;p&gt;There are channels on the server specifically for feedback and ideas, but they’re mostly empty. No one shares anything, yet somehow I still get called out for not listening or not caring. What?! I &lt;em&gt;do&lt;/em&gt; care. But if no one speaks up, how can I improve anything? Growth only happens when there’s engagement, it’s a team effort.&lt;/p&gt;
+&lt;h1 id=&#34;future-plans&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#future-plans&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Future plans
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;I really love the idea of having a space where all &lt;strong&gt;XeroLinux&lt;/strong&gt; fans, users, and future users can come together to chat about Linux and all things &lt;strong&gt;FOSS&lt;/strong&gt;. That was the dream. But with barely any activity, I’m starting to think it might just be better to shut it down. I can’t even get it to the point where Discord allows me to mark it as discoverable. It’s frustrating.&lt;/p&gt;
+&lt;p&gt;Funny thing is, I had a server before this one that was way more active. I shut it down because the toxicity got out of hand and I couldn’t manage it anymore. This new one is the exact opposite — barely a pulse.&lt;/p&gt;
+&lt;h1 id=&#34;your-voice&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#your-voice&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Your voice
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;Alright, so here’s the deal, this time, unlike the last, I’m giving &lt;em&gt;you&lt;/em&gt; the chance to speak up before I make any final decisions. Should I shut the Discord server down, or keep it around a bit longer and try to breathe some life into it?&lt;/p&gt;
+&lt;p&gt;If this post gets no replies, I’ll take that silence as a loud, screaming &lt;strong&gt;&amp;ldquo;YES, KILL IT!&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m not trying to be dramatic, but I honestly need to know if anyone still finds value in it. So if you care, even a little, now’s the time to say something. Drop your thoughts, ideas, or even just a quick “keep it going”, anything helps. Otherwise, well… I’ll assume it’s time to let it go.&lt;/p&gt;
+&lt;h1 id=&#34;wrapping-it-up&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#wrapping-it-up&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Wrapping it up
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;p&gt;At the end of the day, I’m not here to force anything. I just want &lt;strong&gt;XeroLinux&lt;/strong&gt; to be more than a project sitting on a repo, I want it to be something people connect with, contribute to, and enjoy using. Whether that happens through Discord or another path entirely, I’m open to change.&lt;/p&gt;
+&lt;p&gt;This post isn’t about guilt-tripping anyone. It’s just me being real. If there&amp;rsquo;s still interest, I’ll gladly keep things going and explore ways to make the server more useful and fun. If not, that’s okay too. Projects evolve, and maybe it’s time for this one (server) to do the same.&lt;/p&gt;
+&lt;p&gt;Either way, I appreciate every single person who’s been part of the journey so far. Let’s see where it goes from here. &lt;a href=&#34;https://discord.xerolinux.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;strong&gt;Check The Server&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for reading. ❤️🔥🙏&lt;/p&gt;
+</content>
+    </item>
     
     <item>
       <title>XeroLinux Demo</title>
