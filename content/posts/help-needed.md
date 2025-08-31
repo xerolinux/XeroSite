@@ -1,7 +1,7 @@
 ---
 title: "Help Needed"
 description: "XeroLinux needs help"
-date: "2025-09-01"
+date: "2025-08-31"
 aliases: ["foss","linux","xerolinux"]
 author: "DarkXero"
 ---
