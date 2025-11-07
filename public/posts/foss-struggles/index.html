@@ -3,6 +3,8 @@
 
 
 
+
+
     
 
 
@@ -15,10 +17,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="theme-name" content="Anubis2">
+<meta name="theme-version" content="1.5.0">
 
 <title>FOSS Struggles - DarkXero Bytes</title>
 
 <meta name="description" content="The pain we have to go through">
+<meta name="author" content="DarkXero">
+<meta name="copyright" content="map[email:info@techxero.com location:Lebanon name:DarkXero]">
+<meta name="generator" content="Hugo 0.152.2">
+<link rel="canonical" href="https://bytes.xerolinux.xyz/posts/foss-struggles/">
 
 
 
@@ -47,7 +54,7 @@
     
 
     
-        <link rel="stylesheet" href="/css/style.min.d5cd988d4911fc4173942ce51861fa9205910c3ae21b28a7dc8913b338157fe6.css" integrity="sha256-1c2YjUkR/EFzlCzlGGH6kgWRDDriGyin3IkTszgVf&#43;Y=">
+        <link rel="stylesheet" href="/css/style.min.3da543f18594546c5f479fc6363d593c50763856361c6ddbf17b499772ee6c7b.css" integrity="sha256-PaVD8YWUVGxfR5/GNj1ZPFB2OFY2HG3b8XtJl3LubHs=">
     
 
 
@@ -141,7 +148,7 @@
     
 
     
-        <script src="/js/script.min.08f04d96386c73c9bf4d160333f8f448c05a6e01c06770542ee0e013954ce930.js" type="text/javascript" charset="utf-8" integrity="sha256-CPBNljhsc8m/TRYDM/j0SMBabgHAZ3BULuDgE5VM6TA="></script>
+        <script src="/js/script.min.9752b2b06a7b85657fe0806a9d93413916c87001ca8a2885edc4328662fd7a85.js" type="text/javascript" charset="utf-8" integrity="sha256-l1KysGp7hWV/4IBqnZNBORbIcAHKiiiF7cQyhmL9eoU=" defer></script>
     
 
 
@@ -151,6 +158,9 @@
 
 
 
+  
+
+  
 
 
     
@@ -178,7 +188,7 @@
 
     
         <li>
-            <a href="https://github.com/DarkXero-dev" title="Github" rel="me">
+            <a href="https://github.com/DarkXero-dev" title="Github" aria-label="Github" rel="me">
             <span class="inline-svg">
 
     
@@ -201,7 +211,7 @@
 
     
         <li>
-            <a href="https://www.linkedin.com/in/schaanine/" title="Linkedin" rel="me">
+            <a href="https://www.linkedin.com/in/schaanine/" title="Linkedin" aria-label="Linkedin" rel="me">
             <span class="inline-svg">
 
     
@@ -224,7 +234,7 @@
 
     
         <li>
-            <a href="info@techxero.com.com" title="Email" rel="me">
+            <a href="info@techxero.com.com" title="Email" aria-label="Email" rel="me">
             <span class="inline-svg">
 
     
@@ -247,7 +257,7 @@
 
     
         <li>
-            <a href="https://www.youtube.com/@TechXeroLB" title="Youtube" rel="me">
+            <a href="https://www.youtube.com/@TechXeroLB" title="Youtube" aria-label="Youtube" rel="me">
             <span class="inline-svg">
 
     
@@ -271,7 +281,7 @@
 
 
     <li>
-            <a href="/index.xml" title="RSS" rel="me">
+            <a href="/index.xml" title="RSS" aria-label="RSS" rel="me">
             <span class="inline-svg">
 
     
@@ -398,7 +408,8 @@
 <p>Today, I need to share some of my thoughts and frustrations. If this isn&rsquo;t your cup of tea, feel free to check out other posts. For those sticking around, thank you for lending an ear.</p>
 <p>Writing this post wasn&rsquo;t easy; it took a lot of reflection and courage to open up about these feelings.</p>
 <blockquote>
-<p>P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of FOSS and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.</p></blockquote>
+<p>P.S: This blog post reflects the thoughts and feelings of a passionate developer navigating the challenging world of FOSS and the struggle for financial stability. Your support and feedback are always appreciated. Now, let’s dive in.</p>
+</blockquote>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BpmAFwZy0Gg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
@@ -479,61 +490,6 @@
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-
-
-
-<script>
-        function detectCurrentScheme2() {
-                const defaultTheme = "dark";
-                if (localStorage !== null && localStorage.getItem("user-color-scheme")) {
-                        return localStorage.getItem("user-color-scheme");
-                }
-                if (defaultTheme === "dark" || defaultTheme === "light") {
-                        return defaultTheme;
-                }
-                return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        }
-
-        let giscusTheme = detectCurrentScheme2();
-        let giscusAttributes = {
-                src: "https://giscus.app/client.js",
-                "data-repo": "xerolinux\/XeroSite",
-                "data-repo-id": "R_kgDOMmVchg",
-                "data-category": "General",
-                "data-category-id": "DIC_kwDOMmVchs4Cs7z_",
-                "data-mapping": "pathname",
-                "data-strict": "0",
-                "data-reactions-enabled": "1",
-                "data-emit-metadata": "0",
-                "data-input-position": "bottom",
-                "data-theme": giscusTheme,
-                "data-lang": "en",
-                crossorigin: "anonymous",
-                lazyload: "true",
-                async: true,
-        };
-        let main = document.querySelector("main");
-        let giscusScript = document.createElement("script");
-        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-        main.appendChild(giscusScript);
-</script>
-
-
-
 
 
 
@@ -547,22 +503,26 @@
         
             <footer class="common-footer noselect">
     
+
     
 
     <div class="common-footer-bottom">
         
 
-        <div style="display: flex; align-items: center; gap:8px">
+        <div class="footer-meta">
             
-            ©  DarkXero,  2025
+            © DarkXero, 2025
             
         </div>
-        <div style="display:flex; align-items: center; gap:4px">
+
+        <div class="footer-licenses">
+            
             
             
 
             
         </div>
+
         
             <div>
                 Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/hugo-theme-anubis2/hugo-theme-anubis2">Anubis2</a>.<br>
