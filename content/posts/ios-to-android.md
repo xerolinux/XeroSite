@@ -1,7 +1,7 @@
 ---
 title: "iOS to Android"
 description: "Moving to Android from iOS"
-date: "2025-08-27"
+date: "2025-11-17"
 aliases: ["move","apple","ios","android","phone"]
 author: "DarkXero"
 ---
