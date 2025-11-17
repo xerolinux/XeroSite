@@ -16,19 +16,15 @@ I knew it was time to upgrade. But this time, thanks to life being life, I didn�
 
 # The Process
 
-Now, as we all know, when it comes to **Android** the landscape is huge ! Eventhough I limited myself to upper mid-range phones, that doesn't narrow it down a lot. So I had to keep creating check boxes to tick. The more I did the lesser choice I had. 
+If you’ve ever tried choosing an **Android** phone, you know the experience: the more you look, the more confused you get. The “options” page becomes a maze, and before you know it, you’re comparing devices that only exist in Japan for six weeks a year. Meanwhile on iOS it’s like: small, medium, large. Done.
 
-What matters most to me is not to get a phone from a lesser known manufacturer, since the lesser known it is the worse support gets. I needed a phone from a reputable OEM, with a promise of at least 4 years of **MAJOR** OS updates, nevermind security ones. Also one that has near flagship specs so it lasts for that long without it slowing down too much.
+I tried to be logical. I kept adding requirements — good support, not some random brand nobody’s heard of, something that will last a few years without turning into a brick. And every time I added a requirement, the list of possible phones shrank like it owed me money.
+
+And that’s when I entered the **YouTube Rabbit Hole of Doom**, review after review, comparison after comparison, until I started recognizing tech reviewers by the shape of their thumbnails.
 
 # The Choice
 
-If you’ve ever tried choosing an **Android** phone, you know the experience: the more you look, the more confused you get. The “options” page becomes a maze, and before you know it, you’re comparing devices that only exist in Japan for six weeks a year. Meanwhile on iOS it’s like: small, medium, large. Done.
-
-I tried to be logical. I kept adding requirements, good support, not some random brand nobody’s heard of, something that will last a few years without turning into a brick. And every time I added a requirement, the list of possible phones shrank like it owed me money.
-
 Eventually I ended up with three brands circling my brain: **Google**, **Samsung**, and **OnePlus**.
-
-And that’s when I entered the YouTube Rabbit Hole of Doom — review after review, comparison after comparison, until I started recognizing tech reviewers by the shape of their thumbnails.
 
 - **Google Pixel**
 
