@@ -36,7 +36,7 @@ Samsung was the next contestant. Everyone recommends Samsung like it’s some sa
 
 - **OnePlus**
 
-And then came **OnePlus**. I’ve owned a OnePlus before, the legendary [**OnePlus 6t](https://www.gsmarena.com/oneplus_6t-9350.php), from the era before they fully merged into the **OPPO** hive mind, so at least the name felt familiar. The more I watched reviews, the more it started feeling like the middle ground I needed. Not perfect, not awful, not overpriced. Just… comfortable.
+And then came **OnePlus**. I’ve owned one before, the legendary [**OnePlus 6t**](https://www.gsmarena.com/oneplus_6t-9350.php), from the era before they fully merged into the **OPPO** hive mind, so at least the name felt familiar. The more I watched reviews, the more it started feeling like the middle ground I needed. Not perfect, not awful, not overpriced. Just… comfortable.
 
 So that’s how I ended up picking the [**OnePlus Nord 5**](https://www.gsmarena.com/oneplus_nord_5_5g-13992.php). No dramatic music or fireworks, just relief that the search was over.
 
@@ -52,7 +52,7 @@ I’m still a bit sad to leave **iOS**, it’s familiar, consistent, and predict
 
 I’ll post an update six months into owning the **Nord 5**, assuming I haven’t rage-thrown it into the sea or sold it to buy **Lebanese** snacks.
 
-Until then, feel free to check out the device comparison I used on [**GSM-Arene**](https://www.gsmarena.com/compare.php3?idPhone1=13992&idPhone2=13478&idPhone3=13603)
+Until then, feel free to check out the device comparison I used on [**GSM-Arena**](https://www.gsmarena.com/compare.php3?idPhone1=13992&idPhone2=13478&idPhone3=13603)
 
 Thanks for reading ❤️🔥🙏  
 And may your battery health always stay above 80%.
