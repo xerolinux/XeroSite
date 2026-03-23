@@ -24,7 +24,7 @@
 <meta name="description" content="Trials &amp; Tribulations of an Arch Maintainer">
 <meta name="author" content="DarkXero">
 <meta name="copyright" content="map[email:info@techxero.com location:Lebanon name:DarkXero]">
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.158.0">
 <link rel="canonical" href="https://bytes.xerolinux.xyz/posts/nixos-challenge/">
 
 
@@ -465,7 +465,7 @@
 </h1>
 <p>Long story short, every time the system state is rebuilt using <code>nixos-rebuild switch</code>, a new <a href="https://nixos.wiki/wiki/Overview_of_the_NixOS_Linux_distribution#Generations" target="_blank" rel="noopener noreferrer"><em>generation</em></a> is created. You can revert to the previous generation at any time, which is useful if a configuration change (or system update) turns out to be detrimental.</p>
 <p>This can quickly become overwhelming, particularly when dealing with the <em>bootloader</em>. Accumulating over 100 generations isn&rsquo;t ideal, which is why I&rsquo;ve added an alias to my <code>.bashrc</code> file. This alias automatically removes all old generations, keeping only the most recent one after I&rsquo;ve confirmed its stability. Feel free to add it to your setup if you find it useful.<br /><br /></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">alias</span> <span style="color:#8be9fd;font-style:italic">ncg</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;nix-collect-garbage --delete-old &amp;&amp; sudo nix-collect-garbage -d &amp;&amp; sudo /run/current-system/bin/switch-to-configuration boot&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:6;-o-tab-size:6;tab-size:6;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">alias</span> <span style="color:#8be9fd;font-style:italic">ncg</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;nix-collect-garbage --delete-old &amp;&amp; sudo nix-collect-garbage -d &amp;&amp; sudo /run/current-system/bin/switch-to-configuration boot&#34;</span>
 </span></span></code></pre></div><h1 id="flakes--home-manager" >
 <div>
     <a href="#flakes--home-manager">
@@ -536,7 +536,7 @@
 
         <div class="footer-meta">
             
-            © DarkXero, 2025
+            © DarkXero, 2026
             
         </div>
 
