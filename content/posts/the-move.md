@@ -6,6 +6,8 @@ aliases: ["lebanon","greece","move","work"]
 author: "DarkXero"
 ---
 
+![Moi](https://i.postimg.cc/bJdWXVXL/Screenshot-20260323-182615.png)
+
 # The short version
 
 I am Greek. I was born and raised in Lebanon. I am raising money to make a permanent move to Greece, where I have never lived but where I have always belonged. This is not a vacation. It is a full relocation. Rent deposit, furniture, utilities, and a bridge to get me through the first months until I find work. I have tried this twice before and raised some funds, but not enough for a permanent move. I am trying one more time.
