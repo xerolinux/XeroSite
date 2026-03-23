@@ -10,9 +10,7 @@ author: "DarkXero"
 
 # The short version
 
-I am Greek. I was born and raised in Lebanon. I am raising money to make a permanent move to Greece, where I have never lived but where I have always belonged. This is not a vacation. It is a full relocation. Rent deposit, furniture, utilities, and a bridge to get me through the first months until I find work. I have tried this twice before and raised some funds, but not enough for a permanent move. I am trying one more time.
-
-![Me](https://i.postimg.cc/BZx4YRmG/city-man-person-solo-window-alone-thinking-relax.jpg)
+I am Greek. I was born and raised in Lebanon. I am raising money to get out, permanently, before things get worse. And they are getting worse, fast. I need to cover rent deposit, furniture, utilities, and enough of a bridge to survive the first months in Greece while I find work. I have tried this twice before. This is the last time I can try.
 
 # Where I come from
 
@@ -22,21 +20,23 @@ I grew up in Lebanon with Greek blood in my veins. My grandparents passed down s
 
 It does not feel like enough anymore.
 
-# Why now / Lebanon
+# Why now, and why it cannot wait
 
-The situation in Lebanon has become impossible to build a future in. The past few years have worn everything down. Infrastructure, stability, the basic sense that tomorrow will be steadier than today. War has returned in recent months, and the weight of it keeps pressing. I do not want to give you a list of tragedies. You have seen the news. You know.
+Lebanon is not slowly declining. It is actively collapsing. The past few years have gutted the infrastructure, the economy, the basic sense that tomorrow will exist. War came back. It did not leave clean.
 
-![Leb](https://i.postimg.cc/bY2HK9nP/Yemen-10-1-1.jpg)
+A few weeks ago the explosions were distant. Background noise you learn to live with. Now they are closer. Close enough that you feel them before you hear them. Close enough that you stop what you are doing and just wait to see what comes next. That is not a way to live.
 
-What I want to tell you is that after years of holding on, I have finally accepted that staying means letting go of the life I actually want.
+![Leb](https://i.postimg.cc/yYGBpRwP/2024-10-22t095104z-239348049-rc2lpaapu7qs-rtrmadp-3-israel-palestinians-lebanon.jpg)
+
+Food is becoming harder to come by. Shelves that used to be full are not anymore. Things you could find without thinking, basic things, are getting scarcer by the week. You plan around what is available rather than what you need. You adapt, because that is what you do here. But adapting has a cost, and I have been paying it for too long.
+
+I am not telling you this for sympathy. You have seen the news. You know what is happening. What I am telling you is that every week I stay is a week I cannot get back. Every month I wait, the window gets smaller, financially, logistically, mentally.
+
+I have held on longer than I should have. I am done holding on.
 
 # What I am asking for
 
-I am raising money to make a permanent move to Greece. This is not a ticket to go find myself on a beach. This is packing my whole life and starting over in the country I should have known from the start.
-
-The amount is high because a permanent move is expensive in ways people do not always realize. It is not just a plane ticket.
-
-I will need to rent a place. Most homes in Greece come completely empty. No kitchen cabinets, no bed, sometimes not even a light fixture. I will need to buy furniture from scratch, pay a deposit, set up utilities, and have enough to cover rent for the first couple of months while I find work.
+A permanent move to Greece is expensive in ways a plane ticket does not cover. Greece hands you empty apartments, no cabinets, no bed, sometimes no light fixture. I need a deposit, furniture from scratch, utilities setup, and two months of runway while I find work.
 
 ![House](https://i.postimg.cc/mrHgbkyL/property-88668-5504907-8062020dc79721c3293d91eb46939192.jpg)
 
@@ -47,6 +47,8 @@ I am Greek but I do not speak the language. I will learn. I am already trying. B
 # A word about the previous attempts
 
 I have tried this twice before. Both times I was able to raise some funds, and I am deeply grateful to everyone who gave. That money helped me in moments of real need, but it was never enough for a full move. It bought me temporary escapes, not a permanent landing.
+
+![Me](https://i.postimg.cc/BZx4YRmG/city-man-person-solo-window-alone-thinking-relax.jpg)
 
 I hesitated to try again because asking once is hard. Asking three times feels heavy. But I am not asking because I want to. I am asking because I have run out of other ways forward. If you gave before, I am sorry to be back here. And I am grateful you were there.
 
