@@ -56,8 +56,6 @@ I hesitated to try again because asking once is hard. Asking three times feels h
 
 I am not running away from Lebanon. I am running toward Greece. Toward a life where I can finally say I am home. Where I can build something that does not keep getting knocked down. Where I can stop surviving and start living.
 
-![Greece](https://i.postimg.cc/8cPGrzM5/471490.jpg)
-
 If you have ever felt like you were born in the wrong place, or if you have ever dreamed of a home that exists more in your blood than in your geography, maybe you understand.
 
 # How to help
