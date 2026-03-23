@@ -6,7 +6,7 @@ aliases: ["lebanon","greece","move","work"]
 author: "DarkXero"
 ---
 
-![Moi](https://i.postimg.cc/bJdWXVXL/Screenshot-20260323-182615.png)
+![Moi](https://i.postimg.cc/m2w6pWJp/avatar-effects.png)
 
 # The short version
 
