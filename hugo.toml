@@ -31,6 +31,7 @@ locale = "en-us"
     hideFooterAttribution = false # hide "Powered by Hugo, theme" in footer
     colorTheme = "dark"
     enableColorThemeSwitcher = false
+    customcss = ["css/custom.css"]
 
     socialIcons = [
         { id = "github", url = "https://github.com/DarkXero-dev" },

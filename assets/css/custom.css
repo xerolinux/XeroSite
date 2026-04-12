@@ -1,0 +1,170 @@
+/* ============================================================
+   XERO BYTES — Custom Site Enhancements
+   ============================================================ */
+
+/* --- Typography & Justified Text --- */
+.post .e-content p,
+.post .content p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    line-height: 1.85;
+}
+
+/* --- Post title: bigger, tighter --- */
+.post-header h1.post-title {
+    font-size: 1.9em !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.01em;
+    font-weight: 700 !important;
+}
+
+/* --- Section headings inside posts --- */
+.post .e-content h1,
+.post .content h1 {
+    font-size: 1.45em;
+    font-weight: 700;
+    margin-top: 2.75em;
+    margin-bottom: 0.65em;
+    padding-bottom: 0.35em;
+    border-bottom: 2px solid #2e9e4f;
+    letter-spacing: 0.01em;
+}
+
+.post .e-content h2,
+.post .content h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--hr-color);
+}
+
+.post .e-content h3,
+.post .content h3 {
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #2e9e4f;
+}
+
+/* --- Images: rounded corners + depth shadow --- */
+article img:not(.post-avatar-img) {
+    border-radius: 10px !important;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    margin: 1.5em auto !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article img:not(.post-avatar-img):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.55);
+}
+
+/* --- Post avatar hero --- */
+.post-avatar {
+    text-align: center;
+    margin: 1.75em 0 2.75em;
+}
+
+.post-avatar-img {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    border: 3px solid #2e9e4f;
+    box-shadow:
+        0 0 0 6px rgba(46, 158, 79, 0.18),
+        0 0 0 12px rgba(46, 158, 79, 0.07),
+        0 12px 40px rgba(0, 0, 0, 0.55) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.post-avatar-img:hover {
+    transform: scale(1.04) !important;
+    box-shadow:
+        0 0 0 8px rgba(46, 158, 79, 0.28),
+        0 0 0 16px rgba(46, 158, 79, 0.1),
+        0 16px 48px rgba(0, 0, 0, 0.65) !important;
+}
+
+/* --- HR: gradient accent divider --- */
+.post .e-content hr,
+.post .content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2e9e4f99, transparent);
+    margin: 2.75em auto;
+    width: 65%;
+}
+
+/* --- Blockquotes: card-style with accent --- */
+blockquote {
+    border-left: 3px solid #2e9e4f !important;
+    background: var(--card-color) !important;
+    border-radius: 0 8px 8px 0 !important;
+    padding: 0.8em 1.35em !important;
+    margin: 1.5em 0 !important;
+    font-style: italic;
+    opacity: 0.92;
+}
+
+/* --- Callout box (used in posts) --- */
+.callout {
+    border-left: 4px solid #2e9e4f;
+    background: var(--card-color);
+    border-radius: 0 8px 8px 0;
+    padding: 0.85em 1.35em;
+    margin: 1.25em 0;
+    font-style: italic;
+    opacity: 0.92;
+    line-height: 1.85;
+}
+
+/* --- Post signature block --- */
+.post-signature {
+    text-align: center;
+    margin-top: 2.25em;
+    padding-top: 1.25em;
+    border-top: 1px solid var(--hr-color);
+    line-height: 1.9;
+}
+
+/* --- Links in content: smooth transitions --- */
+.post .e-content a,
+.post .content a {
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* --- Post info: slightly muted --- */
+.post-info {
+    opacity: 0.75;
+    font-size: 0.78em !important;
+    margin-bottom: 0.75em;
+}
+
+/* --- Figcaption: italic, centered, subtle --- */
+article figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -0.75em;
+    opacity: 0.7;
+}
+
+/* --- Post content max-width breathing room --- */
+.post .e-content,
+.post .content {
+    margin-top: 0.5em;
+}
+
+/* --- Article spacing --- */
+article {
+    line-height: 1.75;
+}
+
+/* --- Smooth anchor links --- */
+.post .e-content a[href^="#"],
+.post .content a[href^="#"] {
+    border-bottom: none;
+}
